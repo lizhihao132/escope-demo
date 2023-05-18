@@ -30,7 +30,27 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader']
-            }
+				/*
+				use: ['style-loader', {
+					loader: "css-loader",
+					options: {
+					  import: true,
+					  url: {
+						  // 将所有的 URL 路径都视为绝对路径，不进行解析
+						  filter: (url) => !url.startsWith('/'),
+						},
+
+					},
+				}]
+				*/
+				
+            },
+			 {
+			   test: /.(woff|woff2|eot|ttf|otf)$/,
+			   use: [
+				 'file-loader',
+			   ]
+			 }
         ]
     },
     plugins: [

@@ -2,6 +2,7 @@ require('codemirror/lib/codemirror.css');
 require('codemirror/theme/monokai.css');
 require('../styles/main.css');
 require('bootstrap/dist/css/bootstrap.css');
+require('@fortawesome/fontawesome-free/css/all.css');
 
 
 var CodeMirror = require('codemirror');
@@ -17,19 +18,19 @@ var run = function() {
         e.preventDefault();
         var node = $(this).data('node');
         var level = $(this).data('level');
-        var icon = $(this.parentNode).find('i.glyphicon-plus');
+        var icon = $(this.parentNode).find('i.fa-plus');
         addChilds(this.parentNode, node, level);
-        icon.removeClass('glyphicon-plus');
-        icon.addClass('glyphicon-minus');
+        icon.removeClass('fa-plus');
+        icon.addClass('fa-minus');
         $(this).unbind('click', unfold);
         $(this).bind('click', fold);
     }; 
 
     var fold = function(e) {
         e.preventDefault();
-        var icon = $(this.parentNode).find('i.glyphicon-minus');
-        icon.removeClass('glyphicon-minus');
-        icon.addClass('glyphicon-plus');
+        var icon = $(this.parentNode).find('i.fa-minus');
+        icon.removeClass('fa-minus');
+        icon.addClass('fa-plus');
 
         $(this.parentNode).find('ul').remove();
         $(this).unbind('click', fold);
@@ -108,9 +109,9 @@ var run = function() {
             innerValue = '<b>' + key + '</b>: ' + value;
             if (hasChilds(node)) {
                 icon = 'plus';
-                innerValue = '<a href="#" class="tree-open"><i class="glyphicon glyphicon-' + icon + '"></i>' + innerValue + '</a> ';
+                innerValue = '<a href="#" class="tree-open"><i class="fas fa-' + icon + '"></i>' + innerValue + '</a> ';
                 if (node.hasOwnProperty('loc')) {
-                    locLink = $('<a href="#" class="tree-show"><i class="glyphicon glyphicon-hand-right"></i></a>');
+                    locLink = $('<a href="#" class="tree-show"><i class="fas fa-hand-point-right"></i></a>');
                     locLink.click(function(e) {
                         e.preventDefault();
                         showInEditor(node.loc);
