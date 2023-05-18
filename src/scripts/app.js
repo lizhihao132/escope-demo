@@ -138,25 +138,152 @@ var run = function() {
         return result;
     };
 
-    var ecmaVersion = $('input[name="es"]:checked').val();
-    var sourceType = $('input[name="st"]:checked').val();
+	let getAst = function(code, use_acron_if_esprima_failed, ecmaVersion, sourceType, extra_info){
+		var ast = null;
+		try{
+			ast = esprima.parse(code, {
+				range: true,
+				loc: true,
+				sourceType: sourceType,
+			});
+			console.info('parse ast by esprima success')
+		}catch(err){
+			if(use_acron_if_esprima_failed)
+			{	
+				console.info('parse ast by esprima failed, will try next parser', err)
+			}
+			extra_info.exception = err
+		}
+		if(ast){
+			return ast
+		}
+		
+		if(!ast && !use_acron_if_esprima_failed){
+			return null
+		}
+		
+		let acornOption = {ranges: true, locations: true, ecmaVersion: ecmaVersion, sourceType: sourceType, allowReserved: true, };
+		let acorn = require('acorn')
+		try{
+			ast = acorn.parse(code, acornOption);
+			console.info('parse ast by acron 1 success')
+		}
+		catch(err){
+			extra_info.exception = err
+			try{
+				ast = acorn.parse(code, {ranges: true, locations: true})	//对于这样的代码在高版本的 js 中是有效的: a = {name: 1}; b={hei:3}; c={...a,...b};
+				console.info('parse ast by acron 2 success')
+			}catch(err){
+				console.info('parse ast by acorn failed, will try next parser', err)
+				extra_info.exception = err
+			}
+		}
+		if(ast){
+			return ast
+		}
+		
+		return ast
+	}
+	
+	let getScopeList = function(ast, scopeLib, ecmaVersion, sourceType){
+		
+		
+		var scopes = null;
+		if('escope' == scopeLib){
+			scopes = escope.analyze(ast, {sourceType: sourceType, ecmaVersion: parseInt(ecmaVersion)}).scopes;
+		}else if('eslint_scope' == scopeLib){
+			let eslint_scope = require('eslint-scope');
+			scopes = eslint_scope.analyze(ast, {sourceType: sourceType, ecmaVersion: parseInt(ecmaVersion)}).scopes;
+		}
+		
+		return scopes
+	}
+	
+	let formatErrorToHtml2 = function(exception, code){
+		let pos = parseInt(exception.index)
+		console.info('pos:', pos, code.charAt(pos))
+		
+		let err_ident = ''
+		let after_ = ''
+		let i = pos;
+		for(;i<code.length;++i){
+			if(err_ident.length >= 40) break;
+			let c = code.charAt(i)
+			//if('0'<=c && c<='9' || 'a'<=c&& c<='z' || 'A'<=c&& c<='Z' || '_'==c)
+			if(c != ' ' && c!= '}' && c!= '{' && c!= '\r' && c!= '\n' && c!= ';')
+			{
+				err_ident += c;
+			}else{
+				break;
+			}
+		}
+		for(;i<code.length;++i){
+			if(after_.length >= 40) break;
+			let c = code.charAt(i)
+			after_ += c
+		}
+		
+		let sub_code = code.substring(pos-20, pos)
+		return `"${exception.description}" at line-column-index: (${exception.lineNumber}, ${exception.column}, ${exception.index}) <br><br> ${sub_code}<b><font color='red' size='14px'>${err_ident}</font></b>${after_}`
+	}
+	
+	let formatErrorToHtml = function(exception, code){
+		
+		let lineNumber = null 
+		let column = null
+		let index = null
+		
+		if(exception.loc && undefined != exception.loc.line && undefined != exception.loc.column){
+			column = exception.loc.column
+			lineNumber = exception.loc.line
+			index = exception.pos
+		}
+		else{
+			if(undefined != exception.lineNumber && undefined != exception.column && undefined != exception.index){
+				column = exception.column
+				index = exception.index
+				lineNumber = exception.lineNumber
+			}
+		}
+		
+		let npos = parseInt(index)
+		
+		return `"${exception.description}" at line-column-index: (${lineNumber}, ${column}, ${index}) <br><br> ${code.substring(npos-20, npos)}<b><font color='red' size='14px'>${code.charAt(npos)}</font></b>${code.substring(npos+1, 20)}`
+	}
+	
+	let ecmaVersion,sourceType
     var body = $("body")
     var draw = function() {
         body.removeClass("bg-danger");
+		
+		let ecmaVersion = $('input[name="es"]:checked').val();
+		let sourceType = $('input[name="st"]:checked').val();
+		let scopeLib = $('input[name="scope_lib"]:checked').val();
+		let use_acron_if_esprima_failed = $('input[name="use_acron_if_esprima_failed"]:checked').val() == 'yes' 
+		
+		console.info('parse params, ecmaVersion:', ecmaVersion, ', sourceType:', sourceType, ', scopeLib:', scopeLib, ', use_acron_if_esprima_failed:', use_acron_if_esprima_failed)
+		
         try{
-        var ast = esprima.parse(editor.getValue(), {
-            range: true,
-            loc: true,
-            sourceType: sourceType,
-        });
-        var scopes = escope.analyze(ast, {sourceType: sourceType, ecmaVersion: parseInt(ecmaVersion)}).scopes;
+			$('#treeview').html('');
+			
+			let code = editor.getValue()
+			if(code.length == 0) return;
+			let extra_info = {}
+			let ast = getAst(code, use_acron_if_esprima_failed, ecmaVersion, sourceType, extra_info)
+			if(!ast){
+				body.addClass("bg-danger");
+				console.info(extra_info.exception)
+				$('#treeview').html(formatErrorToHtml(extra_info.exception, code));
+				return
+			}
+			var scopes = getScopeList(ast, scopeLib, ecmaVersion, sourceType)
+			var nodes = traverseNode(scopes, true);
+			$('#treeview').append(nodes);
         } catch(e){
             body.addClass("bg-danger");
             console.error(e);
+			$('#treeview').html(formatErrorToHtml(e, code));
         }
-        $('#treeview').html('');
-        var nodes = traverseNode(scopes, true);
-        $('#treeview').append(nodes);
     };
 
     var editor = CodeMirror.fromTextArea($('#editor')[0], {
