@@ -3,53 +3,16 @@
 [![escope-demo](https://raw.github.com/mazurov/escope-demo/master/app/images/screenshot.gif)](http://mazurov.github.io/escope-demo/)
 
 ## How to get javascript scopes 
-### Web
+### 更新库
+若要更新 escope / eslint-scope / esprima / acron 库, 直接在项目目录下执行以下命令, 以 escope 为例, 更新到 xxx 版本
+npm view escope version, 然后 npm i escope@xxx
+注意不能直接改 package.json 里的版本号再 npm install, 这无法处理好依赖关系(无法递归更新依赖库版本).
 
-**Download required scripts:**
+### 打包
+确保 package.json 中有以下配置, 再 npm run build
+   "scripts": {
+     "build": "webpack --config webpack.config.js"
+   }
 
-```sh
-$> wget https://raw.github.com/ariya/esprima/master/esprima.js
-$> wget https://raw.github.com/Constellation/estraverse/master/estraverse.js
-$> wget https://raw.github.com/Constellation/escope/master/escope.js
-```
-(or you can use bower to download esprima and escope components)
-
-**Example:**
-
-```html
-<script type="text/javascript" src="esprima.js"></script>
-<script type="text/javascript" src="estraverse.js"></script>
-<script type="text/javascript" src="escope.js"></script>
-...
-<script type="text/javascript">
-    var value = "...";
-    var ast = esprima.parse(value, {range: true, loc: true});
-    var scopes = escope.analyze(ast).scopes;
-    console.log(scopes);
-</script>
-```
-
-### NodeJS
-
-**Install required node packages:**
-
-```sh
-$> npm install esprima
-$> npm install escope
-```
-
-**Example:**
-
-```javascript
-var esprima = require('esprima');
-var escope = require('escope');
-
-var value = "...";
-var ast = esprima.parse(value, {range: true, loc: true});
-var scopes = escope.analyze(ast).scopes;
-
-console.log(scopes);
-```
-## Credits
-
-* Yusuke Suzuki (twitter: @Constellation) and other contributors of [escope library](https://github.com/Constellation/escope).
+### 运行
+dist 目录下即为打包好的站点目录, 在里面 npx serve, 浏览器就可以访问  localhost:3000 即可.
