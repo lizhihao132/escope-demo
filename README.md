@@ -2,7 +2,7 @@
 
 [![escope-demo](https://raw.github.com/mazurov/escope-demo/master/app/images/screenshot.gif)](http://mazurov.github.io/escope-demo/)
 
-## How to get javascript scopes 
+## 部署此站点的方法
 ### 更新库
 若要更新 escope / eslint-scope / esprima / acron 库, 直接在项目目录下执行以下命令, 以 escope 为例, 更新到 xxx 版本
 npm view escope version, 然后 npm i escope@xxx
