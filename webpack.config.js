@@ -22,10 +22,12 @@ module.exports = {
                     limit: 100000
                 }
             },
+			/* github Action 会报错
             {
                 test: path.join(__dirname, 'src/scripts'),
                 loader: 'babel-loader'
             },
+			*/
 
             {
                 test: /\.css$/,
