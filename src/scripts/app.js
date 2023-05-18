@@ -23,7 +23,7 @@ var run = function() {
         icon.addClass('glyphicon-minus');
         $(this).unbind('click', unfold);
         $(this).bind('click', fold);
-    };
+    };  
 
     var fold = function(e) {
         e.preventDefault();
