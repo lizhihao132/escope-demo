@@ -18,7 +18,10 @@ jobs:
           node-version: 14  # 您可以选择其他 Node.js 版本
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Install webpack and webpack-cli
+        run: npm install webpack webpack-cli
 
       - name: Build
         run: npm run build
