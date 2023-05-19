@@ -142,7 +142,19 @@ var run = function() {
         return result;
     };
 	
-	let updateLibInfo = function(parserLib, scopeLib){
+	let updateLibInfo = function(is_success, parserLib, scopeLib){
+		$('.parse_msg_alert').removeClass('alert-info')
+		$('.parse_msg_alert').removeClass('alert-danger')
+		$('.parse_msg_alert').removeClass('alert-success')
+		if(null === is_success){
+			$('.parse_msg_alert').addClass('alert-info')
+		}
+		else if(false === is_success){
+			$('.parse_msg_alert').addClass('alert-danger')
+		}else{
+			$('.parse_msg_alert').addClass('alert-success')
+		}
+		
 		$('#use_which_scope').text(parserLib);
 		$('#use_which_parser').text(scopeLib);
 			
@@ -281,7 +293,7 @@ var run = function() {
 	let ecmaVersion,sourceType
     var body = $("body")
     var draw = function() {
-        body.removeClass("bg-warning");
+        //body.removeClass("bg-warning");
 		
 		let ecmaVersion = $('input[name="es"]:checked').val();
 		let sourceType = $('input[name="st"]:checked').val();
@@ -290,9 +302,9 @@ var run = function() {
 		
 		console.info('parse params, ecmaVersion:', ecmaVersion, ', sourceType:', sourceType, ', scopeLib:', scopeLib, ', use_acron_if_esprima_failed:', use_acron_if_esprima_failed)
 		let extra_info = {}
-		
+		let is_success = null
 		//默认 parser 是 esprima, 当 parser 失败时, 使用 acorn
-		updateLibInfo('esprima', scopeLib)
+		updateLibInfo(is_success, 'esprima', scopeLib)
         try{
 			$('#treeview').html('');
 			
@@ -301,7 +313,7 @@ var run = function() {
 			
 			let ast = getAst(code, use_acron_if_esprima_failed, ecmaVersion, sourceType, extra_info)
 			if(!ast){
-				body.addClass("bg-warning");
+				//body.addClass("bg-warning");
 				console.info(extra_info.exception)
 				$('#treeview').html(formatErrorToHtml(extra_info.exception, code));
 			}else{
@@ -309,15 +321,16 @@ var run = function() {
 				let nodes = traverseNode(scopes, true);
 				$('#treeview').append(nodes);
 			}
+			is_success = !!ast;
         } catch(e){
-            body.addClass("bg-warning");
+            //body.addClass("bg-warning");
             console.error(e);
 			$('#treeview').html(formatErrorToHtml(e, code));
         }
 		
 		// 当解析完成时, 应当报告最后一次使用的 parser
 		console.info('last failed parser:', extra_info.use_parser)
-		updateLibInfo(extra_info.use_parser, scopeLib)
+		updateLibInfo(is_success, extra_info.use_parser, scopeLib)
     };
 
     var editor = CodeMirror.fromTextArea($('#editor')[0], {
@@ -329,7 +342,7 @@ var run = function() {
     });
 	
 	// 当停止输入代码超过这个秒数, 再执行 draw
-	const draw_if_stop_edit_for_seconds = 5
+	const draw_if_stop_edit_for_seconds = 3
 	var last_edit_time = new Date().getTime()
 	let cur_timer = null
     editor.on('change', function(){
