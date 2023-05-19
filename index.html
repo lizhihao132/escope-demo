@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: gray;">
         <div class="navbar-inner">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Escope Library: Scope Objects Visualization</a>
@@ -52,7 +52,7 @@
                     <input type="radio" name="scope_lib" value="escope"> escope
                 </label>
                 <label class="radio-inline">
-                    <input type="radio" name="scope_lib" value="eslint_scope" checked> eslint_scope
+                    <input type="radio" name="scope_lib" value="eslint-scope" checked> eslint_scope
                 </label>
             </div>
 			
@@ -73,10 +73,11 @@
                 <h2>Javascript code</h2>
             </div>
             <div class="col-md-6">
-                <h2>Scopes</h2>
-                <p>escope v<span id="escope-version"></span>, esprima v<span id="esprima-version"></span></p>
+                <h2>Use This Libs</h2>
+                <p><span id="use_which_scope">escope </span> v<span id="parser-version"></span>, <span id="use_which_parser">esprima </span> v<span id="scope-version"></span></p>
             </div>
         </div>
+		
         <div class="row">
             <div class="col-md-6">
                 <textarea id="editor">
@@ -110,9 +111,9 @@ let calculateAmortization = (principal, years, rate) => {
     </div>
     <footer class="footer">
         <div class="container">
-            <p> Create by <a href="https://github.com/mazurov">@mazurov <img src="images/github.png" style="width:24px"/> </a> | Complete by <a href="https://github.com/lizhihao132">@lizhihao132 <img src="images/github.png" style="width:24px"/> </a></p>
+            <p>Complete by <a href="https://github.com/lizhihao132">@lizhihao132 <img src="images/github.png" style="width:24px"/></a> ----- Fork from <a href="https://github.com/mazurov">@mazurov <img src="images/github.png" style="width:24px"/> </a></p>
             <ul class="list-unstyled">
-                <li><a href="https://github.com/Constellation/escope">Escope library</a> by <a href="https://github.com/Constellation">@Constellation 、</a> <a href="https://github.com/eslint/eslint-scope">Eslint-scope library</a> by <a href="https://github.com/eslint">@eslint</a></li>
+                <li><a href="https://github.com/Constellation/escope">Escope library</a> by <a href="https://github.com/Constellation">@Constellation</a> ----- <a href="https://github.com/eslint/eslint-scope">Eslint-scope library</a> by <a href="https://github.com/eslint">@eslint</a></li>
             </ul>
         </div>
     </footer>
