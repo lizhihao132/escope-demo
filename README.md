@@ -1,5 +1,5 @@
 ## Demo
-
+[![escope-demo](https://github.com/lizhihao132/escope-demo/blob/master/static/images/screenshot.gif)](http://lizhihao132.github.io/escope-demo/)
 ## 部署此站点的方法
 ### 更新库
 若要更新 escope / eslint-scope / esprima / acron 库, 直接在项目目录下执行以下命令, 以 escope 为例, 更新到 xxx 版本
