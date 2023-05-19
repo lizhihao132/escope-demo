@@ -327,11 +327,28 @@ var run = function() {
         mode: 'javascript',
         lineNumbers: true
     });
+	
+	// 当停止输入代码超过这个秒数, 再执行 draw
+	const draw_if_stop_edit_for_seconds = 5
+	var last_edit_time = new Date().getTime()
+	let cur_timer = null
+    editor.on('change', function(){
+		let cur_time = new Date().getTime()
+		if(null != cur_timer){
+			clearTimeout(cur_timer)
+		}
+		cur_timer = setTimeout(function(){
+			draw()
+			cur_timer = null
+		}, draw_if_stop_edit_for_seconds*1000)
+		last_edit_time = cur_time
+	});
 
-
-    editor.on('change', draw);
     $('input[name="es"]').change(function() { ecmaVersion = $(this).val(); draw();});
     $('input[name="st"]').change(function() { sourceType = $(this).val(); draw();})
+
+	$('input[name="scope_lib"]').change(function() { draw();})
+	$('input[name="use_acron_if_esprima_failed"]').change(function() { draw();})
 
     draw();
 
