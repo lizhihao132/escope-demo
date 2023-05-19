@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="container-fluid alert">
-        <div class="row" style="margin-top:30px">
+        <div class="row" style="margin-top:10px">
             <div class="col-md-3">
                 ECMAScript Version:
                 <label class="radio-inline">
@@ -33,18 +33,10 @@
                 <label class="radio-inline">
                     <input type="radio" name="es" value="6" checked>  6
                 </label>
-				
-				<label class="radio-inline">
-                    <input type="radio" name="es" value="12" checked>  2021
-                </label>
-				
-				<label class="radio-inline">
-                    <input type="radio" name="es" value="10" checked>  2019
-                </label>
             </div>
             <div class="col-md-3">
                 <span data-toggle="tooltip" title="With the latest 6th edition of ECMA-262 (also known as ES2015 or ES6), it is important to distinguish parsing a script vs parsing a module. This is achieved by using the sourceType option (default to 'script')"
-                    data-placement="bottom" class="dashed">Source type:</span>
+                    data-placement="bottom" class="dashed" >Source type:</span>
                 <label class="radio-inline">
                     <input type="radio" name="st" value="script"> script
                 </label>
@@ -74,14 +66,12 @@
                     <input type="radio" name="use_acron_if_esprima_failed" value="no"> no
                 </label>
             </div>
-			
         </div>
-        <div class="row">
-            <div class="col-md-6" style="margin-top:20px">
-                <p>Use Libs: <span id="use_which_scope">escope </span> v<span id="parser-version"></span>, <span id="use_which_parser">esprima </span> v<span id="scope-version"></span></p>
-            </div>
-        </div>
-		
+
+		<div class="parse_msg_alert alert alert-info" role="alert">
+		  Parsing With: <span id="use_which_scope">escope </span> v<span id="parser-version"></span>, <span id="use_which_parser">esprima </span> v<span id="scope-version"></span>
+		</div>
+
         <div class="row">
             <div class="col-md-6">
                 <textarea id="editor">
