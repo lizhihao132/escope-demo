@@ -1,0 +1,1 @@
+escope 的作用域树中, 多了 TDZ (暂时性死区), 如 : for(let [key, value] of m){....}, 这个 key,value 除了属于 ForScope 中定义的 variables 也还属于多出来的一个 TDZ 的 variables.
