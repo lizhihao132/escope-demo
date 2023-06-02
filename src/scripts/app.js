@@ -342,7 +342,7 @@ var run = function() {
     });
 	
 	// 当停止输入代码超过这个秒数, 再执行 draw
-	const draw_if_stop_edit_for_seconds = 3
+	const draw_if_stop_edit_for_seconds = 1
 	var last_edit_time = new Date().getTime()
 	let cur_timer = null
     editor.on('change', function(){
