@@ -14,3 +14,7 @@ npm view escope version, 然后 npm i escope@xxx
 
 ### 运行
 dist 目录下即为打包好的站点目录, 在里面 npx serve, 浏览器就可以访问  localhost:3000 即可.
+
+### 注意
+当前本项目中的 esprima 版本(4.0.1)就不要更新了, 因为 esprima 更新后, 不再抛出异常, 而是返回的对象中有 errors, 且不再返回 columns 了, 这将影响报错信息的生成.
+令人无语.
