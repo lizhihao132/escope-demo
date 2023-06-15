@@ -46462,12 +46462,13 @@ var run = function() {
 		return ast
 	}
 	
-	let getScopeList = function(ast, scopeLib, ecmaVersion, sourceType){
+	// 2023.06.15 发现 eval 函数导致作用域解析出错: 自 eval 往上到顶层作用域上定义的变量均解析不出 references.
+	let getScopeList = function(ast, scopeLib, ecmaVersion, sourceType, ignoreEval){
 		var scopes = null;
 		if('escope' == scopeLib){
-			scopes = escope.analyze(ast, {sourceType: sourceType, ecmaVersion: parseInt(ecmaVersion)}).scopes;
+			scopes = escope.analyze(ast, {sourceType, ignoreEval, ecmaVersion: parseInt(ecmaVersion)}).scopes;
 		}else if('eslint-scope' == scopeLib){
-			scopes = eslint_scope.analyze(ast, {sourceType: sourceType, ecmaVersion: parseInt(ecmaVersion)}).scopes;
+			scopes = eslint_scope.analyze(ast, {sourceType, ignoreEval, ecmaVersion: parseInt(ecmaVersion)}).scopes;
 		}
 		
 		return scopes
@@ -46538,6 +46539,10 @@ var run = function() {
 		let sourceType = $('input[name="st"]:checked').val();
 		let scopeLib = $('input[name="scope_lib"]:checked').val();
 		let use_acron_if_esprima_failed = $('input[name="use_acron_if_esprima_failed"]:checked').val() == 'yes' 
+		let ignore_eval_in_scope = true
+		if(undefined != window.ignore_eval && null != window.ignore_eval){
+			ignore_eval_in_scope = window.ignore_eval
+		}
 		
 		console.info('parse params, ecmaVersion:', ecmaVersion, ', sourceType:', sourceType, ', scopeLib:', scopeLib, ', use_acron_if_esprima_failed:', use_acron_if_esprima_failed)
 		let extra_info = {}
@@ -46556,7 +46561,7 @@ var run = function() {
 				console.info(extra_info.exception)
 				$('#treeview').html(formatErrorToHtml(extra_info.exception, code));
 			}else{
-				let scopes = getScopeList(ast, scopeLib, ecmaVersion, sourceType, extra_info)
+				let scopes = getScopeList(ast, scopeLib, ecmaVersion, sourceType, ignore_eval_in_scope)
 				let nodes = traverseNode(scopes, true);
 				$('#treeview').append(nodes);
 			}
