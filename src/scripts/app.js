@@ -13,6 +13,8 @@ var $ = require('jquery');
 var escope = require('escope');
 var esprima = require('esprima');
 let acorn = require('acorn')
+// 扩展, 支持 class-fields.
+// let acorn = require('acorn').Parser.extend(require('acorn-class-fields'));
 let eslint_scope = require('eslint-scope');
 
 var run = function() {
@@ -306,14 +308,16 @@ var run = function() {
 		}
 		
 		console.info('parse params, ecmaVersion:', ecmaVersion, ', sourceType:', sourceType, ', scopeLib:', scopeLib, ', use_acron_if_esprima_failed:', use_acron_if_esprima_failed)
+		console.info('ecmaVersion list:  3, 5, 6 (or 2015), 7 (2016), 8 (2017), 9 (2018), 10 (2019), 11 (2020), 12 (2021), 13 (2022), 14 (2023), or "latest" (the latest the library supports)')
 		let extra_info = {}
 		let is_success = null
 		//默认 parser 是 esprima, 当 parser 失败时, 使用 acorn
 		updateLibInfo(is_success, 'esprima', scopeLib)
+		let code = editor.getValue()
         try{
 			$('#treeview').html('');
 			
-			let code = editor.getValue()
+			
 			if(code.length == 0) return;
 			
 			let ast = getAst(code, use_acron_if_esprima_failed, ecmaVersion, sourceType, extra_info)
