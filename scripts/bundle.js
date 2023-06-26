@@ -46801,7 +46801,7 @@ var run = function() {
 		}catch(err){
 			if(use_acron_if_esprima_failed)
 			{	
-				console.info('parse ast by esprima failed, will try next parser', err)
+				console.info('get ast by esprima failed, will try next parser', err)
 			}
 			extra_info.exception = err
 		}
@@ -46819,16 +46819,16 @@ var run = function() {
 		try{
 			extra_info.use_parser = 'acorn'
 			ast = acorn.parse(code, acornOption);
-			console.info('parse ast by acron 1 success')
+			console.info('get ast by acron 1 success, with option:', acornOption, ', code length:', code.length)
 		}
 		catch(err){
 			extra_info.exception = err
 			try{
 				extra_info.use_parser = 'acorn'
 				ast = acorn.parse(code, {ranges: true, locations: true})	//对于这样的代码在高版本的 js 中是有效的: a = {name: 1}; b={hei:3}; c={...a,...b};
-				console.info('parse ast by acron 2 success')
+				console.info('get ast by acron 2 success, with option:', acornOption, ', code length:', code.length)
 			}catch(err){
-				console.info('parse ast by acorn failed, will try next parser', err)
+				console.info('get ast by acorn failed, will try next parser', err, ', with option:', acornOption, ', code length:', code.length)
 				extra_info.exception = err
 			}
 		}
@@ -46952,7 +46952,9 @@ var run = function() {
         }
 		
 		// 当解析完成时, 应当报告最后一次使用的 parser
-		console.info('last failed parser:', extra_info.use_parser)
+		if(!is_success){
+			console.info('last failed parser:', extra_info.use_parser)
+		}
 		updateLibInfo(is_success, extra_info.use_parser, scopeLib)
     };
 
