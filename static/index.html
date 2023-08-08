@@ -37,7 +37,7 @@
                     <input type="radio" name="es" value="5">  es5
                 </label>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <span data-toggle="tooltip" title="With the latest 6th edition of ECMA-262 (also known as ES2015 or ES6), it is important to distinguish parsing a script vs parsing a module. This is achieved by using the sourceType option (default to 'script')"
                     data-placement="bottom" class="dashed" >Source type:</span>
                 <label class="radio-inline">
@@ -59,7 +59,7 @@
                 </label>
             </div>
 			
-			<div class="col-md-3">
+			<div class="col-md-2">
                 <span data-toggle="tooltip" title="use acron if esprima failed"
                     data-placement="bottom" class="dashed">Use Acron If Failed:</span>
                 <label class="radio-inline">
@@ -70,6 +70,19 @@
                 </label>
             </div>
 			
+			<div class="col-md-2">
+                <span data-toggle="tooltip" title="code track"
+                    data-placement="bottom" class="dashed">track:</span>
+                <label class="radio-inline">
+                    <input type="radio" name="use_code_track" value="no_track" checked>no
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="use_code_track" value="track_ast">ast
+                </label>
+				<label class="radio-inline">
+                    <input type="radio" name="use_code_track" value="track_scope">scope
+                </label>
+            </div>
 			
         </div>
 
@@ -78,7 +91,7 @@
 		</div>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="sourcecode-container">
                 <textarea id="editor">
 class Bork {
   //Property initializer syntax

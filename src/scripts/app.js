@@ -19,8 +19,14 @@ let eslint_scope = require('eslint-scope');
 
 var run = function() {
     'use strict';
-    var unfold = function(e) {
-        e.preventDefault();
+	
+	let current_is_fold = true
+	const view_top_keep = 200, view_left_keep = 200	// 视距上可以保留一点空白
+	
+    var unfold = function(e, not_click_event_call, last_info, {offset, selection_word} ) {
+		if(e && !not_click_event_call){
+			e.preventDefault();
+		}
         var node = $(this).data('node');
         var level = $(this).data('level');
         var icon = $(this.parentNode).find('i.fa-plus');
@@ -29,6 +35,59 @@ var run = function() {
         icon.addClass('fa-minus');
         $(this).unbind('click', unfold);
         $(this).bind('click', fold);
+		current_is_fold = false
+		
+		if(not_click_event_call && $('input[name="use_code_track"]:checked').val() == 'track_ast'){
+			// 打开子节点
+			const ignore_node_name = new Set(['upper', 'through', 'variables', 'references', 'variableScope', 'childScopes'])
+			let aList = $(this.parentNode).find('ul').children('li').children('a');
+
+			let find_ = false
+			for(let a of aList){
+				if(a.getAttribute('class')==='tree-show') continue
+				let b_str = $(a).find('b').html()
+				if(ignore_node_name.has(b_str)){
+					
+					continue
+				}
+				let r = a.getAttribute('__range')
+				if(r && typeof r==='string' && r.length>0){
+					let range_str = r.split(',')
+					let range_ = [parseInt(range_str[0]), parseInt(range_str[1])]
+					if(range_[0]<=offset && offset<=range_[1]){
+						find_ = true
+						let offset_top = a.offsetTop
+						let offset_left = a.offsetLeft
+						unfold.apply(a, [null, true, {last_offset_top: offset_top, last_offset_left: offset_left, ele: a}, {offset, selection_word}])
+						break
+					}else{
+						
+					}
+				}
+			}
+			
+			// 滑动视距
+			if(!find_ && last_info)
+			{
+				let container_dom_jq = $('#editor-container')[0]
+				let top_ = last_info.last_offset_top - container_dom_jq.offsetTop - view_top_keep
+				let left_ = last_info.last_offset_left - container_dom_jq.offsetLeft - view_left_keep
+				$(last_info.ele).css('background-color', '#06f1f1');
+				container_dom_jq.scrollTo({top: top_, left: left_, behavior: 'smooth'})
+			}
+		}
+		
+		if($('input[name="use_code_track"]:checked').val() === 'track_scope'){
+			// 暂不打开子节点
+			
+			// 滑动视距
+			let container_dom_jq = $('#editor-container')[0]
+			let top_ = this.offsetTop - container_dom_jq.offsetTop - view_top_keep
+			let left_ = this.offsetLeft - container_dom_jq.offsetLeft - view_left_keep
+			container_dom_jq.scrollTo({top: top_, left: left_, behavior: 'smooth'})
+			
+			$(this).css('background-color', '#06f1f1');
+		}
     }; 
 
     var fold = function(e) {
@@ -40,9 +99,17 @@ var run = function() {
         $(this.parentNode).find('ul').remove();
         $(this).unbind('click', fold);
         $(this).bind('click', unfold);
+		
+		current_is_fold = true
     };
 
     var addChilds = function(parent, node, level) {
+		let exist_uls = $(parent).find('ul')
+		if(exist_uls && exist_uls.length > 0){
+			console.info('exist url, not create')
+			return
+		}
+		
         var childs = document.createElement('ul'),
             child;
 
@@ -88,6 +155,33 @@ var run = function() {
         });
         editor.focus();
     };
+	
+	let getRange = function(node){
+		if(Array.isArray(node) && node.length>0 && typeof(node[0]) === 'object'){
+			let left = node[0]
+			let right = node[node.length-1]
+			
+			let begin_pos = -1, end_pos = -1
+			if(left.range){
+				begin_pos = left.range[0]
+				end_pos = right.range[1]
+			}else if(left.block){
+				begin_pos = left.block.range[0]
+				end_pos = right.block.range[1]
+			}else{
+				return null
+			}
+			return [begin_pos, end_pos]
+		}else{
+			if(node.range){
+				return node.range
+			}else if(node.block){
+				return node.block.range
+			}else{
+				return null
+			}
+		}
+	}
 
     var traverseNode = function(node, key, level) {
         if (!node) {
@@ -136,6 +230,10 @@ var run = function() {
                 $(result).find('a.tree-open').data('node', node);
                 $(result).find('a.tree-open').data('level', level);
                 $(result).find('a.tree-open').bind('click', unfold);
+				
+				let r = getRange(node)
+				$(result).find('a.tree-open').data('__range', r);
+				$(result).find('a.tree-open').attr('__range', r);
             }
         }
         if (level === 0) {
@@ -143,6 +241,8 @@ var run = function() {
         }
         return result;
     };
+	
+	
 	
 	let updateLibInfo = function(is_success, parserLib, scopeLib){
 		$('.parse_msg_alert').removeClass('alert-info')
@@ -237,6 +337,19 @@ var run = function() {
 		return scopes
 	}
 	
+	let getScopeIndexByCodePos = function(target_code_pos, scope_list){
+		for(let i=scope_list.length-1;i>=0; --i){
+			let cur_ = scope_list[i]
+			if(!cur_ || cur_.type === 'module' || cur_.type === 'global') continue
+			
+			let range = cur_.block.range
+			if(range[0]<=target_code_pos && target_code_pos<=range[1]){
+				return i
+			}
+		}
+		return 0
+	}
+	
 	let formatErrorToHtml2 = function(exception, code){
 		let pos = parseInt(exception.index)
 		console.info('pos:', pos, code.charAt(pos))
@@ -293,13 +406,14 @@ var run = function() {
 		return ret
 	}
 	
-	let ecmaVersion,sourceType
+	let ecmaVersion,sourceType,ast,scopes
     var body = $("body")
     var draw = function() {
         //body.removeClass("bg-warning");
 		
-		let ecmaVersion = $('input[name="es"]:checked').val();
-		let sourceType = $('input[name="st"]:checked').val();
+		ecmaVersion = $('input[name="es"]:checked').val();
+		sourceType = $('input[name="st"]:checked').val();
+		
 		let scopeLib = $('input[name="scope_lib"]:checked').val();
 		let use_acron_if_esprima_failed = $('input[name="use_acron_if_esprima_failed"]:checked').val() == 'yes' 
 		let ignore_eval_in_scope = true
@@ -317,16 +431,15 @@ var run = function() {
         try{
 			$('#treeview').html('');
 			
-			
 			if(code.length == 0) return;
 			
-			let ast = getAst(code, use_acron_if_esprima_failed, ecmaVersion, sourceType, extra_info)
+			ast = getAst(code, use_acron_if_esprima_failed, ecmaVersion, sourceType, extra_info)
 			if(!ast){
 				//body.addClass("bg-warning");
 				console.info(extra_info.exception)
 				$('#treeview').html(formatErrorToHtml(extra_info.exception, code));
 			}else{
-				let scopes = getScopeList(ast, scopeLib, ecmaVersion, sourceType, ignore_eval_in_scope)
+				scopes = getScopeList(ast, scopeLib, ecmaVersion, sourceType, ignore_eval_in_scope)
 				let nodes = traverseNode(scopes, true);
 				$('#treeview').append(nodes);
 			}
@@ -367,13 +480,55 @@ var run = function() {
 		}, draw_if_stop_edit_for_seconds*1000)
 		last_edit_time = cur_time
 	});
-
+	
     $('input[name="es"]').change(function() { ecmaVersion = $(this).val(); draw();});
     $('input[name="st"]').change(function() { sourceType = $(this).val(); draw();})
 
 	$('input[name="scope_lib"]').change(function() { draw();})
 	$('input[name="use_acron_if_esprima_failed"]').change(function() { draw();})
+	
+	editor.getWrapperElement().addEventListener('dblclick', function(event) {
+	  {
+		let no_track = $('input[name="use_code_track"]:checked').val() == 'no_track'
+		if(no_track) return;
 
+		const cursor = editor.getCursor();
+		const offset = editor.indexFromPos(cursor);
+		
+		const selection_word = editor.getSelection();
+	    console.info('sel:', selection_word)
+		
+		// 展开 AST 节点: 从 ast 的根节点 (Module) 开始展开(当是 module 模式解析, 则整个语法树第 2 个即是根节点, 否则第 1 个)
+		if($('input[name="use_code_track"]:checked').val() == 'track_ast')
+		{
+			let start_at = ('module'===sourceType)? 2:1	// jquery 查找器从 1 开始
+			let module_node = $("#treeview ul li:nth-child(" + start_at + ") a")[0]	// 最后的 [0] 是为了将 jquery 对象转换为 dom 节点.
+			unfold.apply(module_node, [null, true, {}, {offset,selection_word}])
+			
+			// 如果当前是闭合的, 就展开
+			if(current_is_fold){
+				unfold.apply(module_node, [null, true, {}, {offset, selection_word}])
+			}		
+		}
+
+		// 展开 scope 作用域
+		if($('input[name="use_code_track"]:checked').val() == 'track_scope')
+		{
+			let index = getScopeIndexByCodePos(offset, scopes)
+			let start_offset = ('module'===sourceType)? 2:1
+			let start_at = index + 1
+			let scope_node = $("#treeview ul li:nth-child("+ start_at +") a")[0]	// 加 [0] 是为了将 jquery 对象转换为 dom 节点.
+			unfold.apply(scope_node, [null, false, {}, {offset, selection_word}])
+			
+			// 如果当前是闭合的, 就展开
+			if(current_is_fold){
+				unfold.apply(scope_node, [null, false, {}, {offset, selection_word}])
+			}
+		}
+	  }
+	});
+	
+	
     draw();
 
 	

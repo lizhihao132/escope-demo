@@ -35,7 +35,14 @@ html,body{
 #editor-container {
 /* Optional - You can set a  min-height : whatever px; for reserving some space*/
    padding: 5px;
-   height: 582px; /* Fix a height here */
+   height: 682px; /* Fix a height here */
+   background-color: #F8F8FF;
+   overflow: auto; /* Optionally you can also use overflow: scroll; */
+}
+
+#sourcecode-container {
+   padding: 5px;
+   height: 682px; /* Fix a height here */
    background-color: #F8F8FF;
    overflow: auto; /* Optionally you can also use overflow: scroll; */
 }
