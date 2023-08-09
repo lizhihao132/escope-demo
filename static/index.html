@@ -25,32 +25,32 @@
     </div>
     <div class="container-fluid alert">
         <div class="row" style="margin-top:10px">
-            <div class="col-md-3">
-                ECMAScript Version:
+            <div class="col-md-4">
+                ECMA:
                 <label class="radio-inline">
-                    <input type="radio" name="es" value="14" checked> es14_2023
+                    <input type="radio" name="es" value="14" checked> es14_2023&nbsp;&nbsp;
                 </label>
                 <label class="radio-inline">
-                    <input type="radio" name="es" value="6">  es6_2015
+                    <input type="radio" name="es" value="6">  es6_2015&nbsp;&nbsp;
                 </label>
 				<label class="radio-inline">
-                    <input type="radio" name="es" value="5">  es5
+                    <input type="radio" name="es" value="5">  es5&nbsp;&nbsp;
                 </label>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-4">
                 <span data-toggle="tooltip" title="With the latest 6th edition of ECMA-262 (also known as ES2015 or ES6), it is important to distinguish parsing a script vs parsing a module. This is achieved by using the sourceType option (default to 'script')"
                     data-placement="bottom" class="dashed" >Source type:</span>
                 <label class="radio-inline">
-                    <input type="radio" name="st" value="script"> script
+                    <input type="radio" name="st" value="script"> script&nbsp;&nbsp;
                 </label>
                 <label class="radio-inline">
-                    <input type="radio" name="st" value="module" checked > module
+                    <input type="radio" name="st" value="module" checked > module&nbsp;&nbsp;
                 </label>
             </div>
-			
+			<!--
 			<div class="col-md-3">
                 <span data-toggle="tooltip" title="use escope or eslint_scope"
-                    data-placement="bottom" class="dashed">Scope Library:</span>
+                    data-placement="bottom" class="dashed">Scope Lib:</span>
                 <label class="radio-inline">
                     <input type="radio" name="scope_lib" value="escope"> escope
                 </label>
@@ -58,7 +58,9 @@
                     <input type="radio" name="scope_lib" value="eslint-scope" checked> eslint_scope
                 </label>
             </div>
+			-->
 			
+			<!--
 			<div class="col-md-2">
                 <span data-toggle="tooltip" title="use acron if esprima failed"
                     data-placement="bottom" class="dashed">Use Acron If Failed:</span>
@@ -69,25 +71,26 @@
                     <input type="radio" name="use_acron_if_esprima_failed" value="no"> no
                 </label>
             </div>
+			-->
 			
-			<div class="col-md-2">
+			<div class="col-md-4">
                 <span data-toggle="tooltip" title="code track"
                     data-placement="bottom" class="dashed">track:</span>
                 <label class="radio-inline">
-                    <input type="radio" name="use_code_track" value="no_track" checked>no
+                    <input type="radio" name="use_code_track" value="no_track" checked>no&nbsp;&nbsp;
                 </label>
                 <label class="radio-inline">
-                    <input type="radio" name="use_code_track" value="track_ast">ast
+                    <input type="radio" name="use_code_track" value="track_ast">ast&nbsp;&nbsp;
                 </label>
 				<label class="radio-inline">
-                    <input type="radio" name="use_code_track" value="track_scope">scope
+                    <input type="radio" name="use_code_track" value="track_scope">scope&nbsp;&nbsp;
                 </label>
             </div>
 			
         </div>
 
 		<div class="parse_msg_alert alert alert-info" role="alert">
-		  Parsing With: <span id="use_which_scope">escope </span> v<span id="parser-version"></span>, <span id="use_which_parser">esprima </span> v<span id="scope-version"></span>
+		  Parsed By: <span id="use_which_scope">eslint-scope </span> v<span id="parser-version"></span>, <span id="use_which_parser">acorn </span> v<span id="scope-version"></span>
 		</div>
 
         <div class="row">
