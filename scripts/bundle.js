@@ -46624,6 +46624,7 @@ var run = function() {
 	
 	let current_is_fold = true
 	const view_top_keep = 200, view_left_keep = 200	// 视距上可以保留一点空白
+	const ast_tracked_dom = [], scope_tracked_dom = []
 	
     var unfold = function(e, not_click_event_call, last_info, {offset, selection_word} ) {
 		if(e && !not_click_event_call){
@@ -46674,7 +46675,12 @@ var run = function() {
 				let container_dom_jq = $('#editor-container')[0]
 				let top_ = last_info.last_offset_top - container_dom_jq.offsetTop - view_top_keep
 				let left_ = last_info.last_offset_left - container_dom_jq.offsetLeft - view_left_keep
+				for(let adom of ast_tracked_dom){
+					$(adom).css('background-color', '')
+				}
 				$(last_info.ele).css('background-color', '#06f1f1');
+				
+				ast_tracked_dom.push(last_info.ele)
 				container_dom_jq.scrollTo({top: top_, left: left_, behavior: 'smooth'})
 			}
 		}
@@ -46687,7 +46693,10 @@ var run = function() {
 			let top_ = this.offsetTop - container_dom_jq.offsetTop - view_top_keep
 			let left_ = this.offsetLeft - container_dom_jq.offsetLeft - view_left_keep
 			container_dom_jq.scrollTo({top: top_, left: left_, behavior: 'smooth'})
-			
+			for(let adom of scope_tracked_dom){
+				$(adom).css('background-color', '')
+			}
+			scope_tracked_dom.push(this)
 			$(this).css('background-color', '#06f1f1');
 		}
     }; 
