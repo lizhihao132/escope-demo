@@ -46626,9 +46626,13 @@ var run = function() {
 	const view_top_keep = 200, view_left_keep = 200	// 视距上可以保留一点空白
 	const ast_tracked_dom = [], scope_tracked_dom = []
 	
-    var unfold = function(e, not_click_event_call, last_info, {offset, selection_word} ) {
+    var unfold = function(e, not_click_event_call, last_info, extra_info ) {
 		if(e && !not_click_event_call){
 			e.preventDefault();
+		}
+		let offset, selection_word;
+		if(extra_info){
+			({offset, selection_word} = extra_info)
 		}
         var node = $(this).data('node');
         var level = $(this).data('level');
@@ -46717,8 +46721,8 @@ var run = function() {
     var addChilds = function(parent, node, level) {
 		let exist_uls = $(parent).find('ul')
 		if(exist_uls && exist_uls.length > 0){
-			console.info('exist url, not create')
-			return
+			console.info('exist ul, now remove and create')
+			exist_uls.remove()
 		}
 		
         var childs = document.createElement('ul'),
@@ -47116,7 +47120,7 @@ var run = function() {
 		if($('input[name="use_code_track"]:checked').val() == 'track_ast')
 		{
 			let start_at = ('module'===sourceType)? 2:1	// jquery 查找器从 1 开始
-			let module_node = $("#treeview ul li:nth-child(" + start_at + ") a")[0]	// 最后的 [0] 是为了将 jquery 对象转换为 dom 节点.
+			let module_node = $("#treeview > ul > li:nth-child(" + start_at + ") a")[0]	// 最后的 [0] 是为了将 jquery 对象转换为 dom 节点.
 			unfold.apply(module_node, [null, true, {}, {offset,selection_word}])
 			
 			// 如果当前是闭合的, 就展开
@@ -47131,7 +47135,7 @@ var run = function() {
 			let index = getScopeIndexByCodePos(offset, scopes)
 			let start_offset = ('module'===sourceType)? 2:1
 			let start_at = index + 1
-			let scope_node = $("#treeview ul li:nth-child("+ start_at +") a")[0]	// 加 [0] 是为了将 jquery 对象转换为 dom 节点.
+			let scope_node = $("#treeview > ul > li:nth-child("+ start_at +") a")[0]	// 加 [0] 是为了将 jquery 对象转换为 dom 节点.
 			unfold.apply(scope_node, [null, false, {}, {offset, selection_word}])
 			
 			// 如果当前是闭合的, 就展开
