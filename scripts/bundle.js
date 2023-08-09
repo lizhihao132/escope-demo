@@ -46886,8 +46886,9 @@ var run = function() {
 	}
 
 	let getAst = function(code, use_acron_if_esprima_failed, ecmaVersion, sourceType, extra_info){
-		var ast = null;
-		let parserLib, scopeLib;
+		let ast = null;
+		/*
+		// 不再使用 esprima
 		try{
 			extra_info.use_parser = 'esprima'
 			ast = esprima.parse(code, {
@@ -46910,6 +46911,7 @@ var run = function() {
 			console.info('---- failed, and not use acorn')
 			return null
 		}
+		*/
 		
 		let acornOption = {ranges: true, locations: true, ecmaVersion: ecmaVersion, sourceType: sourceType, allowReserved: true, };
 		
@@ -47025,26 +47027,27 @@ var run = function() {
 		ecmaVersion = $('input[name="es"]:checked').val();
 		sourceType = $('input[name="st"]:checked').val();
 		
-		let scopeLib = $('input[name="scope_lib"]:checked').val();
-		let use_acron_if_esprima_failed = $('input[name="use_acron_if_esprima_failed"]:checked').val() == 'yes' 
+		//let scopeLib = $('input[name="scope_lib"]:checked').val();
+		const scopeLib = 'eslint-scope'
+		// let use_acron_if_esprima_failed = $('input[name="use_acron_if_esprima_failed"]:checked').val() == 'yes' 
 		let ignore_eval_in_scope = true
 		if(undefined != window.ignore_eval && null != window.ignore_eval){
 			ignore_eval_in_scope = window.ignore_eval
 		}
 		
-		console.info('parse params, ecmaVersion:', ecmaVersion, ', sourceType:', sourceType, ', scopeLib:', scopeLib, ', use_acron_if_esprima_failed:', use_acron_if_esprima_failed)
+		console.info('parse params, ecmaVersion:', ecmaVersion, ', sourceType:', sourceType, ', scopeLib:', scopeLib)
 		console.info('ecmaVersion list:  3, 5, 6 (or 2015), 7 (2016), 8 (2017), 9 (2018), 10 (2019), 11 (2020), 12 (2021), 13 (2022), 14 (2023), or "latest" (the latest the library supports)')
 		let extra_info = {}
 		let is_success = null
-		//默认 parser 是 esprima, 当 parser 失败时, 使用 acorn
-		updateLibInfo(is_success, 'esprima', scopeLib)
+		//默认 parser 是 esprima, 当 parser 失败时, 使用 acorn -- 20230809, 不再使用 esprima
+		updateLibInfo(is_success, 'acorn', scopeLib)
 		let code = editor.getValue()
         try{
 			$('#treeview').html('');
 			
 			if(code.length == 0) return;
 			
-			ast = getAst(code, use_acron_if_esprima_failed, ecmaVersion, sourceType, extra_info)
+			ast = getAst(code, false/*use_acron_if_esprima_failed*/, ecmaVersion, sourceType, extra_info)
 			if(!ast){
 				//body.addClass("bg-warning");
 				console.info(extra_info.exception)
@@ -47096,7 +47099,7 @@ var run = function() {
     $('input[name="st"]').change(function() { sourceType = $(this).val(); draw();})
 
 	$('input[name="scope_lib"]').change(function() { draw();})
-	$('input[name="use_acron_if_esprima_failed"]').change(function() { draw();})
+	//$('input[name="use_acron_if_esprima_failed"]').change(function() { draw();})
 	
 	editor.getWrapperElement().addEventListener('dblclick', function(event) {
 	  {
