@@ -326,7 +326,8 @@ var run = function() {
 			extra_info.exception = err
 			try{
 				extra_info.use_parser = 'acorn'
-				ast = acorn.parse(code, {ranges: true, locations: true})	//对于这样的代码在高版本的 js 中是有效的: a = {name: 1}; b={hei:3}; c={...a,...b};
+				acornOption = {ranges: true, locations: true}
+				ast = acorn.parse(code, acornOption)	//对于这样的代码在高版本的 js 中是有效的: a = {name: 1}; b={hei:3}; c={...a,...b};
 				console.info('get ast by acron 2 success, with option:', acornOption, ', code length:', code.length)
 			}catch(err){
 				console.info('get ast by acorn failed, will try next parser', err, ', with option:', acornOption, ', code length:', code.length)
