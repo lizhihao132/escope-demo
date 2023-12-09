@@ -13,10 +13,10 @@
   var astralIdentifierCodes = [509, 0, 227, 0, 150, 4, 294, 9, 1368, 2, 2, 1, 6, 3, 41, 2, 5, 0, 166, 1, 574, 3, 9, 9, 370, 1, 81, 2, 71, 10, 50, 3, 123, 2, 54, 14, 32, 10, 3, 1, 11, 3, 46, 10, 8, 0, 46, 9, 7, 2, 37, 13, 2, 9, 6, 1, 45, 0, 13, 2, 49, 13, 9, 3, 2, 11, 83, 11, 7, 0, 3, 0, 158, 11, 6, 9, 7, 3, 56, 1, 2, 6, 3, 1, 3, 2, 10, 0, 11, 1, 3, 6, 4, 4, 193, 17, 10, 9, 5, 0, 82, 19, 13, 9, 214, 6, 3, 8, 28, 1, 83, 16, 16, 9, 82, 12, 9, 9, 84, 14, 5, 9, 243, 14, 166, 9, 71, 5, 2, 1, 3, 3, 2, 0, 2, 1, 13, 9, 120, 6, 3, 6, 4, 0, 29, 9, 41, 6, 2, 3, 9, 0, 10, 10, 47, 15, 406, 7, 2, 7, 17, 9, 57, 21, 2, 13, 123, 5, 4, 0, 2, 1, 2, 6, 2, 0, 9, 9, 49, 4, 2, 1, 2, 4, 9, 9, 330, 3, 10, 1, 2, 0, 49, 6, 4, 4, 14, 9, 5351, 0, 7, 14, 13835, 9, 87, 9, 39, 4, 60, 6, 26, 9, 1014, 0, 2, 54, 8, 3, 82, 0, 12, 1, 19628, 1, 4706, 45, 3, 22, 543, 4, 4, 5, 9, 7, 3, 6, 31, 3, 149, 2, 1418, 49, 513, 54, 5, 49, 9, 0, 15, 0, 23, 4, 2, 14, 1361, 6, 2, 16, 3, 6, 2, 1, 2, 4, 101, 0, 161, 6, 10, 9, 357, 0, 62, 13, 499, 13, 983, 6, 110, 6, 6, 9, 4759, 9, 787719, 239];
 
   // This file was generated. Do not modify manually!
-  var astralIdentifierStartCodes = [0, 11, 2, 25, 2, 18, 2, 1, 2, 14, 3, 13, 35, 122, 70, 52, 268, 28, 4, 48, 48, 31, 14, 29, 6, 37, 11, 29, 3, 35, 5, 7, 2, 4, 43, 157, 19, 35, 5, 35, 5, 39, 9, 51, 13, 10, 2, 14, 2, 6, 2, 1, 2, 10, 2, 14, 2, 6, 2, 1, 68, 310, 10, 21, 11, 7, 25, 5, 2, 41, 2, 8, 70, 5, 3, 0, 2, 43, 2, 1, 4, 0, 3, 22, 11, 22, 10, 30, 66, 18, 2, 1, 11, 21, 11, 25, 71, 55, 7, 1, 65, 0, 16, 3, 2, 2, 2, 28, 43, 28, 4, 28, 36, 7, 2, 27, 28, 53, 11, 21, 11, 18, 14, 17, 111, 72, 56, 50, 14, 50, 14, 35, 349, 41, 7, 1, 79, 28, 11, 0, 9, 21, 43, 17, 47, 20, 28, 22, 13, 52, 58, 1, 3, 0, 14, 44, 33, 24, 27, 35, 30, 0, 3, 0, 9, 34, 4, 0, 13, 47, 15, 3, 22, 0, 2, 0, 36, 17, 2, 24, 20, 1, 64, 6, 2, 0, 2, 3, 2, 14, 2, 9, 8, 46, 39, 7, 3, 1, 3, 21, 2, 6, 2, 1, 2, 4, 4, 0, 19, 0, 13, 4, 159, 52, 19, 3, 21, 2, 31, 47, 21, 1, 2, 0, 185, 46, 42, 3, 37, 47, 21, 0, 60, 42, 14, 0, 72, 26, 38, 6, 186, 43, 117, 63, 32, 7, 3, 0, 3, 7, 2, 1, 2, 23, 16, 0, 2, 0, 95, 7, 3, 38, 17, 0, 2, 0, 29, 0, 11, 39, 8, 0, 22, 0, 12, 45, 20, 0, 19, 72, 264, 8, 2, 36, 18, 0, 50, 29, 113, 6, 2, 1, 2, 37, 22, 0, 26, 5, 2, 1, 2, 31, 15, 0, 328, 18, 16, 0, 2, 12, 2, 33, 125, 0, 80, 921, 103, 110, 18, 195, 2637, 96, 16, 1071, 18, 5, 4026, 582, 8634, 568, 8, 30, 18, 78, 18, 29, 19, 47, 17, 3, 32, 20, 6, 18, 689, 63, 129, 74, 6, 0, 67, 12, 65, 1, 2, 0, 29, 6135, 9, 1237, 43, 8, 8936, 3, 2, 6, 2, 1, 2, 290, 16, 0, 30, 2, 3, 0, 15, 3, 9, 395, 2309, 106, 6, 12, 4, 8, 8, 9, 5991, 84, 2, 70, 2, 1, 3, 0, 3, 1, 3, 3, 2, 11, 2, 0, 2, 6, 2, 64, 2, 3, 3, 7, 2, 6, 2, 27, 2, 3, 2, 4, 2, 0, 4, 6, 2, 339, 3, 24, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 7, 1845, 30, 7, 5, 262, 61, 147, 44, 11, 6, 17, 0, 322, 29, 19, 43, 485, 27, 757, 6, 2, 3, 2, 1, 2, 14, 2, 196, 60, 67, 8, 0, 1205, 3, 2, 26, 2, 1, 2, 0, 3, 0, 2, 9, 2, 3, 2, 0, 2, 0, 7, 0, 5, 0, 2, 0, 2, 0, 2, 2, 2, 1, 2, 0, 3, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 1, 2, 0, 3, 3, 2, 6, 2, 3, 2, 3, 2, 0, 2, 9, 2, 16, 6, 2, 2, 4, 2, 16, 4421, 42719, 33, 4153, 7, 221, 3, 5761, 15, 7472, 3104, 541, 1507, 4938, 6, 4191];
+  var astralIdentifierStartCodes = [0, 11, 2, 25, 2, 18, 2, 1, 2, 14, 3, 13, 35, 122, 70, 52, 268, 28, 4, 48, 48, 31, 14, 29, 6, 37, 11, 29, 3, 35, 5, 7, 2, 4, 43, 157, 19, 35, 5, 35, 5, 39, 9, 51, 13, 10, 2, 14, 2, 6, 2, 1, 2, 10, 2, 14, 2, 6, 2, 1, 68, 310, 10, 21, 11, 7, 25, 5, 2, 41, 2, 8, 70, 5, 3, 0, 2, 43, 2, 1, 4, 0, 3, 22, 11, 22, 10, 30, 66, 18, 2, 1, 11, 21, 11, 25, 71, 55, 7, 1, 65, 0, 16, 3, 2, 2, 2, 28, 43, 28, 4, 28, 36, 7, 2, 27, 28, 53, 11, 21, 11, 18, 14, 17, 111, 72, 56, 50, 14, 50, 14, 35, 349, 41, 7, 1, 79, 28, 11, 0, 9, 21, 43, 17, 47, 20, 28, 22, 13, 52, 58, 1, 3, 0, 14, 44, 33, 24, 27, 35, 30, 0, 3, 0, 9, 34, 4, 0, 13, 47, 15, 3, 22, 0, 2, 0, 36, 17, 2, 24, 20, 1, 64, 6, 2, 0, 2, 3, 2, 14, 2, 9, 8, 46, 39, 7, 3, 1, 3, 21, 2, 6, 2, 1, 2, 4, 4, 0, 19, 0, 13, 4, 159, 52, 19, 3, 21, 2, 31, 47, 21, 1, 2, 0, 185, 46, 42, 3, 37, 47, 21, 0, 60, 42, 14, 0, 72, 26, 38, 6, 186, 43, 117, 63, 32, 7, 3, 0, 3, 7, 2, 1, 2, 23, 16, 0, 2, 0, 95, 7, 3, 38, 17, 0, 2, 0, 29, 0, 11, 39, 8, 0, 22, 0, 12, 45, 20, 0, 19, 72, 264, 8, 2, 36, 18, 0, 50, 29, 113, 6, 2, 1, 2, 37, 22, 0, 26, 5, 2, 1, 2, 31, 15, 0, 328, 18, 16, 0, 2, 12, 2, 33, 125, 0, 80, 921, 103, 110, 18, 195, 2637, 96, 16, 1071, 18, 5, 4026, 582, 8634, 568, 8, 30, 18, 78, 18, 29, 19, 47, 17, 3, 32, 20, 6, 18, 689, 63, 129, 74, 6, 0, 67, 12, 65, 1, 2, 0, 29, 6135, 9, 1237, 43, 8, 8936, 3, 2, 6, 2, 1, 2, 290, 16, 0, 30, 2, 3, 0, 15, 3, 9, 395, 2309, 106, 6, 12, 4, 8, 8, 9, 5991, 84, 2, 70, 2, 1, 3, 0, 3, 1, 3, 3, 2, 11, 2, 0, 2, 6, 2, 64, 2, 3, 3, 7, 2, 6, 2, 27, 2, 3, 2, 4, 2, 0, 4, 6, 2, 339, 3, 24, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 7, 1845, 30, 7, 5, 262, 61, 147, 44, 11, 6, 17, 0, 322, 29, 19, 43, 485, 27, 757, 6, 2, 3, 2, 1, 2, 14, 2, 196, 60, 67, 8, 0, 1205, 3, 2, 26, 2, 1, 2, 0, 3, 0, 2, 9, 2, 3, 2, 0, 2, 0, 7, 0, 5, 0, 2, 0, 2, 0, 2, 2, 2, 1, 2, 0, 3, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 1, 2, 0, 3, 3, 2, 6, 2, 3, 2, 3, 2, 0, 2, 9, 2, 16, 6, 2, 2, 4, 2, 16, 4421, 42719, 33, 4153, 7, 221, 3, 5761, 15, 7472, 16, 621, 2467, 541, 1507, 4938, 6, 4191];
 
   // This file was generated. Do not modify manually!
-  var nonASCIIidentifierChars = "\u200c\u200d\xb7\u0300-\u036f\u0387\u0483-\u0487\u0591-\u05bd\u05bf\u05c1\u05c2\u05c4\u05c5\u05c7\u0610-\u061a\u064b-\u0669\u0670\u06d6-\u06dc\u06df-\u06e4\u06e7\u06e8\u06ea-\u06ed\u06f0-\u06f9\u0711\u0730-\u074a\u07a6-\u07b0\u07c0-\u07c9\u07eb-\u07f3\u07fd\u0816-\u0819\u081b-\u0823\u0825-\u0827\u0829-\u082d\u0859-\u085b\u0898-\u089f\u08ca-\u08e1\u08e3-\u0903\u093a-\u093c\u093e-\u094f\u0951-\u0957\u0962\u0963\u0966-\u096f\u0981-\u0983\u09bc\u09be-\u09c4\u09c7\u09c8\u09cb-\u09cd\u09d7\u09e2\u09e3\u09e6-\u09ef\u09fe\u0a01-\u0a03\u0a3c\u0a3e-\u0a42\u0a47\u0a48\u0a4b-\u0a4d\u0a51\u0a66-\u0a71\u0a75\u0a81-\u0a83\u0abc\u0abe-\u0ac5\u0ac7-\u0ac9\u0acb-\u0acd\u0ae2\u0ae3\u0ae6-\u0aef\u0afa-\u0aff\u0b01-\u0b03\u0b3c\u0b3e-\u0b44\u0b47\u0b48\u0b4b-\u0b4d\u0b55-\u0b57\u0b62\u0b63\u0b66-\u0b6f\u0b82\u0bbe-\u0bc2\u0bc6-\u0bc8\u0bca-\u0bcd\u0bd7\u0be6-\u0bef\u0c00-\u0c04\u0c3c\u0c3e-\u0c44\u0c46-\u0c48\u0c4a-\u0c4d\u0c55\u0c56\u0c62\u0c63\u0c66-\u0c6f\u0c81-\u0c83\u0cbc\u0cbe-\u0cc4\u0cc6-\u0cc8\u0cca-\u0ccd\u0cd5\u0cd6\u0ce2\u0ce3\u0ce6-\u0cef\u0cf3\u0d00-\u0d03\u0d3b\u0d3c\u0d3e-\u0d44\u0d46-\u0d48\u0d4a-\u0d4d\u0d57\u0d62\u0d63\u0d66-\u0d6f\u0d81-\u0d83\u0dca\u0dcf-\u0dd4\u0dd6\u0dd8-\u0ddf\u0de6-\u0def\u0df2\u0df3\u0e31\u0e34-\u0e3a\u0e47-\u0e4e\u0e50-\u0e59\u0eb1\u0eb4-\u0ebc\u0ec8-\u0ece\u0ed0-\u0ed9\u0f18\u0f19\u0f20-\u0f29\u0f35\u0f37\u0f39\u0f3e\u0f3f\u0f71-\u0f84\u0f86\u0f87\u0f8d-\u0f97\u0f99-\u0fbc\u0fc6\u102b-\u103e\u1040-\u1049\u1056-\u1059\u105e-\u1060\u1062-\u1064\u1067-\u106d\u1071-\u1074\u1082-\u108d\u108f-\u109d\u135d-\u135f\u1369-\u1371\u1712-\u1715\u1732-\u1734\u1752\u1753\u1772\u1773\u17b4-\u17d3\u17dd\u17e0-\u17e9\u180b-\u180d\u180f-\u1819\u18a9\u1920-\u192b\u1930-\u193b\u1946-\u194f\u19d0-\u19da\u1a17-\u1a1b\u1a55-\u1a5e\u1a60-\u1a7c\u1a7f-\u1a89\u1a90-\u1a99\u1ab0-\u1abd\u1abf-\u1ace\u1b00-\u1b04\u1b34-\u1b44\u1b50-\u1b59\u1b6b-\u1b73\u1b80-\u1b82\u1ba1-\u1bad\u1bb0-\u1bb9\u1be6-\u1bf3\u1c24-\u1c37\u1c40-\u1c49\u1c50-\u1c59\u1cd0-\u1cd2\u1cd4-\u1ce8\u1ced\u1cf4\u1cf7-\u1cf9\u1dc0-\u1dff\u203f\u2040\u2054\u20d0-\u20dc\u20e1\u20e5-\u20f0\u2cef-\u2cf1\u2d7f\u2de0-\u2dff\u302a-\u302f\u3099\u309a\ua620-\ua629\ua66f\ua674-\ua67d\ua69e\ua69f\ua6f0\ua6f1\ua802\ua806\ua80b\ua823-\ua827\ua82c\ua880\ua881\ua8b4-\ua8c5\ua8d0-\ua8d9\ua8e0-\ua8f1\ua8ff-\ua909\ua926-\ua92d\ua947-\ua953\ua980-\ua983\ua9b3-\ua9c0\ua9d0-\ua9d9\ua9e5\ua9f0-\ua9f9\uaa29-\uaa36\uaa43\uaa4c\uaa4d\uaa50-\uaa59\uaa7b-\uaa7d\uaab0\uaab2-\uaab4\uaab7\uaab8\uaabe\uaabf\uaac1\uaaeb-\uaaef\uaaf5\uaaf6\uabe3-\uabea\uabec\uabed\uabf0-\uabf9\ufb1e\ufe00-\ufe0f\ufe20-\ufe2f\ufe33\ufe34\ufe4d-\ufe4f\uff10-\uff19\uff3f";
+  var nonASCIIidentifierChars = "\u200c\u200d\xb7\u0300-\u036f\u0387\u0483-\u0487\u0591-\u05bd\u05bf\u05c1\u05c2\u05c4\u05c5\u05c7\u0610-\u061a\u064b-\u0669\u0670\u06d6-\u06dc\u06df-\u06e4\u06e7\u06e8\u06ea-\u06ed\u06f0-\u06f9\u0711\u0730-\u074a\u07a6-\u07b0\u07c0-\u07c9\u07eb-\u07f3\u07fd\u0816-\u0819\u081b-\u0823\u0825-\u0827\u0829-\u082d\u0859-\u085b\u0898-\u089f\u08ca-\u08e1\u08e3-\u0903\u093a-\u093c\u093e-\u094f\u0951-\u0957\u0962\u0963\u0966-\u096f\u0981-\u0983\u09bc\u09be-\u09c4\u09c7\u09c8\u09cb-\u09cd\u09d7\u09e2\u09e3\u09e6-\u09ef\u09fe\u0a01-\u0a03\u0a3c\u0a3e-\u0a42\u0a47\u0a48\u0a4b-\u0a4d\u0a51\u0a66-\u0a71\u0a75\u0a81-\u0a83\u0abc\u0abe-\u0ac5\u0ac7-\u0ac9\u0acb-\u0acd\u0ae2\u0ae3\u0ae6-\u0aef\u0afa-\u0aff\u0b01-\u0b03\u0b3c\u0b3e-\u0b44\u0b47\u0b48\u0b4b-\u0b4d\u0b55-\u0b57\u0b62\u0b63\u0b66-\u0b6f\u0b82\u0bbe-\u0bc2\u0bc6-\u0bc8\u0bca-\u0bcd\u0bd7\u0be6-\u0bef\u0c00-\u0c04\u0c3c\u0c3e-\u0c44\u0c46-\u0c48\u0c4a-\u0c4d\u0c55\u0c56\u0c62\u0c63\u0c66-\u0c6f\u0c81-\u0c83\u0cbc\u0cbe-\u0cc4\u0cc6-\u0cc8\u0cca-\u0ccd\u0cd5\u0cd6\u0ce2\u0ce3\u0ce6-\u0cef\u0cf3\u0d00-\u0d03\u0d3b\u0d3c\u0d3e-\u0d44\u0d46-\u0d48\u0d4a-\u0d4d\u0d57\u0d62\u0d63\u0d66-\u0d6f\u0d81-\u0d83\u0dca\u0dcf-\u0dd4\u0dd6\u0dd8-\u0ddf\u0de6-\u0def\u0df2\u0df3\u0e31\u0e34-\u0e3a\u0e47-\u0e4e\u0e50-\u0e59\u0eb1\u0eb4-\u0ebc\u0ec8-\u0ece\u0ed0-\u0ed9\u0f18\u0f19\u0f20-\u0f29\u0f35\u0f37\u0f39\u0f3e\u0f3f\u0f71-\u0f84\u0f86\u0f87\u0f8d-\u0f97\u0f99-\u0fbc\u0fc6\u102b-\u103e\u1040-\u1049\u1056-\u1059\u105e-\u1060\u1062-\u1064\u1067-\u106d\u1071-\u1074\u1082-\u108d\u108f-\u109d\u135d-\u135f\u1369-\u1371\u1712-\u1715\u1732-\u1734\u1752\u1753\u1772\u1773\u17b4-\u17d3\u17dd\u17e0-\u17e9\u180b-\u180d\u180f-\u1819\u18a9\u1920-\u192b\u1930-\u193b\u1946-\u194f\u19d0-\u19da\u1a17-\u1a1b\u1a55-\u1a5e\u1a60-\u1a7c\u1a7f-\u1a89\u1a90-\u1a99\u1ab0-\u1abd\u1abf-\u1ace\u1b00-\u1b04\u1b34-\u1b44\u1b50-\u1b59\u1b6b-\u1b73\u1b80-\u1b82\u1ba1-\u1bad\u1bb0-\u1bb9\u1be6-\u1bf3\u1c24-\u1c37\u1c40-\u1c49\u1c50-\u1c59\u1cd0-\u1cd2\u1cd4-\u1ce8\u1ced\u1cf4\u1cf7-\u1cf9\u1dc0-\u1dff\u200c\u200d\u203f\u2040\u2054\u20d0-\u20dc\u20e1\u20e5-\u20f0\u2cef-\u2cf1\u2d7f\u2de0-\u2dff\u302a-\u302f\u3099\u309a\u30fb\ua620-\ua629\ua66f\ua674-\ua67d\ua69e\ua69f\ua6f0\ua6f1\ua802\ua806\ua80b\ua823-\ua827\ua82c\ua880\ua881\ua8b4-\ua8c5\ua8d0-\ua8d9\ua8e0-\ua8f1\ua8ff-\ua909\ua926-\ua92d\ua947-\ua953\ua980-\ua983\ua9b3-\ua9c0\ua9d0-\ua9d9\ua9e5\ua9f0-\ua9f9\uaa29-\uaa36\uaa43\uaa4c\uaa4d\uaa50-\uaa59\uaa7b-\uaa7d\uaab0\uaab2-\uaab4\uaab7\uaab8\uaabe\uaabf\uaac1\uaaeb-\uaaef\uaaf5\uaaf6\uabe3-\uabea\uabec\uabed\uabf0-\uabf9\ufb1e\ufe00-\ufe0f\ufe20-\ufe2f\ufe33\ufe34\ufe4d-\ufe4f\uff10-\uff19\uff3f\uff65";
 
   // This file was generated. Do not modify manually!
   var nonASCIIidentifierStartChars = "\xaa\xb5\xba\xc0-\xd6\xd8-\xf6\xf8-\u02c1\u02c6-\u02d1\u02e0-\u02e4\u02ec\u02ee\u0370-\u0374\u0376\u0377\u037a-\u037d\u037f\u0386\u0388-\u038a\u038c\u038e-\u03a1\u03a3-\u03f5\u03f7-\u0481\u048a-\u052f\u0531-\u0556\u0559\u0560-\u0588\u05d0-\u05ea\u05ef-\u05f2\u0620-\u064a\u066e\u066f\u0671-\u06d3\u06d5\u06e5\u06e6\u06ee\u06ef\u06fa-\u06fc\u06ff\u0710\u0712-\u072f\u074d-\u07a5\u07b1\u07ca-\u07ea\u07f4\u07f5\u07fa\u0800-\u0815\u081a\u0824\u0828\u0840-\u0858\u0860-\u086a\u0870-\u0887\u0889-\u088e\u08a0-\u08c9\u0904-\u0939\u093d\u0950\u0958-\u0961\u0971-\u0980\u0985-\u098c\u098f\u0990\u0993-\u09a8\u09aa-\u09b0\u09b2\u09b6-\u09b9\u09bd\u09ce\u09dc\u09dd\u09df-\u09e1\u09f0\u09f1\u09fc\u0a05-\u0a0a\u0a0f\u0a10\u0a13-\u0a28\u0a2a-\u0a30\u0a32\u0a33\u0a35\u0a36\u0a38\u0a39\u0a59-\u0a5c\u0a5e\u0a72-\u0a74\u0a85-\u0a8d\u0a8f-\u0a91\u0a93-\u0aa8\u0aaa-\u0ab0\u0ab2\u0ab3\u0ab5-\u0ab9\u0abd\u0ad0\u0ae0\u0ae1\u0af9\u0b05-\u0b0c\u0b0f\u0b10\u0b13-\u0b28\u0b2a-\u0b30\u0b32\u0b33\u0b35-\u0b39\u0b3d\u0b5c\u0b5d\u0b5f-\u0b61\u0b71\u0b83\u0b85-\u0b8a\u0b8e-\u0b90\u0b92-\u0b95\u0b99\u0b9a\u0b9c\u0b9e\u0b9f\u0ba3\u0ba4\u0ba8-\u0baa\u0bae-\u0bb9\u0bd0\u0c05-\u0c0c\u0c0e-\u0c10\u0c12-\u0c28\u0c2a-\u0c39\u0c3d\u0c58-\u0c5a\u0c5d\u0c60\u0c61\u0c80\u0c85-\u0c8c\u0c8e-\u0c90\u0c92-\u0ca8\u0caa-\u0cb3\u0cb5-\u0cb9\u0cbd\u0cdd\u0cde\u0ce0\u0ce1\u0cf1\u0cf2\u0d04-\u0d0c\u0d0e-\u0d10\u0d12-\u0d3a\u0d3d\u0d4e\u0d54-\u0d56\u0d5f-\u0d61\u0d7a-\u0d7f\u0d85-\u0d96\u0d9a-\u0db1\u0db3-\u0dbb\u0dbd\u0dc0-\u0dc6\u0e01-\u0e30\u0e32\u0e33\u0e40-\u0e46\u0e81\u0e82\u0e84\u0e86-\u0e8a\u0e8c-\u0ea3\u0ea5\u0ea7-\u0eb0\u0eb2\u0eb3\u0ebd\u0ec0-\u0ec4\u0ec6\u0edc-\u0edf\u0f00\u0f40-\u0f47\u0f49-\u0f6c\u0f88-\u0f8c\u1000-\u102a\u103f\u1050-\u1055\u105a-\u105d\u1061\u1065\u1066\u106e-\u1070\u1075-\u1081\u108e\u10a0-\u10c5\u10c7\u10cd\u10d0-\u10fa\u10fc-\u1248\u124a-\u124d\u1250-\u1256\u1258\u125a-\u125d\u1260-\u1288\u128a-\u128d\u1290-\u12b0\u12b2-\u12b5\u12b8-\u12be\u12c0\u12c2-\u12c5\u12c8-\u12d6\u12d8-\u1310\u1312-\u1315\u1318-\u135a\u1380-\u138f\u13a0-\u13f5\u13f8-\u13fd\u1401-\u166c\u166f-\u167f\u1681-\u169a\u16a0-\u16ea\u16ee-\u16f8\u1700-\u1711\u171f-\u1731\u1740-\u1751\u1760-\u176c\u176e-\u1770\u1780-\u17b3\u17d7\u17dc\u1820-\u1878\u1880-\u18a8\u18aa\u18b0-\u18f5\u1900-\u191e\u1950-\u196d\u1970-\u1974\u1980-\u19ab\u19b0-\u19c9\u1a00-\u1a16\u1a20-\u1a54\u1aa7\u1b05-\u1b33\u1b45-\u1b4c\u1b83-\u1ba0\u1bae\u1baf\u1bba-\u1be5\u1c00-\u1c23\u1c4d-\u1c4f\u1c5a-\u1c7d\u1c80-\u1c88\u1c90-\u1cba\u1cbd-\u1cbf\u1ce9-\u1cec\u1cee-\u1cf3\u1cf5\u1cf6\u1cfa\u1d00-\u1dbf\u1e00-\u1f15\u1f18-\u1f1d\u1f20-\u1f45\u1f48-\u1f4d\u1f50-\u1f57\u1f59\u1f5b\u1f5d\u1f5f-\u1f7d\u1f80-\u1fb4\u1fb6-\u1fbc\u1fbe\u1fc2-\u1fc4\u1fc6-\u1fcc\u1fd0-\u1fd3\u1fd6-\u1fdb\u1fe0-\u1fec\u1ff2-\u1ff4\u1ff6-\u1ffc\u2071\u207f\u2090-\u209c\u2102\u2107\u210a-\u2113\u2115\u2118-\u211d\u2124\u2126\u2128\u212a-\u2139\u213c-\u213f\u2145-\u2149\u214e\u2160-\u2188\u2c00-\u2ce4\u2ceb-\u2cee\u2cf2\u2cf3\u2d00-\u2d25\u2d27\u2d2d\u2d30-\u2d67\u2d6f\u2d80-\u2d96\u2da0-\u2da6\u2da8-\u2dae\u2db0-\u2db6\u2db8-\u2dbe\u2dc0-\u2dc6\u2dc8-\u2dce\u2dd0-\u2dd6\u2dd8-\u2dde\u3005-\u3007\u3021-\u3029\u3031-\u3035\u3038-\u303c\u3041-\u3096\u309b-\u309f\u30a1-\u30fa\u30fc-\u30ff\u3105-\u312f\u3131-\u318e\u31a0-\u31bf\u31f0-\u31ff\u3400-\u4dbf\u4e00-\ua48c\ua4d0-\ua4fd\ua500-\ua60c\ua610-\ua61f\ua62a\ua62b\ua640-\ua66e\ua67f-\ua69d\ua6a0-\ua6ef\ua717-\ua71f\ua722-\ua788\ua78b-\ua7ca\ua7d0\ua7d1\ua7d3\ua7d5-\ua7d9\ua7f2-\ua801\ua803-\ua805\ua807-\ua80a\ua80c-\ua822\ua840-\ua873\ua882-\ua8b3\ua8f2-\ua8f7\ua8fb\ua8fd\ua8fe\ua90a-\ua925\ua930-\ua946\ua960-\ua97c\ua984-\ua9b2\ua9cf\ua9e0-\ua9e4\ua9e6-\ua9ef\ua9fa-\ua9fe\uaa00-\uaa28\uaa40-\uaa42\uaa44-\uaa4b\uaa60-\uaa76\uaa7a\uaa7e-\uaaaf\uaab1\uaab5\uaab6\uaab9-\uaabd\uaac0\uaac2\uaadb-\uaadd\uaae0-\uaaea\uaaf2-\uaaf4\uab01-\uab06\uab09-\uab0e\uab11-\uab16\uab20-\uab26\uab28-\uab2e\uab30-\uab5a\uab5c-\uab69\uab70-\uabe2\uac00-\ud7a3\ud7b0-\ud7c6\ud7cb-\ud7fb\uf900-\ufa6d\ufa70-\ufad9\ufb00-\ufb06\ufb13-\ufb17\ufb1d\ufb1f-\ufb28\ufb2a-\ufb36\ufb38-\ufb3c\ufb3e\ufb40\ufb41\ufb43\ufb44\ufb46-\ufbb1\ufbd3-\ufd3d\ufd50-\ufd8f\ufd92-\ufdc7\ufdf0-\ufdfb\ufe70-\ufe74\ufe76-\ufefc\uff21-\uff3a\uff41-\uff5a\uff66-\uffbe\uffc2-\uffc7\uffca-\uffcf\uffd2-\uffd7\uffda-\uffdc";
@@ -284,8 +284,10 @@
     toString.call(obj) === "[object Array]"
   ); });
 
+  var regexpCache = Object.create(null);
+
   function wordsRegexp(words) {
-    return new RegExp("^(?:" + words.replace(/ /g, "|") + ")$")
+    return regexpCache[words] || (regexpCache[words] = new RegExp("^(?:" + words.replace(/ /g, "|") + ")$"))
   }
 
   function codePointToString(code) {
@@ -345,11 +347,11 @@
     // Can be either `"script"` or `"module"`. This influences global
     // strict mode and parsing of `import` and `export` declarations.
     sourceType: "script",
-    // `onInsertedSemicolon` can be a callback that will be called
-    // when a semicolon is automatically inserted. It will be passed
-    // the position of the comma as an offset, and if `locations` is
-    // enabled, it is given the location as a `{line, column}` object
-    // as second argument.
+    // `onInsertedSemicolon` can be a callback that will be called when
+    // a semicolon is automatically inserted. It will be passed the
+    // position of the inserted semicolon as an offset, and if
+    // `locations` is enabled, it is given the location as a `{line,
+    // column}` object as second argument.
     onInsertedSemicolon: null,
     // `onTrailingComma` is similar to `onInsertedSemicolon`, but for
     // trailing commas.
@@ -402,6 +404,8 @@
     // passed, the full `{line, column}` locations of the start and
     // end of the comments. Note that you are not allowed to call the
     // parser from the callback—that will corrupt its internal state.
+    // When this option has an array as value, objects representing the
+    // comments are pushed to it.
     onComment: null,
     // Nodes have their start and end characters offsets recorded in
     // `start` and `end` properties (directly on the node, rather than
@@ -1777,8 +1781,6 @@
       { this.checkPatternExport(exports, pat.left); }
     else if (type === "RestElement")
       { this.checkPatternExport(exports, pat.argument); }
-    else if (type === "ParenthesizedExpression")
-      { this.checkPatternExport(exports, pat.expression); }
   };
 
   pp$8.checkVariableExport = function(exports, decls) {
@@ -2342,7 +2344,7 @@
       { this.exprAllowed = type.beforeExpr; }
   };
 
-  // Used to handle egde cases when token context could not be inferred correctly during tokenization phase
+  // Used to handle edge cases when token context could not be inferred correctly during tokenization phase
 
   pp$6.overrideContext = function(tokenCtx) {
     if (this.curContext() !== tokenCtx) {
@@ -2393,6 +2395,11 @@
     else
       { this.context.push(types.f_stat); }
     this.exprAllowed = false;
+  };
+
+  types$1.colon.updateContext = function() {
+    if (this.curContext().token === "function") { this.context.pop(); }
+    this.exprAllowed = true;
   };
 
   types$1.backQuote.updateContext = function() {
@@ -3093,9 +3100,12 @@
   pp$5.parseNew = function() {
     if (this.containsEsc) { this.raiseRecoverable(this.start, "Escape sequence in keyword new"); }
     var node = this.startNode();
-    var meta = this.parseIdent(true);
-    if (this.options.ecmaVersion >= 6 && this.eat(types$1.dot)) {
-      node.meta = meta;
+    this.next();
+    if (this.options.ecmaVersion >= 6 && this.type === types$1.dot) {
+      var meta = this.startNodeAt(node.start, node.startLoc);
+      meta.name = "new";
+      node.meta = this.finishNode(meta, "Identifier");
+      this.next();
       var containsEsc = this.containsEsc;
       node.property = this.parseIdent(true);
       if (node.property.name !== "target")
@@ -3497,6 +3507,7 @@
         (this.lastTokEnd !== this.lastTokStart + 1 || this.input.charCodeAt(this.lastTokStart) !== 46)) {
         this.context.pop();
       }
+      this.type = types$1.name;
     } else {
       this.unexpected();
     }
@@ -5919,7 +5930,7 @@
   // [walk]: util/walk.js
 
 
-  var version = "8.10.0";
+  var version = "8.11.2";
 
   Parser.acorn = {
     Parser: Parser,
@@ -6004,6 +6015,7 @@
 /* provided dependency */ var process = __webpack_require__(4155);
 // Currently in sync with Node.js lib/assert.js
 // https://github.com/nodejs/node/commit/2a51ae424a513ec9a6aa3466baa0cc1d55dd4f3b
+
 // Originally from narwhal.js (http://narwhaljs.org)
 // Copyright (c) 2009 Thomas Robinson <280north.com>
 //
@@ -6025,59 +6037,59 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
 var _require = __webpack_require__(2136),
-    _require$codes = _require.codes,
-    ERR_AMBIGUOUS_ARGUMENT = _require$codes.ERR_AMBIGUOUS_ARGUMENT,
-    ERR_INVALID_ARG_TYPE = _require$codes.ERR_INVALID_ARG_TYPE,
-    ERR_INVALID_ARG_VALUE = _require$codes.ERR_INVALID_ARG_VALUE,
-    ERR_INVALID_RETURN_VALUE = _require$codes.ERR_INVALID_RETURN_VALUE,
-    ERR_MISSING_ARGS = _require$codes.ERR_MISSING_ARGS;
-
+  _require$codes = _require.codes,
+  ERR_AMBIGUOUS_ARGUMENT = _require$codes.ERR_AMBIGUOUS_ARGUMENT,
+  ERR_INVALID_ARG_TYPE = _require$codes.ERR_INVALID_ARG_TYPE,
+  ERR_INVALID_ARG_VALUE = _require$codes.ERR_INVALID_ARG_VALUE,
+  ERR_INVALID_RETURN_VALUE = _require$codes.ERR_INVALID_RETURN_VALUE,
+  ERR_MISSING_ARGS = _require$codes.ERR_MISSING_ARGS;
 var AssertionError = __webpack_require__(5961);
-
 var _require2 = __webpack_require__(9539),
-    inspect = _require2.inspect;
-
+  inspect = _require2.inspect;
 var _require$types = (__webpack_require__(9539).types),
-    isPromise = _require$types.isPromise,
-    isRegExp = _require$types.isRegExp;
-
-var objectAssign = Object.assign ? Object.assign : (__webpack_require__(8091).assign);
-var objectIs = Object.is ? Object.is : __webpack_require__(609);
+  isPromise = _require$types.isPromise,
+  isRegExp = _require$types.isRegExp;
+var objectAssign = __webpack_require__(8162)();
+var objectIs = __webpack_require__(5624)();
+var RegExpPrototypeTest = __webpack_require__(1924)('RegExp.prototype.test');
 var errorCache = new Map();
 var isDeepEqual;
 var isDeepStrictEqual;
 var parseExpressionAt;
 var findNodeAround;
 var decoder;
-
 function lazyLoadComparison() {
   var comparison = __webpack_require__(9158);
-
   isDeepEqual = comparison.isDeepEqual;
   isDeepStrictEqual = comparison.isDeepStrictEqual;
-} // Escape control characters but not \n and \t to keep the line breaks and
+}
+
+// Escape control characters but not \n and \t to keep the line breaks and
 // indentation intact.
 // eslint-disable-next-line no-control-regex
-
-
 var escapeSequencesRegExp = /[\x00-\x08\x0b\x0c\x0e-\x1f]/g;
 var meta = (/* unused pure expression or super */ null && (["\\u0000", "\\u0001", "\\u0002", "\\u0003", "\\u0004", "\\u0005", "\\u0006", "\\u0007", '\\b', '', '', "\\u000b", '\\f', '', "\\u000e", "\\u000f", "\\u0010", "\\u0011", "\\u0012", "\\u0013", "\\u0014", "\\u0015", "\\u0016", "\\u0017", "\\u0018", "\\u0019", "\\u001a", "\\u001b", "\\u001c", "\\u001d", "\\u001e", "\\u001f"]));
-
 var escapeFn = function escapeFn(str) {
   return meta[str.charCodeAt(0)];
 };
+var warned = false;
 
-var warned = false; // The assert module provides functions that throw
+// The assert module provides functions that throw
 // AssertionError's when particular conditions are not met. The
 // assert module must conform to the following interface.
 
 var assert = module.exports = ok;
-var NO_EXCEPTION_SENTINEL = {}; // All of the following functions must throw an AssertionError
+var NO_EXCEPTION_SENTINEL = {};
+
+// All of the following functions must throw an AssertionError
 // when a corresponding condition is not met, with a message that
 // may be undefined if not provided. All assertion methods provide
 // both the actual and expected values to the assertion error for
@@ -6087,11 +6099,9 @@ function innerFail(obj) {
   if (obj.message instanceof Error) throw obj.message;
   throw new AssertionError(obj);
 }
-
 function fail(actual, expected, message, operator, stackStartFn) {
   var argsLen = arguments.length;
   var internalMessage;
-
   if (argsLen === 0) {
     internalMessage = 'Failed';
   } else if (argsLen === 1) {
@@ -6103,10 +6113,8 @@ function fail(actual, expected, message, operator, stackStartFn) {
       var warn = process.emitWarning ? process.emitWarning : console.warn.bind(console);
       warn('assert.fail() with more than one argument is deprecated. ' + 'Please use assert.strictEqual() instead or only pass a message.', 'DeprecationWarning', 'DEP0094');
     }
-
     if (argsLen === 2) operator = '!=';
   }
-
   if (message instanceof Error) throw message;
   var errArgs = {
     actual: actual,
@@ -6114,36 +6122,29 @@ function fail(actual, expected, message, operator, stackStartFn) {
     operator: operator === undefined ? 'fail' : operator,
     stackStartFn: stackStartFn || fail
   };
-
   if (message !== undefined) {
     errArgs.message = message;
   }
-
   var err = new AssertionError(errArgs);
-
   if (internalMessage) {
     err.message = internalMessage;
     err.generatedMessage = true;
   }
-
   throw err;
 }
+assert.fail = fail;
 
-assert.fail = fail; // The AssertionError is defined in internal/error.
-
+// The AssertionError is defined in internal/error.
 assert.AssertionError = AssertionError;
-
 function innerOk(fn, argLen, value, message) {
   if (!value) {
     var generatedMessage = false;
-
     if (argLen === 0) {
       generatedMessage = true;
       message = 'No value argument passed to `assert.ok()`';
     } else if (message instanceof Error) {
       throw message;
     }
-
     var err = new AssertionError({
       actual: value,
       expected: true,
@@ -6154,28 +6155,25 @@ function innerOk(fn, argLen, value, message) {
     err.generatedMessage = generatedMessage;
     throw err;
   }
-} // Pure assertion tests whether a value is truthy, as determined
+}
+
+// Pure assertion tests whether a value is truthy, as determined
 // by !!value.
-
-
 function ok() {
   for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
     args[_key] = arguments[_key];
   }
-
   innerOk.apply(void 0, [ok, args.length].concat(args));
 }
+assert.ok = ok;
 
-assert.ok = ok; // The equality assertion tests shallow, coercive equality with ==.
-
+// The equality assertion tests shallow, coercive equality with ==.
 /* eslint-disable no-restricted-properties */
-
 assert.equal = function equal(actual, expected, message) {
   if (arguments.length < 2) {
     throw new ERR_MISSING_ARGS('actual', 'expected');
-  } // eslint-disable-next-line eqeqeq
-
-
+  }
+  // eslint-disable-next-line eqeqeq
   if (actual != expected) {
     innerFail({
       actual: actual,
@@ -6185,16 +6183,15 @@ assert.equal = function equal(actual, expected, message) {
       stackStartFn: equal
     });
   }
-}; // The non-equality assertion tests for whether two objects are not
+};
+
+// The non-equality assertion tests for whether two objects are not
 // equal with !=.
-
-
 assert.notEqual = function notEqual(actual, expected, message) {
   if (arguments.length < 2) {
     throw new ERR_MISSING_ARGS('actual', 'expected');
-  } // eslint-disable-next-line eqeqeq
-
-
+  }
+  // eslint-disable-next-line eqeqeq
   if (actual == expected) {
     innerFail({
       actual: actual,
@@ -6204,16 +6201,14 @@ assert.notEqual = function notEqual(actual, expected, message) {
       stackStartFn: notEqual
     });
   }
-}; // The equivalence assertion tests a deep equality relation.
+};
 
-
+// The equivalence assertion tests a deep equality relation.
 assert.deepEqual = function deepEqual(actual, expected, message) {
   if (arguments.length < 2) {
     throw new ERR_MISSING_ARGS('actual', 'expected');
   }
-
   if (isDeepEqual === undefined) lazyLoadComparison();
-
   if (!isDeepEqual(actual, expected)) {
     innerFail({
       actual: actual,
@@ -6223,16 +6218,14 @@ assert.deepEqual = function deepEqual(actual, expected, message) {
       stackStartFn: deepEqual
     });
   }
-}; // The non-equivalence assertion tests for any deep inequality.
+};
 
-
+// The non-equivalence assertion tests for any deep inequality.
 assert.notDeepEqual = function notDeepEqual(actual, expected, message) {
   if (arguments.length < 2) {
     throw new ERR_MISSING_ARGS('actual', 'expected');
   }
-
   if (isDeepEqual === undefined) lazyLoadComparison();
-
   if (isDeepEqual(actual, expected)) {
     innerFail({
       actual: actual,
@@ -6245,14 +6238,11 @@ assert.notDeepEqual = function notDeepEqual(actual, expected, message) {
 };
 /* eslint-enable */
 
-
 assert.deepStrictEqual = function deepStrictEqual(actual, expected, message) {
   if (arguments.length < 2) {
     throw new ERR_MISSING_ARGS('actual', 'expected');
   }
-
   if (isDeepEqual === undefined) lazyLoadComparison();
-
   if (!isDeepStrictEqual(actual, expected)) {
     innerFail({
       actual: actual,
@@ -6263,16 +6253,12 @@ assert.deepStrictEqual = function deepStrictEqual(actual, expected, message) {
     });
   }
 };
-
 assert.notDeepStrictEqual = notDeepStrictEqual;
-
 function notDeepStrictEqual(actual, expected, message) {
   if (arguments.length < 2) {
     throw new ERR_MISSING_ARGS('actual', 'expected');
   }
-
   if (isDeepEqual === undefined) lazyLoadComparison();
-
   if (isDeepStrictEqual(actual, expected)) {
     innerFail({
       actual: actual,
@@ -6283,12 +6269,10 @@ function notDeepStrictEqual(actual, expected, message) {
     });
   }
 }
-
 assert.strictEqual = function strictEqual(actual, expected, message) {
   if (arguments.length < 2) {
     throw new ERR_MISSING_ARGS('actual', 'expected');
   }
-
   if (!objectIs(actual, expected)) {
     innerFail({
       actual: actual,
@@ -6299,12 +6283,10 @@ assert.strictEqual = function strictEqual(actual, expected, message) {
     });
   }
 };
-
 assert.notStrictEqual = function notStrictEqual(actual, expected, message) {
   if (arguments.length < 2) {
     throw new ERR_MISSING_ARGS('actual', 'expected');
   }
-
   if (objectIs(actual, expected)) {
     innerFail({
       actual: actual,
@@ -6315,23 +6297,19 @@ assert.notStrictEqual = function notStrictEqual(actual, expected, message) {
     });
   }
 };
-
-var Comparison = function Comparison(obj, keys, actual) {
+var Comparison = /*#__PURE__*/_createClass(function Comparison(obj, keys, actual) {
   var _this = this;
-
   _classCallCheck(this, Comparison);
-
   keys.forEach(function (key) {
     if (key in obj) {
-      if (actual !== undefined && typeof actual[key] === 'string' && isRegExp(obj[key]) && obj[key].test(actual[key])) {
+      if (actual !== undefined && typeof actual[key] === 'string' && isRegExp(obj[key]) && RegExpPrototypeTest(obj[key], actual[key])) {
         _this[key] = actual[key];
       } else {
         _this[key] = obj[key];
       }
     }
   });
-};
-
+});
 function compareExceptionKey(actual, expected, key, message, keys, fn) {
   if (!(key in actual) || !isDeepStrictEqual(actual[key], expected[key])) {
     if (!message) {
@@ -6349,7 +6327,6 @@ function compareExceptionKey(actual, expected, key, message, keys, fn) {
       err.operator = fn.name;
       throw err;
     }
-
     innerFail({
       actual: actual,
       expected: expected,
@@ -6359,16 +6336,15 @@ function compareExceptionKey(actual, expected, key, message, keys, fn) {
     });
   }
 }
-
 function expectedException(actual, expected, msg, fn) {
   if (typeof expected !== 'function') {
-    if (isRegExp(expected)) return expected.test(actual); // assert.doesNotThrow does not accept objects.
-
+    if (isRegExp(expected)) return RegExpPrototypeTest(expected, actual);
+    // assert.doesNotThrow does not accept objects.
     if (arguments.length === 2) {
       throw new ERR_INVALID_ARG_TYPE('expected', ['Function', 'RegExp'], expected);
-    } // Handle primitives properly.
+    }
 
-
+    // Handle primitives properly.
     if (_typeof(actual) !== 'object' || actual === null) {
       var err = new AssertionError({
         actual: actual,
@@ -6380,71 +6356,61 @@ function expectedException(actual, expected, msg, fn) {
       err.operator = fn.name;
       throw err;
     }
-
-    var keys = Object.keys(expected); // Special handle errors to make sure the name and the message are compared
+    var keys = Object.keys(expected);
+    // Special handle errors to make sure the name and the message are compared
     // as well.
-
     if (expected instanceof Error) {
       keys.push('name', 'message');
     } else if (keys.length === 0) {
       throw new ERR_INVALID_ARG_VALUE('error', expected, 'may not be an empty object');
     }
-
     if (isDeepEqual === undefined) lazyLoadComparison();
     keys.forEach(function (key) {
-      if (typeof actual[key] === 'string' && isRegExp(expected[key]) && expected[key].test(actual[key])) {
+      if (typeof actual[key] === 'string' && isRegExp(expected[key]) && RegExpPrototypeTest(expected[key], actual[key])) {
         return;
       }
-
       compareExceptionKey(actual, expected, key, msg, keys, fn);
     });
     return true;
-  } // Guard instanceof against arrow functions as they don't have a prototype.
-
-
+  }
+  // Guard instanceof against arrow functions as they don't have a prototype.
   if (expected.prototype !== undefined && actual instanceof expected) {
     return true;
   }
-
   if (Error.isPrototypeOf(expected)) {
     return false;
   }
-
   return expected.call({}, actual) === true;
 }
-
 function getActual(fn) {
   if (typeof fn !== 'function') {
     throw new ERR_INVALID_ARG_TYPE('fn', 'Function', fn);
   }
-
   try {
     fn();
   } catch (e) {
     return e;
   }
-
   return NO_EXCEPTION_SENTINEL;
 }
-
 function checkIsPromise(obj) {
   // Accept native ES6 promises and promises that are implemented in a similar
   // way. Do not accept thenables that use a function as `obj` and that have no
   // `catch` handler.
+
   // TODO: thenables are checked up until they have the correct methods,
   // but according to documentation, the `then` method should receive
   // the `fulfill` and `reject` arguments as well or it may be never resolved.
+
   return isPromise(obj) || obj !== null && _typeof(obj) === 'object' && typeof obj.then === 'function' && typeof obj.catch === 'function';
 }
-
 function waitForActual(promiseFn) {
   return Promise.resolve().then(function () {
     var resultPromise;
-
     if (typeof promiseFn === 'function') {
       // Return a rejected promise if `promiseFn` throws synchronously.
-      resultPromise = promiseFn(); // Fail in case no promise is returned.
-
+      resultPromise = promiseFn();
+      // Fail in case no promise is returned.
       if (!checkIsPromise(resultPromise)) {
         throw new ERR_INVALID_RETURN_VALUE('instance of Promise', 'promiseFn', resultPromise);
       }
@@ -6453,7 +6419,6 @@ function waitForActual(promiseFn) {
     } else {
       throw new ERR_INVALID_ARG_TYPE('promiseFn', ['Function', 'Promise'], promiseFn);
     }
-
     return Promise.resolve().then(function () {
       return resultPromise;
     }).then(function () {
@@ -6463,13 +6428,11 @@ function waitForActual(promiseFn) {
     });
   });
 }
-
 function expectsError(stackStartFn, actual, error, message) {
   if (typeof error === 'string') {
     if (arguments.length === 4) {
       throw new ERR_INVALID_ARG_TYPE('error', ['Object', 'Error', 'Function', 'RegExp'], error);
     }
-
     if (_typeof(actual) === 'object' && actual !== null) {
       if (actual.message === error) {
         throw new ERR_AMBIGUOUS_ARGUMENT('error/message', "The error message \"".concat(actual.message, "\" is identical to the message."));
@@ -6477,20 +6440,16 @@ function expectsError(stackStartFn, actual, error, message) {
     } else if (actual === error) {
       throw new ERR_AMBIGUOUS_ARGUMENT('error/message', "The error \"".concat(actual, "\" is identical to the message."));
     }
-
     message = error;
     error = undefined;
   } else if (error != null && _typeof(error) !== 'object' && typeof error !== 'function') {
     throw new ERR_INVALID_ARG_TYPE('error', ['Object', 'Error', 'Function', 'RegExp'], error);
   }
-
   if (actual === NO_EXCEPTION_SENTINEL) {
     var details = '';
-
     if (error && error.name) {
       details += " (".concat(error.name, ")");
     }
-
     details += message ? ": ".concat(message) : '.';
     var fnType = stackStartFn.name === 'rejects' ? 'rejection' : 'exception';
     innerFail({
@@ -6501,20 +6460,16 @@ function expectsError(stackStartFn, actual, error, message) {
       stackStartFn: stackStartFn
     });
   }
-
   if (error && !expectedException(actual, error, message, stackStartFn)) {
     throw actual;
   }
 }
-
 function expectsNoError(stackStartFn, actual, error, message) {
   if (actual === NO_EXCEPTION_SENTINEL) return;
-
   if (typeof error === 'string') {
     message = error;
     error = undefined;
   }
-
   if (!error || expectedException(actual, error)) {
     var details = message ? ": ".concat(message) : '.';
     var fnType = stackStartFn.name === 'doesNotReject' ? 'rejection' : 'exception';
@@ -6526,50 +6481,39 @@ function expectsNoError(stackStartFn, actual, error, message) {
       stackStartFn: stackStartFn
     });
   }
-
   throw actual;
 }
-
 assert.throws = function throws(promiseFn) {
   for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
     args[_key2 - 1] = arguments[_key2];
   }
-
   expectsError.apply(void 0, [throws, getActual(promiseFn)].concat(args));
 };
-
 assert.rejects = function rejects(promiseFn) {
   for (var _len3 = arguments.length, args = new Array(_len3 > 1 ? _len3 - 1 : 0), _key3 = 1; _key3 < _len3; _key3++) {
     args[_key3 - 1] = arguments[_key3];
   }
-
   return waitForActual(promiseFn).then(function (result) {
     return expectsError.apply(void 0, [rejects, result].concat(args));
   });
 };
-
 assert.doesNotThrow = function doesNotThrow(fn) {
   for (var _len4 = arguments.length, args = new Array(_len4 > 1 ? _len4 - 1 : 0), _key4 = 1; _key4 < _len4; _key4++) {
     args[_key4 - 1] = arguments[_key4];
   }
-
   expectsNoError.apply(void 0, [doesNotThrow, getActual(fn)].concat(args));
 };
-
 assert.doesNotReject = function doesNotReject(fn) {
   for (var _len5 = arguments.length, args = new Array(_len5 > 1 ? _len5 - 1 : 0), _key5 = 1; _key5 < _len5; _key5++) {
     args[_key5 - 1] = arguments[_key5];
   }
-
   return waitForActual(fn).then(function (result) {
     return expectsNoError.apply(void 0, [doesNotReject, result].concat(args));
   });
 };
-
 assert.ifError = function ifError(err) {
   if (err !== null && err !== undefined) {
     var message = 'ifError got unwanted exception: ';
-
     if (_typeof(err) === 'object' && typeof err.message === 'string') {
       if (err.message.length === 0 && err.constructor) {
         message += err.constructor.name;
@@ -6579,53 +6523,79 @@ assert.ifError = function ifError(err) {
     } else {
       message += inspect(err);
     }
-
     var newErr = new AssertionError({
       actual: err,
       expected: null,
       operator: 'ifError',
       message: message,
       stackStartFn: ifError
-    }); // Make sure we actually have a stack trace!
+    });
 
+    // Make sure we actually have a stack trace!
     var origStack = err.stack;
-
     if (typeof origStack === 'string') {
       // This will remove any duplicated frames from the error frames taken
       // from within `ifError` and add the original error frames to the newly
       // created ones.
       var tmp2 = origStack.split('\n');
-      tmp2.shift(); // Filter all frames existing in err.stack.
-
+      tmp2.shift();
+      // Filter all frames existing in err.stack.
       var tmp1 = newErr.stack.split('\n');
-
       for (var i = 0; i < tmp2.length; i++) {
         // Find the first occurrence of the frame.
         var pos = tmp1.indexOf(tmp2[i]);
-
         if (pos !== -1) {
           // Only keep new frames.
           tmp1 = tmp1.slice(0, pos);
           break;
         }
       }
-
       newErr.stack = "".concat(tmp1.join('\n'), "\n").concat(tmp2.join('\n'));
     }
-
     throw newErr;
   }
-}; // Expose a strict only variant of assert
+};
 
+// Currently in sync with Node.js lib/assert.js
+// https://github.com/nodejs/node/commit/2a871df3dfb8ea663ef5e1f8f62701ec51384ecb
+function internalMatch(string, regexp, message, fn, fnName) {
+  if (!isRegExp(regexp)) {
+    throw new ERR_INVALID_ARG_TYPE('regexp', 'RegExp', regexp);
+  }
+  var match = fnName === 'match';
+  if (typeof string !== 'string' || RegExpPrototypeTest(regexp, string) !== match) {
+    if (message instanceof Error) {
+      throw message;
+    }
+    var generatedMessage = !message;
 
+    // 'The input was expected to not match the regular expression ' +
+    message = message || (typeof string !== 'string' ? 'The "string" argument must be of type string. Received type ' + "".concat(_typeof(string), " (").concat(inspect(string), ")") : (match ? 'The input did not match the regular expression ' : 'The input was expected to not match the regular expression ') + "".concat(inspect(regexp), ". Input:\n\n").concat(inspect(string), "\n"));
+    var err = new AssertionError({
+      actual: string,
+      expected: regexp,
+      message: message,
+      operator: fnName,
+      stackStartFn: fn
+    });
+    err.generatedMessage = generatedMessage;
+    throw err;
+  }
+}
+assert.match = function match(string, regexp, message) {
+  internalMatch(string, regexp, message, match, 'match');
+};
+assert.doesNotMatch = function doesNotMatch(string, regexp, message) {
+  internalMatch(string, regexp, message, doesNotMatch, 'doesNotMatch');
+};
+
+// Expose a strict only variant of assert
 function strict() {
   for (var _len6 = arguments.length, args = new Array(_len6), _key6 = 0; _key6 < _len6; _key6++) {
     args[_key6] = arguments[_key6];
   }
-
   innerOk.apply(void 0, [strict, args.length].concat(args));
 }
-
 assert.strict = objectAssign(strict, assert, {
   equal: assert.strictEqual,
   deepEqual: assert.deepStrictEqual,
@@ -6645,67 +6615,52 @@ assert.strict.strict = assert.strict;
 // https://github.com/nodejs/node/commit/0817840f775032169ddd70c85ac059f18ffcc81c
 
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
 function _wrapNativeSuper(Class) { var _cache = typeof Map === "function" ? new Map() : undefined; _wrapNativeSuper = function _wrapNativeSuper(Class) { if (Class === null || !_isNativeFunction(Class)) return Class; if (typeof Class !== "function") { throw new TypeError("Super expression must either be null or a function"); } if (typeof _cache !== "undefined") { if (_cache.has(Class)) return _cache.get(Class); _cache.set(Class, Wrapper); } function Wrapper() { return _construct(Class, arguments, _getPrototypeOf(this).constructor); } Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } }); return _setPrototypeOf(Wrapper, Class); }; return _wrapNativeSuper(Class); }
-
-function isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-function _construct(Parent, args, Class) { if (isNativeReflectConstruct()) { _construct = Reflect.construct; } else { _construct = function _construct(Parent, args, Class) { var a = [null]; a.push.apply(a, args); var Constructor = Function.bind.apply(Parent, a); var instance = new Constructor(); if (Class) _setPrototypeOf(instance, Class.prototype); return instance; }; } return _construct.apply(null, arguments); }
-
+function _construct(Parent, args, Class) { if (_isNativeReflectConstruct()) { _construct = Reflect.construct.bind(); } else { _construct = function _construct(Parent, args, Class) { var a = [null]; a.push.apply(a, args); var Constructor = Function.bind.apply(Parent, a); var instance = new Constructor(); if (Class) _setPrototypeOf(instance, Class.prototype); return instance; }; } return _construct.apply(null, arguments); }
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _isNativeFunction(fn) { return Function.toString.call(fn).indexOf("[native code]") !== -1; }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 var _require = __webpack_require__(9539),
-    inspect = _require.inspect;
-
+  inspect = _require.inspect;
 var _require2 = __webpack_require__(2136),
-    ERR_INVALID_ARG_TYPE = _require2.codes.ERR_INVALID_ARG_TYPE; // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
+  ERR_INVALID_ARG_TYPE = _require2.codes.ERR_INVALID_ARG_TYPE;
 
-
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
 function endsWith(str, search, this_len) {
   if (this_len === undefined || this_len > str.length) {
     this_len = str.length;
   }
-
   return str.substring(this_len - search.length, this_len) === search;
-} // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
+}
 
-
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 function repeat(str, count) {
   count = Math.floor(count);
   if (str.length == 0 || count == 0) return '';
   var maxCount = str.length * count;
   count = Math.floor(Math.log(count) / Math.log(2));
-
   while (count) {
     str += str;
     count--;
   }
-
   str += str.substring(0, maxCount - str.length);
   return str;
 }
-
 var blue = '';
 var green = '';
 var red = '';
@@ -6722,11 +6677,11 @@ var kReadableOperator = {
   notDeepEqual: 'Expected "actual" not to be loosely deep-equal to:',
   notEqual: 'Expected "actual" to be loosely unequal to:',
   notIdentical: 'Values identical but not reference-equal:'
-}; // Comparing short primitives should just show === / !== instead of using the
+};
+
+// Comparing short primitives should just show === / !== instead of using the
 // diff.
-
 var kMaxShortLength = 10;
-
 function copyError(source) {
   var keys = Object.keys(source);
   var target = Object.create(Object.getPrototypeOf(source));
@@ -6738,7 +6693,6 @@ function copyError(source) {
   });
   return target;
 }
-
 function inspectValue(val) {
   // The util.inspect default values could be changed. This makes sure the
   // error messages contain the necessary information nevertheless.
@@ -6762,7 +6716,6 @@ function inspectValue(val) {
     getters: true
   });
 }
-
 function createErrDiff(actual, expected, operator) {
   var other = '';
   var res = '';
@@ -6773,20 +6726,21 @@ function createErrDiff(actual, expected, operator) {
   var actualLines = actualInspected.split('\n');
   var expectedLines = inspectValue(expected).split('\n');
   var i = 0;
-  var indicator = ''; // In case both values are objects explicitly mark them as not reference equal
-  // for the `strictEqual` operator.
+  var indicator = '';
 
+  // In case both values are objects explicitly mark them as not reference equal
+  // for the `strictEqual` operator.
   if (operator === 'strictEqual' && _typeof(actual) === 'object' && _typeof(expected) === 'object' && actual !== null && expected !== null) {
     operator = 'strictEqualObject';
-  } // If "actual" and "expected" fit on a single line and they are not strictly
+  }
+
+  // If "actual" and "expected" fit on a single line and they are not strictly
   // equal, check further special handling.
-
-
   if (actualLines.length === 1 && expectedLines.length === 1 && actualLines[0] !== expectedLines[0]) {
-    var inputLength = actualLines[0].length + expectedLines[0].length; // If the character length of "actual" and "expected" together is less than
+    var inputLength = actualLines[0].length + expectedLines[0].length;
+    // If the character length of "actual" and "expected" together is less than
     // kMaxShortLength and if neither is an object and at least one of them is
     // not `zero`, use the strict equal comparison to visualize the output.
-
     if (inputLength <= kMaxShortLength) {
       if ((_typeof(actual) !== 'object' || actual === null) && (_typeof(expected) !== 'object' || expected === null) && (actual !== 0 || expected !== 0)) {
         // -0 === +0
@@ -6797,13 +6751,11 @@ function createErrDiff(actual, expected, operator) {
       // columns per line, add a mismatch indicator below the output. If it is
       // not a tty, use a default value of 80 characters.
       var maxLength = process.stderr && process.stderr.isTTY ? process.stderr.columns : 80;
-
       if (inputLength < maxLength) {
         while (actualLines[0][i] === expectedLines[0][i]) {
           i++;
-        } // Ignore the first characters.
-
-
+        }
+        // Ignore the first characters.
         if (i > 2) {
           // Add position indicator for the first mismatch in case it is a
           // single line and the input length is less than the column length.
@@ -6812,65 +6764,55 @@ function createErrDiff(actual, expected, operator) {
         }
       }
     }
-  } // Remove all ending lines that match (this optimizes the output for
+  }
+
+  // Remove all ending lines that match (this optimizes the output for
   // readability by reducing the number of total changed lines).
-
-
   var a = actualLines[actualLines.length - 1];
   var b = expectedLines[expectedLines.length - 1];
-
   while (a === b) {
     if (i++ < 2) {
       end = "\n  ".concat(a).concat(end);
     } else {
       other = a;
     }
-
     actualLines.pop();
     expectedLines.pop();
     if (actualLines.length === 0 || expectedLines.length === 0) break;
     a = actualLines[actualLines.length - 1];
     b = expectedLines[expectedLines.length - 1];
   }
-
-  var maxLines = Math.max(actualLines.length, expectedLines.length); // Strict equal with identical objects that are not identical by reference.
+  var maxLines = Math.max(actualLines.length, expectedLines.length);
+  // Strict equal with identical objects that are not identical by reference.
   // E.g., assert.deepStrictEqual({ a: Symbol() }, { a: Symbol() })
-
   if (maxLines === 0) {
     // We have to get the result again. The lines were all removed before.
-    var _actualLines = actualInspected.split('\n'); // Only remove lines in case it makes sense to collapse those.
+    var _actualLines = actualInspected.split('\n');
+
+    // Only remove lines in case it makes sense to collapse those.
     // TODO: Accept env to always show the full error.
-
-
     if (_actualLines.length > 30) {
       _actualLines[26] = "".concat(blue, "...").concat(white);
-
       while (_actualLines.length > 27) {
         _actualLines.pop();
       }
     }
-
     return "".concat(kReadableOperator.notIdentical, "\n\n").concat(_actualLines.join('\n'), "\n");
   }
-
   if (i > 3) {
     end = "\n".concat(blue, "...").concat(white).concat(end);
     skipped = true;
   }
-
   if (other !== '') {
     end = "\n  ".concat(other).concat(end);
     other = '';
   }
-
   var printedLines = 0;
   var msg = kReadableOperator[operator] + "\n".concat(green, "+ actual").concat(white, " ").concat(red, "- expected").concat(white);
   var skippedMsg = " ".concat(blue, "...").concat(white, " Lines skipped");
-
   for (i = 0; i < maxLines; i++) {
     // Only extra expected lines exist
     var cur = i - lastPos;
-
     if (actualLines.length < i + 1) {
       // If the last diverging line is more than one line above and the
       // current line is at least line three, add some of the former lines and
@@ -6883,16 +6825,15 @@ function createErrDiff(actual, expected, operator) {
           res += "\n  ".concat(expectedLines[i - 2]);
           printedLines++;
         }
-
         res += "\n  ".concat(expectedLines[i - 1]);
         printedLines++;
-      } // Mark the current line as the last diverging one.
-
-
-      lastPos = i; // Add the expected line to the cache.
-
+      }
+      // Mark the current line as the last diverging one.
+      lastPos = i;
+      // Add the expected line to the cache.
       other += "\n".concat(red, "-").concat(white, " ").concat(expectedLines[i]);
-      printedLines++; // Only extra actual lines exist
+      printedLines++;
+      // Only extra actual lines exist
     } else if (expectedLines.length < i + 1) {
       // If the last diverging line is more than one line above and the
       // current line is at least line three, add some of the former lines and
@@ -6905,23 +6846,23 @@ function createErrDiff(actual, expected, operator) {
           res += "\n  ".concat(actualLines[i - 2]);
           printedLines++;
         }
-
         res += "\n  ".concat(actualLines[i - 1]);
         printedLines++;
-      } // Mark the current line as the last diverging one.
-
-
-      lastPos = i; // Add the actual line to the result.
-
+      }
+      // Mark the current line as the last diverging one.
+      lastPos = i;
+      // Add the actual line to the result.
       res += "\n".concat(green, "+").concat(white, " ").concat(actualLines[i]);
-      printedLines++; // Lines diverge
+      printedLines++;
+      // Lines diverge
     } else {
       var expectedLine = expectedLines[i];
-      var actualLine = actualLines[i]; // If the lines diverge, specifically check for lines that only diverge by
+      var actualLine = actualLines[i];
+      // If the lines diverge, specifically check for lines that only diverge by
       // a trailing comma. In that case it is actually identical and we should
       // mark it as such.
-
-      var divergingLines = actualLine !== expectedLine && (!endsWith(actualLine, ',') || actualLine.slice(0, -1) !== expectedLine); // If the expected line has a trailing comma but is otherwise identical,
+      var divergingLines = actualLine !== expectedLine && (!endsWith(actualLine, ',') || actualLine.slice(0, -1) !== expectedLine);
+      // If the expected line has a trailing comma but is otherwise identical,
       // add a comma at the end of the actual line. Otherwise the output could
       // look weird as in:
       //
@@ -6930,12 +6871,10 @@ function createErrDiff(actual, expected, operator) {
       // +   2
       //   ]
       //
-
       if (divergingLines && endsWith(expectedLine, ',') && expectedLine.slice(0, -1) === actualLine) {
         divergingLines = false;
         actualLine += ',';
       }
-
       if (divergingLines) {
         // If the last diverging line is more than one line above and the
         // current line is at least line three, add some of the former lines and
@@ -6948,65 +6887,55 @@ function createErrDiff(actual, expected, operator) {
             res += "\n  ".concat(actualLines[i - 2]);
             printedLines++;
           }
-
           res += "\n  ".concat(actualLines[i - 1]);
           printedLines++;
-        } // Mark the current line as the last diverging one.
-
-
-        lastPos = i; // Add the actual line to the result and cache the expected diverging
+        }
+        // Mark the current line as the last diverging one.
+        lastPos = i;
+        // Add the actual line to the result and cache the expected diverging
         // line so consecutive diverging lines show up as +++--- and not +-+-+-.
-
         res += "\n".concat(green, "+").concat(white, " ").concat(actualLine);
         other += "\n".concat(red, "-").concat(white, " ").concat(expectedLine);
-        printedLines += 2; // Lines are identical
+        printedLines += 2;
+        // Lines are identical
       } else {
         // Add all cached information to the result before adding other things
         // and reset the cache.
         res += other;
-        other = ''; // If the last diverging line is exactly one line above or if it is the
+        other = '';
+        // If the last diverging line is exactly one line above or if it is the
         // very first line, add the line to the result.
-
         if (cur === 1 || i === 0) {
           res += "\n  ".concat(actualLine);
           printedLines++;
         }
       }
-    } // Inspected object to big (Show ~20 rows max)
-
-
+    }
+    // Inspected object to big (Show ~20 rows max)
     if (printedLines > 20 && i < maxLines - 2) {
       return "".concat(msg).concat(skippedMsg, "\n").concat(res, "\n").concat(blue, "...").concat(white).concat(other, "\n") + "".concat(blue, "...").concat(white);
     }
   }
-
   return "".concat(msg).concat(skipped ? skippedMsg : '', "\n").concat(res).concat(other).concat(end).concat(indicator);
 }
-
-var AssertionError =
-/*#__PURE__*/
-function (_Error) {
+var AssertionError = /*#__PURE__*/function (_Error, _inspect$custom) {
   _inherits(AssertionError, _Error);
-
+  var _super = _createSuper(AssertionError);
   function AssertionError(options) {
     var _this;
-
     _classCallCheck(this, AssertionError);
-
     if (_typeof(options) !== 'object' || options === null) {
       throw new ERR_INVALID_ARG_TYPE('options', 'Object', options);
     }
-
     var message = options.message,
-        operator = options.operator,
-        stackStartFn = options.stackStartFn;
+      operator = options.operator,
+      stackStartFn = options.stackStartFn;
     var actual = options.actual,
-        expected = options.expected;
+      expected = options.expected;
     var limit = Error.stackTraceLimit;
     Error.stackTraceLimit = 0;
-
     if (message != null) {
-      _this = _possibleConstructorReturn(this, _getPrototypeOf(AssertionError).call(this, String(message)));
+      _this = _super.call(this, String(message));
     } else {
       if (process.stderr && process.stderr.isTTY) {
         // Reset on each call to make sure we handle dynamically set environment
@@ -7022,78 +6951,68 @@ function (_Error) {
           white = '';
           red = '';
         }
-      } // Prevent the error stack from being visible by duplicating the error
+      }
+      // Prevent the error stack from being visible by duplicating the error
       // in a very close way to the original in case both sides are actually
       // instances of Error.
-
-
       if (_typeof(actual) === 'object' && actual !== null && _typeof(expected) === 'object' && expected !== null && 'stack' in actual && actual instanceof Error && 'stack' in expected && expected instanceof Error) {
         actual = copyError(actual);
         expected = copyError(expected);
       }
-
       if (operator === 'deepStrictEqual' || operator === 'strictEqual') {
-        _this = _possibleConstructorReturn(this, _getPrototypeOf(AssertionError).call(this, createErrDiff(actual, expected, operator)));
+        _this = _super.call(this, createErrDiff(actual, expected, operator));
       } else if (operator === 'notDeepStrictEqual' || operator === 'notStrictEqual') {
         // In case the objects are equal but the operator requires unequal, show
         // the first object and say A equals B
         var base = kReadableOperator[operator];
-        var res = inspectValue(actual).split('\n'); // In case "actual" is an object, it should not be reference equal.
+        var res = inspectValue(actual).split('\n');
 
+        // In case "actual" is an object, it should not be reference equal.
         if (operator === 'notStrictEqual' && _typeof(actual) === 'object' && actual !== null) {
           base = kReadableOperator.notStrictEqualObject;
-        } // Only remove lines in case it makes sense to collapse those.
+        }
+
+        // Only remove lines in case it makes sense to collapse those.
         // TODO: Accept env to always show the full error.
-
-
         if (res.length > 30) {
           res[26] = "".concat(blue, "...").concat(white);
-
           while (res.length > 27) {
             res.pop();
           }
-        } // Only print a single input.
+        }
 
-
+        // Only print a single input.
         if (res.length === 1) {
-          _this = _possibleConstructorReturn(this, _getPrototypeOf(AssertionError).call(this, "".concat(base, " ").concat(res[0])));
+          _this = _super.call(this, "".concat(base, " ").concat(res[0]));
         } else {
-          _this = _possibleConstructorReturn(this, _getPrototypeOf(AssertionError).call(this, "".concat(base, "\n\n").concat(res.join('\n'), "\n")));
+          _this = _super.call(this, "".concat(base, "\n\n").concat(res.join('\n'), "\n"));
         }
       } else {
         var _res = inspectValue(actual);
-
         var other = '';
         var knownOperators = kReadableOperator[operator];
-
         if (operator === 'notDeepEqual' || operator === 'notEqual') {
           _res = "".concat(kReadableOperator[operator], "\n\n").concat(_res);
-
           if (_res.length > 1024) {
             _res = "".concat(_res.slice(0, 1021), "...");
           }
         } else {
           other = "".concat(inspectValue(expected));
-
           if (_res.length > 512) {
             _res = "".concat(_res.slice(0, 509), "...");
           }
-
           if (other.length > 512) {
             other = "".concat(other.slice(0, 509), "...");
           }
-
           if (operator === 'deepEqual' || operator === 'equal') {
             _res = "".concat(knownOperators, "\n\n").concat(_res, "\n\nshould equal\n\n");
           } else {
             other = " ".concat(operator, " ").concat(other);
           }
         }
-
-        _this = _possibleConstructorReturn(this, _getPrototypeOf(AssertionError).call(this, "".concat(_res).concat(other)));
+        _this = _super.call(this, "".concat(_res).concat(other));
       }
     }
-
     Error.stackTraceLimit = limit;
     _this.generatedMessage = !message;
     Object.defineProperty(_assertThisInitialized(_this), 'name', {
@@ -7106,41 +7025,36 @@ function (_Error) {
     _this.actual = actual;
     _this.expected = expected;
     _this.operator = operator;
-
     if (Error.captureStackTrace) {
       // eslint-disable-next-line no-restricted-syntax
       Error.captureStackTrace(_assertThisInitialized(_this), stackStartFn);
-    } // Create error message including the error code in the name.
-
-
-    _this.stack; // Reset the name.
-
+    }
+    // Create error message including the error code in the name.
+    _this.stack;
+    // Reset the name.
     _this.name = 'AssertionError';
     return _possibleConstructorReturn(_this);
   }
-
   _createClass(AssertionError, [{
     key: "toString",
     value: function toString() {
       return "".concat(this.name, " [").concat(this.code, "]: ").concat(this.message);
     }
   }, {
-    key: inspect.custom,
+    key: _inspect$custom,
     value: function value(recurseTimes, ctx) {
       // This limits the `actual` and `expected` property default inspection to
       // the minimum depth. Otherwise those values would be too verbose compared
       // to the actual error message which contains a combined view of these two
       // input values.
-      return inspect(this, _objectSpread({}, ctx, {
+      return inspect(this, _objectSpread(_objectSpread({}, ctx), {}, {
         customInspect: false,
         depth: 0
       }));
     }
   }]);
-
   return AssertionError;
-}(_wrapNativeSuper(Error));
-
+}( /*#__PURE__*/_wrapNativeSuper(Error), inspect.custom);
 module.exports = AssertionError;
 
 /***/ }),
@@ -7153,40 +7067,38 @@ module.exports = AssertionError;
 // https://github.com/nodejs/node/commit/3b044962c48fe313905877a96b5d0894a5404f6f
 
 /* eslint node-core/documented-errors: "error" */
-
 /* eslint node-core/alphabetize-errors: "error" */
-
 /* eslint node-core/prefer-util-format-errors: "error" */
- // The whole point behind this internal module is to allow Node.js to no
+
+
+
+// The whole point behind this internal module is to allow Node.js to no
 // longer be forced to treat every error message change as a semver-major
 // change. The NodeError classes here all expose a `code` property whose
 // value statically and permanently identifies the error. While the error
 // message may change, the code should not.
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+var codes = {};
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-var codes = {}; // Lazy loaded
-
+// Lazy loaded
 var assert;
 var util;
-
 function createErrorType(code, message, Base) {
   if (!Base) {
     Base = Error;
   }
-
   function getMessage(arg1, arg2, arg3) {
     if (typeof message === 'string') {
       return message;
@@ -7194,36 +7106,28 @@ function createErrorType(code, message, Base) {
       return message(arg1, arg2, arg3);
     }
   }
-
-  var NodeError =
-  /*#__PURE__*/
-  function (_Base) {
+  var NodeError = /*#__PURE__*/function (_Base) {
     _inherits(NodeError, _Base);
-
+    var _super = _createSuper(NodeError);
     function NodeError(arg1, arg2, arg3) {
       var _this;
-
       _classCallCheck(this, NodeError);
-
-      _this = _possibleConstructorReturn(this, _getPrototypeOf(NodeError).call(this, getMessage(arg1, arg2, arg3)));
+      _this = _super.call(this, getMessage(arg1, arg2, arg3));
       _this.code = code;
       return _this;
     }
-
-    return NodeError;
+    return _createClass(NodeError);
   }(Base);
-
   codes[code] = NodeError;
-} // https://github.com/nodejs/node/blob/v10.8.0/lib/internal/errors.js
+}
 
-
+// https://github.com/nodejs/node/blob/v10.8.0/lib/internal/errors.js
 function oneOf(expected, thing) {
   if (Array.isArray(expected)) {
     var len = expected.length;
     expected = expected.map(function (i) {
       return String(i);
     });
-
     if (len > 2) {
       return "one of ".concat(thing, " ").concat(expected.slice(0, len - 1).join(', '), ", or ") + expected[len - 1];
     } else if (len === 2) {
@@ -7234,60 +7138,55 @@ function oneOf(expected, thing) {
   } else {
     return "of ".concat(thing, " ").concat(String(expected));
   }
-} // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
+}
 
-
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
 function startsWith(str, search, pos) {
   return str.substr(!pos || pos < 0 ? 0 : +pos, search.length) === search;
-} // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
+}
 
-
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
 function endsWith(str, search, this_len) {
   if (this_len === undefined || this_len > str.length) {
     this_len = str.length;
   }
-
   return str.substring(this_len - search.length, this_len) === search;
-} // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
+}
 
-
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
 function includes(str, search, start) {
   if (typeof start !== 'number') {
     start = 0;
   }
-
   if (start + search.length > str.length) {
     return false;
   } else {
     return str.indexOf(search, start) !== -1;
   }
 }
-
 createErrorType('ERR_AMBIGUOUS_ARGUMENT', 'The "%s" argument is ambiguous. %s', TypeError);
 createErrorType('ERR_INVALID_ARG_TYPE', function (name, expected, actual) {
   if (assert === undefined) assert = __webpack_require__(9282);
-  assert(typeof name === 'string', "'name' must be a string"); // determiner: 'must be' or 'must not be'
+  assert(typeof name === 'string', "'name' must be a string");
 
+  // determiner: 'must be' or 'must not be'
   var determiner;
-
   if (typeof expected === 'string' && startsWith(expected, 'not ')) {
     determiner = 'must not be';
     expected = expected.replace(/^not /, '');
   } else {
     determiner = 'must be';
   }
-
   var msg;
-
   if (endsWith(name, ' argument')) {
     // For cases like 'first argument'
     msg = "The ".concat(name, " ").concat(determiner, " ").concat(oneOf(expected, 'type'));
   } else {
     var type = includes(name, '.') ? 'property' : 'argument';
     msg = "The \"".concat(name, "\" ").concat(type, " ").concat(determiner, " ").concat(oneOf(expected, 'type'));
-  } // TODO(BridgeAR): Improve the output by showing `null` and similar.
+  }
 
-
+  // TODO(BridgeAR): Improve the output by showing `null` and similar.
   msg += ". Received type ".concat(_typeof(actual));
   return msg;
 }, TypeError);
@@ -7295,29 +7194,24 @@ createErrorType('ERR_INVALID_ARG_VALUE', function (name, value) {
   var reason = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'is invalid';
   if (util === undefined) util = __webpack_require__(9539);
   var inspected = util.inspect(value);
-
   if (inspected.length > 128) {
     inspected = "".concat(inspected.slice(0, 128), "...");
   }
-
   return "The argument '".concat(name, "' ").concat(reason, ". Received ").concat(inspected);
 }, TypeError, RangeError);
 createErrorType('ERR_INVALID_RETURN_VALUE', function (input, name, value) {
   var type;
-
   if (value && value.constructor && value.constructor.name) {
     type = "instance of ".concat(value.constructor.name);
   } else {
     type = "type ".concat(_typeof(value));
   }
-
   return "Expected ".concat(input, " to be returned from the \"").concat(name, "\"") + " function but got ".concat(type, ".");
 }, TypeError);
 createErrorType('ERR_MISSING_ARGS', function () {
   for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
     args[_key] = arguments[_key];
   }
-
   if (assert === undefined) assert = __webpack_require__(9282);
   assert(args.length > 0, 'At least one arg needs to be specified');
   var msg = 'The ';
@@ -7325,22 +7219,18 @@ createErrorType('ERR_MISSING_ARGS', function () {
   args = args.map(function (a) {
     return "\"".concat(a, "\"");
   });
-
   switch (len) {
     case 1:
       msg += "".concat(args[0], " argument");
       break;
-
     case 2:
       msg += "".concat(args[0], " and ").concat(args[1], " arguments");
       break;
-
     default:
       msg += args.slice(0, len - 1).join(', ');
       msg += ", and ".concat(args[len - 1], " arguments");
       break;
   }
-
   return "".concat(msg, " must be specified");
 }, TypeError);
 module.exports.codes = codes;
@@ -7355,18 +7245,15 @@ module.exports.codes = codes;
 // https://github.com/nodejs/node/commit/112cc7c27551254aa2b17098fb774867f05ed0d9
 
 
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 var regexFlagsSupported = /a/g.flags !== undefined;
-
 var arrayFromSet = function arrayFromSet(set) {
   var array = [];
   set.forEach(function (value) {
@@ -7374,7 +7261,6 @@ var arrayFromSet = function arrayFromSet(set) {
   });
   return array;
 };
-
 var arrayFromMap = function arrayFromMap(map) {
   var array = [];
   map.forEach(function (value, key) {
@@ -7382,71 +7268,60 @@ var arrayFromMap = function arrayFromMap(map) {
   });
   return array;
 };
-
 var objectIs = Object.is ? Object.is : __webpack_require__(609);
 var objectGetOwnPropertySymbols = Object.getOwnPropertySymbols ? Object.getOwnPropertySymbols : function () {
   return [];
 };
 var numberIsNaN = Number.isNaN ? Number.isNaN : __webpack_require__(360);
-
 function uncurryThis(f) {
   return f.call.bind(f);
 }
-
 var hasOwnProperty = uncurryThis(Object.prototype.hasOwnProperty);
 var propertyIsEnumerable = uncurryThis(Object.prototype.propertyIsEnumerable);
 var objectToString = uncurryThis(Object.prototype.toString);
-
 var _require$types = (__webpack_require__(9539).types),
-    isAnyArrayBuffer = _require$types.isAnyArrayBuffer,
-    isArrayBufferView = _require$types.isArrayBufferView,
-    isDate = _require$types.isDate,
-    isMap = _require$types.isMap,
-    isRegExp = _require$types.isRegExp,
-    isSet = _require$types.isSet,
-    isNativeError = _require$types.isNativeError,
-    isBoxedPrimitive = _require$types.isBoxedPrimitive,
-    isNumberObject = _require$types.isNumberObject,
-    isStringObject = _require$types.isStringObject,
-    isBooleanObject = _require$types.isBooleanObject,
-    isBigIntObject = _require$types.isBigIntObject,
-    isSymbolObject = _require$types.isSymbolObject,
-    isFloat32Array = _require$types.isFloat32Array,
-    isFloat64Array = _require$types.isFloat64Array;
-
+  isAnyArrayBuffer = _require$types.isAnyArrayBuffer,
+  isArrayBufferView = _require$types.isArrayBufferView,
+  isDate = _require$types.isDate,
+  isMap = _require$types.isMap,
+  isRegExp = _require$types.isRegExp,
+  isSet = _require$types.isSet,
+  isNativeError = _require$types.isNativeError,
+  isBoxedPrimitive = _require$types.isBoxedPrimitive,
+  isNumberObject = _require$types.isNumberObject,
+  isStringObject = _require$types.isStringObject,
+  isBooleanObject = _require$types.isBooleanObject,
+  isBigIntObject = _require$types.isBigIntObject,
+  isSymbolObject = _require$types.isSymbolObject,
+  isFloat32Array = _require$types.isFloat32Array,
+  isFloat64Array = _require$types.isFloat64Array;
 function isNonIndex(key) {
   if (key.length === 0 || key.length > 10) return true;
-
   for (var i = 0; i < key.length; i++) {
     var code = key.charCodeAt(i);
     if (code < 48 || code > 57) return true;
-  } // The maximum size for an array is 2 ** 32 -1.
-
-
+  }
+  // The maximum size for an array is 2 ** 32 -1.
   return key.length === 10 && key >= Math.pow(2, 32);
 }
-
 function getOwnNonIndexProperties(value) {
   return Object.keys(value).filter(isNonIndex).concat(objectGetOwnPropertySymbols(value).filter(Object.prototype.propertyIsEnumerable.bind(value)));
-} // Taken from https://github.com/feross/buffer/blob/680e9e5e488f22aac27599a57dc844a6315928dd/index.js
-// original notice:
+}
 
+// Taken from https://github.com/feross/buffer/blob/680e9e5e488f22aac27599a57dc844a6315928dd/index.js
+// original notice:
 /*!
  * The buffer module from node.js, for the browser.
  *
  * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
  * @license  MIT
  */
-
-
 function compare(a, b) {
   if (a === b) {
     return 0;
   }
-
   var x = a.length;
   var y = b.length;
-
   for (var i = 0, len = Math.min(x, y); i < len; ++i) {
     if (a[i] !== b[i]) {
       x = a[i];
@@ -7454,75 +7329,63 @@ function compare(a, b) {
       break;
     }
   }
-
   if (x < y) {
     return -1;
   }
-
   if (y < x) {
     return 1;
   }
-
   return 0;
 }
-
 var ONLY_ENUMERABLE = undefined;
 var kStrict = true;
 var kLoose = false;
 var kNoIterator = 0;
 var kIsArray = 1;
 var kIsSet = 2;
-var kIsMap = 3; // Check if they have the same source and flags
+var kIsMap = 3;
 
+// Check if they have the same source and flags
 function areSimilarRegExps(a, b) {
   return regexFlagsSupported ? a.source === b.source && a.flags === b.flags : RegExp.prototype.toString.call(a) === RegExp.prototype.toString.call(b);
 }
-
 function areSimilarFloatArrays(a, b) {
   if (a.byteLength !== b.byteLength) {
     return false;
   }
-
   for (var offset = 0; offset < a.byteLength; offset++) {
     if (a[offset] !== b[offset]) {
       return false;
     }
   }
-
   return true;
 }
-
 function areSimilarTypedArrays(a, b) {
   if (a.byteLength !== b.byteLength) {
     return false;
   }
-
   return compare(new Uint8Array(a.buffer, a.byteOffset, a.byteLength), new Uint8Array(b.buffer, b.byteOffset, b.byteLength)) === 0;
 }
-
 function areEqualArrayBuffers(buf1, buf2) {
   return buf1.byteLength === buf2.byteLength && compare(new Uint8Array(buf1), new Uint8Array(buf2)) === 0;
 }
-
 function isEqualBoxedPrimitive(val1, val2) {
   if (isNumberObject(val1)) {
     return isNumberObject(val2) && objectIs(Number.prototype.valueOf.call(val1), Number.prototype.valueOf.call(val2));
   }
-
   if (isStringObject(val1)) {
     return isStringObject(val2) && String.prototype.valueOf.call(val1) === String.prototype.valueOf.call(val2);
   }
-
   if (isBooleanObject(val1)) {
     return isBooleanObject(val2) && Boolean.prototype.valueOf.call(val1) === Boolean.prototype.valueOf.call(val2);
   }
-
   if (isBigIntObject(val1)) {
     return isBigIntObject(val2) && BigInt.prototype.valueOf.call(val1) === BigInt.prototype.valueOf.call(val2);
   }
-
   return isSymbolObject(val2) && Symbol.prototype.valueOf.call(val1) === Symbol.prototype.valueOf.call(val2);
-} // Notes: Type tags are historical [[Class]] properties that can be set by
+}
+
+// Notes: Type tags are historical [[Class]] properties that can be set by
 // FunctionTemplate::SetClassName() in C++ or Symbol.toStringTag in JS
 // and retrieved using Object.prototype.toString.call(obj) in JS
 // See https://tc39.github.io/ecma262/#sec-object.prototype.tostring
@@ -7541,24 +7404,21 @@ function isEqualBoxedPrimitive(val1, val2) {
 // a) The same built-in type tags
 // b) The same prototypes.
 
-
 function innerDeepEqual(val1, val2, strict, memos) {
   // All identical values are equivalent, as determined by ===.
   if (val1 === val2) {
     if (val1 !== 0) return true;
     return strict ? objectIs(val1, val2) : true;
-  } // Check more closely if val1 and val2 are equal.
+  }
 
-
+  // Check more closely if val1 and val2 are equal.
   if (strict) {
     if (_typeof(val1) !== 'object') {
       return typeof val1 === 'number' && numberIsNaN(val1) && numberIsNaN(val2);
     }
-
     if (_typeof(val2) !== 'object' || val1 === null || val2 === null) {
       return false;
     }
-
     if (Object.getPrototypeOf(val1) !== Object.getPrototypeOf(val2)) {
       return false;
     }
@@ -7568,48 +7428,38 @@ function innerDeepEqual(val1, val2, strict, memos) {
         // eslint-disable-next-line eqeqeq
         return val1 == val2;
       }
-
       return false;
     }
-
     if (val2 === null || _typeof(val2) !== 'object') {
       return false;
     }
   }
-
   var val1Tag = objectToString(val1);
   var val2Tag = objectToString(val2);
-
   if (val1Tag !== val2Tag) {
     return false;
   }
-
   if (Array.isArray(val1)) {
     // Check for sparse arrays and general fast path
     if (val1.length !== val2.length) {
       return false;
     }
-
     var keys1 = getOwnNonIndexProperties(val1, ONLY_ENUMERABLE);
     var keys2 = getOwnNonIndexProperties(val2, ONLY_ENUMERABLE);
-
     if (keys1.length !== keys2.length) {
       return false;
     }
-
     return keyCheck(val1, val2, strict, memos, kIsArray, keys1);
-  } // [browserify] This triggers on certain types in IE (Map/Set) so we don't
+  }
+  // [browserify] This triggers on certain types in IE (Map/Set) so we don't
   // wan't to early return out of the rest of the checks. However we can check
   // if the second value is one of these values and the first isn't.
-
-
   if (val1Tag === '[object Object]') {
     // return keyCheck(val1, val2, strict, memos, kNoIterator);
     if (!isMap(val1) && isMap(val2) || !isSet(val1) && isSet(val2)) {
       return false;
     }
   }
-
   if (isDate(val1)) {
     if (!isDate(val2) || Date.prototype.getTime.call(val1) !== Date.prototype.getTime.call(val2)) {
       return false;
@@ -7631,31 +7481,25 @@ function innerDeepEqual(val1, val2, strict, memos) {
       }
     } else if (!areSimilarTypedArrays(val1, val2)) {
       return false;
-    } // Buffer.compare returns true, so val1.length === val2.length. If they both
+    }
+    // Buffer.compare returns true, so val1.length === val2.length. If they both
     // only contain numeric keys, we don't need to exam further than checking
     // the symbols.
-
-
     var _keys = getOwnNonIndexProperties(val1, ONLY_ENUMERABLE);
-
     var _keys2 = getOwnNonIndexProperties(val2, ONLY_ENUMERABLE);
-
     if (_keys.length !== _keys2.length) {
       return false;
     }
-
     return keyCheck(val1, val2, strict, memos, kNoIterator, _keys);
   } else if (isSet(val1)) {
     if (!isSet(val2) || val1.size !== val2.size) {
       return false;
     }
-
     return keyCheck(val1, val2, strict, memos, kIsSet);
   } else if (isMap(val1)) {
     if (!isMap(val2) || val1.size !== val2.size) {
       return false;
     }
-
     return keyCheck(val1, val2, strict, memos, kIsMap);
   } else if (isAnyArrayBuffer(val1)) {
     if (!areEqualArrayBuffers(val1, val2)) {
@@ -7664,16 +7508,13 @@ function innerDeepEqual(val1, val2, strict, memos) {
   } else if (isBoxedPrimitive(val1) && !isEqualBoxedPrimitive(val1, val2)) {
     return false;
   }
-
   return keyCheck(val1, val2, strict, memos, kNoIterator);
 }
-
 function getEnumerables(val, keys) {
   return keys.filter(function (k) {
     return propertyIsEnumerable(val, k);
   });
 }
-
 function keyCheck(val1, val2, strict, memos, iterationType, aKeys) {
   // For all remaining Object pairs, including Array, objects and Maps,
   // equivalence is determined by having:
@@ -7684,62 +7525,53 @@ function keyCheck(val1, val2, strict, memos, iterationType, aKeys) {
   // Note: this accounts for both named and indexed properties on Arrays.
   if (arguments.length === 5) {
     aKeys = Object.keys(val1);
-    var bKeys = Object.keys(val2); // The pair must have the same number of owned properties.
+    var bKeys = Object.keys(val2);
 
+    // The pair must have the same number of owned properties.
     if (aKeys.length !== bKeys.length) {
       return false;
     }
-  } // Cheap key test
+  }
 
-
+  // Cheap key test
   var i = 0;
-
   for (; i < aKeys.length; i++) {
     if (!hasOwnProperty(val2, aKeys[i])) {
       return false;
     }
   }
-
   if (strict && arguments.length === 5) {
     var symbolKeysA = objectGetOwnPropertySymbols(val1);
-
     if (symbolKeysA.length !== 0) {
       var count = 0;
-
       for (i = 0; i < symbolKeysA.length; i++) {
         var key = symbolKeysA[i];
-
         if (propertyIsEnumerable(val1, key)) {
           if (!propertyIsEnumerable(val2, key)) {
             return false;
           }
-
           aKeys.push(key);
           count++;
         } else if (propertyIsEnumerable(val2, key)) {
           return false;
         }
       }
-
       var symbolKeysB = objectGetOwnPropertySymbols(val2);
-
       if (symbolKeysA.length !== symbolKeysB.length && getEnumerables(val2, symbolKeysB).length !== count) {
         return false;
       }
     } else {
       var _symbolKeysB = objectGetOwnPropertySymbols(val2);
-
       if (_symbolKeysB.length !== 0 && getEnumerables(val2, _symbolKeysB).length !== 0) {
         return false;
       }
     }
   }
-
   if (aKeys.length === 0 && (iterationType === kNoIterator || iterationType === kIsArray && val1.length === 0 || val1.size === 0)) {
     return true;
-  } // Use memos to handle cycles.
+  }
 
-
+  // Use memos to handle cycles.
   if (memos === undefined) {
     memos = {
       val1: new Map(),
@@ -7751,18 +7583,14 @@ function keyCheck(val1, val2, strict, memos, iterationType, aKeys) {
     // and checking for undefined. The map can only contain numbers, so it is
     // safe to check for undefined only.
     var val2MemoA = memos.val1.get(val1);
-
     if (val2MemoA !== undefined) {
       var val2MemoB = memos.val2.get(val2);
-
       if (val2MemoB !== undefined) {
         return val2MemoA === val2MemoB;
       }
     }
-
     memos.position++;
   }
-
   memos.val1.set(val1, memos.position);
   memos.val2.set(val2, memos.position);
   var areEq = objEquiv(val1, val2, strict, aKeys, memos, iterationType);
@@ -7770,213 +7598,171 @@ function keyCheck(val1, val2, strict, memos, iterationType, aKeys) {
   memos.val2.delete(val2);
   return areEq;
 }
-
 function setHasEqualElement(set, val1, strict, memo) {
   // Go looking.
   var setValues = arrayFromSet(set);
-
   for (var i = 0; i < setValues.length; i++) {
     var val2 = setValues[i];
-
     if (innerDeepEqual(val1, val2, strict, memo)) {
       // Remove the matching element to make sure we do not check that again.
       set.delete(val2);
       return true;
     }
   }
-
   return false;
-} // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#Loose_equality_using
+}
+
+// See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#Loose_equality_using
 // Sadly it is not possible to detect corresponding values properly in case the
 // type is a string, number, bigint or boolean. The reason is that those values
 // can match lots of different string values (e.g., 1n == '+00001').
-
-
 function findLooseMatchingPrimitives(prim) {
   switch (_typeof(prim)) {
     case 'undefined':
       return null;
-
     case 'object':
       // Only pass in null as object!
       return undefined;
-
     case 'symbol':
       return false;
-
     case 'string':
       prim = +prim;
     // Loose equal entries exist only if the string is possible to convert to
     // a regular number and not NaN.
     // Fall through
-
     case 'number':
       if (numberIsNaN(prim)) {
         return false;
       }
-
   }
-
   return true;
 }
-
 function setMightHaveLoosePrim(a, b, prim) {
   var altValue = findLooseMatchingPrimitives(prim);
   if (altValue != null) return altValue;
   return b.has(altValue) && !a.has(altValue);
 }
-
 function mapMightHaveLoosePrim(a, b, prim, item, memo) {
   var altValue = findLooseMatchingPrimitives(prim);
-
   if (altValue != null) {
     return altValue;
   }
-
   var curB = b.get(altValue);
-
   if (curB === undefined && !b.has(altValue) || !innerDeepEqual(item, curB, false, memo)) {
     return false;
   }
-
   return !a.has(altValue) && innerDeepEqual(item, curB, false, memo);
 }
-
 function setEquiv(a, b, strict, memo) {
   // This is a lazily initiated Set of entries which have to be compared
   // pairwise.
   var set = null;
   var aValues = arrayFromSet(a);
-
   for (var i = 0; i < aValues.length; i++) {
-    var val = aValues[i]; // Note: Checking for the objects first improves the performance for object
+    var val = aValues[i];
+    // Note: Checking for the objects first improves the performance for object
     // heavy sets but it is a minor slow down for primitives. As they are fast
     // to check this improves the worst case scenario instead.
-
     if (_typeof(val) === 'object' && val !== null) {
       if (set === null) {
         set = new Set();
-      } // If the specified value doesn't exist in the second set its an not null
+      }
+      // If the specified value doesn't exist in the second set its an not null
       // object (or non strict only: a not matching primitive) we'll need to go
       // hunting for something thats deep-(strict-)equal to it. To make this
       // O(n log n) complexity we have to copy these values in a new set first.
-
-
       set.add(val);
     } else if (!b.has(val)) {
-      if (strict) return false; // Fast path to detect missing string, symbol, undefined and null values.
+      if (strict) return false;
 
+      // Fast path to detect missing string, symbol, undefined and null values.
       if (!setMightHaveLoosePrim(a, b, val)) {
         return false;
       }
-
       if (set === null) {
         set = new Set();
       }
-
       set.add(val);
     }
   }
-
   if (set !== null) {
     var bValues = arrayFromSet(b);
-
     for (var _i = 0; _i < bValues.length; _i++) {
-      var _val = bValues[_i]; // We have to check if a primitive value is already
+      var _val = bValues[_i];
+      // We have to check if a primitive value is already
       // matching and only if it's not, go hunting for it.
-
       if (_typeof(_val) === 'object' && _val !== null) {
         if (!setHasEqualElement(set, _val, strict, memo)) return false;
       } else if (!strict && !a.has(_val) && !setHasEqualElement(set, _val, strict, memo)) {
         return false;
       }
     }
-
     return set.size === 0;
   }
-
   return true;
 }
-
 function mapHasEqualEntry(set, map, key1, item1, strict, memo) {
   // To be able to handle cases like:
   //   Map([[{}, 'a'], [{}, 'b']]) vs Map([[{}, 'b'], [{}, 'a']])
   // ... we need to consider *all* matching keys, not just the first we find.
   var setValues = arrayFromSet(set);
-
   for (var i = 0; i < setValues.length; i++) {
     var key2 = setValues[i];
-
     if (innerDeepEqual(key1, key2, strict, memo) && innerDeepEqual(item1, map.get(key2), strict, memo)) {
       set.delete(key2);
       return true;
     }
   }
-
   return false;
 }
-
 function mapEquiv(a, b, strict, memo) {
   var set = null;
   var aEntries = arrayFromMap(a);
-
   for (var i = 0; i < aEntries.length; i++) {
     var _aEntries$i = _slicedToArray(aEntries[i], 2),
-        key = _aEntries$i[0],
-        item1 = _aEntries$i[1];
-
+      key = _aEntries$i[0],
+      item1 = _aEntries$i[1];
     if (_typeof(key) === 'object' && key !== null) {
       if (set === null) {
         set = new Set();
       }
-
       set.add(key);
     } else {
       // By directly retrieving the value we prevent another b.has(key) check in
       // almost all possible cases.
       var item2 = b.get(key);
-
       if (item2 === undefined && !b.has(key) || !innerDeepEqual(item1, item2, strict, memo)) {
-        if (strict) return false; // Fast path to detect missing string, symbol, undefined and null
+        if (strict) return false;
+        // Fast path to detect missing string, symbol, undefined and null
         // keys.
-
         if (!mapMightHaveLoosePrim(a, b, key, item1, memo)) return false;
-
         if (set === null) {
           set = new Set();
         }
-
         set.add(key);
       }
     }
   }
-
   if (set !== null) {
     var bEntries = arrayFromMap(b);
-
     for (var _i2 = 0; _i2 < bEntries.length; _i2++) {
       var _bEntries$_i = _slicedToArray(bEntries[_i2], 2),
-          key = _bEntries$_i[0],
-          item = _bEntries$_i[1];
-
-      if (_typeof(key) === 'object' && key !== null) {
-        if (!mapHasEqualEntry(set, a, key, item, strict, memo)) return false;
-      } else if (!strict && (!a.has(key) || !innerDeepEqual(a.get(key), item, false, memo)) && !mapHasEqualEntry(set, a, key, item, false, memo)) {
+        _key = _bEntries$_i[0],
+        item = _bEntries$_i[1];
+      if (_typeof(_key) === 'object' && _key !== null) {
+        if (!mapHasEqualEntry(set, a, _key, item, strict, memo)) return false;
+      } else if (!strict && (!a.has(_key) || !innerDeepEqual(a.get(_key), item, false, memo)) && !mapHasEqualEntry(set, a, _key, item, false, memo)) {
         return false;
       }
     }
-
     return set.size === 0;
   }
-
   return true;
 }
-
 function objEquiv(a, b, strict, keys, memos, iterationType) {
   // Sets and maps don't have their entries accessible via normal object
   // properties.
   var i = 0;
-
   if (iterationType === kIsSet) {
     if (!setEquiv(a, b, strict, memos)) {
       return false;
@@ -7996,45 +7782,36 @@ function objEquiv(a, b, strict, keys, memos, iterationType) {
       } else {
         // Array is sparse.
         var keysA = Object.keys(a);
-
         for (; i < keysA.length; i++) {
           var key = keysA[i];
-
           if (!hasOwnProperty(b, key) || !innerDeepEqual(a[key], b[key], strict, memos)) {
             return false;
           }
         }
-
         if (keysA.length !== Object.keys(b).length) {
           return false;
         }
-
         return true;
       }
     }
-  } // The pair must have equivalent values for every corresponding key.
+  }
+
+  // The pair must have equivalent values for every corresponding key.
   // Possibly expensive deep test:
-
-
   for (i = 0; i < keys.length; i++) {
-    var _key = keys[i];
-
-    if (!innerDeepEqual(a[_key], b[_key], strict, memos)) {
+    var _key2 = keys[i];
+    if (!innerDeepEqual(a[_key2], b[_key2], strict, memos)) {
       return false;
     }
   }
-
   return true;
 }
-
 function isDeepEqual(val1, val2) {
   return innerDeepEqual(val1, val2, kLoose);
 }
-
 function isDeepStrictEqual(val1, val2) {
   return innerDeepEqual(val1, val2, kStrict);
 }
-
 module.exports = {
   isDeepEqual: isDeepEqual,
   isDeepStrictEqual: isDeepStrictEqual
@@ -8073,12 +7850,13 @@ module.exports = function callBoundIntrinsic(name, allowMissing) {
 
 var bind = __webpack_require__(8612);
 var GetIntrinsic = __webpack_require__(210);
+var setFunctionLength = __webpack_require__(7771);
 
+var $TypeError = GetIntrinsic('%TypeError%');
 var $apply = GetIntrinsic('%Function.prototype.apply%');
 var $call = GetIntrinsic('%Function.prototype.call%');
 var $reflectApply = GetIntrinsic('%Reflect.apply%', true) || bind.call($call, $apply);
 
-var $gOPD = GetIntrinsic('%Object.getOwnPropertyDescriptor%', true);
 var $defineProperty = GetIntrinsic('%Object.defineProperty%', true);
 var $max = GetIntrinsic('%Math.max%');
 
@@ -8092,19 +7870,15 @@ if ($defineProperty) {
 }
 
 module.exports = function callBind(originalFunction) {
-	var func = $reflectApply(bind, $call, arguments);
-	if ($gOPD && $defineProperty) {
-		var desc = $gOPD(func, 'length');
-		if (desc.configurable) {
-			// original length, plus the receiver, minus any additional arguments (after the receiver)
-			$defineProperty(
-				func,
-				'length',
-				{ value: 1 + $max(0, originalFunction.length - (arguments.length - 1)) }
-			);
-		}
+	if (typeof originalFunction !== 'function') {
+		throw new $TypeError('a function is required');
 	}
-	return func;
+	var func = $reflectApply(bind, $call, arguments);
+	return setFunctionLength(
+		func,
+		1 + $max(0, originalFunction.length - (arguments.length - 1)),
+		true
+	);
 };
 
 var applyBind = function applyBind() {
@@ -8236,13 +8010,14 @@ if ($defineProperty) {
     } while (child = child.parentNode)
   }
 
-  function activeElt(doc) {
+  function activeElt(rootNode) {
     // IE and Edge may throw an "Unspecified Error" when accessing document.activeElement.
     // IE < 10 will throw when accessed while the page is loading or in an iframe.
     // IE > 9 and Edge will throw when accessed in an iframe if document.body is unavailable.
+    var doc = rootNode.ownerDocument || rootNode;
     var activeElement;
     try {
-      activeElement = doc.activeElement;
+      activeElement = rootNode.activeElement;
     } catch(e) {
       activeElement = doc.body || null;
     }
@@ -8269,6 +8044,15 @@ if ($defineProperty) {
     { selectInput = function(node) { try { node.select(); } catch(_e) {} }; }
 
   function doc(cm) { return cm.display.wrapper.ownerDocument }
+
+  function root(cm) {
+    return rootNode(cm.display.wrapper)
+  }
+
+  function rootNode(element) {
+    // Detect modern browsers (2017+).
+    return element.getRootNode ? element.getRootNode() : element.ownerDocument
+  }
 
   function win(cm) { return doc(cm).defaultView }
 
@@ -12024,7 +11808,7 @@ if ($defineProperty) {
       cm.display.maxLineChanged = false;
     }
 
-    var takeFocus = op.focus && op.focus == activeElt(doc(cm));
+    var takeFocus = op.focus && op.focus == activeElt(root(cm));
     if (op.preparedSelection)
       { cm.display.input.showSelection(op.preparedSelection, takeFocus); }
     if (op.updatedDisplay || op.startHeight != cm.doc.height)
@@ -12201,7 +11985,7 @@ if ($defineProperty) {
 
   function selectionSnapshot(cm) {
     if (cm.hasFocus()) { return null }
-    var active = activeElt(doc(cm));
+    var active = activeElt(root(cm));
     if (!active || !contains(cm.display.lineDiv, active)) { return null }
     var result = {activeElt: active};
     if (window.getSelection) {
@@ -12217,7 +12001,7 @@ if ($defineProperty) {
   }
 
   function restoreSelection(snapshot) {
-    if (!snapshot || !snapshot.activeElt || snapshot.activeElt == activeElt(snapshot.activeElt.ownerDocument)) { return }
+    if (!snapshot || !snapshot.activeElt || snapshot.activeElt == activeElt(rootNode(snapshot.activeElt))) { return }
     snapshot.activeElt.focus();
     if (!/^(INPUT|TEXTAREA)$/.test(snapshot.activeElt.nodeName) &&
         snapshot.anchorNode && contains(document.body, snapshot.anchorNode) && contains(document.body, snapshot.focusNode)) {
@@ -15388,7 +15172,7 @@ if ($defineProperty) {
   function onKeyDown(e) {
     var cm = this;
     if (e.target && e.target != cm.display.input.getField()) { return }
-    cm.curOp.focus = activeElt(doc(cm));
+    cm.curOp.focus = activeElt(root(cm));
     if (signalDOMEvent(cm, e)) { return }
     // IE does strange things with escape.
     if (ie && ie_version < 11 && e.keyCode == 27) { e.returnValue = false; }
@@ -15550,7 +15334,7 @@ if ($defineProperty) {
 
   function leftButtonDown(cm, pos, repeat, event) {
     if (ie) { setTimeout(bind(ensureFocus, cm), 0); }
-    else { cm.curOp.focus = activeElt(doc(cm)); }
+    else { cm.curOp.focus = activeElt(root(cm)); }
 
     var behavior = configureMouse(cm, repeat, event);
 
@@ -15620,19 +15404,19 @@ if ($defineProperty) {
   // Normal selection, as opposed to text dragging.
   function leftButtonSelect(cm, event, start, behavior) {
     if (ie) { delayBlurEvent(cm); }
-    var display = cm.display, doc$1 = cm.doc;
+    var display = cm.display, doc = cm.doc;
     e_preventDefault(event);
 
-    var ourRange, ourIndex, startSel = doc$1.sel, ranges = startSel.ranges;
+    var ourRange, ourIndex, startSel = doc.sel, ranges = startSel.ranges;
     if (behavior.addNew && !behavior.extend) {
-      ourIndex = doc$1.sel.contains(start);
+      ourIndex = doc.sel.contains(start);
       if (ourIndex > -1)
         { ourRange = ranges[ourIndex]; }
       else
         { ourRange = new Range(start, start); }
     } else {
-      ourRange = doc$1.sel.primary();
-      ourIndex = doc$1.sel.primIndex;
+      ourRange = doc.sel.primary();
+      ourIndex = doc.sel.primIndex;
     }
 
     if (behavior.unit == "rectangle") {
@@ -15649,18 +15433,18 @@ if ($defineProperty) {
 
     if (!behavior.addNew) {
       ourIndex = 0;
-      setSelection(doc$1, new Selection([ourRange], 0), sel_mouse);
-      startSel = doc$1.sel;
+      setSelection(doc, new Selection([ourRange], 0), sel_mouse);
+      startSel = doc.sel;
     } else if (ourIndex == -1) {
       ourIndex = ranges.length;
-      setSelection(doc$1, normalizeSelection(cm, ranges.concat([ourRange]), ourIndex),
+      setSelection(doc, normalizeSelection(cm, ranges.concat([ourRange]), ourIndex),
                    {scroll: false, origin: "*mouse"});
     } else if (ranges.length > 1 && ranges[ourIndex].empty() && behavior.unit == "char" && !behavior.extend) {
-      setSelection(doc$1, normalizeSelection(cm, ranges.slice(0, ourIndex).concat(ranges.slice(ourIndex + 1)), 0),
+      setSelection(doc, normalizeSelection(cm, ranges.slice(0, ourIndex).concat(ranges.slice(ourIndex + 1)), 0),
                    {scroll: false, origin: "*mouse"});
-      startSel = doc$1.sel;
+      startSel = doc.sel;
     } else {
-      replaceOneSelection(doc$1, ourIndex, ourRange, sel_mouse);
+      replaceOneSelection(doc, ourIndex, ourRange, sel_mouse);
     }
 
     var lastPos = start;
@@ -15670,19 +15454,19 @@ if ($defineProperty) {
 
       if (behavior.unit == "rectangle") {
         var ranges = [], tabSize = cm.options.tabSize;
-        var startCol = countColumn(getLine(doc$1, start.line).text, start.ch, tabSize);
-        var posCol = countColumn(getLine(doc$1, pos.line).text, pos.ch, tabSize);
+        var startCol = countColumn(getLine(doc, start.line).text, start.ch, tabSize);
+        var posCol = countColumn(getLine(doc, pos.line).text, pos.ch, tabSize);
         var left = Math.min(startCol, posCol), right = Math.max(startCol, posCol);
         for (var line = Math.min(start.line, pos.line), end = Math.min(cm.lastLine(), Math.max(start.line, pos.line));
              line <= end; line++) {
-          var text = getLine(doc$1, line).text, leftPos = findColumn(text, left, tabSize);
+          var text = getLine(doc, line).text, leftPos = findColumn(text, left, tabSize);
           if (left == right)
             { ranges.push(new Range(Pos(line, leftPos), Pos(line, leftPos))); }
           else if (text.length > leftPos)
             { ranges.push(new Range(Pos(line, leftPos), Pos(line, findColumn(text, right, tabSize)))); }
         }
         if (!ranges.length) { ranges.push(new Range(start, start)); }
-        setSelection(doc$1, normalizeSelection(cm, startSel.ranges.slice(0, ourIndex).concat(ranges), ourIndex),
+        setSelection(doc, normalizeSelection(cm, startSel.ranges.slice(0, ourIndex).concat(ranges), ourIndex),
                      {origin: "*mouse", scroll: false});
         cm.scrollIntoView(pos);
       } else {
@@ -15697,8 +15481,8 @@ if ($defineProperty) {
           anchor = maxPos(oldRange.to(), range.head);
         }
         var ranges$1 = startSel.ranges.slice(0);
-        ranges$1[ourIndex] = bidiSimplify(cm, new Range(clipPos(doc$1, anchor), head));
-        setSelection(doc$1, normalizeSelection(cm, ranges$1, ourIndex), sel_mouse);
+        ranges$1[ourIndex] = bidiSimplify(cm, new Range(clipPos(doc, anchor), head));
+        setSelection(doc, normalizeSelection(cm, ranges$1, ourIndex), sel_mouse);
       }
     }
 
@@ -15714,9 +15498,9 @@ if ($defineProperty) {
       var cur = posFromMouse(cm, e, true, behavior.unit == "rectangle");
       if (!cur) { return }
       if (cmp(cur, lastPos) != 0) {
-        cm.curOp.focus = activeElt(doc(cm));
+        cm.curOp.focus = activeElt(root(cm));
         extendTo(cur);
-        var visible = visibleLines(display, doc$1);
+        var visible = visibleLines(display, doc);
         if (cur.line >= visible.to || cur.line < visible.from)
           { setTimeout(operation(cm, function () {if (counter == curCount) { extend(e); }}), 150); }
       } else {
@@ -15741,7 +15525,7 @@ if ($defineProperty) {
       }
       off(display.wrapper.ownerDocument, "mousemove", move);
       off(display.wrapper.ownerDocument, "mouseup", up);
-      doc$1.history.lastSelOrigin = null;
+      doc.history.lastSelOrigin = null;
     }
 
     var move = operation(cm, function (e) {
@@ -16741,7 +16525,7 @@ if ($defineProperty) {
 
         signal(this, "overwriteToggle", this, this.state.overwrite);
       },
-      hasFocus: function() { return this.display.input.getField() == activeElt(doc(this)) },
+      hasFocus: function() { return this.display.input.getField() == activeElt(root(this)) },
       isReadOnly: function() { return !!(this.options.readOnly || this.doc.cantEdit) },
 
       scrollTo: methodOp(function (x, y) { scrollToCoords(this, x, y); }),
@@ -17023,7 +16807,7 @@ if ($defineProperty) {
       disableBrowserMagic(te);
       cm.display.lineSpace.insertBefore(kludge, cm.display.lineSpace.firstChild);
       te.value = lastCopied.text.join("\n");
-      var hadFocus = activeElt(div.ownerDocument);
+      var hadFocus = activeElt(rootNode(div));
       selectInput(te);
       setTimeout(function () {
         cm.display.lineSpace.removeChild(kludge);
@@ -17046,7 +16830,7 @@ if ($defineProperty) {
 
   ContentEditableInput.prototype.prepareSelection = function () {
     var result = prepareSelection(this.cm, false);
-    result.focus = activeElt(this.div.ownerDocument) == this.div;
+    result.focus = activeElt(rootNode(this.div)) == this.div;
     return result
   };
 
@@ -17142,7 +16926,7 @@ if ($defineProperty) {
 
   ContentEditableInput.prototype.focus = function () {
     if (this.cm.options.readOnly != "nocursor") {
-      if (!this.selectionInEditor() || activeElt(this.div.ownerDocument) != this.div)
+      if (!this.selectionInEditor() || activeElt(rootNode(this.div)) != this.div)
         { this.showSelection(this.prepareSelection(), true); }
       this.div.focus();
     }
@@ -17650,7 +17434,7 @@ if ($defineProperty) {
   TextareaInput.prototype.supportsTouch = function () { return false };
 
   TextareaInput.prototype.focus = function () {
-    if (this.cm.options.readOnly != "nocursor" && (!mobile || activeElt(this.textarea.ownerDocument) != this.textarea)) {
+    if (this.cm.options.readOnly != "nocursor" && (!mobile || activeElt(rootNode(this.textarea)) != this.textarea)) {
       try { this.textarea.focus(); }
       catch (e) {} // IE8 will throw if the textarea is display: none or not in DOM
     }
@@ -17857,7 +17641,7 @@ if ($defineProperty) {
     // Set autofocus to true if this textarea is focused, or if it has
     // autofocus and no other element is focused.
     if (options.autofocus == null) {
-      var hasFocus = activeElt(textarea.ownerDocument);
+      var hasFocus = activeElt(rootNode(textarea));
       options.autofocus = hasFocus == textarea ||
         textarea.getAttribute("autofocus") != null && hasFocus == document.body;
     }
@@ -17991,7 +17775,7 @@ if ($defineProperty) {
 
   addLegacyProps(CodeMirror);
 
-  CodeMirror.version = "5.65.15";
+  CodeMirror.version = "5.65.16";
 
   return CodeMirror;
 
@@ -18964,6 +18748,82 @@ CodeMirror.defineMIME("application/typescript", { name: "javascript", typescript
 
 /***/ }),
 
+/***/ 2296:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var hasPropertyDescriptors = __webpack_require__(1044)();
+
+var GetIntrinsic = __webpack_require__(210);
+
+var $defineProperty = hasPropertyDescriptors && GetIntrinsic('%Object.defineProperty%', true);
+if ($defineProperty) {
+	try {
+		$defineProperty({}, 'a', { value: 1 });
+	} catch (e) {
+		// IE 8 has a broken defineProperty
+		$defineProperty = false;
+	}
+}
+
+var $SyntaxError = GetIntrinsic('%SyntaxError%');
+var $TypeError = GetIntrinsic('%TypeError%');
+
+var gopd = __webpack_require__(7296);
+
+/** @type {(obj: Record<PropertyKey, unknown>, property: PropertyKey, value: unknown, nonEnumerable?: boolean | null, nonWritable?: boolean | null, nonConfigurable?: boolean | null, loose?: boolean) => void} */
+module.exports = function defineDataProperty(
+	obj,
+	property,
+	value
+) {
+	if (!obj || (typeof obj !== 'object' && typeof obj !== 'function')) {
+		throw new $TypeError('`obj` must be an object or a function`');
+	}
+	if (typeof property !== 'string' && typeof property !== 'symbol') {
+		throw new $TypeError('`property` must be a string or a symbol`');
+	}
+	if (arguments.length > 3 && typeof arguments[3] !== 'boolean' && arguments[3] !== null) {
+		throw new $TypeError('`nonEnumerable`, if provided, must be a boolean or null');
+	}
+	if (arguments.length > 4 && typeof arguments[4] !== 'boolean' && arguments[4] !== null) {
+		throw new $TypeError('`nonWritable`, if provided, must be a boolean or null');
+	}
+	if (arguments.length > 5 && typeof arguments[5] !== 'boolean' && arguments[5] !== null) {
+		throw new $TypeError('`nonConfigurable`, if provided, must be a boolean or null');
+	}
+	if (arguments.length > 6 && typeof arguments[6] !== 'boolean') {
+		throw new $TypeError('`loose`, if provided, must be a boolean');
+	}
+
+	var nonEnumerable = arguments.length > 3 ? arguments[3] : null;
+	var nonWritable = arguments.length > 4 ? arguments[4] : null;
+	var nonConfigurable = arguments.length > 5 ? arguments[5] : null;
+	var loose = arguments.length > 6 ? arguments[6] : false;
+
+	/* @type {false | TypedPropertyDescriptor<unknown>} */
+	var desc = !!gopd && gopd(obj, property);
+
+	if ($defineProperty) {
+		$defineProperty(obj, property, {
+			configurable: nonConfigurable === null && desc ? desc.configurable : !nonConfigurable,
+			enumerable: nonEnumerable === null && desc ? desc.enumerable : !nonEnumerable,
+			value: value,
+			writable: nonWritable === null && desc ? desc.writable : !nonWritable
+		});
+	} else if (loose || (!nonEnumerable && !nonWritable && !nonConfigurable)) {
+		// must fall back to [[Set]], and was not explicitly asked to make non-enumerable, non-writable, or non-configurable
+		obj[property] = value; // eslint-disable-line no-param-reassign
+	} else {
+		throw new $SyntaxError('This environment does not support defining a property as non-configurable, non-writable, or non-enumerable.');
+	}
+};
+
+
+/***/ }),
+
 /***/ 4289:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -18975,15 +18835,13 @@ var hasSymbols = typeof Symbol === 'function' && typeof Symbol('foo') === 'symbo
 
 var toStr = Object.prototype.toString;
 var concat = Array.prototype.concat;
-var origDefineProperty = Object.defineProperty;
+var defineDataProperty = __webpack_require__(2296);
 
 var isFunction = function (fn) {
 	return typeof fn === 'function' && toStr.call(fn) === '[object Function]';
 };
 
-var hasPropertyDescriptors = __webpack_require__(1044)();
-
-var supportsDescriptors = origDefineProperty && hasPropertyDescriptors;
+var supportsDescriptors = __webpack_require__(1044)();
 
 var defineProperty = function (object, name, value, predicate) {
 	if (name in object) {
@@ -18995,15 +18853,11 @@ var defineProperty = function (object, name, value, predicate) {
 			return;
 		}
 	}
+
 	if (supportsDescriptors) {
-		origDefineProperty(object, name, {
-			configurable: true,
-			enumerable: false,
-			value: value,
-			writable: true
-		});
+		defineDataProperty(object, name, value, true);
 	} else {
-		object[name] = value; // eslint-disable-line no-param-reassign
+		defineDataProperty(object, name, value);
 	}
 };
 
@@ -19021,3359 +18875,6 @@ var defineProperties = function (object, map) {
 defineProperties.supportsDescriptors = !!supportsDescriptors;
 
 module.exports = defineProperties;
-
-
-/***/ }),
-
-/***/ 8091:
-/***/ ((module) => {
-
-"use strict";
-/**
- * Code refactored from Mozilla Developer Network:
- * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
- */
-
-
-
-function assign(target, firstSource) {
-  if (target === undefined || target === null) {
-    throw new TypeError('Cannot convert first argument to object');
-  }
-
-  var to = Object(target);
-  for (var i = 1; i < arguments.length; i++) {
-    var nextSource = arguments[i];
-    if (nextSource === undefined || nextSource === null) {
-      continue;
-    }
-
-    var keysArray = Object.keys(Object(nextSource));
-    for (var nextIndex = 0, len = keysArray.length; nextIndex < len; nextIndex++) {
-      var nextKey = keysArray[nextIndex];
-      var desc = Object.getOwnPropertyDescriptor(nextSource, nextKey);
-      if (desc !== undefined && desc.enumerable) {
-        to[nextKey] = nextSource[nextKey];
-      }
-    }
-  }
-  return to;
-}
-
-function polyfill() {
-  if (!Object.assign) {
-    Object.defineProperty(Object, 'assign', {
-      enumerable: false,
-      configurable: true,
-      writable: true,
-      value: assign
-    });
-  }
-}
-
-module.exports = {
-  assign: assign,
-  polyfill: polyfill
-};
-
-
-/***/ }),
-
-/***/ 7533:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports.Definition = exports.ParameterDefinition = undefined;
-
-var _variable = __webpack_require__(9329);
-
-var _variable2 = _interopRequireDefault(_variable);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } } /*
-                                                                                                                                                            Copyright (C) 2015 Yusuke Suzuki <utatane.tea@gmail.com>
-                                                                                                                                                          
-                                                                                                                                                            Redistribution and use in source and binary forms, with or without
-                                                                                                                                                            modification, are permitted provided that the following conditions are met:
-                                                                                                                                                          
-                                                                                                                                                              * Redistributions of source code must retain the above copyright
-                                                                                                                                                                notice, this list of conditions and the following disclaimer.
-                                                                                                                                                              * Redistributions in binary form must reproduce the above copyright
-                                                                                                                                                                notice, this list of conditions and the following disclaimer in the
-                                                                                                                                                                documentation and/or other materials provided with the distribution.
-                                                                                                                                                          
-                                                                                                                                                            THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-                                                                                                                                                            AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-                                                                                                                                                            IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-                                                                                                                                                            ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
-                                                                                                                                                            DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-                                                                                                                                                            (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-                                                                                                                                                            LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-                                                                                                                                                            ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-                                                                                                                                                            (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-                                                                                                                                                            THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-                                                                                                                                                          */
-
-/**
- * @class Definition
- */
-var Definition = function Definition(type, name, node, parent, index, kind) {
-  _classCallCheck(this, Definition);
-
-  /**
-   * @member {String} Definition#type - type of the occurrence (e.g. "Parameter", "Variable", ...).
-   */
-  this.type = type;
-  /**
-   * @member {esprima.Identifier} Definition#name - the identifier AST node of the occurrence.
-   */
-  this.name = name;
-  /**
-   * @member {esprima.Node} Definition#node - the enclosing node of the identifier.
-   */
-  this.node = node;
-  /**
-   * @member {esprima.Node?} Definition#parent - the enclosing statement node of the identifier.
-   */
-  this.parent = parent;
-  /**
-   * @member {Number?} Definition#index - the index in the declaration statement.
-   */
-  this.index = index;
-  /**
-   * @member {String?} Definition#kind - the kind of the declaration statement.
-   */
-  this.kind = kind;
-};
-
-/**
- * @class ParameterDefinition
- */
-
-
-exports["default"] = Definition;
-
-var ParameterDefinition = function (_Definition) {
-  _inherits(ParameterDefinition, _Definition);
-
-  function ParameterDefinition(name, node, index, rest) {
-    _classCallCheck(this, ParameterDefinition);
-
-    /**
-     * Whether the parameter definition is a part of a rest parameter.
-     * @member {boolean} ParameterDefinition#rest
-     */
-    var _this = _possibleConstructorReturn(this, (ParameterDefinition.__proto__ || Object.getPrototypeOf(ParameterDefinition)).call(this, _variable2.default.Parameter, name, node, null, index, null));
-
-    _this.rest = rest;
-    return _this;
-  }
-
-  return ParameterDefinition;
-}(Definition);
-
-exports.ParameterDefinition = ParameterDefinition;
-exports.Definition = Definition;
-
-/* vim: set sw=4 ts=4 et tw=80 : */
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRlZmluaXRpb24uanMiXSwibmFtZXMiOlsiRGVmaW5pdGlvbiIsInR5cGUiLCJuYW1lIiwibm9kZSIsInBhcmVudCIsImluZGV4Iiwia2luZCIsIlBhcmFtZXRlckRlZmluaXRpb24iLCJyZXN0IiwiVmFyaWFibGUiLCJQYXJhbWV0ZXIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUF3QkE7Ozs7Ozs7Ozs7MEpBeEJBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUEwQkE7OztJQUdxQkEsVSxHQUNqQixvQkFBWUMsSUFBWixFQUFrQkMsSUFBbEIsRUFBd0JDLElBQXhCLEVBQThCQyxNQUE5QixFQUFzQ0MsS0FBdEMsRUFBNkNDLElBQTdDLEVBQW1EO0FBQUE7O0FBQy9DOzs7QUFHQSxPQUFLTCxJQUFMLEdBQVlBLElBQVo7QUFDQTs7O0FBR0EsT0FBS0MsSUFBTCxHQUFZQSxJQUFaO0FBQ0E7OztBQUdBLE9BQUtDLElBQUwsR0FBWUEsSUFBWjtBQUNBOzs7QUFHQSxPQUFLQyxNQUFMLEdBQWNBLE1BQWQ7QUFDQTs7O0FBR0EsT0FBS0MsS0FBTCxHQUFhQSxLQUFiO0FBQ0E7OztBQUdBLE9BQUtDLElBQUwsR0FBWUEsSUFBWjtBQUNILEM7O0FBR0w7Ozs7O2tCQTdCcUJOLFU7O0lBZ0NmTyxtQjs7O0FBQ0YsK0JBQVlMLElBQVosRUFBa0JDLElBQWxCLEVBQXdCRSxLQUF4QixFQUErQkcsSUFBL0IsRUFBcUM7QUFBQTs7QUFFakM7Ozs7QUFGaUMsMElBQzNCQyxtQkFBU0MsU0FEa0IsRUFDUFIsSUFETyxFQUNEQyxJQURDLEVBQ0ssSUFETCxFQUNXRSxLQURYLEVBQ2tCLElBRGxCOztBQU1qQyxVQUFLRyxJQUFMLEdBQVlBLElBQVo7QUFOaUM7QUFPcEM7OztFQVI2QlIsVTs7UUFZOUJPLG1CLEdBQUFBLG1CO1FBQ0FQLFUsR0FBQUEsVTs7QUFHSiIsImZpbGUiOiJkZWZpbml0aW9uLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAgQ29weXJpZ2h0IChDKSAyMDE1IFl1c3VrZSBTdXp1a2kgPHV0YXRhbmUudGVhQGdtYWlsLmNvbT5cblxuICBSZWRpc3RyaWJ1dGlvbiBhbmQgdXNlIGluIHNvdXJjZSBhbmQgYmluYXJ5IGZvcm1zLCB3aXRoIG9yIHdpdGhvdXRcbiAgbW9kaWZpY2F0aW9uLCBhcmUgcGVybWl0dGVkIHByb3ZpZGVkIHRoYXQgdGhlIGZvbGxvd2luZyBjb25kaXRpb25zIGFyZSBtZXQ6XG5cbiAgICAqIFJlZGlzdHJpYnV0aW9ucyBvZiBzb3VyY2UgY29kZSBtdXN0IHJldGFpbiB0aGUgYWJvdmUgY29weXJpZ2h0XG4gICAgICBub3RpY2UsIHRoaXMgbGlzdCBvZiBjb25kaXRpb25zIGFuZCB0aGUgZm9sbG93aW5nIGRpc2NsYWltZXIuXG4gICAgKiBSZWRpc3RyaWJ1dGlvbnMgaW4gYmluYXJ5IGZvcm0gbXVzdCByZXByb2R1Y2UgdGhlIGFib3ZlIGNvcHlyaWdodFxuICAgICAgbm90aWNlLCB0aGlzIGxpc3Qgb2YgY29uZGl0aW9ucyBhbmQgdGhlIGZvbGxvd2luZyBkaXNjbGFpbWVyIGluIHRoZVxuICAgICAgZG9jdW1lbnRhdGlvbiBhbmQvb3Igb3RoZXIgbWF0ZXJpYWxzIHByb3ZpZGVkIHdpdGggdGhlIGRpc3RyaWJ1dGlvbi5cblxuICBUSElTIFNPRlRXQVJFIElTIFBST1ZJREVEIEJZIFRIRSBDT1BZUklHSFQgSE9MREVSUyBBTkQgQ09OVFJJQlVUT1JTIFwiQVMgSVNcIlxuICBBTkQgQU5ZIEVYUFJFU1MgT1IgSU1QTElFRCBXQVJSQU5USUVTLCBJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRFRCBUTywgVEhFXG4gIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFkgQU5EIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFXG4gIEFSRSBESVNDTEFJTUVELiBJTiBOTyBFVkVOVCBTSEFMTCA8Q09QWVJJR0hUIEhPTERFUj4gQkUgTElBQkxFIEZPUiBBTllcbiAgRElSRUNULCBJTkRJUkVDVCwgSU5DSURFTlRBTCwgU1BFQ0lBTCwgRVhFTVBMQVJZLCBPUiBDT05TRVFVRU5USUFMIERBTUFHRVNcbiAgKElOQ0xVRElORywgQlVUIE5PVCBMSU1JVEVEIFRPLCBQUk9DVVJFTUVOVCBPRiBTVUJTVElUVVRFIEdPT0RTIE9SIFNFUlZJQ0VTO1xuICBMT1NTIE9GIFVTRSwgREFUQSwgT1IgUFJPRklUUzsgT1IgQlVTSU5FU1MgSU5URVJSVVBUSU9OKSBIT1dFVkVSIENBVVNFRCBBTkRcbiAgT04gQU5ZIFRIRU9SWSBPRiBMSUFCSUxJVFksIFdIRVRIRVIgSU4gQ09OVFJBQ1QsIFNUUklDVCBMSUFCSUxJVFksIE9SIFRPUlRcbiAgKElOQ0xVRElORyBORUdMSUdFTkNFIE9SIE9USEVSV0lTRSkgQVJJU0lORyBJTiBBTlkgV0FZIE9VVCBPRiBUSEUgVVNFIE9GXG4gIFRISVMgU09GVFdBUkUsIEVWRU4gSUYgQURWSVNFRCBPRiBUSEUgUE9TU0lCSUxJVFkgT0YgU1VDSCBEQU1BR0UuXG4qL1xuXG5pbXBvcnQgVmFyaWFibGUgZnJvbSAnLi92YXJpYWJsZSc7XG5cbi8qKlxuICogQGNsYXNzIERlZmluaXRpb25cbiAqL1xuZXhwb3J0IGRlZmF1bHQgY2xhc3MgRGVmaW5pdGlvbiB7XG4gICAgY29uc3RydWN0b3IodHlwZSwgbmFtZSwgbm9kZSwgcGFyZW50LCBpbmRleCwga2luZCkge1xuICAgICAgICAvKipcbiAgICAgICAgICogQG1lbWJlciB7U3RyaW5nfSBEZWZpbml0aW9uI3R5cGUgLSB0eXBlIG9mIHRoZSBvY2N1cnJlbmNlIChlLmcuIFwiUGFyYW1ldGVyXCIsIFwiVmFyaWFibGVcIiwgLi4uKS5cbiAgICAgICAgICovXG4gICAgICAgIHRoaXMudHlwZSA9IHR5cGU7XG4gICAgICAgIC8qKlxuICAgICAgICAgKiBAbWVtYmVyIHtlc3ByaW1hLklkZW50aWZpZXJ9IERlZmluaXRpb24jbmFtZSAtIHRoZSBpZGVudGlmaWVyIEFTVCBub2RlIG9mIHRoZSBvY2N1cnJlbmNlLlxuICAgICAgICAgKi9cbiAgICAgICAgdGhpcy5uYW1lID0gbmFtZTtcbiAgICAgICAgLyoqXG4gICAgICAgICAqIEBtZW1iZXIge2VzcHJpbWEuTm9kZX0gRGVmaW5pdGlvbiNub2RlIC0gdGhlIGVuY2xvc2luZyBub2RlIG9mIHRoZSBpZGVudGlmaWVyLlxuICAgICAgICAgKi9cbiAgICAgICAgdGhpcy5ub2RlID0gbm9kZTtcbiAgICAgICAgLyoqXG4gICAgICAgICAqIEBtZW1iZXIge2VzcHJpbWEuTm9kZT99IERlZmluaXRpb24jcGFyZW50IC0gdGhlIGVuY2xvc2luZyBzdGF0ZW1lbnQgbm9kZSBvZiB0aGUgaWRlbnRpZmllci5cbiAgICAgICAgICovXG4gICAgICAgIHRoaXMucGFyZW50ID0gcGFyZW50O1xuICAgICAgICAvKipcbiAgICAgICAgICogQG1lbWJlciB7TnVtYmVyP30gRGVmaW5pdGlvbiNpbmRleCAtIHRoZSBpbmRleCBpbiB0aGUgZGVjbGFyYXRpb24gc3RhdGVtZW50LlxuICAgICAgICAgKi9cbiAgICAgICAgdGhpcy5pbmRleCA9IGluZGV4O1xuICAgICAgICAvKipcbiAgICAgICAgICogQG1lbWJlciB7U3RyaW5nP30gRGVmaW5pdGlvbiNraW5kIC0gdGhlIGtpbmQgb2YgdGhlIGRlY2xhcmF0aW9uIHN0YXRlbWVudC5cbiAgICAgICAgICovXG4gICAgICAgIHRoaXMua2luZCA9IGtpbmQ7XG4gICAgfVxufVxuXG4vKipcbiAqIEBjbGFzcyBQYXJhbWV0ZXJEZWZpbml0aW9uXG4gKi9cbmNsYXNzIFBhcmFtZXRlckRlZmluaXRpb24gZXh0ZW5kcyBEZWZpbml0aW9uIHtcbiAgICBjb25zdHJ1Y3RvcihuYW1lLCBub2RlLCBpbmRleCwgcmVzdCkge1xuICAgICAgICBzdXBlcihWYXJpYWJsZS5QYXJhbWV0ZXIsIG5hbWUsIG5vZGUsIG51bGwsIGluZGV4LCBudWxsKTtcbiAgICAgICAgLyoqXG4gICAgICAgICAqIFdoZXRoZXIgdGhlIHBhcmFtZXRlciBkZWZpbml0aW9uIGlzIGEgcGFydCBvZiBhIHJlc3QgcGFyYW1ldGVyLlxuICAgICAgICAgKiBAbWVtYmVyIHtib29sZWFufSBQYXJhbWV0ZXJEZWZpbml0aW9uI3Jlc3RcbiAgICAgICAgICovXG4gICAgICAgIHRoaXMucmVzdCA9IHJlc3Q7XG4gICAgfVxufVxuXG5leHBvcnQge1xuICAgIFBhcmFtZXRlckRlZmluaXRpb24sXG4gICAgRGVmaW5pdGlvblxufVxuXG4vKiB2aW06IHNldCBzdz00IHRzPTQgZXQgdHc9ODAgOiAqL1xuIl19
-
-
-/***/ }),
-
-/***/ 9420:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-exports.ScopeManager = exports.Scope = exports.Variable = exports.Reference = exports.version = undefined;
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; /*
-                                                                                                                                                                                                                                                                                Copyright (C) 2012-2014 Yusuke Suzuki <utatane.tea@gmail.com>
-                                                                                                                                                                                                                                                                                Copyright (C) 2013 Alex Seville <hi@alexanderseville.com>
-                                                                                                                                                                                                                                                                                Copyright (C) 2014 Thiago de Arruda <tpadilha84@gmail.com>
-                                                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                                                                Redistribution and use in source and binary forms, with or without
-                                                                                                                                                                                                                                                                                modification, are permitted provided that the following conditions are met:
-                                                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                                                                  * Redistributions of source code must retain the above copyright
-                                                                                                                                                                                                                                                                                    notice, this list of conditions and the following disclaimer.
-                                                                                                                                                                                                                                                                                  * Redistributions in binary form must reproduce the above copyright
-                                                                                                                                                                                                                                                                                    notice, this list of conditions and the following disclaimer in the
-                                                                                                                                                                                                                                                                                    documentation and/or other materials provided with the distribution.
-                                                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                                                                THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-                                                                                                                                                                                                                                                                                AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-                                                                                                                                                                                                                                                                                IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-                                                                                                                                                                                                                                                                                ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
-                                                                                                                                                                                                                                                                                DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-                                                                                                                                                                                                                                                                                (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-                                                                                                                                                                                                                                                                                LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-                                                                                                                                                                                                                                                                                ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-                                                                                                                                                                                                                                                                                (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-                                                                                                                                                                                                                                                                                THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-                                                                                                                                                                                                                                                                              */
-
-/**
- * Escope (<a href="http://github.com/estools/escope">escope</a>) is an <a
- * href="http://www.ecma-international.org/publications/standards/Ecma-262.htm">ECMAScript</a>
- * scope analyzer extracted from the <a
- * href="http://github.com/estools/esmangle">esmangle project</a/>.
- * <p>
- * <em>escope</em> finds lexical scopes in a source program, i.e. areas of that
- * program where different occurrences of the same identifier refer to the same
- * variable. With each scope the contained variables are collected, and each
- * identifier reference in code is linked to its corresponding variable (if
- * possible).
- * <p>
- * <em>escope</em> works on a syntax tree of the parsed source code which has
- * to adhere to the <a
- * href="https://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API">
- * Mozilla Parser API</a>. E.g. <a href="http://esprima.org">esprima</a> is a parser
- * that produces such syntax trees.
- * <p>
- * The main interface is the {@link analyze} function.
- * @module escope
- */
-
-/*jslint bitwise:true */
-
-exports.analyze = analyze;
-
-var _assert = __webpack_require__(9282);
-
-var _assert2 = _interopRequireDefault(_assert);
-
-var _scopeManager = __webpack_require__(8495);
-
-var _scopeManager2 = _interopRequireDefault(_scopeManager);
-
-var _referencer = __webpack_require__(4654);
-
-var _referencer2 = _interopRequireDefault(_referencer);
-
-var _reference = __webpack_require__(2681);
-
-var _reference2 = _interopRequireDefault(_reference);
-
-var _variable = __webpack_require__(9329);
-
-var _variable2 = _interopRequireDefault(_variable);
-
-var _scope = __webpack_require__(7181);
-
-var _scope2 = _interopRequireDefault(_scope);
-
-var _package = __webpack_require__(5667);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function defaultOptions() {
-    return {
-        optimistic: false,
-        directive: false,
-        nodejsScope: false,
-        impliedStrict: false,
-        sourceType: 'script', // one of ['script', 'module']
-        ecmaVersion: 5,
-        childVisitorKeys: null,
-        fallback: 'iteration'
-    };
-}
-
-function updateDeeply(target, override) {
-    var key, val;
-
-    function isHashObject(target) {
-        return (typeof target === 'undefined' ? 'undefined' : _typeof(target)) === 'object' && target instanceof Object && !(target instanceof Array) && !(target instanceof RegExp);
-    }
-
-    for (key in override) {
-        if (override.hasOwnProperty(key)) {
-            val = override[key];
-            if (isHashObject(val)) {
-                if (isHashObject(target[key])) {
-                    updateDeeply(target[key], val);
-                } else {
-                    target[key] = updateDeeply({}, val);
-                }
-            } else {
-                target[key] = val;
-            }
-        }
-    }
-    return target;
-}
-
-/**
- * Main interface function. Takes an Esprima syntax tree and returns the
- * analyzed scopes.
- * @function analyze
- * @param {esprima.Tree} tree
- * @param {Object} providedOptions - Options that tailor the scope analysis
- * @param {boolean} [providedOptions.optimistic=false] - the optimistic flag
- * @param {boolean} [providedOptions.directive=false]- the directive flag
- * @param {boolean} [providedOptions.ignoreEval=false]- whether to check 'eval()' calls
- * @param {boolean} [providedOptions.nodejsScope=false]- whether the whole
- * script is executed under node.js environment. When enabled, escope adds
- * a function scope immediately following the global scope.
- * @param {boolean} [providedOptions.impliedStrict=false]- implied strict mode
- * (if ecmaVersion >= 5).
- * @param {string} [providedOptions.sourceType='script']- the source type of the script. one of 'script' and 'module'
- * @param {number} [providedOptions.ecmaVersion=5]- which ECMAScript version is considered
- * @param {Object} [providedOptions.childVisitorKeys=null] - Additional known visitor keys. See [esrecurse](https://github.com/estools/esrecurse)'s the `childVisitorKeys` option.
- * @param {string} [providedOptions.fallback='iteration'] - A kind of the fallback in order to encounter with unknown node. See [esrecurse](https://github.com/estools/esrecurse)'s the `fallback` option.
- * @return {ScopeManager}
- */
-function analyze(tree, providedOptions) {
-    var scopeManager, referencer, options;
-
-    options = updateDeeply(defaultOptions(), providedOptions);
-
-    scopeManager = new _scopeManager2.default(options);
-
-    referencer = new _referencer2.default(options, scopeManager);
-    referencer.visit(tree);
-
-    (0, _assert2.default)(scopeManager.__currentScope === null, 'currentScope should be null.');
-
-    return scopeManager;
-}
-
-exports.version = _package.version;
-exports.Reference = _reference2.default;
-exports.Variable = _variable2.default;
-exports.Scope = _scope2.default;
-exports.ScopeManager = _scopeManager2.default;
-
-/* vim: set sw=4 ts=4 et tw=80 : */
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImFuYWx5emUiLCJkZWZhdWx0T3B0aW9ucyIsIm9wdGltaXN0aWMiLCJkaXJlY3RpdmUiLCJub2RlanNTY29wZSIsImltcGxpZWRTdHJpY3QiLCJzb3VyY2VUeXBlIiwiZWNtYVZlcnNpb24iLCJjaGlsZFZpc2l0b3JLZXlzIiwiZmFsbGJhY2siLCJ1cGRhdGVEZWVwbHkiLCJ0YXJnZXQiLCJvdmVycmlkZSIsImtleSIsInZhbCIsImlzSGFzaE9iamVjdCIsIk9iamVjdCIsIkFycmF5IiwiUmVnRXhwIiwiaGFzT3duUHJvcGVydHkiLCJ0cmVlIiwicHJvdmlkZWRPcHRpb25zIiwic2NvcGVNYW5hZ2VyIiwicmVmZXJlbmNlciIsIm9wdGlvbnMiLCJTY29wZU1hbmFnZXIiLCJSZWZlcmVuY2VyIiwidmlzaXQiLCJfX2N1cnJlbnRTY29wZSIsInZlcnNpb24iLCJSZWZlcmVuY2UiLCJWYXJpYWJsZSIsIlNjb3BlIl0sIm1hcHBpbmdzIjoiOzs7Ozs7OzhRQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQTBCQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQXNCQTs7UUFvRWdCQSxPLEdBQUFBLE87O0FBbEVoQjs7OztBQUVBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUVBLFNBQVNDLGNBQVQsR0FBMEI7QUFDdEIsV0FBTztBQUNIQyxvQkFBWSxLQURUO0FBRUhDLG1CQUFXLEtBRlI7QUFHSEMscUJBQWEsS0FIVjtBQUlIQyx1QkFBZSxLQUpaO0FBS0hDLG9CQUFZLFFBTFQsRUFLb0I7QUFDdkJDLHFCQUFhLENBTlY7QUFPSEMsMEJBQWtCLElBUGY7QUFRSEMsa0JBQVU7QUFSUCxLQUFQO0FBVUg7O0FBRUQsU0FBU0MsWUFBVCxDQUFzQkMsTUFBdEIsRUFBOEJDLFFBQTlCLEVBQXdDO0FBQ3BDLFFBQUlDLEdBQUosRUFBU0MsR0FBVDs7QUFFQSxhQUFTQyxZQUFULENBQXNCSixNQUF0QixFQUE4QjtBQUMxQixlQUFPLFFBQU9BLE1BQVAseUNBQU9BLE1BQVAsT0FBa0IsUUFBbEIsSUFBOEJBLGtCQUFrQkssTUFBaEQsSUFBMEQsRUFBRUwsa0JBQWtCTSxLQUFwQixDQUExRCxJQUF3RixFQUFFTixrQkFBa0JPLE1BQXBCLENBQS9GO0FBQ0g7O0FBRUQsU0FBS0wsR0FBTCxJQUFZRCxRQUFaLEVBQXNCO0FBQ2xCLFlBQUlBLFNBQVNPLGNBQVQsQ0FBd0JOLEdBQXhCLENBQUosRUFBa0M7QUFDOUJDLGtCQUFNRixTQUFTQyxHQUFULENBQU47QUFDQSxnQkFBSUUsYUFBYUQsR0FBYixDQUFKLEVBQXVCO0FBQ25CLG9CQUFJQyxhQUFhSixPQUFPRSxHQUFQLENBQWIsQ0FBSixFQUErQjtBQUMzQkgsaUNBQWFDLE9BQU9FLEdBQVAsQ0FBYixFQUEwQkMsR0FBMUI7QUFDSCxpQkFGRCxNQUVPO0FBQ0hILDJCQUFPRSxHQUFQLElBQWNILGFBQWEsRUFBYixFQUFpQkksR0FBakIsQ0FBZDtBQUNIO0FBQ0osYUFORCxNQU1PO0FBQ0hILHVCQUFPRSxHQUFQLElBQWNDLEdBQWQ7QUFDSDtBQUNKO0FBQ0o7QUFDRCxXQUFPSCxNQUFQO0FBQ0g7O0FBRUQ7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBb0JPLFNBQVNYLE9BQVQsQ0FBaUJvQixJQUFqQixFQUF1QkMsZUFBdkIsRUFBd0M7QUFDM0MsUUFBSUMsWUFBSixFQUFrQkMsVUFBbEIsRUFBOEJDLE9BQTlCOztBQUVBQSxjQUFVZCxhQUFhVCxnQkFBYixFQUErQm9CLGVBQS9CLENBQVY7O0FBRUFDLG1CQUFlLElBQUlHLHNCQUFKLENBQWlCRCxPQUFqQixDQUFmOztBQUVBRCxpQkFBYSxJQUFJRyxvQkFBSixDQUFlRixPQUFmLEVBQXdCRixZQUF4QixDQUFiO0FBQ0FDLGVBQVdJLEtBQVgsQ0FBaUJQLElBQWpCOztBQUVBLDBCQUFPRSxhQUFhTSxjQUFiLEtBQWdDLElBQXZDLEVBQTZDLDhCQUE3Qzs7QUFFQSxXQUFPTixZQUFQO0FBQ0g7O1FBSUdPLE8sR0FBQUEsZ0I7UUFFQUMsUyxHQUFBQSxtQjtRQUVBQyxRLEdBQUFBLGtCO1FBRUFDLEssR0FBQUEsZTtRQUVBUCxZLEdBQUFBLHNCOztBQUlKIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAgQ29weXJpZ2h0IChDKSAyMDEyLTIwMTQgWXVzdWtlIFN1enVraSA8dXRhdGFuZS50ZWFAZ21haWwuY29tPlxuICBDb3B5cmlnaHQgKEMpIDIwMTMgQWxleCBTZXZpbGxlIDxoaUBhbGV4YW5kZXJzZXZpbGxlLmNvbT5cbiAgQ29weXJpZ2h0IChDKSAyMDE0IFRoaWFnbyBkZSBBcnJ1ZGEgPHRwYWRpbGhhODRAZ21haWwuY29tPlxuXG4gIFJlZGlzdHJpYnV0aW9uIGFuZCB1c2UgaW4gc291cmNlIGFuZCBiaW5hcnkgZm9ybXMsIHdpdGggb3Igd2l0aG91dFxuICBtb2RpZmljYXRpb24sIGFyZSBwZXJtaXR0ZWQgcHJvdmlkZWQgdGhhdCB0aGUgZm9sbG93aW5nIGNvbmRpdGlvbnMgYXJlIG1ldDpcblxuICAgICogUmVkaXN0cmlidXRpb25zIG9mIHNvdXJjZSBjb2RlIG11c3QgcmV0YWluIHRoZSBhYm92ZSBjb3B5cmlnaHRcbiAgICAgIG5vdGljZSwgdGhpcyBsaXN0IG9mIGNvbmRpdGlvbnMgYW5kIHRoZSBmb2xsb3dpbmcgZGlzY2xhaW1lci5cbiAgICAqIFJlZGlzdHJpYnV0aW9ucyBpbiBiaW5hcnkgZm9ybSBtdXN0IHJlcHJvZHVjZSB0aGUgYWJvdmUgY29weXJpZ2h0XG4gICAgICBub3RpY2UsIHRoaXMgbGlzdCBvZiBjb25kaXRpb25zIGFuZCB0aGUgZm9sbG93aW5nIGRpc2NsYWltZXIgaW4gdGhlXG4gICAgICBkb2N1bWVudGF0aW9uIGFuZC9vciBvdGhlciBtYXRlcmlhbHMgcHJvdmlkZWQgd2l0aCB0aGUgZGlzdHJpYnV0aW9uLlxuXG4gIFRISVMgU09GVFdBUkUgSVMgUFJPVklERUQgQlkgVEhFIENPUFlSSUdIVCBIT0xERVJTIEFORCBDT05UUklCVVRPUlMgXCJBUyBJU1wiXG4gIEFORCBBTlkgRVhQUkVTUyBPUiBJTVBMSUVEIFdBUlJBTlRJRVMsIElOQ0xVRElORywgQlVUIE5PVCBMSU1JVEVEIFRPLCBUSEVcbiAgSU1QTElFRCBXQVJSQU5USUVTIE9GIE1FUkNIQU5UQUJJTElUWSBBTkQgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0VcbiAgQVJFIERJU0NMQUlNRUQuIElOIE5PIEVWRU5UIFNIQUxMIDxDT1BZUklHSFQgSE9MREVSPiBCRSBMSUFCTEUgRk9SIEFOWVxuICBESVJFQ1QsIElORElSRUNULCBJTkNJREVOVEFMLCBTUEVDSUFMLCBFWEVNUExBUlksIE9SIENPTlNFUVVFTlRJQUwgREFNQUdFU1xuICAoSU5DTFVESU5HLCBCVVQgTk9UIExJTUlURUQgVE8sIFBST0NVUkVNRU5UIE9GIFNVQlNUSVRVVEUgR09PRFMgT1IgU0VSVklDRVM7XG4gIExPU1MgT0YgVVNFLCBEQVRBLCBPUiBQUk9GSVRTOyBPUiBCVVNJTkVTUyBJTlRFUlJVUFRJT04pIEhPV0VWRVIgQ0FVU0VEIEFORFxuICBPTiBBTlkgVEhFT1JZIE9GIExJQUJJTElUWSwgV0hFVEhFUiBJTiBDT05UUkFDVCwgU1RSSUNUIExJQUJJTElUWSwgT1IgVE9SVFxuICAoSU5DTFVESU5HIE5FR0xJR0VOQ0UgT1IgT1RIRVJXSVNFKSBBUklTSU5HIElOIEFOWSBXQVkgT1VUIE9GIFRIRSBVU0UgT0ZcbiAgVEhJUyBTT0ZUV0FSRSwgRVZFTiBJRiBBRFZJU0VEIE9GIFRIRSBQT1NTSUJJTElUWSBPRiBTVUNIIERBTUFHRS5cbiovXG5cbi8qKlxuICogRXNjb3BlICg8YSBocmVmPVwiaHR0cDovL2dpdGh1Yi5jb20vZXN0b29scy9lc2NvcGVcIj5lc2NvcGU8L2E+KSBpcyBhbiA8YVxuICogaHJlZj1cImh0dHA6Ly93d3cuZWNtYS1pbnRlcm5hdGlvbmFsLm9yZy9wdWJsaWNhdGlvbnMvc3RhbmRhcmRzL0VjbWEtMjYyLmh0bVwiPkVDTUFTY3JpcHQ8L2E+XG4gKiBzY29wZSBhbmFseXplciBleHRyYWN0ZWQgZnJvbSB0aGUgPGFcbiAqIGhyZWY9XCJodHRwOi8vZ2l0aHViLmNvbS9lc3Rvb2xzL2VzbWFuZ2xlXCI+ZXNtYW5nbGUgcHJvamVjdDwvYS8+LlxuICogPHA+XG4gKiA8ZW0+ZXNjb3BlPC9lbT4gZmluZHMgbGV4aWNhbCBzY29wZXMgaW4gYSBzb3VyY2UgcHJvZ3JhbSwgaS5lLiBhcmVhcyBvZiB0aGF0XG4gKiBwcm9ncmFtIHdoZXJlIGRpZmZlcmVudCBvY2N1cnJlbmNlcyBvZiB0aGUgc2FtZSBpZGVudGlmaWVyIHJlZmVyIHRvIHRoZSBzYW1lXG4gKiB2YXJpYWJsZS4gV2l0aCBlYWNoIHNjb3BlIHRoZSBjb250YWluZWQgdmFyaWFibGVzIGFyZSBjb2xsZWN0ZWQsIGFuZCBlYWNoXG4gKiBpZGVudGlmaWVyIHJlZmVyZW5jZSBpbiBjb2RlIGlzIGxpbmtlZCB0byBpdHMgY29ycmVzcG9uZGluZyB2YXJpYWJsZSAoaWZcbiAqIHBvc3NpYmxlKS5cbiAqIDxwPlxuICogPGVtPmVzY29wZTwvZW0+IHdvcmtzIG9uIGEgc3ludGF4IHRyZWUgb2YgdGhlIHBhcnNlZCBzb3VyY2UgY29kZSB3aGljaCBoYXNcbiAqIHRvIGFkaGVyZSB0byB0aGUgPGFcbiAqIGhyZWY9XCJodHRwczovL2RldmVsb3Blci5tb3ppbGxhLm9yZy9lbi1VUy9kb2NzL1NwaWRlck1vbmtleS9QYXJzZXJfQVBJXCI+XG4gKiBNb3ppbGxhIFBhcnNlciBBUEk8L2E+LiBFLmcuIDxhIGhyZWY9XCJodHRwOi8vZXNwcmltYS5vcmdcIj5lc3ByaW1hPC9hPiBpcyBhIHBhcnNlclxuICogdGhhdCBwcm9kdWNlcyBzdWNoIHN5bnRheCB0cmVlcy5cbiAqIDxwPlxuICogVGhlIG1haW4gaW50ZXJmYWNlIGlzIHRoZSB7QGxpbmsgYW5hbHl6ZX0gZnVuY3Rpb24uXG4gKiBAbW9kdWxlIGVzY29wZVxuICovXG5cbi8qanNsaW50IGJpdHdpc2U6dHJ1ZSAqL1xuXG5pbXBvcnQgYXNzZXJ0IGZyb20gJ2Fzc2VydCc7XG5cbmltcG9ydCBTY29wZU1hbmFnZXIgZnJvbSAnLi9zY29wZS1tYW5hZ2VyJztcbmltcG9ydCBSZWZlcmVuY2VyIGZyb20gJy4vcmVmZXJlbmNlcic7XG5pbXBvcnQgUmVmZXJlbmNlIGZyb20gJy4vcmVmZXJlbmNlJztcbmltcG9ydCBWYXJpYWJsZSBmcm9tICcuL3ZhcmlhYmxlJztcbmltcG9ydCBTY29wZSBmcm9tICcuL3Njb3BlJztcbmltcG9ydCB7IHZlcnNpb24gfSBmcm9tICcuLi9wYWNrYWdlLmpzb24nO1xuXG5mdW5jdGlvbiBkZWZhdWx0T3B0aW9ucygpIHtcbiAgICByZXR1cm4ge1xuICAgICAgICBvcHRpbWlzdGljOiBmYWxzZSxcbiAgICAgICAgZGlyZWN0aXZlOiBmYWxzZSxcbiAgICAgICAgbm9kZWpzU2NvcGU6IGZhbHNlLFxuICAgICAgICBpbXBsaWVkU3RyaWN0OiBmYWxzZSxcbiAgICAgICAgc291cmNlVHlwZTogJ3NjcmlwdCcsICAvLyBvbmUgb2YgWydzY3JpcHQnLCAnbW9kdWxlJ11cbiAgICAgICAgZWNtYVZlcnNpb246IDUsXG4gICAgICAgIGNoaWxkVmlzaXRvcktleXM6IG51bGwsXG4gICAgICAgIGZhbGxiYWNrOiAnaXRlcmF0aW9uJ1xuICAgIH07XG59XG5cbmZ1bmN0aW9uIHVwZGF0ZURlZXBseSh0YXJnZXQsIG92ZXJyaWRlKSB7XG4gICAgdmFyIGtleSwgdmFsO1xuXG4gICAgZnVuY3Rpb24gaXNIYXNoT2JqZWN0KHRhcmdldCkge1xuICAgICAgICByZXR1cm4gdHlwZW9mIHRhcmdldCA9PT0gJ29iamVjdCcgJiYgdGFyZ2V0IGluc3RhbmNlb2YgT2JqZWN0ICYmICEodGFyZ2V0IGluc3RhbmNlb2YgQXJyYXkpICYmICEodGFyZ2V0IGluc3RhbmNlb2YgUmVnRXhwKTtcbiAgICB9XG5cbiAgICBmb3IgKGtleSBpbiBvdmVycmlkZSkge1xuICAgICAgICBpZiAob3ZlcnJpZGUuaGFzT3duUHJvcGVydHkoa2V5KSkge1xuICAgICAgICAgICAgdmFsID0gb3ZlcnJpZGVba2V5XTtcbiAgICAgICAgICAgIGlmIChpc0hhc2hPYmplY3QodmFsKSkge1xuICAgICAgICAgICAgICAgIGlmIChpc0hhc2hPYmplY3QodGFyZ2V0W2tleV0pKSB7XG4gICAgICAgICAgICAgICAgICAgIHVwZGF0ZURlZXBseSh0YXJnZXRba2V5XSwgdmFsKTtcbiAgICAgICAgICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgICAgICAgICB0YXJnZXRba2V5XSA9IHVwZGF0ZURlZXBseSh7fSwgdmFsKTtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgICAgIHRhcmdldFtrZXldID0gdmFsO1xuICAgICAgICAgICAgfVxuICAgICAgICB9XG4gICAgfVxuICAgIHJldHVybiB0YXJnZXQ7XG59XG5cbi8qKlxuICogTWFpbiBpbnRlcmZhY2UgZnVuY3Rpb24uIFRha2VzIGFuIEVzcHJpbWEgc3ludGF4IHRyZWUgYW5kIHJldHVybnMgdGhlXG4gKiBhbmFseXplZCBzY29wZXMuXG4gKiBAZnVuY3Rpb24gYW5hbHl6ZVxuICogQHBhcmFtIHtlc3ByaW1hLlRyZWV9IHRyZWVcbiAqIEBwYXJhbSB7T2JqZWN0fSBwcm92aWRlZE9wdGlvbnMgLSBPcHRpb25zIHRoYXQgdGFpbG9yIHRoZSBzY29wZSBhbmFseXNpc1xuICogQHBhcmFtIHtib29sZWFufSBbcHJvdmlkZWRPcHRpb25zLm9wdGltaXN0aWM9ZmFsc2VdIC0gdGhlIG9wdGltaXN0aWMgZmxhZ1xuICogQHBhcmFtIHtib29sZWFufSBbcHJvdmlkZWRPcHRpb25zLmRpcmVjdGl2ZT1mYWxzZV0tIHRoZSBkaXJlY3RpdmUgZmxhZ1xuICogQHBhcmFtIHtib29sZWFufSBbcHJvdmlkZWRPcHRpb25zLmlnbm9yZUV2YWw9ZmFsc2VdLSB3aGV0aGVyIHRvIGNoZWNrICdldmFsKCknIGNhbGxzXG4gKiBAcGFyYW0ge2Jvb2xlYW59IFtwcm92aWRlZE9wdGlvbnMubm9kZWpzU2NvcGU9ZmFsc2VdLSB3aGV0aGVyIHRoZSB3aG9sZVxuICogc2NyaXB0IGlzIGV4ZWN1dGVkIHVuZGVyIG5vZGUuanMgZW52aXJvbm1lbnQuIFdoZW4gZW5hYmxlZCwgZXNjb3BlIGFkZHNcbiAqIGEgZnVuY3Rpb24gc2NvcGUgaW1tZWRpYXRlbHkgZm9sbG93aW5nIHRoZSBnbG9iYWwgc2NvcGUuXG4gKiBAcGFyYW0ge2Jvb2xlYW59IFtwcm92aWRlZE9wdGlvbnMuaW1wbGllZFN0cmljdD1mYWxzZV0tIGltcGxpZWQgc3RyaWN0IG1vZGVcbiAqIChpZiBlY21hVmVyc2lvbiA+PSA1KS5cbiAqIEBwYXJhbSB7c3RyaW5nfSBbcHJvdmlkZWRPcHRpb25zLnNvdXJjZVR5cGU9J3NjcmlwdCddLSB0aGUgc291cmNlIHR5cGUgb2YgdGhlIHNjcmlwdC4gb25lIG9mICdzY3JpcHQnIGFuZCAnbW9kdWxlJ1xuICogQHBhcmFtIHtudW1iZXJ9IFtwcm92aWRlZE9wdGlvbnMuZWNtYVZlcnNpb249NV0tIHdoaWNoIEVDTUFTY3JpcHQgdmVyc2lvbiBpcyBjb25zaWRlcmVkXG4gKiBAcGFyYW0ge09iamVjdH0gW3Byb3ZpZGVkT3B0aW9ucy5jaGlsZFZpc2l0b3JLZXlzPW51bGxdIC0gQWRkaXRpb25hbCBrbm93biB2aXNpdG9yIGtleXMuIFNlZSBbZXNyZWN1cnNlXShodHRwczovL2dpdGh1Yi5jb20vZXN0b29scy9lc3JlY3Vyc2UpJ3MgdGhlIGBjaGlsZFZpc2l0b3JLZXlzYCBvcHRpb24uXG4gKiBAcGFyYW0ge3N0cmluZ30gW3Byb3ZpZGVkT3B0aW9ucy5mYWxsYmFjaz0naXRlcmF0aW9uJ10gLSBBIGtpbmQgb2YgdGhlIGZhbGxiYWNrIGluIG9yZGVyIHRvIGVuY291bnRlciB3aXRoIHVua25vd24gbm9kZS4gU2VlIFtlc3JlY3Vyc2VdKGh0dHBzOi8vZ2l0aHViLmNvbS9lc3Rvb2xzL2VzcmVjdXJzZSkncyB0aGUgYGZhbGxiYWNrYCBvcHRpb24uXG4gKiBAcmV0dXJuIHtTY29wZU1hbmFnZXJ9XG4gKi9cbmV4cG9ydCBmdW5jdGlvbiBhbmFseXplKHRyZWUsIHByb3ZpZGVkT3B0aW9ucykge1xuICAgIHZhciBzY29wZU1hbmFnZXIsIHJlZmVyZW5jZXIsIG9wdGlvbnM7XG5cbiAgICBvcHRpb25zID0gdXBkYXRlRGVlcGx5KGRlZmF1bHRPcHRpb25zKCksIHByb3ZpZGVkT3B0aW9ucyk7XG5cbiAgICBzY29wZU1hbmFnZXIgPSBuZXcgU2NvcGVNYW5hZ2VyKG9wdGlvbnMpO1xuXG4gICAgcmVmZXJlbmNlciA9IG5ldyBSZWZlcmVuY2VyKG9wdGlvbnMsIHNjb3BlTWFuYWdlcik7XG4gICAgcmVmZXJlbmNlci52aXNpdCh0cmVlKTtcblxuICAgIGFzc2VydChzY29wZU1hbmFnZXIuX19jdXJyZW50U2NvcGUgPT09IG51bGwsICdjdXJyZW50U2NvcGUgc2hvdWxkIGJlIG51bGwuJyk7XG5cbiAgICByZXR1cm4gc2NvcGVNYW5hZ2VyO1xufVxuXG5leHBvcnQge1xuICAgIC8qKiBAbmFtZSBtb2R1bGU6ZXNjb3BlLnZlcnNpb24gKi9cbiAgICB2ZXJzaW9uLFxuICAgIC8qKiBAbmFtZSBtb2R1bGU6ZXNjb3BlLlJlZmVyZW5jZSAqL1xuICAgIFJlZmVyZW5jZSxcbiAgICAvKiogQG5hbWUgbW9kdWxlOmVzY29wZS5WYXJpYWJsZSAqL1xuICAgIFZhcmlhYmxlLFxuICAgIC8qKiBAbmFtZSBtb2R1bGU6ZXNjb3BlLlNjb3BlICovXG4gICAgU2NvcGUsXG4gICAgLyoqIEBuYW1lIG1vZHVsZTplc2NvcGUuU2NvcGVNYW5hZ2VyICovXG4gICAgU2NvcGVNYW5hZ2VyXG59O1xuXG5cbi8qIHZpbTogc2V0IHN3PTQgdHM9NCBldCB0dz04MCA6ICovXG4iXX0=
-
-
-/***/ }),
-
-/***/ 491:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _estraverse = __webpack_require__(7085);
-
-var _esrecurse = __webpack_require__(8192);
-
-var _esrecurse2 = _interopRequireDefault(_esrecurse);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /*
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Copyright (C) 2015 Yusuke Suzuki <utatane.tea@gmail.com>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Redistribution and use in source and binary forms, with or without
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 modification, are permitted provided that the following conditions are met:
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   * Redistributions of source code must retain the above copyright
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     notice, this list of conditions and the following disclaimer.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   * Redistributions in binary form must reproduce the above copyright
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     notice, this list of conditions and the following disclaimer in the
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     documentation and/or other materials provided with the distribution.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */
-
-function getLast(xs) {
-    return xs[xs.length - 1] || null;
-}
-
-var PatternVisitor = function (_esrecurse$Visitor) {
-    _inherits(PatternVisitor, _esrecurse$Visitor);
-
-    _createClass(PatternVisitor, null, [{
-        key: 'isPattern',
-        value: function isPattern(node) {
-            var nodeType = node.type;
-            return nodeType === _estraverse.Syntax.Identifier || nodeType === _estraverse.Syntax.ObjectPattern || nodeType === _estraverse.Syntax.ArrayPattern || nodeType === _estraverse.Syntax.SpreadElement || nodeType === _estraverse.Syntax.RestElement || nodeType === _estraverse.Syntax.AssignmentPattern;
-        }
-    }]);
-
-    function PatternVisitor(options, rootPattern, callback) {
-        _classCallCheck(this, PatternVisitor);
-
-        var _this = _possibleConstructorReturn(this, (PatternVisitor.__proto__ || Object.getPrototypeOf(PatternVisitor)).call(this, null, options));
-
-        _this.rootPattern = rootPattern;
-        _this.callback = callback;
-        _this.assignments = [];
-        _this.rightHandNodes = [];
-        _this.restElements = [];
-        return _this;
-    }
-
-    _createClass(PatternVisitor, [{
-        key: 'Identifier',
-        value: function Identifier(pattern) {
-            var lastRestElement = getLast(this.restElements);
-            this.callback(pattern, {
-                topLevel: pattern === this.rootPattern,
-                rest: lastRestElement != null && lastRestElement.argument === pattern,
-                assignments: this.assignments
-            });
-        }
-    }, {
-        key: 'Property',
-        value: function Property(property) {
-            // Computed property's key is a right hand node.
-            if (property.computed) {
-                this.rightHandNodes.push(property.key);
-            }
-
-            // If it's shorthand, its key is same as its value.
-            // If it's shorthand and has its default value, its key is same as its value.left (the value is AssignmentPattern).
-            // If it's not shorthand, the name of new variable is its value's.
-            this.visit(property.value);
-        }
-    }, {
-        key: 'ArrayPattern',
-        value: function ArrayPattern(pattern) {
-            var i, iz, element;
-            for (i = 0, iz = pattern.elements.length; i < iz; ++i) {
-                element = pattern.elements[i];
-                this.visit(element);
-            }
-        }
-    }, {
-        key: 'AssignmentPattern',
-        value: function AssignmentPattern(pattern) {
-            this.assignments.push(pattern);
-            this.visit(pattern.left);
-            this.rightHandNodes.push(pattern.right);
-            this.assignments.pop();
-        }
-    }, {
-        key: 'RestElement',
-        value: function RestElement(pattern) {
-            this.restElements.push(pattern);
-            this.visit(pattern.argument);
-            this.restElements.pop();
-        }
-    }, {
-        key: 'MemberExpression',
-        value: function MemberExpression(node) {
-            // Computed property's key is a right hand node.
-            if (node.computed) {
-                this.rightHandNodes.push(node.property);
-            }
-            // the object is only read, write to its property.
-            this.rightHandNodes.push(node.object);
-        }
-
-        //
-        // ForInStatement.left and AssignmentExpression.left are LeftHandSideExpression.
-        // By spec, LeftHandSideExpression is Pattern or MemberExpression.
-        //   (see also: https://github.com/estree/estree/pull/20#issuecomment-74584758)
-        // But espree 2.0 and esprima 2.0 parse to ArrayExpression, ObjectExpression, etc...
-        //
-
-    }, {
-        key: 'SpreadElement',
-        value: function SpreadElement(node) {
-            this.visit(node.argument);
-        }
-    }, {
-        key: 'ArrayExpression',
-        value: function ArrayExpression(node) {
-            node.elements.forEach(this.visit, this);
-        }
-    }, {
-        key: 'AssignmentExpression',
-        value: function AssignmentExpression(node) {
-            this.assignments.push(node);
-            this.visit(node.left);
-            this.rightHandNodes.push(node.right);
-            this.assignments.pop();
-        }
-    }, {
-        key: 'CallExpression',
-        value: function CallExpression(node) {
-            var _this2 = this;
-
-            // arguments are right hand nodes.
-            node.arguments.forEach(function (a) {
-                _this2.rightHandNodes.push(a);
-            });
-            this.visit(node.callee);
-        }
-    }]);
-
-    return PatternVisitor;
-}(_esrecurse2.default.Visitor);
-
-/* vim: set sw=4 ts=4 et tw=80 : */
-
-
-exports["default"] = PatternVisitor;
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhdHRlcm4tdmlzaXRvci5qcyJdLCJuYW1lcyI6WyJnZXRMYXN0IiwieHMiLCJsZW5ndGgiLCJQYXR0ZXJuVmlzaXRvciIsIm5vZGUiLCJub2RlVHlwZSIsInR5cGUiLCJTeW50YXgiLCJJZGVudGlmaWVyIiwiT2JqZWN0UGF0dGVybiIsIkFycmF5UGF0dGVybiIsIlNwcmVhZEVsZW1lbnQiLCJSZXN0RWxlbWVudCIsIkFzc2lnbm1lbnRQYXR0ZXJuIiwib3B0aW9ucyIsInJvb3RQYXR0ZXJuIiwiY2FsbGJhY2siLCJhc3NpZ25tZW50cyIsInJpZ2h0SGFuZE5vZGVzIiwicmVzdEVsZW1lbnRzIiwicGF0dGVybiIsImxhc3RSZXN0RWxlbWVudCIsInRvcExldmVsIiwicmVzdCIsImFyZ3VtZW50IiwicHJvcGVydHkiLCJjb21wdXRlZCIsInB1c2giLCJrZXkiLCJ2aXNpdCIsInZhbHVlIiwiaSIsIml6IiwiZWxlbWVudCIsImVsZW1lbnRzIiwibGVmdCIsInJpZ2h0IiwicG9wIiwib2JqZWN0IiwiZm9yRWFjaCIsImFyZ3VtZW50cyIsImEiLCJjYWxsZWUiLCJlc3JlY3Vyc2UiLCJWaXNpdG9yIl0sIm1hcHBpbmdzIjoiOzs7Ozs7OztBQXdCQTs7QUFDQTs7Ozs7Ozs7OzsrZUF6QkE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQTJCQSxTQUFTQSxPQUFULENBQWlCQyxFQUFqQixFQUFxQjtBQUNqQixXQUFPQSxHQUFHQSxHQUFHQyxNQUFILEdBQVksQ0FBZixLQUFxQixJQUE1QjtBQUNIOztJQUVvQkMsYzs7Ozs7a0NBQ0FDLEksRUFBTTtBQUNuQixnQkFBSUMsV0FBV0QsS0FBS0UsSUFBcEI7QUFDQSxtQkFDSUQsYUFBYUUsbUJBQU9DLFVBQXBCLElBQ0FILGFBQWFFLG1CQUFPRSxhQURwQixJQUVBSixhQUFhRSxtQkFBT0csWUFGcEIsSUFHQUwsYUFBYUUsbUJBQU9JLGFBSHBCLElBSUFOLGFBQWFFLG1CQUFPSyxXQUpwQixJQUtBUCxhQUFhRSxtQkFB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YUFBSztBQUFFLHVCQUFLckIsY0FBTCxDQUFvQlMsSUFBcEIsQ0FBeUJjLENBQXpCO0FBQThCLGFBQTVEO0FBQ0EsaUJBQUtaLEtBQUwsQ0FBV3pCLEtBQUtzQyxNQUFoQjtBQUNIOzs7O0VBbkd1Q0Msb0JBQVVDLE87O0FBc0d0RDs7O2tCQXRHcUJ6QyxjIiwiZmlsZSI6InBhdHRlcm4tdmlzaXRvci5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gIENvcHlyaWdodCAoQykgMjAxNSBZdXN1a2UgU3V6dWtpIDx1dGF0YW5lLnRlYUBnbWFpbC5jb20+XG5cbiAgUmVkaXN0cmlidXRpb24gYW5kIHVzZSBpbiBzb3VyY2UgYW5kIGJpbmFyeSBmb3Jtcywgd2l0aCBvciB3aXRob3V0XG4gIG1vZGlmaWNhdGlvbiwgYXJlIHBlcm1pdHRlZCBwcm92aWRlZCB0aGF0IHRoZSBmb2xsb3dpbmcgY29uZGl0aW9ucyBhcmUgbWV0OlxuXG4gICAgKiBSZWRpc3RyaWJ1dGlvbnMgb2Ygc291cmNlIGNvZGUgbXVzdCByZXRhaW4gdGhlIGFib3ZlIGNvcHlyaWdodFxuICAgICAgbm90aWNlLCB0aGlzIGxpc3Qgb2YgY29uZGl0aW9ucyBhbmQgdGhlIGZvbGxvd2luZyBkaXNjbGFpbWVyLlxuICAgICogUmVkaXN0cmlidXRpb25zIGluIGJpbmFyeSBmb3JtIG11c3QgcmVwcm9kdWNlIHRoZSBhYm92ZSBjb3B5cmlnaHRcbiAgICAgIG5vdGljZSwgdGhpcyBsaXN0IG9mIGNvbmRpdGlvbnMgYW5kIHRoZSBmb2xsb3dpbmcgZGlzY2xhaW1lciBpbiB0aGVcbiAgICAgIGRvY3VtZW50YXRpb24gYW5kL29yIG90aGVyIG1hdGVyaWFscyBwcm92aWRlZCB3aXRoIHRoZSBkaXN0cmlidXRpb24uXG5cbiAgVEhJUyBTT0ZUV0FSRSBJUyBQUk9WSURFRCBCWSBUSEUgQ09QWVJJR0hUIEhPTERFUlMgQU5EIENPTlRSSUJVVE9SUyBcIkFTIElTXCJcbiAgQU5EIEFOWSBFWFBSRVNTIE9SIElNUExJRUQgV0FSUkFOVElFUywgSU5DTFVESU5HLCBCVVQgTk9UIExJTUlURUQgVE8sIFRIRVxuICBJTVBMSUVEIFdBUlJBTlRJRVMgT0YgTUVSQ0hBTlRBQklMSVRZIEFORCBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRVxuICBBUkUgRElTQ0xBSU1FRC4gSU4gTk8gRVZFTlQgU0hBTEwgPENPUFlSSUdIVCBIT0xERVI+IEJFIExJQUJMRSBGT1IgQU5ZXG4gIERJUkVDVCwgSU5ESVJFQ1QsIElOQ0lERU5UQUwsIFNQRUNJQUwsIEVYRU1QTEFSWSwgT1IgQ09OU0VRVUVOVElBTCBEQU1BR0VTXG4gIChJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRFRCBUTywgUFJPQ1VSRU1FTlQgT0YgU1VCU1RJVFVURSBHT09EUyBPUiBTRVJWSUNFUztcbiAgTE9TUyBPRiBVU0UsIERBVEEsIE9SIFBST0ZJVFM7IE9SIEJVU0lORVNTIElOVEVSUlVQVElPTikgSE9XRVZFUiBDQVVTRUQgQU5EXG4gIE9OIEFOWSBUSEVPUlkgT0YgTElBQklMSVRZLCBXSEVUSEVSIElOIENPTlRSQUNULCBTVFJJQ1QgTElBQklMSVRZLCBPUiBUT1JUXG4gIChJTkNMVURJTkcgTkVHTElHRU5DRSBPUiBPVEhFUldJU0UpIEFSSVNJTkcgSU4gQU5ZIFdBWSBPVVQgT0YgVEhFIFVTRSBPRlxuICBUSElTIFNPRlRXQVJFLCBFVkVOIElGIEFEVklTRUQgT0YgVEhFIFBPU1NJQklMSVRZIE9GIFNVQ0ggREFNQUdFLlxuKi9cblxuaW1wb3J0IHsgU3ludGF4IH0gZnJvbSAnZXN0cmF2ZXJzZSc7XG5pbXBvcnQgZXNyZWN1cnNlIGZyb20gJ2VzcmVjdXJzZSc7XG5cbmZ1bmN0aW9uIGdldExhc3QoeHMpIHtcbiAgICByZXR1cm4geHNbeHMubGVuZ3RoIC0gMV0gfHwgbnVsbDtcbn1cblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgUGF0dGVyblZpc2l0b3IgZXh0ZW5kcyBlc3JlY3Vyc2UuVmlzaXRvciB7XG4gICAgc3RhdGljIGlzUGF0dGVybihub2RlKSB7XG4gICAgICAgIHZhciBub2RlVHlwZSA9IG5vZGUudHlwZTtcbiAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgIG5vZGVUeXBlID09PSBTeW50YXguSWRlbnRpZmllciB8fFxuICAgICAgICAgICAgbm9kZVR5cGUgPT09IFN5bnRheC5PYmplY3RQYXR0ZXJuIHx8XG4gICAgICAgICAgICBub2RlVHlwZSA9PT0gU3ludGF4LkFycmF5UGF0dGVybiB8fFxuICAgICAgICAgICAgbm9kZVR5cGUgPT09IFN5bnRheC5TcHJlYWRFbGVtZW50IHx8XG4gICAgICAgICAgICBub2RlVHlwZSA9PT0gU3ludGF4LlJlc3RFbGVtZW50IHx8XG4gICAgICAgICAgICBub2RlVHlwZSA9PT0gU3ludGF4LkFzc2lnbm1lbnRQYXR0ZXJuXG4gICAgICAgICk7XG4gICAgfVxuXG4gICAgY29uc3RydWN0b3Iob3B0aW9ucywgcm9vdFBhdHRlcm4sIGNhbGxiYWNrKSB7XG4gICAgICAgIHN1cGVyKG51bGwsIG9wdGlvbnMpO1xuICAgICAgICB0aGlzLnJvb3RQYXR0ZXJuID0gcm9vdFBhdHRlcm47XG4gICAgICAgIHRoaXMuY2FsbGJhY2sgPSBjYWxsYmFjaztcbiAgICAgICAgdGhpcy5hc3NpZ25tZW50cyA9IFtdO1xuICAgICAgICB0aGlzLnJpZ2h0SGFuZE5vZGVzID0gW107XG4gICAgICAgIHRoaXMucmVzdEVsZW1lbnRzID0gW107XG4gICAgfVxuXG4gICAgSWRlbnRpZmllcihwYXR0ZXJuKSB7XG4gICAgICAgIGNvbnN0IGxhc3RSZXN0RWxlbWVudCA9IGdldExhc3QodGhpcy5yZXN0RWxlbWVudHMpO1xuICAgICAgICB0aGlzLmNhbGxiYWNrKHBhdHRlcm4sIHtcbiAgICAgICAgICAgIHRvcExldmVsOiBwYXR0ZXJuID09PSB0aGlzLnJvb3RQYXR0ZXJuLFxuICAgICAgICAgICAgcmVzdDogbGFzdFJlc3RFbGVtZW50ICE9IG51bGwgJiYgbGFzdFJlc3RFbGVtZW50LmFyZ3VtZW50ID09PSBwYXR0ZXJuLFxuICAgICAgICAgICAgYXNzaWdubWVudHM6IHRoaXMuYXNzaWdubWVudHNcbiAgICAgICAgfSk7XG4gICAgfVxuXG4gICAgUHJvcGVydHkocHJvcGVydHkpIHtcbiAgICAgICAgLy8gQ29tcHV0ZWQgcHJvcGVydHkncyBrZXkgaXMgYSByaWdodCBoYW5kIG5vZGUuXG4gICAgICAgIGlmIChwcm9wZXJ0eS5jb21wdXRlZCkge1xuICAgICAgICAgICAgdGhpcy5yaWdodEhhbmROb2Rlcy5wdXNoKHByb3BlcnR5LmtleSk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBJZiBpdCdzIHNob3J0aGFuZCwgaXRzIGtleSBpcyBzYW1lIGFzIGl0cyB2YWx1ZS5cbiAgICAgICAgLy8gSWYgaXQncyBzaG9ydGhhbmQgYW5kIGhhcyBpdHMgZGVmYXVsdCB2YWx1ZSwgaXRzIGtleSBpcyBzYW1lIGFzIGl0cyB2YWx1ZS5sZWZ0ICh0aGUgdmFsdWUgaXMgQXNzaWdubWVudFBhdHRlcm4pLlxuICAgICAgICAvLyBJZiBpdCdzIG5vdCBzaG9ydGhhbmQsIHRoZSBuYW1lIG9mIG5ldyB2YXJpYWJsZSBpcyBpdHMgdmFsdWUncy5cbiAgICAgICAgdGhpcy52aXNpdChwcm9wZXJ0eS52YWx1ZSk7XG4gICAgfVxuXG4gICAgQXJyYXlQYXR0ZXJuKHBhdHRlcm4pIHtcbiAgICAgICAgdmFyIGksIGl6LCBlbGVtZW50O1xuICAgICAgICBmb3IgKGkgPSAwLCBpeiA9IHBhdHRlcm4uZWxlbWVudHMubGVuZ3RoOyBpIDwgaXo7ICsraSkge1xuICAgICAgICAgICAgZWxlbWVudCA9IHBhdHRlcm4uZWxlbWVudHNbaV07XG4gICAgICAgICAgICB0aGlzLnZpc2l0KGVsZW1lbnQpO1xuICAgICAgICB9XG4gICAgfVxuXG4gICAgQXNzaWdubWVudFBhdHRlcm4ocGF0dGVybikge1xuICAgICAgICB0aGlzLmFzc2lnbm1lbnRzLnB1c2gocGF0dGVybik7XG4gICAgICAgIHRoaXMudmlzaXQocGF0dGVybi5sZWZ0KTtcbiAgICAgICAgdGhpcy5yaWdodEhhbmROb2Rlcy5wdXNoKHBhdHRlcm4ucmlnaHQpO1xuICAgICAgICB0aGlzLmFzc2lnbm1lbnRzLnBvcCgpO1xuICAgIH1cblxuICAgIFJlc3RFbGVtZW50KHBhdHRlcm4pIHtcbiAgICAgICAgdGhpcy5yZXN0RWxlbWVudHMucHVzaChwYXR0ZXJuKTtcbiAgICAgICAgdGhpcy52aXNpdChwYXR0ZXJuLmFyZ3VtZW50KTtcbiAgICAgICAgdGhpcy5yZXN0RWxlbWVudHMucG9wKCk7XG4gICAgfVxuXG4gICAgTWVtYmVyRXhwcmVzc2lvbihub2RlKSB7XG4gICAgICAgIC8vIENvbXB1dGVkIHByb3BlcnR5J3Mga2V5IGlzIGEgcmlnaHQgaGFuZCBub2RlLlxuICAgICAgICBpZiAobm9kZS5jb21wdXRlZCkge1xuICAgICAgICAgICAgdGhpcy5yaWdodEhhbmROb2Rlcy5wdXNoKG5vZGUucHJvcGVydHkpO1xuICAgICAgICB9XG4gICAgICAgIC8vIHRoZSBvYmplY3QgaXMgb25seSByZWFkLCB3cml0ZSB0byBpdHMgcHJvcGVydHkuXG4gICAgICAgIHRoaXMucmlnaHRIYW5kTm9kZXMucHVzaChub2RlLm9iamVjdCk7XG4gICAgfVxuXG4gICAgLy9cbiAgICAvLyBGb3JJblN0YXRlbWVudC5sZWZ0IGFuZCBBc3NpZ25tZW50RXhwcmVzc2lvbi5sZWZ0IGFyZSBMZWZ0SGFuZFNpZGVFeHByZXNzaW9uLlxuICAgIC8vIEJ5IHNwZWMsIExlZnRIYW5kU2lkZUV4cHJlc3Npb24gaXMgUGF0dGVybiBvciBNZW1iZXJFeHByZXNzaW9uLlxuICAgIC8vICAgKHNlZSBhbHNvOiBodHRwczovL2dpdGh1Yi5jb20vZXN0cmVlL2VzdHJlZS9wdWxsLzIwI2lzc3VlY29tbWVudC03NDU4NDc1OClcbiAgICAvLyBCdXQgZXNwcmVlIDIuMCBhbmQgZXNwcmltYSAyLjAgcGFyc2UgdG8gQXJyYXlFeHByZXNzaW9uLCBPYmplY3RFeHByZXNzaW9uLCBldGMuLi5cbiAgICAvL1xuXG4gICAgU3ByZWFkRWxlbWVudChub2RlKSB7XG4gICAgICAgIHRoaXMudmlzaXQobm9kZS5hcmd1bWVudCk7XG4gICAgfVxuXG4gICAgQXJyYXlFeHByZXNzaW9uKG5vZGUpIHtcbiAgICAgICAgbm9kZS5lbGVtZW50cy5mb3JFYWNoKHRoaXMudmlzaXQsIHRoaXMpO1xuICAgIH1cblxuICAgIEFzc2lnbm1lbnRFeHByZXNzaW9uKG5vZGUpIHtcbiAgICAgICAgdGhpcy5hc3NpZ25tZW50cy5wdXNoKG5vZGUpO1xuICAgICAgICB0aGlzLnZpc2l0KG5vZGUubGVmdCk7XG4gICAgICAgIHRoaXMucmlnaHRIYW5kTm9kZXMucHVzaChub2RlLnJpZ2h0KTtcbiAgICAgICAgdGhpcy5hc3NpZ25tZW50cy5wb3AoKTtcbiAgICB9XG5cbiAgICBDYWxsRXhwcmVzc2lvbihub2RlKSB7XG4gICAgICAgIC8vIGFyZ3VtZW50cyBhcmUgcmlnaHQgaGFuZCBub2Rlcy5cbiAgICAgICAgbm9kZS5hcmd1bWVudHMuZm9yRWFjaChhID0+IHsgdGhpcy5yaWdodEhhbmROb2Rlcy5wdXNoKGEpOyB9KTtcbiAgICAgICAgdGhpcy52aXNpdChub2RlLmNhbGxlZSk7XG4gICAgfVxufVxuXG4vKiB2aW06IHNldCBzdz00IHRzPTQgZXQgdHc9ODAgOiAqL1xuIl19
-
-
-/***/ }),
-
-/***/ 2681:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/*
-  Copyright (C) 2015 Yusuke Suzuki <utatane.tea@gmail.com>
-
-  Redistribution and use in source and binary forms, with or without
-  modification, are permitted provided that the following conditions are met:
-
-    * Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright
-      notice, this list of conditions and the following disclaimer in the
-      documentation and/or other materials provided with the distribution.
-
-  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-  ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
-  DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-  (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-  LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
-
-var READ = 0x1;
-var WRITE = 0x2;
-var RW = READ | WRITE;
-
-/**
- * A Reference represents a single occurrence of an identifier in code.
- * @class Reference
- */
-
-var Reference = function () {
-  function Reference(ident, scope, flag, writeExpr, maybeImplicitGlobal, partial, init) {
-    _classCallCheck(this, Reference);
-
-    /**
-     * Identifier syntax node.
-     * @member {esprima#Identifier} Reference#identifier
-     */
-    this.identifier = ident;
-    /**
-     * Reference to the enclosing Scope.
-     * @member {Scope} Reference#from
-     */
-    this.from = scope;
-    /**
-     * Whether the reference comes from a dynamic scope (such as 'eval',
-     * 'with', etc.), and may be trapped by dynamic scopes.
-     * @member {boolean} Reference#tainted
-     */
-    this.tainted = false;
-    /**
-     * The variable this reference is resolved with.
-     * @member {Variable} Reference#resolved
-     */
-    this.resolved = null;
-    /**
-     * The read-write mode of the reference. (Value is one of {@link
-     * Reference.READ}, {@link Reference.RW}, {@link Reference.WRITE}).
-     * @member {number} Reference#flag
-     * @private
-     */
-    this.flag = flag;
-    if (this.isWrite()) {
-      /**
-       * If reference is writeable, this is the tree being written to it.
-       * @member {esprima#Node} Reference#writeExpr
-       */
-      this.writeExpr = writeExpr;
-      /**
-       * Whether the Reference might refer to a partial value of writeExpr.
-       * @member {boolean} Reference#partial
-       */
-      this.partial = partial;
-      /**
-       * Whether the Reference is to write of initialization.
-       * @member {boolean} Reference#init
-       */
-      this.init = init;
-    }
-    this.__maybeImplicitGlobal = maybeImplicitGlobal;
-  }
-
-  /**
-   * Whether the reference is static.
-   * @method Reference#isStatic
-   * @return {boolean}
-   */
-
-
-  _createClass(Reference, [{
-    key: "isStatic",
-    value: function isStatic() {
-      return !this.tainted && this.resolved && this.resolved.scope.isStatic();
-    }
-
-    /**
-     * Whether the reference is writeable.
-     * @method Reference#isWrite
-     * @return {boolean}
-     */
-
-  }, {
-    key: "isWrite",
-    value: function isWrite() {
-      return !!(this.flag & Reference.WRITE);
-    }
-
-    /**
-     * Whether the reference is readable.
-     * @method Reference#isRead
-     * @return {boolean}
-     */
-
-  }, {
-    key: "isRead",
-    value: function isRead() {
-      return !!(this.flag & Reference.READ);
-    }
-
-    /**
-     * Whether the reference is read-only.
-     * @method Reference#isReadOnly
-     * @return {boolean}
-     */
-
-  }, {
-    key: "isReadOnly",
-    value: function isReadOnly() {
-      return this.flag === Reference.READ;
-    }
-
-    /**
-     * Whether the reference is write-only.
-     * @method Reference#isWriteOnly
-     * @return {boolean}
-     */
-
-  }, {
-    key: "isWriteOnly",
-    value: function isWriteOnly() {
-      return this.flag === Reference.WRITE;
-    }
-
-    /**
-     * Whether the reference is read-write.
-     * @method Reference#isReadWrite
-     * @return {boolean}
-     */
-
-  }, {
-    key: "isReadWrite",
-    value: function isReadWrite() {
-      return this.flag === Reference.RW;
-    }
-  }]);
-
-  return Reference;
-}();
-
-/**
- * @constant Reference.READ
- * @private
- */
-
-
-exports["default"] = Reference;
-Reference.READ = READ;
-/**
- * @constant Reference.WRITE
- * @private
- */
-Reference.WRITE = WRITE;
-/**
- * @constant Reference.RW
- * @private
- */
-Reference.RW = RW;
-
-/* vim: set sw=4 ts=4 et tw=80 : */
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlZmVyZW5jZS5qcyJdLCJuYW1lcyI6WyJSRUFEIiwiV1JJVEUiLCJSVyIsIlJlZmVyZW5jZSIsImlkZW50Iiwic2NvcGUiLCJmbGFnIiwid3JpdGVFeHByIiwibWF5YmVJbXBsaWNpdEdsb2JhbCIsInBhcnRpYWwiLCJpbml0IiwiaWRlbnRpZmllciIsImZyb20iLCJ0YWludGVkIiwicmVzb2x2ZWQiLCJpc1dyaXRlIiwiX19tYXliZUltcGxpY2l0R2xvYmFsIiwiaXNTdGF0aWMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBd0JBLElBQU1BLE9BQU8sR0FBYjtBQUNBLElBQU1DLFFBQVEsR0FBZDtBQUNBLElBQU1DLEtBQUtGLE9BQU9DLEtBQWxCOztBQUVBOzs7OztJQUlxQkUsUztBQUNqQixxQkFBWUMsS0FBWixFQUFtQkMsS0FBbkIsRUFBMEJDLElBQTFCLEVBQWlDQyxTQUFqQyxFQUE0Q0MsbUJBQTVDLEVBQWlFQyxPQUFqRSxFQUEwRUMsSUFBMUUsRUFBZ0Y7QUFBQTs7QUFDNUU7Ozs7QUFJQSxTQUFLQyxVQUFMLEdBQWtCUCxLQUFsQjtBQUNBOzs7O0FBSUEsU0FBS1EsSUFBTCxHQUFZUCxLQUFaO0FBQ0E7Ozs7O0FBS0EsU0FBS1EsT0FBTCxHQUFlLEtBQWY7QUFDQTs7OztBQUlBLFNBQUtDLFFBQUwsR0FBZ0IsSUFBaEI7QUFDQTs7Ozs7O0FBTUEsU0FBS1IsSUFBTCxHQUFZQSxJQUFaO0FBQ0EsUUFBSSxLQUFLUyxPQUFMLEVBQUosRUFBb0I7QUFDaEI7Ozs7QUFJQSxXQUFLUixTQUFMLEdBQWlCQSxTQUFqQjtBQUNBOzs7O0FBSUEsV0FBS0UsT0FBTCxHQUFlQSxPQUFmO0FBQ0E7Ozs7QUFJQSxXQUFLQyxJQUFMLEdBQVlBLElBQVo7QUFDSDtBQUNELFNBQUtNLHFCQUFMLEdBQTZCUixtQkFBN0I7QUFDSDs7QUFFRDs7Ozs7Ozs7OytCQUtXO0FBQ1AsYUFBTyxDQUFDLEtBQUtLLE9BQU4sSUFBaUIsS0FBS0MsUUFBdEIsSUFBa0MsS0FBS0EsUUFBTCxDQUFjVCxLQUFkLENBQW9CWSxRQUFwQixFQUF6QztBQUNIOztBQUVEOzs7Ozs7Ozs4QkFLVTtBQUNOLGFBQU8sQ0FBQyxFQUFFLEtBQUtYLElBQUwsR0FBWUgsVUFBVUYsS0FBeEIsQ0FBUjtBQUNIOztBQUVEOzs7Ozs7Ozs2QkFLUztBQUNMLGFBQU8sQ0FBQyxFQUFFLEtBQUtLLElBQUwsR0FBWUgsVUFBVUgsSUFBeEIsQ0FBUjtBQUNIOztBQUVEOzs7Ozs7OztpQ0FLYTtBQUNULGFBQU8sS0FBS00sSUFBTCxLQUFjSCxVQUFVSCxJQUEvQjtBQUNIOztBQUVEOzs7Ozs7OztrQ0FLYztBQUNWLGFBQU8sS0FBS00sSUFBTCxLQUFjSCxVQUFVRixLQUEvQjtBQUNIOztBQUVEOzs7Ozs7OztrQ0FLYztBQUNWLGFBQU8sS0FBS0ssSUFBTCxLQUFjSCxVQUFVRCxFQUEvQjtBQUNIOzs7Ozs7QUFHTDs7Ozs7O2tCQXpHcUJDLFM7QUE2R3JCQSxVQUFVSCxJQUFWLEdBQWlCQSxJQUFqQjtBQUNBOzs7O0FBSUFHLFVBQVVGLEtBQVYsR0FBa0JBLEtBQWxCO0FBQ0E7Ozs7QUFJQUUsVUFBVUQsRUFBVixHQUFlQSxFQUFmOztBQUVBIiwiZmlsZSI6InJlZmVyZW5jZS5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gIENvcHlyaWdodCAoQykgMjAxNSBZdXN1a2UgU3V6dWtpIDx1dGF0YW5lLnRlYUBnbWFpbC5jb20+XG5cbiAgUmVkaXN0cmlidXRpb24gYW5kIHVzZSBpbiBzb3VyY2UgYW5kIGJpbmFyeSBmb3Jtcywgd2l0aCBvciB3aXRob3V0XG4gIG1vZGlmaWNhdGlvbiwgYXJlIHBlcm1pdHRlZCBwcm92aWRlZCB0aGF0IHRoZSBmb2xsb3dpbmcgY29uZGl0aW9ucyBhcmUgbWV0OlxuXG4gICAgKiBSZWRpc3RyaWJ1dGlvbnMgb2Ygc291cmNlIGNvZGUgbXVzdCByZXRhaW4gdGhlIGFib3ZlIGNvcHlyaWdodFxuICAgICAgbm90aWNlLCB0aGlzIGxpc3Qgb2YgY29uZGl0aW9ucyBhbmQgdGhlIGZvbGxvd2luZyBkaXNjbGFpbWVyLlxuICAgICogUmVkaXN0cmlidXRpb25zIGluIGJpbmFyeSBmb3JtIG11c3QgcmVwcm9kdWNlIHRoZSBhYm92ZSBjb3B5cmlnaHRcbiAgICAgIG5vdGljZSwgdGhpcyBsaXN0IG9mIGNvbmRpdGlvbnMgYW5kIHRoZSBmb2xsb3dpbmcgZGlzY2xhaW1lciBpbiB0aGVcbiAgICAgIGRvY3VtZW50YXRpb24gYW5kL29yIG90aGVyIG1hdGVyaWFscyBwcm92aWRlZCB3aXRoIHRoZSBkaXN0cmlidXRpb24uXG5cbiAgVEhJUyBTT0ZUV0FSRSBJUyBQUk9WSURFRCBCWSBUSEUgQ09QWVJJR0hUIEhPTERFUlMgQU5EIENPTlRSSUJVVE9SUyBcIkFTIElTXCJcbiAgQU5EIEFOWSBFWFBSRVNTIE9SIElNUExJRUQgV0FSUkFOVElFUywgSU5DTFVESU5HLCBCVVQgTk9UIExJTUlURUQgVE8sIFRIRVxuICBJTVBMSUVEIFdBUlJBTlRJRVMgT0YgTUVSQ0hBTlRBQklMSVRZIEFORCBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRVxuICBBUkUgRElTQ0xBSU1FRC4gSU4gTk8gRVZFTlQgU0hBTEwgPENPUFlSSUdIVCBIT0xERVI+IEJFIExJQUJMRSBGT1IgQU5ZXG4gIERJUkVDVCwgSU5ESVJFQ1QsIElOQ0lERU5UQUwsIFNQRUNJQUwsIEVYRU1QTEFSWSwgT1IgQ09OU0VRVUVOVElBTCBEQU1BR0VTXG4gIChJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRFRCBUTywgUFJPQ1VSRU1FTlQgT0YgU1VCU1RJVFVURSBHT09EUyBPUiBTRVJWSUNFUztcbiAgTE9TUyBPRiBVU0UsIERBVEEsIE9SIFBST0ZJVFM7IE9SIEJVU0lORVNTIElOVEVSUlVQVElPTikgSE9XRVZFUiBDQVVTRUQgQU5EXG4gIE9OIEFOWSBUSEVPUlkgT0YgTElBQklMSVRZLCBXSEVUSEVSIElOIENPTlRSQUNULCBTVFJJQ1QgTElBQklMSVRZLCBPUiBUT1JUXG4gIChJTkNMVURJTkcgTkVHTElHRU5DRSBPUiBPVEhFUldJU0UpIEFSSVNJTkcgSU4gQU5ZIFdBWSBPVVQgT0YgVEhFIFVTRSBPRlxuICBUSElTIFNPRlRXQVJFLCBFVkVOIElGIEFEVklTRUQgT0YgVEhFIFBPU1NJQklMSVRZIE9GIFNVQ0ggREFNQUdFLlxuKi9cblxuY29uc3QgUkVBRCA9IDB4MTtcbmNvbnN0IFdSSVRFID0gMHgyO1xuY29uc3QgUlcgPSBSRUFEIHwgV1JJVEU7XG5cbi8qKlxuICogQSBSZWZlcmVuY2UgcmVwcmVzZW50cyBhIHNpbmdsZSBvY2N1cnJlbmNlIG9mIGFuIGlkZW50aWZpZXIgaW4gY29kZS5cbiAqIEBjbGFzcyBSZWZlcmVuY2VcbiAqL1xuZXhwb3J0IGRlZmF1bHQgY2xhc3MgUmVmZXJlbmNlIHtcbiAgICBjb25zdHJ1Y3RvcihpZGVudCwgc2NvcGUsIGZsYWcsICB3cml0ZUV4cHIsIG1heWJlSW1wbGljaXRHbG9iYWwsIHBhcnRpYWwsIGluaXQpIHtcbiAgICAgICAgLyoqXG4gICAgICAgICAqIElkZW50aWZpZXIgc3ludGF4IG5vZGUuXG4gICAgICAgICAqIEBtZW1iZXIge2VzcHJpbWEjSWRlbnRpZmllcn0gUmVmZXJlbmNlI2lkZW50aWZpZXJcbiAgICAgICAgICovXG4gICAgICAgIHRoaXMuaWRlbnRpZmllciA9IGlkZW50O1xuICAgICAgICAvKipcbiAgICAgICAgICogUmVmZXJlbmNlIHRvIHRoZSBlbmNsb3NpbmcgU2NvcGUuXG4gICAgICAgICAqIEBtZW1iZXIge1Njb3BlfSBSZWZlcmVuY2UjZnJvbVxuICAgICAgICAgKi9cbiAgICAgICAgdGhpcy5mcm9tID0gc2NvcGU7XG4gICAgICAgIC8qKlxuICAgICAgICAgKiBXaGV0aGVyIHRoZSByZWZlcmVuY2UgY29tZXMgZnJvbSBhIGR5bmFtaWMgc2NvcGUgKHN1Y2ggYXMgJ2V2YWwnLFxuICAgICAgICAgKiAnd2l0aCcsIGV0Yy4pLCBhbmQgbWF5IGJlIHRyYXBwZWQgYnkgZHluYW1pYyBzY29wZXMuXG4gICAgICAgICAqIEBtZW1iZXIge2Jvb2xlYW59IFJlZmVyZW5jZSN0YWludGVkXG4gICAgICAgICAqL1xuICAgICAgICB0aGlzLnRhaW50ZWQgPSBmYWxzZTtcbiAgICAgICAgLyoqXG4gICAgICAgICAqIFRoZSB2YXJpYWJsZSB0aGlzIHJlZmVyZW5jZSBpcyByZXNvbHZlZCB3aXRoLlxuICAgICAgICAgKiBAbWVtYmVyIHtWYXJpYWJsZX0gUmVmZXJlbmNlI3Jlc29sdmVkXG4gICAgICAgICAqL1xuICAgICAgICB0aGlzLnJlc29sdmVkID0gbnVsbDtcbiAgICAgICAgLyoqXG4gICAgICAgICAqIFRoZSByZWFkLXdyaXRlIG1vZGUgb2YgdGhlIHJlZmVyZW5jZS4gKFZhbHVlIGlzIG9uZSBvZiB7QGxpbmtcbiAgICAgICAgICogUmVmZXJlbmNlLlJFQUR9LCB7QGxpbmsgUmVmZXJlbmNlLlJXfSwge0BsaW5rIFJlZmVyZW5jZS5XUklURX0pLlxuICAgICAgICAgKiBAbWVtYmVyIHtudW1iZXJ9IFJlZmVyZW5jZSNmbGFnXG4gICAgICAgICAqIEBwcml2YXRlXG4gICAgICAgICAqL1xuICAgICAgICB0aGlzLmZsYWcgPSBmbGFnO1xuICAgICAgICBpZiAodGhpcy5pc1dyaXRlKCkpIHtcbiAgICAgICAgICAgIC8qKlxuICAgICAgICAgICAgICogSWYgcmVmZXJlbmNlIGlzIHdyaXRlYWJsZSwgdGhpcyBpcyB0aGUgdHJlZSBiZWluZyB3cml0dGVuIHRvIGl0LlxuICAgICAgICAgICAgICogQG1lbWJlciB7ZXNwcmltYSNOb2RlfSBSZWZlcmVuY2Ujd3JpdGVFeHByXG4gICAgICAgICAgICAgKi9cbiAgICAgICAgICAgIHRoaXMud3JpdGVFeHByID0gd3JpdGVFeHByO1xuICAgICAgICAgICAgLyoqXG4gICAgICAgICAgICAgKiBXaGV0aGVyIHRoZSBSZWZlcmVuY2UgbWlnaHQgcmVmZXIgdG8gYSBwYXJ0aWFsIHZhbHVlIG9mIHdyaXRlRXhwci5cbiAgICAgICAgICAgICAqIEBtZW1iZXIge2Jvb2xlYW59IFJlZmVyZW5jZSNwYXJ0aWFsXG4gICAgICAgICAgICAgKi9cbiAgICAgICAgICAgIHRoaXMucGFydGlhbCA9IHBhcnRpYWw7XG4gICAgICAgICAgICAvKipcbiAgICAgICAgICAgICAqIFdoZXRoZXIgdGhlIFJlZmVyZW5jZSBpcyB0byB3cml0ZSBvZiBpbml0aWFsaXphdGlvbi5cbiAgICAgICAgICAgICAqIEBtZW1iZXIge2Jvb2xlYW59IFJlZmVyZW5jZSNpbml0XG4gICAgICAgICAgICAgKi9cbiAgICAgICAgICAgIHRoaXMuaW5pdCA9IGluaXQ7XG4gICAgICAgIH1cbiAgICAgICAgdGhpcy5fX21heWJlSW1wbGljaXRHbG9iYWwgPSBtYXliZUltcGxpY2l0R2xvYmFsO1xuICAgIH1cblxuICAgIC8qKlxuICAgICAqIFdoZXRoZXIgdGhlIHJlZmVyZW5jZSBpcyBzdGF0aWMuXG4gICAgICogQG1ldGhvZCBSZWZlcmVuY2UjaXNTdGF0aWNcbiAgICAgKiBAcmV0dXJuIHtib29sZWFufVxuICAgICAqL1xuICAgIGlzU3RhdGljKCkge1xuICAgICAgICByZXR1cm4gIXRoaXMudGFpbnRlZCAmJiB0aGlzLnJlc29sdmVkICYmIHRoaXMucmVzb2x2ZWQuc2NvcGUuaXNTdGF0aWMoKTtcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiBXaGV0aGVyIHRoZSByZWZlcmVuY2UgaXMgd3JpdGVhYmxlLlxuICAgICAqIEBtZXRob2QgUmVmZXJlbmNlI2lzV3JpdGVcbiAgICAgKiBAcmV0dXJuIHtib29sZWFufVxuICAgICAqL1xuICAgIGlzV3JpdGUoKSB7XG4gICAgICAgIHJldHVybiAhISh0aGlzLmZsYWcgJiBSZWZlcmVuY2UuV1JJVEUpO1xuICAgIH1cblxuICAgIC8qKlxuICAgICAqIFdoZXRoZXIgdGhlIHJlZmVyZW5jZSBpcyByZWFkYWJsZS5cbiAgICAgKiBAbWV0aG9kIFJlZmVyZW5jZSNpc1JlYWRcbiAgICAgKiBAcmV0dXJuIHtib29sZWFufVxuICAgICAqL1xuICAgIGlzUmVhZCgpIHtcbiAgICAgICAgcmV0dXJuICEhKHRoaXMuZmxhZyAmIFJlZmVyZW5jZS5SRUFEKTtcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiBXaGV0aGVyIHRoZSByZWZlcmVuY2UgaXMgcmVhZC1vbmx5LlxuICAgICAqIEBtZXRob2QgUmVmZXJlbmNlI2lzUmVhZE9ubHlcbiAgICAgKiBAcmV0dXJuIHtib29sZWFufVxuICAgICAqL1xuICAgIGlzUmVhZE9ubHkoKSB7XG4gICAgICAgIHJldHVybiB0aGlzLmZsYWcgPT09IFJlZmVyZW5jZS5SRUFEO1xuICAgIH1cblxuICAgIC8qKlxuICAgICAqIFdoZXRoZXIgdGhlIHJlZmVyZW5jZSBpcyB3cml0ZS1vbmx5LlxuICAgICAqIEBtZXRob2QgUmVmZXJlbmNlI2lzV3JpdGVPbmx5XG4gICAgICogQHJldHVybiB7Ym9vbGVhbn1cbiAgICAgKi9cbiAgICBpc1dyaXRlT25seSgpIHtcbiAgICAgICAgcmV0dXJuIHRoaXMuZmxhZyA9PT0gUmVmZXJlbmNlLldSSVRFO1xuICAgIH1cblxuICAgIC8qKlxuICAgICAqIFdoZXRoZXIgdGhlIHJlZmVyZW5jZSBpcyByZWFkLXdyaXRlLlxuICAgICAqIEBtZXRob2QgUmVmZXJlbmNlI2lzUmVhZFdyaXRlXG4gICAgICogQHJldHVybiB7Ym9vbGVhbn1cbiAgICAgKi9cbiAgICBpc1JlYWRXcml0ZSgpIHtcbiAgICAgICAgcmV0dXJuIHRoaXMuZmxhZyA9PT0gUmVmZXJlbmNlLlJXO1xuICAgIH1cbn1cblxuLyoqXG4gKiBAY29uc3RhbnQgUmVmZXJlbmNlLlJFQURcbiAqIEBwcml2YXRlXG4gKi9cblJlZmVyZW5jZS5SRUFEID0gUkVBRDtcbi8qKlxuICogQGNvbnN0YW50IFJlZmVyZW5jZS5XUklURVxuICogQHByaXZhdGVcbiAqL1xuUmVmZXJlbmNlLldSSVRFID0gV1JJVEU7XG4vKipcbiAqIEBjb25zdGFudCBSZWZlcmVuY2UuUldcbiAqIEBwcml2YXRlXG4gKi9cblJlZmVyZW5jZS5SVyA9IFJXO1xuXG4vKiB2aW06IHNldCBzdz00IHRzPTQgZXQgdHc9ODAgOiAqL1xuIl19
-
-
-/***/ }),
-
-/***/ 4654:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _estraverse = __webpack_require__(7085);
-
-var _esrecurse = __webpack_require__(8192);
-
-var _esrecurse2 = _interopRequireDefault(_esrecurse);
-
-var _reference = __webpack_require__(2681);
-
-var _reference2 = _interopRequireDefault(_reference);
-
-var _variable = __webpack_require__(9329);
-
-var _variable2 = _interopRequireDefault(_variable);
-
-var _patternVisitor = __webpack_require__(491);
-
-var _patternVisitor2 = _interopRequireDefault(_patternVisitor);
-
-var _definition = __webpack_require__(7533);
-
-var _assert = __webpack_require__(9282);
-
-var _assert2 = _interopRequireDefault(_assert);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /*
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Copyright (C) 2015 Yusuke Suzuki <utatane.tea@gmail.com>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Redistribution and use in source and binary forms, with or without
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 modification, are permitted provided that the following conditions are met:
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   * Redistributions of source code must retain the above copyright
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     notice, this list of conditions and the following disclaimer.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   * Redistributions in binary form must reproduce the above copyright
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     notice, this list of conditions and the following disclaimer in the
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     documentation and/or other materials provided with the distribution.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */
-
-
-function traverseIdentifierInPattern(options, rootPattern, referencer, callback) {
-    // Call the callback at left hand identifier nodes, and Collect right hand nodes.
-    var visitor = new _patternVisitor2.default(options, rootPattern, callback);
-    visitor.visit(rootPattern);
-
-    // Process the right hand nodes recursively.
-    if (referencer != null) {
-        visitor.rightHandNodes.forEach(referencer.visit, referencer);
-    }
-}
-
-// Importing ImportDeclaration.
-// http://people.mozilla.org/~jorendorff/es6-draft.html#sec-moduledeclarationinstantiation
-// https://github.com/estree/estree/blob/master/es6.md#importdeclaration
-// FIXME: Now, we don't create module environment, because the context is
-// implementation dependent.
-
-var Importer = function (_esrecurse$Visitor) {
-    _inherits(Importer, _esrecurse$Visitor);
-
-    function Importer(declaration, referencer) {
-        _classCallCheck(this, Importer);
-
-        var _this = _possibleConstructorReturn(this, (Importer.__proto__ || Object.getPrototypeOf(Importer)).call(this, null, referencer.options));
-
-        _this.declaration = declaration;
-        _this.referencer = referencer;
-        return _this;
-    }
-
-    _createClass(Importer, [{
-        key: 'visitImport',
-        value: function visitImport(id, specifier) {
-            var _this2 = this;
-
-            this.referencer.visitPattern(id, function (pattern) {
-                _this2.referencer.currentScope().__define(pattern, new _definition.Definition(_variable2.default.ImportBinding, pattern, specifier, _this2.declaration, null, null));
-            });
-        }
-    }, {
-        key: 'ImportNamespaceSpecifier',
-        value: function ImportNamespaceSpecifier(node) {
-            var local = node.local || node.id;
-            if (local) {
-                this.visitImport(local, node);
-            }
-        }
-    }, {
-        key: 'ImportDefaultSpecifier',
-        value: function ImportDefaultSpecifier(node) {
-            var local = node.local || node.id;
-            this.visitImport(local, node);
-        }
-    }, {
-        key: 'ImportSpecifier',
-        value: function ImportSpecifier(node) {
-            var local = node.local || node.id;
-            if (node.name) {
-                this.visitImport(node.name, node);
-            } else {
-                this.visitImport(local, node);
-            }
-        }
-    }]);
-
-    return Importer;
-}(_esrecurse2.default.Visitor);
-
-// Referencing variables and creating bindings.
-
-
-var Referencer = function (_esrecurse$Visitor2) {
-    _inherits(Referencer, _esrecurse$Visitor2);
-
-    function Referencer(options, scopeManager) {
-        _classCallCheck(this, Referencer);
-
-        var _this3 = _possibleConstructorReturn(this, (Referencer.__proto__ || Object.getPrototypeOf(Referencer)).call(this, null, options));
-
-        _this3.options = options;
-        _this3.scopeManager = scopeManager;
-        _this3.parent = null;
-        _this3.isInnerMethodDefinition = false;
-        return _this3;
-    }
-
-    _createClass(Referencer, [{
-        key: 'currentScope',
-        value: function currentScope() {
-            return this.scopeManager.__currentScope;
-        }
-    }, {
-        key: 'close',
-        value: function close(node) {
-            while (this.currentScope() && node === this.currentScope().block) {
-                this.scopeManager.__currentScope = this.currentScope().__close(this.scopeManager);
-            }
-        }
-    }, {
-        key: 'pushInnerMethodDefinition',
-        value: function pushInnerMethodDefinition(isInnerMethodDefinition) {
-            var previous = this.isInnerMethodDefinition;
-            this.isInnerMethodDefinition = isInnerMethodDefinition;
-            return previous;
-        }
-    }, {
-        key: 'popInnerMethodDefinition',
-        value: function popInnerMethodDefinition(isInnerMethodDefinition) {
-            this.isInnerMethodDefinition = isInnerMethodDefinition;
-        }
-    }, {
-        key: 'materializeTDZScope',
-        value: function materializeTDZScope(node, iterationNode) {
-            // http://people.mozilla.org/~jorendorff/es6-draft.html#sec-runtime-semantics-forin-div-ofexpressionevaluation-abstract-operation
-            // TDZ scope hides the declaration's names.
-            this.scopeManager.__nestTDZScope(node, iterationNode);
-            this.visitVariableDeclaration(this.currentScope(), _variable2.default.TDZ, iterationNode.left, 0, true);
-        }
-    }, {
-        key: 'materializeIterationScope',
-        value: function materializeIterationScope(node) {
-            var _this4 = this;
-
-            // Generate iteration scope for upper ForIn/ForOf Statements.
-            var letOrConstDecl;
-            this.scopeManager.__nestForScope(node);
-            letOrConstDecl = node.left;
-            this.visitVariableDeclaration(this.currentScope(), _variable2.default.Variable, letOrConstDecl, 0);
-            this.visitPattern(letOrConstDecl.declarations[0].id, function (pattern) {
-                _this4.currentScope().__referencing(pattern, _reference2.default.WRITE, node.right, null, true, true);
-            });
-        }
-    }, {
-        key: 'referencingDefaultValue',
-        value: function referencingDefaultValue(pattern, assignments, maybeImplicitGlobal, init) {
-            var scope = this.currentScope();
-            assignments.forEach(function (assignment) {
-                scope.__referencing(pattern, _reference2.default.WRITE, assignment.right, maybeImplicitGlobal, pattern !== assignment.left, init);
-            });
-        }
-    }, {
-        key: 'visitPattern',
-        value: function visitPattern(node, options, callback) {
-            if (typeof options === 'function') {
-                callback = options;
-                options = { processRightHandNodes: false };
-            }
-            traverseIdentifierInPattern(this.options, node, options.processRightHandNodes ? this : null, callback);
-        }
-    }, {
-        key: 'visitFunction',
-        value: function visitFunction(node) {
-            var _this5 = this;
-
-            var i, iz;
-            // FunctionDeclaration name is defined in upper scope
-            // NOTE: Not referring variableScope. It is intended.
-            // Since
-            //  in ES5, FunctionDeclaration should be in FunctionBody.
-            //  in ES6, FunctionDeclaration should be block scoped.
-            if (node.type === _estraverse.Syntax.FunctionDeclaration) {
-                // id is defined in upper scope
-                this.currentScope().__define(node.id, new _definition.Definition(_variable2.default.FunctionName, node.id, node, null, null, null));
-            }
-
-            // FunctionExpression with name creates its special scope;
-            // FunctionExpressionNameScope.
-            if (node.type === _estraverse.Syntax.FunctionExpression && node.id) {
-                this.scopeManager.__nestFunctionExpressionNameScope(node);
-            }
-
-            // Consider this function is in the MethodDefinition.
-            this.scopeManager.__nestFunctionScope(node, this.isInnerMethodDefinition);
-
-            // Process parameter declarations.
-            for (i = 0, iz = node.params.length; i < iz; ++i) {
-                this.visitPattern(node.params[i], { processRightHandNodes: true }, function (pattern, info) {
-                    _this5.currentScope().__define(pattern, new _definition.ParameterDefinition(pattern, node, i, info.rest));
-
-                    _this5.referencingDefaultValue(pattern, info.assignments, null, true);
-                });
-            }
-
-            // if there's a rest argument, add that
-            if (node.rest) {
-                this.visitPattern({
-                    type: 'RestElement',
-                    argument: node.rest
-                }, function (pattern) {
-                    _this5.currentScope().__define(pattern, new _definition.ParameterDefinition(pattern, node, node.params.length, true));
-                });
-            }
-
-            // Skip BlockStatement to prevent creating BlockStatement scope.
-            if (node.body.type === _estraverse.Syntax.BlockStatement) {
-                this.visitChildren(node.body);
-            } else {
-                this.visit(node.body);
-            }
-
-            this.close(node);
-        }
-    }, {
-        key: 'visitClass',
-        value: function visitClass(node) {
-            if (node.type === _estraverse.Syntax.ClassDeclaration) {
-                this.currentScope().__define(node.id, new _definition.Definition(_variable2.default.ClassName, node.id, node, null, null, null));
-            }
-
-            // FIXME: Maybe consider TDZ.
-            this.visit(node.superClass);
-
-            this.scopeManager.__nestClassScope(node);
-
-            if (node.id) {
-                this.currentScope().__define(node.id, new _definition.Definition(_variable2.default.ClassName, node.id, node));
-            }
-            this.visit(node.body);
-
-            this.close(node);
-        }
-    }, {
-        key: 'visitProperty',
-        value: function visitProperty(node) {
-            var previous, isMethodDefinition;
-            if (node.computed) {
-                this.visit(node.key);
-            }
-
-            isMethodDefinition = node.type === _estraverse.Syntax.MethodDefinition;
-            if (isMethodDefinition) {
-                previous = this.pushInnerMethodDefinition(true);
-            }
-            this.visit(node.value);
-            if (isMethodDefinition) {
-                this.popInnerMethodDefinition(previous);
-            }
-        }
-    }, {
-        key: 'visitForIn',
-        value: function visitForIn(node) {
-            var _this6 = this;
-
-            if (node.left.type === _estraverse.Syntax.VariableDeclaration && node.left.kind !== 'var') {
-                this.materializeTDZScope(node.right, node);
-                this.visit(node.right);
-                this.close(node.right);
-
-                this.materializeIterationScope(node);
-                this.visit(node.body);
-                this.close(node);
-            } else {
-                if (node.left.type === _estraverse.Syntax.VariableDeclaration) {
-                    this.visit(node.left);
-                    this.visitPattern(node.left.declarations[0].id, function (pattern) {
-                        _this6.currentScope().__referencing(pattern, _reference2.default.WRITE, node.right, null, true, true);
-                    });
-                } else {
-                    this.visitPattern(node.left, { processRightHandNodes: true }, function (pattern, info) {
-                        var maybeImplicitGlobal = null;
-                        if (!_this6.currentScope().isStrict) {
-                            maybeImplicitGlobal = {
-                                pattern: pattern,
-                                node: node
-                            };
-                        }
-                        _this6.referencingDefaultValue(pattern, info.assignments, maybeImplicitGlobal, false);
-                        _this6.currentScope().__referencing(pattern, _reference2.default.WRITE, node.right, maybeImplicitGlobal, true, false);
-                    });
-                }
-                this.visit(node.right);
-                this.visit(node.body);
-            }
-        }
-    }, {
-        key: 'visitVariableDeclaration',
-        value: function visitVariableDeclaration(variableTargetScope, type, node, index, fromTDZ) {
-            var _this7 = this;
-
-            // If this was called to initialize a TDZ scope, this needs to make definitions, but doesn't make references.
-            var decl, init;
-
-            decl = node.declarations[index];
-            init = decl.init;
-            this.visitPattern(decl.id, { processRightHandNodes: !fromTDZ }, function (pattern, info) {
-                variableTargetScope.__define(pattern, new _definition.Definition(type, pattern, decl, node, index, node.kind));
-
-                if (!fromTDZ) {
-                    _this7.referencingDefaultValue(pattern, info.assignments, null, true);
-                }
-                if (init) {
-                    _this7.currentScope().__referencing(pattern, _reference2.default.WRITE, init, null, !info.topLevel, true);
-                }
-            });
-        }
-    }, {
-        key: 'AssignmentExpression',
-        value: function AssignmentExpression(node) {
-            var _this8 = this;
-
-            if (_patternVisitor2.default.isPattern(node.left)) {
-                if (node.operator === '=') {
-                    this.visitPattern(node.left, { processRightHandNodes: true }, function (pattern, info) {
-                        var maybeImplicitGlobal = null;
-                        if (!_this8.currentScope().isStrict) {
-                            maybeImplicitGlobal = {
-                                pattern: pattern,
-                                node: node
-                            };
-                        }
-                        _this8.referencingDefaultValue(pattern, info.assignments, maybeImplicitGlobal, false);
-                        _this8.currentScope().__referencing(pattern, _reference2.default.WRITE, node.right, maybeImplicitGlobal, !info.topLevel, false);
-                    });
-                } else {
-                    this.currentScope().__referencing(node.left, _reference2.default.RW, node.right);
-                }
-            } else {
-                this.visit(node.left);
-            }
-            this.visit(node.right);
-        }
-    }, {
-        key: 'CatchClause',
-        value: function CatchClause(node) {
-            var _this9 = this;
-
-            this.scopeManager.__nestCatchScope(node);
-
-            this.visitPattern(node.param, { processRightHandNodes: true }, function (pattern, info) {
-                _this9.currentScope().__define(pattern, new _definition.Definition(_variable2.default.CatchClause, node.param, node, null, null, null));
-                _this9.referencingDefaultValue(pattern, info.assignments, null, true);
-            });
-            this.visit(node.body);
-
-            this.close(node);
-        }
-    }, {
-        key: 'Program',
-        value: function Program(node) {
-            this.scopeManager.__nestGlobalScope(node);
-
-            if (this.scopeManager.__isNodejsScope()) {
-                // Force strictness of GlobalScope to false when using node.js scope.
-                this.currentScope().isStrict = false;
-                this.scopeManager.__nestFunctionScope(node, false);
-            }
-
-            if (this.scopeManager.__isES6() && this.scopeManager.isModule()) {
-                this.scopeManager.__nestModuleScope(node);
-            }
-
-            if (this.scopeManager.isStrictModeSupported() && this.scopeManager.isImpliedStrict()) {
-                this.currentScope().isStrict = true;
-            }
-
-            this.visitChildren(node);
-            this.close(node);
-        }
-    }, {
-        key: 'Identifier',
-        value: function Identifier(node) {
-            this.currentScope().__referencing(node);
-        }
-    }, {
-        key: 'UpdateExpression',
-        value: function UpdateExpression(node) {
-            if (_patternVisitor2.default.isPattern(node.argument)) {
-                this.currentScope().__referencing(node.argument, _reference2.default.RW, null);
-            } else {
-                this.visitChildren(node);
-            }
-        }
-    }, {
-        key: 'MemberExpression',
-        value: function MemberExpression(node) {
-            this.visit(node.object);
-            if (node.computed) {
-                this.visit(node.property);
-            }
-        }
-    }, {
-        key: 'Property',
-        value: function Property(node) {
-            this.visitProperty(node);
-        }
-    }, {
-        key: 'MethodDefinition',
-        value: function MethodDefinition(node) {
-            this.visitProperty(node);
-        }
-    }, {
-        key: 'BreakStatement',
-        value: function BreakStatement() {}
-    }, {
-        key: 'ContinueStatement',
-        value: function ContinueStatement() {}
-    }, {
-        key: 'LabeledStatement',
-        value: function LabeledStatement(node) {
-            this.visit(node.body);
-        }
-    }, {
-        key: 'ForStatement',
-        value: function ForStatement(node) {
-            // Create ForStatement declaration.
-            // NOTE: In ES6, ForStatement dynamically generates
-            // per iteration environment. However, escope is
-            // a static analyzer, we only generate one scope for ForStatement.
-            if (node.init && node.init.type === _estraverse.Syntax.VariableDeclaration && node.init.kind !== 'var') {
-                this.scopeManager.__nestForScope(node);
-            }
-
-            this.visitChildren(node);
-
-            this.close(node);
-        }
-    }, {
-        key: 'ClassExpression',
-        value: function ClassExpression(node) {
-            this.visitClass(node);
-        }
-    }, {
-        key: 'ClassDeclaration',
-        value: function ClassDeclaration(node) {
-            this.visitClass(node);
-        }
-    }, {
-        key: 'CallExpression',
-        value: function CallExpression(node) {
-            // Check this is direct call to eval
-            if (!this.scopeManager.__ignoreEval() && node.callee.type === _estraverse.Syntax.Identifier && node.callee.name === 'eval') {
-                // NOTE: This should be `variableScope`. Since direct eval call always creates Lexical environment and
-                // let / const should be enclosed into it. Only VariableDeclaration affects on the caller's environment.
-                this.currentScope().variableScope.__detectEval();
-            }
-            this.visitChildren(node);
-        }
-    }, {
-        key: 'BlockStatement',
-        value: function BlockStatement(node) {
-            if (this.scopeManager.__isES6()) {
-                this.scopeManager.__nestBlockScope(node);
-            }
-
-            this.visitChildren(node);
-
-            this.close(node);
-        }
-    }, {
-        key: 'ThisExpression',
-        value: function ThisExpression() {
-            this.currentScope().variableScope.__detectThis();
-        }
-    }, {
-        key: 'WithStatement',
-        value: function WithStatement(node) {
-            this.visit(node.object);
-            // Then nest scope for WithStatement.
-            this.scopeManager.__nestWithScope(node);
-
-            this.visit(node.body);
-
-            this.close(node);
-        }
-    }, {
-        key: 'VariableDeclaration',
-        value: function VariableDeclaration(node) {
-            var variableTargetScope, i, iz, decl;
-            variableTargetScope = node.kind === 'var' ? this.currentScope().variableScope : this.currentScope();
-            for (i = 0, iz = node.declarations.length; i < iz; ++i) {
-                decl = node.declarations[i];
-                this.visitVariableDeclaration(variableTargetScope, _variable2.default.Variable, node, i);
-                if (decl.init) {
-                    this.visit(decl.init);
-                }
-            }
-        }
-
-        // sec 13.11.8
-
-    }, {
-        key: 'SwitchStatement',
-        value: function SwitchStatement(node) {
-            var i, iz;
-
-            this.visit(node.discriminant);
-
-            if (this.scopeManager.__isES6()) {
-                this.scopeManager.__nestSwitchScope(node);
-            }
-
-            for (i = 0, iz = node.cases.length; i < iz; ++i) {
-                this.visit(node.cases[i]);
-            }
-
-            this.close(node);
-        }
-    }, {
-        key: 'FunctionDeclaration',
-        value: function FunctionDeclaration(node) {
-            this.visitFunction(node);
-        }
-    }, {
-        key: 'FunctionExpression',
-        value: function FunctionExpression(node) {
-            this.visitFunction(node);
-        }
-    }, {
-        key: 'ForOfStatement',
-        value: function ForOfStatement(node) {
-            this.visitForIn(node);
-        }
-    }, {
-        key: 'ForInStatement',
-        value: function ForInStatement(node) {
-            this.visitForIn(node);
-        }
-    }, {
-        key: 'ArrowFunctionExpression',
-        value: function ArrowFunctionExpression(node) {
-            this.visitFunction(node);
-        }
-    }, {
-        key: 'ImportDeclaration',
-        value: function ImportDeclaration(node) {
-            var importer;
-
-            (0, _assert2.default)(this.scopeManager.__isES6() && this.scopeManager.isModule(), 'ImportDeclaration should appear when the mode is ES6 and in the module context.');
-
-            importer = new Importer(node, this);
-            importer.visit(node);
-        }
-    }, {
-        key: 'visitExportDeclaration',
-        value: function visitExportDeclaration(node) {
-            if (node.source) {
-                return;
-            }
-            if (node.declaration) {
-                this.visit(node.declaration);
-                return;
-            }
-
-            this.visitChildren(node);
-        }
-    }, {
-        key: 'ExportDeclaration',
-        value: function ExportDeclaration(node) {
-            this.visitExportDeclaration(node);
-        }
-    }, {
-        key: 'ExportNamedDeclaration',
-        value: function ExportNamedDeclaration(node) {
-            this.visitExportDeclaration(node);
-        }
-    }, {
-        key: 'ExportSpecifier',
-        value: function ExportSpecifier(node) {
-            var local = node.id || node.local;
-            this.visit(local);
-        }
-    }, {
-        key: 'MetaProperty',
-        value: function MetaProperty() {
-            // do nothing.
-        }
-    }]);
-
-    return Referencer;
-}(_esrecurse2.default.Visitor);
-
-/* vim: set sw=4 ts=4 et tw=80 : */
-
-
-exports["default"] = Referencer;
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlZmVyZW5jZXIuanMiXSwibmFtZXMiOlsidHJhdmVyc2VJZGVudGlmaWVySW5QYXR0ZXJuIiwib3B0aW9ucyIsInJvb3RQYXR0ZXJuIiwicmVmZXJlbmNlciIsImNhbGxiYWNrIiwidmlzaXRvciIsIlBhdHRlcm5WaXNpdG9yIiwidmlzaXQiLCJyaWdodEhhbmROb2RlcyIsImZvckVhY2giLCJJbXBvcnRlciIsImRlY2xhcmF0aW9uIiwiaWQiLCJzcGVjaWZpZXIiLCJ2aXNpdFBhdHRlcm4iLCJwYXR0ZXJuIiwiY3VycmVudFNjb3BlIiwiX19kZWZpbmUiLCJEZWZpbml0aW9uIiwiVmFyaWFibGUiLCJJbXBvcnRCaW5kaW5nIiwibm9kZSIsImxvY2FsIiwidmlzaXRJbXBvcnQiLCJuYW1lIiwiZXNyZWN1cnNlIiwiVmlzaXRvciIsIlJlZmVyZW5jZXIiLCJzY29wZU1hbmFnZXIiLCJwYXJlbnQiLCJpc0lubmVyTWV0aG9kRGVmaW5pdGlvbiIsIl9fY3VycmVudFNjb3BlIiwiYmxvY2siLCJfX2Nsb3NlIiwicHJldmlvdXMiLCJpdGVyYXRpb25Ob2RlIiwiX19uZXN0VERaU2NvcGUiLCJ2aXNpdFZhcmlhYmxlRGVjbGFyYXRpb24iLCJURFoiLCJsZWZ0IiwibGV0T3JDb25zdERlY2wiLCJfX25lc3RGb3JTY29wZSIsImRlY2xhcmF0aW9ucyIsIl9fcmVmZXJlbmNpbmciLCJSZWZlcmVuY2UiLCJXUklURSIsInJpZ2h0IiwiYXNzaWdubWVudHMiLCJtYXliZUltcGxpY2l0R2xvYmFsIiwiaW5pdCIsInNjb3BlIiwiYXNzaWdubWVudCIsInByb2Nlc3NSaWdodEhhbmROb2RlcyIsImkiLCJpeiIsInR5cGUiLCJTeW50YXgiLCJGdW5jdGlvbkRlY2xhcmF0aW9uIiwiRnVuY3Rpb25OYW1lIiwiRnVuY3Rpb25FeHByZXNzaW9uIiwiX19uZXN0RnVuY3Rpb25FeHByZXNzaW9uTmFtZVNjb3BlIiwiX19uZXN0RnVuY3Rpb25TY29wZSIsInBhcmFtcyIsImxlbmd0aCIsImluZm8iLCJQYXJhbWV0ZXJEZWZpbml0aW9uIiwicmVzdCIsInJlZmVyZW5jaW5nRGVmYXVsdFZhbHVlIiwiYXJndW1lbnQiLCJib2R5IiwiQmxvY2tTdGF0ZW1lbnQiLCJ2aXNpdENoaWxkcmVuIiwiY2xvc2UiLCJDbGFzc0RlY2xhcmF0aW9uIiwiQ2xhc3NOYW1lIiwic3VwZXJDbGFzcyIsIl9fbmVzdENsYXNzU2NvcGUiLCJpc01ldGhvZERlZmluaXRpb24iLCJjb21wdXRlZCIsImtleSIsIk1ldGhvZERlZmluaXRpb24iLCJwdXNoSW5uZXJNZXRob2REZWZpbml0aW9uIiwidmFsdWUiLCJwb3BJbm5lck1ldGhvZERlZmluaXRpb24iLCJWYXJpYWJsZURlY2xhcmF0aW9uIiwia2luZCIsIm1hdGVyaWFsaXplVERaU2NvcGUiLCJtYXRlcmlhbGl6ZUl0ZXJhdGlvblNjb3BlIiwiaXNTdHJpY3QiLCJ2YXJpYWJsZVRhcmdldFNjb3BlIiwiaW5kZXgiLCJmcm9tVERaIiwiZGVjbCIsInRvcExldmVsIiwiaXNQYXR0ZXJuIiwib3BlcmF0b3IiLCJSVyIsIl9fbmVzdENhdGNoU2NvcGUiLCJwYXJhbSIsIkNhdGNoQ2xhdXNlIiwiX19uZXN0R2xvYmFsU2NvcGUiLCJfX2lzTm9kZWpzU2NvcGUiLCJfX2lzRVM2IiwiaXNNb2R1bGUiLCJfX25lc3RNb2R1bGVTY29wZSIsImlzU3RyaWN0TW9kZVN1cHBvcnRlZCIsImlzSW1wbGllZFN0cmljdCIsIm9iamVjdCIsInByb3BlcnR5IiwidmlzaXRQcm9wZXJ0eSIsInZpc2l0Q2xhc3MiLCJfX2lnbm9yZUV2YWwiLCJjYWxsZWUiLCJJZGVudGlmaWVyIiwidmFyaWFibGVTY29wZSIsIl9fZGV0ZWN0RXZhbCIsIl9fbmVzdEJsb2NrU2NvcGUiLCJfX2RldGVjdFRoaXMiLCJfX25lc3RXaXRoU2NvcGUiLCJkaXNjcmltaW5hbnQiLCJfX25lc3RTd2l0Y2hTY29wZSIsImNhc2VzIiwidmlzaXRGdW5jdGlvbiIsInZpc2l0Rm9ySW4iLCJpbXBvcnRlciIsInNv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Z0JBQUlDLFFBQVNELEtBQUtULEVBQUwsSUFBV1MsS0FBS0MsS0FBN0I7QUFDQSxpQkFBS2YsS0FBTCxDQUFXZSxLQUFYO0FBQ0g7Ozt1Q0FFYztBQUNYO0FBQ0g7Ozs7RUF4ZW1DRyxvQkFBVUMsTzs7QUEyZWxEOzs7a0JBM2VxQkMsVSIsImZpbGUiOiJyZWZlcmVuY2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAgQ29weXJpZ2h0IChDKSAyMDE1IFl1c3VrZSBTdXp1a2kgPHV0YXRhbmUudGVhQGdtYWlsLmNvbT5cblxuICBSZWRpc3RyaWJ1dGlvbiBhbmQgdXNlIGluIHNvdXJjZSBhbmQgYmluYXJ5IGZvcm1zLCB3aXRoIG9yIHdpdGhvdXRcbiAgbW9kaWZpY2F0aW9uLCBhcmUgcGVybWl0dGVkIHByb3ZpZGVkIHRoYXQgdGhlIGZvbGxvd2luZyBjb25kaXRpb25zIGFyZSBtZXQ6XG5cbiAgICAqIFJlZGlzdHJpYnV0aW9ucyBvZiBzb3VyY2UgY29kZSBtdXN0IHJldGFpbiB0aGUgYWJvdmUgY29weXJpZ2h0XG4gICAgICBub3RpY2UsIHRoaXMgbGlzdCBvZiBjb25kaXRpb25zIGFuZCB0aGUgZm9sbG93aW5nIGRpc2NsYWltZXIuXG4gICAgKiBSZWRpc3RyaWJ1dGlvbnMgaW4gYmluYXJ5IGZvcm0gbXVzdCByZXByb2R1Y2UgdGhlIGFib3ZlIGNvcHlyaWdodFxuICAgICAgbm90aWNlLCB0aGlzIGxpc3Qgb2YgY29uZGl0aW9ucyBhbmQgdGhlIGZvbGxvd2luZyBkaXNjbGFpbWVyIGluIHRoZVxuICAgICAgZG9jdW1lbnRhdGlvbiBhbmQvb3Igb3RoZXIgbWF0ZXJpYWxzIHByb3ZpZGVkIHdpdGggdGhlIGRpc3RyaWJ1dGlvbi5cblxuICBUSElTIFNPRlRXQVJFIElTIFBST1ZJREVEIEJZIFRIRSBDT1BZUklHSFQgSE9MREVSUyBBTkQgQ09OVFJJQlVUT1JTIFwiQVMgSVNcIlxuICBBTkQgQU5ZIEVYUFJFU1MgT1IgSU1QTElFRCBXQVJSQU5USUVTLCBJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRFRCBUTywgVEhFXG4gIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFkgQU5EIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFXG4gIEFSRSBESVNDTEFJTUVELiBJTiBOTyBFVkVOVCBTSEFMTCA8Q09QWVJJR0hUIEhPTERFUj4gQkUgTElBQkxFIEZPUiBBTllcbiAgRElSRUNULCBJTkRJUkVDVCwgSU5DSURFTlRBTCwgU1BFQ0lBTCwgRVhFTVBMQVJZLCBPUiBDT05TRVFVRU5USUFMIERBTUFHRVNcbiAgKElOQ0xVRElORywgQlVUIE5PVCBMSU1JVEVEIFRPLCBQUk9DVVJFTUVOVCBPRiBTVUJTVElUVVRFIEdPT0RTIE9SIFNFUlZJQ0VTO1xuICBMT1NTIE9GIFVTRSwgREFUQSwgT1IgUFJPRklUUzsgT1IgQlVTSU5FU1MgSU5URVJSVVBUSU9OKSBIT1dFVkVSIENBVVNFRCBBTkRcbiAgT04gQU5ZIFRIRU9SWSBPRiBMSUFCSUxJVFksIFdIRVRIRVIgSU4gQ09OVFJBQ1QsIFNUUklDVCBMSUFCSUxJVFksIE9SIFRPUlRcbiAgKElOQ0xVRElORyBORUdMSUdFTkNFIE9SIE9USEVSV0lTRSkgQVJJU0lORyBJTiBBTlkgV0FZIE9VVCBPRiBUSEUgVVNFIE9GXG4gIFRISVMgU09GVFdBUkUsIEVWRU4gSUYgQURWSVNFRCBPRiBUSEUgUE9TU0lCSUxJVFkgT0YgU1VDSCBEQU1BR0UuXG4qL1xuaW1wb3J0IHsgU3ludGF4IH0gZnJvbSAnZXN0cmF2ZXJzZSc7XG5pbXBvcnQgZXNyZWN1cnNlIGZyb20gJ2VzcmVjdXJzZSc7XG5pbXBvcnQgUmVmZXJlbmNlIGZyb20gJy4vcmVmZXJlbmNlJztcbmltcG9ydCBWYXJpYWJsZSBmcm9tICcuL3ZhcmlhYmxlJztcbmltcG9ydCBQYXR0ZXJuVmlzaXRvciBmcm9tICcuL3BhdHRlcm4tdmlzaXRvcic7XG5pbXBvcnQgeyBQYXJhbWV0ZXJEZWZpbml0aW9uLCBEZWZpbml0aW9uIH0gZnJvbSAnLi9kZWZpbml0aW9uJztcbmltcG9ydCBhc3NlcnQgZnJvbSAnYXNzZXJ0JztcblxuZnVuY3Rpb24gdHJhdmVyc2VJZGVudGlmaWVySW5QYXR0ZXJuKG9wdGlvbnMsIHJvb3RQYXR0ZXJuLCByZWZlcmVuY2VyLCBjYWxsYmFjaykge1xuICAgIC8vIENhbGwgdGhlIGNhbGxiYWNrIGF0IGxlZnQgaGFuZCBpZGVudGlmaWVyIG5vZGVzLCBhbmQgQ29sbGVjdCByaWdodCBoYW5kIG5vZGVzLlxuICAgIHZhciB2aXNpdG9yID0gbmV3IFBhdHRlcm5WaXNpdG9yKG9wdGlvbnMsIHJvb3RQYXR0ZXJuLCBjYWxsYmFjayk7XG4gICAgdmlzaXRvci52aXNpdChyb290UGF0dGVybik7XG5cbiAgICAvLyBQcm9jZXNzIHRoZSByaWdodCBoYW5kIG5vZGVzIHJlY3Vyc2l2ZWx5LlxuICAgIGlmIChyZWZlcmVuY2VyICE9IG51bGwpIHtcbiAgICAgICAgdmlzaXRvci5yaWdodEhhbmROb2Rlcy5mb3JFYWNoKHJlZmVyZW5jZXIudmlzaXQsIHJlZmVyZW5jZXIpO1xuICAgIH1cbn1cblxuLy8gSW1wb3J0aW5nIEltcG9ydERlY2xhcmF0aW9uLlxuLy8gaHR0cDovL3Blb3BsZS5tb3ppbGxhLm9yZy9+am9yZW5kb3JmZi9lczYtZHJhZnQuaHRtbCNzZWMtbW9kdWxlZGVjbGFyYXRpb25pbnN0YW50aWF0aW9uXG4vLyBodHRwczovL2dpdGh1Yi5jb20vZXN0cmVlL2VzdHJlZS9ibG9iL21hc3Rlci9lczYubWQjaW1wb3J0ZGVjbGFyYXRpb25cbi8vIEZJWE1FOiBOb3csIHdlIGRvbid0IGNyZWF0ZSBtb2R1bGUgZW52aXJvbm1lbnQsIGJlY2F1c2UgdGhlIGNvbnRleHQgaXNcbi8vIGltcGxlbWVudGF0aW9uIGRlcGVuZGVudC5cblxuY2xhc3MgSW1wb3J0ZXIgZXh0ZW5kcyBlc3JlY3Vyc2UuVmlzaXRvciB7XG4gICAgY29uc3RydWN0b3IoZGVjbGFyYXRpb24sIHJlZmVyZW5jZXIpIHtcbiAgICAgICAgc3VwZXIobnVsbCwgcmVmZXJlbmNlci5vcHRpb25zKTtcbiAgICAgICAgdGhpcy5kZWNsYXJhdGlvbiA9IGRlY2xhcmF0aW9uO1xuICAgICAgICB0aGlzLnJlZmVyZW5jZXIgPSByZWZlcmVuY2VyO1xuICAgIH1cblxuICAgIHZpc2l0SW1wb3J0KGlkLCBzcGVjaWZpZXIpIHtcbiAgICAgICAgdGhpcy5yZWZlcmVuY2VyLnZpc2l0UGF0dGVybihpZCwgKHBhdHRlcm4pID0+IHtcbiAgICAgICAgICAgIHRoaXMucmVmZXJlbmNlci5jdXJyZW50U2NvcGUoKS5fX2RlZmluZShwYXR0ZXJuLFxuICAgICAgICAgICAgICAgIG5ldyBEZWZpbml0aW9uKFxuICAgICAgICAgICAgICAgICAgICBWYXJpYWJsZS5JbXBvcnRCaW5kaW5nLFxuICAgICAgICAgICAgICAgICAgICBwYXR0ZXJuLFxuICAgICAgICAgICAgICAgICAgICBzcGVjaWZpZXIsXG4gICAgICAgICAgICAgICAgICAgIHRoaXMuZGVjbGFyYXRpb24sXG4gICAgICAgICAgICAgICAgICAgIG51bGwsXG4gICAgICAgICAgICAgICAgICAgIG51bGxcbiAgICAgICAgICAgICAgICAgICAgKSk7XG4gICAgICAgIH0pO1xuICAgIH1cblxuICAgIEltcG9ydE5hbWVzcGFjZVNwZWNpZmllcihub2RlKSB7XG4gICAgICAgIGxldCBsb2NhbCA9IChub2RlLmxvY2FsIHx8IG5vZGUuaWQpO1xuICAgICAgICBpZiAobG9jYWwpIHtcbiAgICAgICAgICAgIHRoaXMudmlzaXRJbXBvcnQobG9jYWwsIG5vZGUpO1xuICAgICAgICB9XG4gICAgfVxuXG4gICAgSW1wb3J0RGVmYXVsdFNwZWNpZmllcihub2RlKSB7XG4gICAgICAgIGxldCBsb2NhbCA9IChub2RlLmxvY2FsIHx8IG5vZGUuaWQpO1xuICAgICAgICB0aGlzLnZpc2l0SW1wb3J0KGxvY2FsLCBub2RlKTtcbiAgICB9XG5cbiAgICBJbXBvcnRTcGVjaWZpZXIobm9kZSkge1xuICAgICAgICBsZXQgbG9jYWwgPSAobm9kZS5sb2NhbCB8fCBub2RlLmlkKTtcbiAgICAgICAgaWYgKG5vZGUubmFtZSkge1xuICAgICAgICAgICAgdGhpcy52aXNpdEltcG9ydChub2RlLm5hbWUsIG5vZGUpO1xuICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgdGhpcy52aXNpdEltcG9ydChsb2NhbCwgbm9kZSk7XG4gICAgICAgIH1cbiAgICB9XG59XG5cbi8vIFJlZmVyZW5jaW5nIHZhcmlhYmxlcyBhbmQgY3JlYXRpbmcgYmluZGluZ3MuXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBSZWZlcmVuY2VyIGV4dGVuZHMgZXNyZWN1cnNlLlZpc2l0b3Ige1xuICAgIGNvbnN0cnVjdG9yKG9wdGlvbnMsIHNjb3BlTWFuYWdlcikge1xuICAgICAgICBzdXBlcihudWxsLCBvcHRpb25zKTtcbiAgICAgICAgdGhpcy5vcHRpb25zID0gb3B0aW9ucztcbiAgICAgICAgdGhpcy5zY29wZU1hbmFnZXIgPSBzY29wZU1hbmFnZXI7XG4gICAgICAgIHRoaXMucGFyZW50ID0gbnVsbDtcbiAgICAgICAgdGhpcy5pc0lubmVyTWV0aG9kRGVmaW5pdGlvbiA9IGZhbHNlO1xuICAgIH1cblxuICAgIGN1cnJlbnRTY29wZSgpIHtcbiAgICAgICAgcmV0dXJuIHRoaXMuc2NvcGVNYW5hZ2VyLl9fY3VycmVudFNjb3BlO1xuICAgIH1cblxuICAgIGNsb3NlKG5vZGUpIHtcbiAgICAgICAgd2hpbGUgKHRoaXMuY3VycmVudFNjb3BlKCkgJiYgbm9kZSA9PT0gdGhpcy5jdXJyZW50U2NvcGUoKS5ibG9jaykge1xuICAgICAgICAgICAgdGhpcy5zY29wZU1hbmFnZXIuX19jdXJyZW50U2NvcGUgPSB0aGlzLmN1cnJlbnRTY29wZSgpLl9fY2xvc2UodGhpcy5zY29wZU1hbmFnZXIpO1xuICAgICAgICB9XG4gICAgfVxuXG4gICAgcHVzaElubmVyTWV0aG9kRGVmaW5pdGlvbihpc0lubmVyTWV0aG9kRGVmaW5pdGlvbikge1xuICAgICAgICB2YXIgcHJldmlvdXMgPSB0aGlzLmlzSW5uZXJNZXRob2REZWZpbml0aW9uO1xuICAgICAgICB0aGlzLmlzSW5uZXJNZXRob2REZWZpbml0aW9uID0gaXNJbm5lck1ldGhvZERlZmluaXRpb247XG4gICAgICAgIHJldHVybiBwcmV2aW91cztcbiAgICB9XG5cbiAgICBwb3BJbm5lck1ldGhvZERlZmluaXRpb24oaXNJbm5lck1ldGhvZERlZmluaXRpb24pIHtcbiAgICAgICAgdGhpcy5pc0lubmVyTWV0aG9kRGVmaW5pdGlvbiA9IGlzSW5uZXJNZXRob2REZWZpbml0aW9uO1xuICAgIH1cblxuICAgIG1hdGVyaWFsaXplVERaU2NvcGUobm9kZSwgaXRlcmF0aW9uTm9kZSkge1xuICAgICAgICAvLyBodHRwOi8vcGVvcGxlLm1vemlsbGEub3JnL35qb3JlbmRvcmZmL2VzNi1kcmFmdC5odG1sI3NlYy1ydW50aW1lLXNlbWFudGljcy1mb3Jpbi1kaXYtb2ZleHByZXNzaW9uZXZhbHVhdGlvbi1hYnN0cmFjdC1vcGVyYXRpb25cbiAgICAgICAgLy8gVERaIHNjb3BlIGhpZGVzIHRoZSBkZWNsYXJhdGlvbidzIG5hbWVzLlxuICAgICAgICB0aGlzLnNjb3BlTWFuYWdlci5fX25lc3RURFpTY29wZShub2RlLCBpdGVyYXRpb25Ob2RlKTtcbiAgICAgICAgdGhpcy52aXNpdFZhcmlhYmxlRGVjbGFyYXRpb24odGhpcy5jdXJyZW50U2NvcGUoKSwgVmFyaWFibGUuVERaLCBpdGVyYXRpb25Ob2RlLmxlZnQsIDAsIHRydWUpO1xuICAgIH1cblxuICAgIG1hdGVyaWFsaXplSXRlcmF0aW9uU2NvcGUobm9kZSkge1xuICAgICAgICAvLyBHZW5lcmF0ZSBpdGVyYXRpb24gc2NvcGUgZm9yIHVwcGVyIEZvckluL0Zvck9mIFN0YXRlbWVudHMuXG4gICAgICAgIHZhciBsZXRPckNvbnN0RGVjbDtcbiAgICAgICAgdGhpcy5zY29wZU1hbmFnZXIuX19uZXN0Rm9yU2NvcGUobm9kZSk7XG4gICAgICAgIGxldE9yQ29uc3REZWNsID0gbm9kZS5sZWZ0O1xuICAgICAgICB0aGlzLnZpc2l0VmFyaWFibGVEZWNsYXJhdGlvbih0aGlzLmN1cnJlbnRTY29wZSgpLCBWYXJpYWJsZS5WYXJpYWJsZSwgbGV0T3JDb25zdERlY2wsIDApO1xuICAgICAgICB0aGlzLnZpc2l0UGF0dGVybihsZXRPckNvbnN0RGVjbC5kZWNsYXJhdGlvbnNbMF0uaWQsIChwYXR0ZXJuKSA9PiB7XG4gICAgICAgICAgICB0aGlzLmN1cnJlbnRTY29wZSgpLl9fcmVmZXJlbmNpbmcocGF0dGVybiwgUmVmZXJlbmNlLldSSVRFLCBub2RlLnJpZ2h0LCBudWxsLCB0cnVlLCB0cnVlKTtcbiAgICAgICAgfSk7XG4gICAgfVxuXG4gICAgcmVmZXJlbmNpbmdEZWZhdWx0VmFsdWUocGF0dGVybiwgYXNzaWdubWVudHMsIG1heWJlSW1wbGljaXRHbG9iYWwsIGluaXQpIHtcbiAgICAgICAgY29uc3Qgc2NvcGUgPSB0aGlzLmN1cnJlbnRTY29wZSgpO1xuICAgICAgICBhc3NpZ25tZW50cy5mb3JFYWNoKGFzc2lnbm1lbnQgPT4ge1xuICAgICAgICAgICAgc2NvcGUuX19yZWZlcmVuY2luZyhcbiAgICAgICAgICAgICAgICBwYXR0ZXJuLFxuICAgICAgICAgICAgICAgIFJlZmVyZW5jZS5XUklURSxcbiAgICAgICAgICAgICAgICBhc3NpZ25tZW50LnJpZ2h0LFxuICAgICAgICAgICAgICAgIG1heWJlSW1wbGljaXRHbG9iYWwsXG4gICAgICAgICAgICAgICAgcGF0dGVybiAhPT0gYXNzaWdubWVudC5sZWZ0LFxuICAgICAgICAgICAgICAgIGluaXQpO1xuICAgICAgICB9KTtcbiAgICB9XG5cbiAgICB2aXNpdFBhdHRlcm4obm9kZSwgb3B0aW9ucywgY2FsbGJhY2spIHtcbiAgICAgICAgaWYgKHR5cGVvZiBvcHRpb25zID09PSAnZnVuY3Rpb24nKSB7XG4gICAgICAgICAgICBjYWxsYmFjayA9IG9wdGlvbnM7XG4gICAgICAgICAgICBvcHRpb25zID0ge3Byb2Nlc3NSaWdodEhhbmROb2RlczogZmFsc2V9XG4gICAgICAgIH1cbiAgICAgICAgdHJhdmVyc2VJZGVudGlmaWVySW5QYXR0ZXJuKFxuICAgICAgICAgICAgdGhpcy5vcHRpb25zLFxuICAgICAgICAgICAgbm9kZSxcbiAgICAgICAgICAgIG9wdGlvbnMucHJvY2Vzc1JpZ2h0SGFuZE5vZGVzID8gdGhpcyA6IG51bGwsXG4gICAgICAgICAgICBjYWxsYmFjayk7XG4gICAgfVxuXG4gICAgdmlzaXRGdW5jdGlvbihub2RlKSB7XG4gICAgICAgIHZhciBpLCBpejtcbiAgICAgICAgLy8gRnVuY3Rpb25EZWNsYXJhdGlvbiBuYW1lIGlzIGRlZmluZWQgaW4gdXBwZXIgc2NvcGVcbiAgICAgICAgLy8gTk9URTogTm90IHJlZmVycmluZyB2YXJpYWJsZVNjb3BlLiBJdCBpcyBpbnRlbmRlZC5cbiAgICAgICAgLy8gU2luY2VcbiAgICAgICAgLy8gIGluIEVTNSwgRnVuY3Rpb25EZWNsYXJhdGlvbiBzaG91bGQgYmUgaW4gRnVuY3Rpb25Cb2R5LlxuICAgICAgICAvLyAgaW4gRVM2LCBGdW5jdGlvbkRlY2xhcmF0aW9uIHNob3VsZCBiZSBibG9jayBzY29wZWQuXG4gICAgICAgIGlmIChub2RlLnR5cGUgPT09IFN5bnRheC5GdW5jdGlvbkRlY2xhcmF0aW9uKSB7XG4gICAgICAgICAgICAvLyBpZCBpcyBkZWZpbmVkIGluIHVwcGVyIHNjb3BlXG4gICAgICAgICAgICB0aGlzLmN1cnJlbnRTY29wZSgpLl9fZGVmaW5lKG5vZGUuaWQsXG4gICAgICAgICAgICAgICAgICAgIG5ldyBEZWZpbml0aW9uKFxuICAgICAgICAgICAgICAgICAgICAgICAgVmFyaWFibGUuRnVuY3Rpb25OYW1lLFxuICAgICAgICAgICAgICAgICAgICAgICAgbm9kZS5pZCxcbiAgICAgICAgICAgICAgICAgICAgICAgIG5vZGUsXG4gICAgICAgICAgICAgICAgICAgICAgICBudWxsLFxuICAgICAgICAgICAgICAgICAgICAgICAgbnVsbCxcbiAgICAgICAgICAgICAgICAgICAgICAgIG51bGxcbiAgICAgICAgICAgICAgICAgICAgKSk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBGdW5jdGlvbkV4cHJlc3Npb24gd2l0aCBuYW1lIGNyZWF0ZXMgaXRzIHNwZWNpYWwgc2NvcGU7XG4gICAgICAgIC8vIEZ1bmN0aW9uRXhwcmVzc2lvbk5hbWVTY29wZS5cbiAgICAgICAgaWYgKG5vZGUudHlwZSA9PT0gU3ludGF4LkZ1bmN0aW9uRXhwcmVzc2lvbiAmJiBub2RlLmlkKSB7XG4gICAgICAgICAgICB0aGlzLnNjb3BlTWFuYWdlci5fX25lc3RGdW5jdGlvbkV4cHJlc3Npb25OYW1lU2NvcGUobm9kZSk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBDb25zaWRlciB0aGlzIGZ1bmN0aW9uIGlzIGluIHRoZSBNZXRob2REZWZpbml0aW9uLlxuICAgICAgICB0aGlzLnNjb3BlTWFuYWdlci5fX25lc3RGdW5jdGlvblNjb3BlKG5vZGUsIHRoaXMuaXNJbm5lck1ldGhvZERlZmluaXRpb24pO1xuXG4gICAgICAgIC8vIFByb2Nlc3MgcGFyYW1ldGVyIGRlY2xhcmF0aW9ucy5cbiAgICAgICAgZm9yIChpID0gMCwgaXogPSBub2RlLnBhcmFtcy5sZW5ndGg7IGkgPCBpejsgKytpKSB7XG4gICAgICAgICAgICB0aGlzLnZpc2l0UGF0dGVybihub2RlLnBhcmFtc1tpXSwge3Byb2Nlc3NSaWdodEhhbmROb2RlczogdHJ1ZX0sIChwYXR0ZXJuLCBpbmZvKSA9PiB7XG4gICAgICAgICAgICAgICAgdGhpcy5jdXJyZW50U2NvcGUoKS5fX2RlZmluZShwYXR0ZXJuLFxuICAgICAgICAgICAgICAgICAgICBuZXcgUGFyYW1ldGVyRGVmaW5pdGlvbihcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhdHRlcm4sXG4gICAgICAgICAgICAgICAgICAgICAgICBub2RlLFxuICAgICAgICAgICAgICAgICAgICAgICAgaSxcbiAgICAgICAgICAgICAgICAgICAgICAgIGluZm8ucmVzdFxuICAgICAgICAgICAgICAgICAgICApKTtcblxuICAgICAgICAgICAgICAgIHRoaXMucmVmZXJlbmNpbmdEZWZhdWx0VmFsdWUocGF0dGVybiwgaW5mby5hc3NpZ25tZW50cywgbnVsbCwgdHJ1ZSk7XG4gICAgICAgICAgICB9KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIGlmIHRoZXJlJ3MgYSByZXN0IGFyZ3VtZW50LCBhZGQgdGhhdFxuICAgICAgICBpZiAobm9kZS5yZXN0KSB7XG4gICAgICAgICAgICB0aGlzLnZpc2l0UGF0dGVybih7XG4gICAgICAgICAgICAgICAgdHlwZTogJ1Jlc3RFbGVtZW50JyxcbiAgICAgICAgICAgICAgICBhcmd1bWVudDogbm9kZS5yZXN0XG4gICAgICAgICAgICB9LCAocGF0dGVybikgPT4ge1xuICAgICAgICAgICAgICAgIHRoaXMuY3VycmVudFNjb3BlKCkuX19kZWZpbmUocGF0dGVybixcbiAgICAgICAgICAgICAgICAgICAgbmV3IFBhcmFtZXRlckRlZmluaXRpb24oXG4gICAgICAgICAgICAgICAgICAgICAgICBwYXR0ZXJuLFxuICAgICAgICAgICAgICAgICAgICAgICAgbm9kZSxcbiAgICAgICAgICAgICAgICAgICAgICAgIG5vZGUucGFyYW1zLmxlbmd0aCxcbiAgICAgICAgICAgICAgICAgICAgICAgIHRydWVcbiAgICAgICAgICAgICAgICAgICAgKSk7XG4gICAgICAgICAgICB9KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFNraXAgQmxvY2tTdGF0ZW1lbnQgdG8gcHJldmVudCBjcmVhdGluZyBCbG9ja1N0YXRlbWVudCBzY29wZS5cbiAgICAgICAgaWYgKG5vZGUuYm9keS50eXBlID09PSBTeW50YXguQmxvY2tTdGF0ZW1lbnQpIHtcbiAgICAgICAgICAgIHRoaXMudmlzaXRDaGlsZHJlbihub2RlLmJvZHkpO1xuICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgdGhpcy52aXNpdChub2RlLmJvZHkpO1xuICAgICAgICB9XG5cbiAgICAgICAgdGhpcy5jbG9zZShub2RlKTtcbiAgICB9XG5cbiAgICB2aXNpdENsYXNzKG5vZGUpIHtcbiAgICAgICAgaWYgKG5vZGUudHlwZSA9PT0gU3ludGF4LkNsYXNzRGVjbGFyYXRpb24pIHtcbiAgICAgICAgICAgIHRoaXMuY3VycmVudFNjb3BlKCkuX19kZWZpbmUobm9kZS5pZCxcbiAgICAgICAgICAgICAgICAgICAgbmV3IERlZmluaXRpb24oXG4gICAgICAgICAgICAgICAgICAgICAgICBWYXJpYWJsZS5DbGFzc05hbWUsXG4gICAgICAgICAgICAgICAgICAgICAgICBub2RlLmlkLFxuICAgICAgICAgICAgICAgICAgICAgICAgbm9kZSxcbiAgICAgICAgICAgICAgICAgICAgICAgIG51bGwsXG4gICAgICAgICAgICAgICAgICAgICAgICBudWxsLFxuICAgICAgICAgICAgICAgICAgICAgICAgbnVsbFxuICAgICAgICAgICAgICAgICAgICApKTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIEZJWE1FOiBNYXliZSBjb25zaWRlciBURFouXG4gICAgICAgIHRoaXMudmlzaXQobm9kZS5zdXBlckNsYXNzKTtcblxuICAgICAgICB0aGlzLnNjb3BlTWFuYWdlci5fX25lc3RDbGFzc1Njb3BlKG5vZGUpO1xuXG4gICAgICAgIGlmIChub2RlLmlkKSB7XG4gICAgICAgICAgICB0aGlzLmN1cnJlbnRTY29wZSgpLl9fZGVmaW5lKG5vZGUuaWQsXG4gICAgICAgICAgICAgICAgICAgIG5ldyBEZWZpbml0aW9uKFxuICAgICAgICAgICAgICAgICAgICAgICAgVmFyaWFibGUuQ2xhc3NOYW1lLFxuICAgICAgICAgICAgICAgICAgICAgICAgbm9kZS5pZCxcbiAgICAgICAgICAgICAgICAgICAgICAgIG5vZGVcbiAgICAgICAgICAgICAgICAgICAgKSk7XG4gICAgICAgIH1cbiAgICAgICAgdGhpcy52aXNpdChub2RlLmJvZHkpO1xuXG4gICAgICAgIHRoaXMuY2xvc2Uobm9kZSk7XG4gICAgfVxuXG4gICAgdmlzaXRQcm9wZXJ0eShub2RlKSB7XG4gICAgICAgIHZhciBwcmV2aW91cywgaXNNZXRob2REZWZpbml0aW9uO1xuICAgICAgICBpZiAobm9kZS5jb21wdXRlZCkge1xuICAgICAgICAgICAgdGhpcy52aXNpdChub2RlLmtleSk7XG4gICAgICAgIH1cblxuICAgICAgICBpc01ldGhvZERlZmluaXRpb24gPSBub2RlLnR5cGUgPT09IFN5bnRheC5NZXRob2REZWZpbml0aW9uO1xuICAgICAgICBpZiAoaXNNZXRob2REZWZpbml0aW9uKSB7XG4gICAgICAgICAgICBwcmV2aW91cyA9IHRoaXMucHVzaElubmVyTWV0aG9kRGVmaW5pdGlvbih0cnVlKTtcbiAgICAgICAgfVxuICAgICAgICB0aGlzLnZpc2l0KG5vZGUudmFsdWUpO1xuICAgICAgICBpZiAoaXNNZXRob2REZWZpbml0aW9uKSB7XG4gICAgICAgICAgICB0aGlzLnBvcElubmVyTWV0aG9kRGVmaW5pdGlvbihwcmV2aW91cyk7XG4gICAgICAgIH1cbiAgICB9XG5cbiAgICB2aXNpdEZvckluKG5vZGUpIHtcbiAgICAgICAgaWYgKG5vZGUubGVmdC50eXBlID09PSBTeW50YXguVmFyaWFibGVEZWNsYXJhdGlvbiAmJiBub2RlLmxlZnQua2luZCAhPT0gJ3ZhcicpIHtcbiAgICAgICAgICAgIHRoaXMubWF0ZXJpYWxpemVURFpTY29wZShub2RlLnJpZ2h0LCBub2RlKTtcbiAgICAgICAgICAgIHRoaXMudmlzaXQobm9kZS5yaWdodCk7XG4gICAgICAgICAgICB0aGlzLmNsb3NlKG5vZGUucmlnaHQpO1xuXG4gICAgICAgICAgICB0aGlzLm1hdGVyaWFsaXplSXRlcmF0aW9uU2NvcGUobm9kZSk7XG4gICAgICAgICAgICB0aGlzLnZpc2l0KG5vZGUuYm9keSk7XG4gICAgICAgICAgICB0aGlzLmNsb3NlKG5vZGUpO1xuICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgaWYgKG5vZGUubGVmdC50eXBlID09PSBTeW50YXguVmFyaWFibGVEZWNsYXJhdGlvbikge1xuICAgICAgICAgICAgICAgIHRoaXMudmlzaXQobm9kZS5sZWZ0KTtcbiAgICAgICAgICAgICAgICB0aGlzLnZpc2l0UGF0dGVybihub2RlLmxlZnQuZGVjbGFyYXRpb25zWzBdLmlkLCAocGF0dGVybikgPT4ge1xuICAgICAgICAgICAgICAgICAgICB0aGlzLmN1cnJlbnRTY29wZSgpLl9fcmVmZXJlbmNpbmcocGF0dGVybiwgUmVmZXJlbmNlLldSSVRFLCBub2RlLnJpZ2h0LCBudWxsLCB0cnVlLCB0cnVlKTtcbiAgICAgICAgICAgICAgICB9KTtcbiAgICAgICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICAgICAgdGhpcy52aXNpdFBhdHRlcm4obm9kZS5sZWZ0LCB7cHJvY2Vzc1JpZ2h0SGFuZE5vZGVzOiB0cnVlfSwgKHBhdHRlcm4sIGluZm8pID0+IHtcbiAgICAgICAgICAgICAgICAgICAgdmFyIG1heWJlSW1wbGljaXRHbG9iYWwgPSBudWxsO1xuICAgICAgICAgICAgICAgICAgICBpZiAoIXRoaXMuY3VycmVudFNjb3BlKCkuaXNTdHJpY3QpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIG1heWJlSW1wbGljaXRHbG9iYWwgPSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcGF0dGVybjogcGF0dGVybixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBub2RlOiBub2RlXG4gICAgICAgICAgICAgICAgICAgICAgICB9O1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIHRoaXMucmVmZXJlbmNpbmdEZWZhdWx0VmFsdWUocGF0dGVybiwgaW5mby5hc3NpZ25tZW50cywgbWF5YmVJbXBsaWNpdEdsb2JhbCwgZmFsc2UpO1xuICAgICAgICAgICAgICAgICAgICB0aGlzLmN1cnJlbnRTY29wZSgpLl9fcmVmZXJlbmNpbmcocGF0dGVybiwgUmVmZXJlbmNlLldSSVRFLCBub2RlLnJpZ2h0LCBtYXliZUltcGxpY2l0R2xvYmFsLCB0cnVlLCBmYWxzZSk7XG4gICAgICAgICAgICAgICAgfSk7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICB0aGlzLnZpc2l0KG5vZGUucmlnaHQpO1xuICAgICAgICAgICAgdGhpcy52aXNpdChub2RlLmJvZHkpO1xuICAgICAgICB9XG4gICAgfVxuXG4gICAgdmlzaXRWYXJpYWJsZURlY2xhcmF0aW9uKHZhcmlhYmxlVGFyZ2V0U2NvcGUsIHR5cGUsIG5vZGUsIGluZGV4LCBmcm9tVERaKSB7XG4gICAgICAgIC8vIElmIHRoaXMgd2FzIGNhbGxlZCB0byBpbml0aWFsaXplIGEgVERaIHNjb3BlLCB0aGlzIG5lZWRzIHRvIG1ha2UgZGVmaW5pdGlvbnMsIGJ1dCBkb2Vzbid0IG1ha2UgcmVmZXJlbmNlcy5cbiAgICAgICAgdmFyIGRlY2wsIGluaXQ7XG5cbiAgICAgICAgZGVjbCA9IG5vZGUuZGVjbGFyYXRpb25zW2luZGV4XTtcbiAgICAgICAgaW5pdCA9IGRlY2wuaW5pdDtcbiAgICAgICAgdGhpcy52aXNpdFBhdHRlcm4oZGVjbC5pZCwge3Byb2Nlc3NSaWdodEhhbmROb2RlczogIWZyb21URFp9LCAocGF0dGVybiwgaW5mbykgPT4ge1xuICAgICAgICAgICAgdmFyaWFibGVUYXJnZXRTY29wZS5fX2RlZmluZShwYXR0ZXJuLFxuICAgICAgICAgICAgICAgIG5ldyBEZWZpbml0aW9uKFxuICAgICAgICAgICAgICAgICAgICB0eXBlLFxuICAgICAgICAgICAgICAgICAgICBwYXR0ZXJuLFxuICAgICAgICAgICAgICAgICAgICBkZWNsLFxuICAgICAgICAgICAgICAgICAgICBub2RlLFxuICAgICAgICAgICAgICAgICAgICBpbmRleCxcbiAgICAgICAgICAgICAgICAgICAgbm9kZS5raW5kXG4gICAgICAgICAgICAgICAgKSk7XG5cbiAgICAgICAgICAgIGlmICghZnJvbVREWikge1xuICAgICAgICAgICAgICAgIHRoaXMucmVmZXJlbmNpbmdEZWZhdWx0VmFsdWUocGF0dGVybiwgaW5mby5hc3NpZ25tZW50cywgbnVsbCwgdHJ1ZSk7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICBpZiAoaW5pdCkge1xuICAgICAgICAgICAgICAgIHRoaXMuY3VycmVudFNjb3BlKCkuX19yZWZlcmVuY2luZyhwYXR0ZXJuLCBSZWZlcmVuY2UuV1JJVEUsIGluaXQsIG51bGwsICFpbmZvLnRvcExldmVsLCB0cnVlKTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgfSk7XG4gICAgfVxuXG4gICAgQXNzaWdubWVudEV4cHJlc3Npb24obm9kZSkge1xuICAgICAgICBpZiAoUGF0dGVyblZpc2l0b3IuaXNQYXR0ZXJuKG5vZGUubGVmdCkpIHtcbiAgICAgICAgICAgIGlmIChub2RlLm9wZXJhdG9yID09PSAnPScpIHtcbiAgICAgICAgICAgICAgICB0aGlzLnZpc2l0UGF0dGVybihub2RlLmxlZnQsIHtwcm9jZXNzUmlnaHRIYW5kTm9kZXM6IHRydWV9LCAocGF0dGVybiwgaW5mbykgPT4ge1xuICAgICAgICAgICAgICAgICAgICB2YXIgbWF5YmVJbXBsaWNpdEdsb2JhbCA9IG51bGw7XG4gICAgICAgICAgICAgICAgICAgIGlmICghdGhpcy5jdXJyZW50U2NvcGUoKS5pc1N0cmljdCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgbWF5YmVJbXBsaWNpdEdsb2JhbCA9IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXR0ZXJuOiBwYXR0ZXJuLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vZGU6IG5vZGVcbiAgICAgICAgICAgICAgICAgICAgICAgIH07XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgdGhpcy5yZWZlcmVuY2luZ0RlZmF1bHRWYWx1ZShwYXR0ZXJuLCBpbmZvLmFzc2lnbm1lbnRzLCBtYXliZUltcGxpY2l0R2xvYmFsLCBmYWxzZSk7XG4gICAgICAgICAgICAgICAgICAgIHRoaXMuY3VycmVudFNjb3BlKCkuX19yZWZlcmVuY2luZyhwYXR0ZXJuLCBSZWZlcmVuY2UuV1JJVEUsIG5vZGUucmlnaHQsIG1heWJlSW1wbGljaXRHbG9iYWwsICFpbmZvLnRvcExldmVsLCBmYWxzZSk7XG4gICAgICAgICAgICAgICAgfSk7XG4gICAgICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgICAgIHRoaXMuY3VycmVudFNjb3BlKCkuX19yZWZlcmVuY2luZyhub2RlLmxlZnQsIFJlZmVyZW5jZS5SVywgbm9kZS5yaWdodCk7XG4gICAgICAgICAgICB9XG4gICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICB0aGlzLnZpc2l0KG5vZGUubGVmdCk7XG4gICAgICAgIH1cbiAgICAgICAgdGhpcy52aXNpdChub2RlLnJpZ2h0KTtcbiAgICB9XG5cbiAgICBDYXRjaENsYXVzZShub2RlKSB7XG4gICAgICAgIHRoaXMuc2NvcGVNYW5hZ2VyLl9fbmVzdENhdGNoU2NvcGUobm9kZSk7XG5cbiAgICAgICAgdGhpcy52aXNpdFBhdHRlcm4obm9kZS5wYXJhbSwge3Byb2Nlc3NSaWdodEhhbmROb2RlczogdHJ1ZX0sIChwYXR0ZXJuLCBpbmZvKSA9PiB7XG4gICAgICAgICAgICB0aGlzLmN1cnJlbnRTY29wZSgpLl9fZGVmaW5lKHBhdHRlcm4sXG4gICAgICAgICAgICAgICAgbmV3IERlZmluaXRpb24oXG4gICAgICAgICAgICAgICAgICAgIFZhcmlhYmxlLkNhdGNoQ2xhdXNlLFxuICAgICAgICAgICAgICAgICAgICBub2RlLnBhcmFtLFxuICAgICAgICAgICAgICAgICAgICBub2RlLFxuICAgICAgICAgICAgICAgICAgICBudWxsLFxuICAgICAgICAgICAgICAgICAgICBudWxsLFxuICAgICAgICAgICAgICAgICAgICBudWxsXG4gICAgICAgICAgICAgICAgKSk7XG4gICAgICAgICAgICB0aGlzLnJlZmVyZW5jaW5nRGVmYXVsdFZhbHVlKHBhdHRlcm4sIGluZm8uYXNzaWdubWVudHMsIG51bGwsIHRydWUpO1xuICAgICAgICB9KTtcbiAgICAgICAgdGhpcy52aXNpdChub2RlLmJvZHkpO1xuXG4gICAgICAgIHRoaXMuY2xvc2Uobm9kZSk7XG4gICAgfVxuXG4gICAgUHJvZ3JhbShub2RlKSB7XG4gICAgICAgIHRoaXMuc2NvcGVNYW5hZ2VyLl9fbmVzdEdsb2JhbFNjb3BlKG5vZGUpO1xuXG4gICAgICAgIGlmICh0aGlzLnNjb3BlTWFuYWdlci5fX2lzTm9kZWpzU2NvcGUoKSkge1xuICAgICAgICAgICAgLy8gRm9yY2Ugc3RyaWN0bmVzcyBvZiBHbG9iYWxTY29wZSB0byBmYWxzZSB3aGVuIHVzaW5nIG5vZGUuanMgc2NvcGUuXG4gICAgICAgICAgICB0aGlzLmN1cnJlbnRTY29wZSgpLmlzU3RyaWN0ID0gZmFsc2U7XG4gICAgICAgICAgICB0aGlzLnNjb3BlTWFuYWdlci5fX25lc3RGdW5jdGlvblNjb3BlKG5vZGUsIGZhbHNlKTtcbiAgICAgICAgfVxuXG4gICAgICAgIGlmICh0aGlzLnNjb3BlTWFuYWdlci5fX2lzRVM2KCkgJiYgdGhpcy5zY29wZU1hbmFnZXIuaXNNb2R1bGUoKSkge1xuICAgICAgICAgICAgdGhpcy5zY29wZU1hbmFnZXIuX19uZXN0TW9kdWxlU2NvcGUobm9kZSk7XG4gICAgICAgIH1cblxuICAgICAgICBpZiAodGhpcy5zY29wZU1hbmFnZXIuaXNTdHJpY3RNb2RlU3VwcG9ydGVkKCkgJiYgdGhpcy5zY29wZU1hbmFnZXIuaXNJbXBsaWVkU3RyaWN0KCkpIHtcbiAgICAgICAgICAgIHRoaXMuY3VycmVudFNjb3BlKCkuaXNTdHJpY3QgPSB0cnVlO1xuICAgICAgICB9XG5cbiAgICAgICAgdGhpcy52aXNpdENoaWxkcmVuKG5vZGUpO1xuICAgICAgICB0aGlzLmNsb3NlKG5vZGUpO1xuICAgIH1cblxuICAgIElkZW50aWZpZXIobm9kZSkge1xuICAgICAgICB0aGlzLmN1cnJlbnRTY29wZSgpLl9fcmVmZXJlbmNpbmcobm9kZSk7XG4gICAgfVxuXG4gICAgVXBkYXRlRXhwcmVzc2lvbihub2RlKSB7XG4gICAgICAgIGlmIChQYXR0ZXJuVmlzaXRvci5pc1BhdHRlcm4obm9kZS5hcmd1bWVudCkpIHtcbiAgICAgICAgICAgIHRoaXMuY3VycmVudFNjb3BlKCkuX19yZWZlcmVuY2luZyhub2RlLmFyZ3VtZW50LCBSZWZlcmVuY2UuUlcsIG51bGwpO1xuICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgdGhpcy52aXNpdENoaWxkcmVuKG5vZGUpO1xuICAgICAgICB9XG4gICAgfVxuXG4gICAgTWVtYmVyRXhwcmVzc2lvbihub2RlKSB7XG4gICAgICAgIHRoaXMudmlzaXQobm9kZS5vYmplY3QpO1xuICAgICAgICBpZiAobm9kZS5jb21wdXRlZCkge1xuICAgICAgICAgICAgdGhpcy52aXNpdChub2RlLnByb3BlcnR5KTtcbiAgICAgICAgfVxuICAgIH1cblxuICAgIFByb3BlcnR5KG5vZGUpIHtcbiAgICAgICAgdGhpcy52aXNpdFByb3BlcnR5KG5vZGUpO1xuICAgIH1cblxuICAgIE1ldGhvZERlZmluaXRpb24obm9kZSkge1xuICAgICAgICB0aGlzLnZpc2l0UHJvcGVydHkobm9kZSk7XG4gICAgfVxuXG4gICAgQnJlYWtTdGF0ZW1lbnQoKSB7fVxuXG4gICAgQ29udGludWVTdGF0ZW1lbnQoKSB7fVxuXG4gICAgTGFiZWxlZFN0YXRlbWVudChub2RlKSB7XG4gICAgICAgIHRoaXMudmlzaXQobm9kZS5ib2R5KTtcbiAgICB9XG5cbiAgICBGb3JTdGF0ZW1lbnQobm9kZSkge1xuICAgICAgICAvLyBDcmVhdGUgRm9yU3RhdGVtZW50IGRlY2xhcmF0aW9uLlxuICAgICAgICAvLyBOT1RFOiBJbiBFUzYsIEZvclN0YXRlbWVudCBkeW5hbWljYWxseSBnZW5lcmF0ZXNcbiAgICAgICAgLy8gcGVyIGl0ZXJhdGlvbiBlbnZpcm9ubWVudC4gSG93ZXZlciwgZXNjb3BlIGlzXG4gICAgICAgIC8vIGEgc3RhdGljIGFuYWx5emVyLCB3ZSBvbmx5IGdlbmVyYXRlIG9uZSBzY29wZSBmb3IgRm9yU3RhdGVtZW50LlxuICAgICAgICBpZiAobm9kZS5pbml0ICYmIG5vZGUuaW5pdC50eXBlID09PSBTeW50YXguVmFyaWFibGVEZWNsYXJhdGlvbiAmJiBub2RlLmluaXQua2luZCAhPT0gJ3ZhcicpIHtcbiAgICAgICAgICAgIHRoaXMuc2NvcGVNYW5hZ2VyLl9fbmVzdEZvclNjb3BlKG5vZGUpO1xuICAgICAgICB9XG5cbiAgICAgICAgdGhpcy52aXNpdENoaWxkcmVuKG5vZGUpO1xuXG4gICAgICAgIHRoaXMuY2xvc2Uobm9kZSk7XG4gICAgfVxuXG4gICAgQ2xhc3NFeHByZXNzaW9uKG5vZGUpIHtcbiAgICAgICAgdGhpcy52aXNpdENsYXNzKG5vZGUpO1xuICAgIH1cblxuICAgIENsYXNzRGVjbGFyYXRpb24obm9kZSkge1xuICAgICAgICB0aGlzLnZpc2l0Q2xhc3Mobm9kZSk7XG4gICAgfVxuXG4gICAgQ2FsbEV4cHJlc3Npb24obm9kZSkge1xuICAgICAgICAvLyBDaGVjayB0aGlzIGlzIGRpcmVjdCBjYWxsIHRvIGV2YWxcbiAgICAgICAgaWYgKCF0aGlzLnNjb3BlTWFuYWdlci5fX2lnbm9yZUV2YWwoKSAmJiBub2RlLmNhbGxlZS50eXBlID09PSBTeW50YXguSWRlbnRpZmllciAmJiBub2RlLmNhbGxlZS5uYW1lID09PSAnZXZhbCcpIHtcbiAgICAgICAgICAgIC8vIE5PVEU6IFRoaXMgc2hvdWxkIGJlIGB2YXJpYWJsZVNjb3BlYC4gU2luY2UgZGlyZWN0IGV2YWwgY2FsbCBhbHdheXMgY3JlYXRlcyBMZXhpY2FsIGVudmlyb25tZW50IGFuZFxuICAgICAgICAgICAgLy8gbGV0IC8gY29uc3Qgc2hvdWxkIGJlIGVuY2xvc2VkIGludG8gaXQuIE9ubHkgVmFyaWFibGVEZWNsYXJhdGlvbiBhZmZlY3RzIG9uIHRoZSBjYWxsZXIncyBlbnZpcm9ubWVudC5cbiAgICAgICAgICAgIHRoaXMuY3VycmVudFNjb3BlKCkudmFyaWFibGVTY29wZS5fX2RldGVjdEV2YWwoKTtcbiAgICAgICAgfVxuICAgICAgICB0aGlzLnZpc2l0Q2hpbGRyZW4obm9kZSk7XG4gICAgfVxuXG4gICAgQmxvY2tTdGF0ZW1lbnQobm9kZSkge1xuICAgICAgICBpZiAodGhpcy5zY29wZU1hbmFnZXIuX19pc0VTNigpKSB7XG4gICAgICAgICAgICB0aGlzLnNjb3BlTWFuYWdlci5fX25lc3RCbG9ja1Njb3BlKG5vZGUpO1xuICAgICAgICB9XG5cbiAgICAgICAgdGhpcy52aXNpdENoaWxkcmVuKG5vZGUpO1xuXG4gICAgICAgIHRoaXMuY2xvc2Uobm9kZSk7XG4gICAgfVxuXG4gICAgVGhpc0V4cHJlc3Npb24oKSB7XG4gICAgICAgIHRoaXMuY3VycmVudFNjb3BlKCkudmFyaWFibGVTY29wZS5fX2RldGVjdFRoaXMoKTtcbiAgICB9XG5cbiAgICBXaXRoU3RhdGVtZW50KG5vZGUpIHtcbiAgICAgICAgdGhpcy52aXNpdChub2RlLm9iamVjdCk7XG4gICAgICAgIC8vIFRoZW4gbmVzdCBzY29wZSBmb3IgV2l0aFN0YXRlbWVudC5cbiAgICAgICAgdGhpcy5zY29wZU1hbmFnZXIuX19uZXN0V2l0aFNjb3BlKG5vZGUpO1xuXG4gICAgICAgIHRoaXMudmlzaXQobm9kZS5ib2R5KTtcblxuICAgICAgICB0aGlzLmNsb3NlKG5vZGUpO1xuICAgIH1cblxuICAgIFZhcmlhYmxlRGVjbGFyYXRpb24obm9kZSkge1xuICAgICAgICB2YXIgdmFyaWFibGVUYXJnZXRTY29wZSwgaSwgaXosIGRlY2w7XG4gICAgICAgIHZhcmlhYmxlVGFyZ2V0U2NvcGUgPSAobm9kZS5raW5kID09PSAndmFyJykgPyB0aGlzLmN1cnJlbnRTY29wZSgpLnZhcmlhYmxlU2NvcGUgOiB0aGlzLmN1cnJlbnRTY29wZSgpO1xuICAgICAgICBmb3IgKGkgPSAwLCBpeiA9IG5vZGUuZGVjbGFyYXRpb25zLmxlbmd0aDsgaSA8IGl6OyArK2kpIHtcbiAgICAgICAgICAgIGRlY2wgPSBub2RlLmRlY2xhcmF0aW9uc1tpXTtcbiAgICAgICAgICAgIHRoaXMudmlzaXRWYXJpYWJsZURlY2xhcmF0aW9uKHZhcmlhYmxlVGFyZ2V0U2NvcGUsIFZhcmlhYmxlLlZhcmlhYmxlLCBub2RlLCBpKTtcbiAgICAgICAgICAgIGlmIChkZWNsLmluaXQpIHtcbiAgICAgICAgICAgICAgICB0aGlzLnZpc2l0KGRlY2wuaW5pdCk7XG4gICAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICB9XG5cbiAgICAvLyBzZWMgMTMuMTEuOFxuICAgIFN3aXRjaFN0YXRlbWVudChub2RlKSB7XG4gICAgICAgIHZhciBpLCBpejtcblxuICAgICAgICB0aGlzLnZpc2l0KG5vZGUuZGlzY3JpbWluYW50KTtcblxuICAgICAgICBpZiAodGhpcy5zY29wZU1hbmFnZXIuX19pc0VTNigpKSB7XG4gICAgICAgICAgICB0aGlzLnNjb3BlTWFuYWdlci5fX25lc3RTd2l0Y2hTY29wZShub2RlKTtcbiAgICAgICAgfVxuXG4gICAgICAgIGZvciAoaSA9IDAsIGl6ID0gbm9kZS5jYXNlcy5sZW5ndGg7IGkgPCBpejsgKytpKSB7XG4gICAgICAgICAgICB0aGlzLnZpc2l0KG5vZGUuY2FzZXNbaV0pO1xuICAgICAgICB9XG5cbiAgICAgICAgdGhpcy5jbG9zZShub2RlKTtcbiAgICB9XG5cbiAgICBGdW5jdGlvbkRlY2xhcmF0aW9uKG5vZGUpIHtcbiAgICAgICAgdGhpcy52aXNpdEZ1bmN0aW9uKG5vZGUpO1xuICAgIH1cblxuICAgIEZ1bmN0aW9uRXhwcmVzc2lvbihub2RlKSB7XG4gICAgICAgIHRoaXMudmlzaXRGdW5jdGlvbihub2RlKTtcbiAgICB9XG5cbiAgICBGb3JPZlN0YXRlbWVudChub2RlKSB7XG4gICAgICAgIHRoaXMudmlzaXRGb3JJbihub2RlKTtcbiAgICB9XG5cbiAgICBGb3JJblN0YXRlbWVudChub2RlKSB7XG4gICAgICAgIHRoaXMudmlzaXRGb3JJbihub2RlKTtcbiAgICB9XG5cbiAgICBBcnJvd0Z1bmN0aW9uRXhwcmVzc2lvbihub2RlKSB7XG4gICAgICAgIHRoaXMudmlzaXRGdW5jdGlvbihub2RlKTtcbiAgICB9XG5cbiAgICBJbXBvcnREZWNsYXJhdGlvbihub2RlKSB7XG4gICAgICAgIHZhciBpbXBvcnRlcjtcblxuICAgICAgICBhc3NlcnQodGhpcy5zY29wZU1hbmFnZXIuX19pc0VTNigpICYmIHRoaXMuc2NvcGVNYW5hZ2VyLmlzTW9kdWxlKCksICdJbXBvcnREZWNsYXJhdGlvbiBzaG91bGQgYXBwZWFyIHdoZW4gdGhlIG1vZGUgaXMgRVM2IGFuZCBpbiB0aGUgbW9kdWxlIGNvbnRleHQuJyk7XG5cbiAgICAgICAgaW1wb3J0ZXIgPSBuZXcgSW1wb3J0ZXIobm9kZSwgdGhpcyk7XG4gICAgICAgIGltcG9ydGVyLnZpc2l0KG5vZGUpO1xuICAgIH1cblxuICAgIHZpc2l0RXhwb3J0RGVjbGFyYXRpb24obm9kZSkge1xuICAgICAgICBpZiAobm9kZS5zb3VyY2UpIHtcbiAgICAgICAgICAgIHJldHVybjtcbiAgICAgICAgfVxuICAgICAgICBpZiAobm9kZS5kZWNsYXJhdGlvbikge1xuICAgICAgICAgICAgdGhpcy52aXNpdChub2RlLmRlY2xhcmF0aW9uKTtcbiAgICAgICAgICAgIHJldHVybjtcbiAgICAgICAgfVxuXG4gICAgICAgIHRoaXMudmlzaXRDaGlsZHJlbihub2RlKTtcbiAgICB9XG5cbiAgICBFeHBvcnREZWNsYXJhdGlvbihub2RlKSB7XG4gICAgICAgIHRoaXMudmlzaXRFeHBvcnREZWNsYXJhdGlvbihub2RlKTtcbiAgICB9XG5cbiAgICBFeHBvcnROYW1lZERlY2xhcmF0aW9uKG5vZGUpIHtcbiAgICAgICAgdGhpcy52aXNpdEV4cG9ydERlY2xhcmF0aW9uKG5vZGUpO1xuICAgIH1cblxuICAgIEV4cG9ydFNwZWNpZmllcihub2RlKSB7XG4gICAgICAgIGxldCBsb2NhbCA9IChub2RlLmlkIHx8IG5vZGUubG9jYWwpO1xuICAgICAgICB0aGlzLnZpc2l0KGxvY2FsKTtcbiAgICB9XG5cbiAgICBNZXRhUHJvcGVydHkoKSB7XG4gICAgICAgIC8vIGRvIG5vdGhpbmcuXG4gICAgfVxufVxuXG4vKiB2aW06IHNldCBzdz00IHRzPTQgZXQgdHc9ODAgOiAqL1xuIl19
-
-
-/***/ }),
-
-/***/ 8495:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); /*
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Copyright (C) 2015 Yusuke Suzuki <utatane.tea@gmail.com>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Redistribution and use in source and binary forms, with or without
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       modification, are permitted provided that the following conditions are met:
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         * Redistributions of source code must retain the above copyright
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           notice, this list of conditions and the following disclaimer.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         * Redistributions in binary form must reproduce the above copyright
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           notice, this list of conditions and the following disclaimer in the
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           documentation and/or other materials provided with the distribution.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     */
-
-var _scope = __webpack_require__(7181);
-
-var _scope2 = _interopRequireDefault(_scope);
-
-var _assert = __webpack_require__(9282);
-
-var _assert2 = _interopRequireDefault(_assert);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/**
- * @class ScopeManager
- */
-var ScopeManager = function () {
-    function ScopeManager(options) {
-        _classCallCheck(this, ScopeManager);
-
-        this.scopes = [];
-        this.globalScope = null;
-        this.__nodeToScope = new WeakMap();
-        this.__currentScope = null;
-        this.__options = options;
-        this.__declaredVariables = new WeakMap();
-    }
-
-    _createClass(ScopeManager, [{
-        key: '__useDirective',
-        value: function __useDirective() {
-            return this.__options.directive;
-        }
-    }, {
-        key: '__isOptimistic',
-        value: function __isOptimistic() {
-            return this.__options.optimistic;
-        }
-    }, {
-        key: '__ignoreEval',
-        value: function __ignoreEval() {
-            return this.__options.ignoreEval;
-        }
-    }, {
-        key: '__isNodejsScope',
-        value: function __isNodejsScope() {
-            return this.__options.nodejsScope;
-        }
-    }, {
-        key: 'isModule',
-        value: function isModule() {
-            return this.__options.sourceType === 'module';
-        }
-    }, {
-        key: 'isImpliedStrict',
-        value: function isImpliedStrict() {
-            return this.__options.impliedStrict;
-        }
-    }, {
-        key: 'isStrictModeSupported',
-        value: function isStrictModeSupported() {
-            return this.__options.ecmaVersion >= 5;
-        }
-
-        // Returns appropriate scope for this node.
-
-    }, {
-        key: '__get',
-        value: function __get(node) {
-            return this.__nodeToScope.get(node);
-        }
-
-        /**
-         * Get variables that are declared by the node.
-         *
-         * "are declared by the node" means the node is same as `Variable.defs[].node` or `Variable.defs[].parent`.
-         * If the node declares nothing, this method returns an empty array.
-         * CAUTION: This API is experimental. See https://github.com/estools/escope/pull/69 for more details.
-         *
-         * @param {Esprima.Node} node - a node to get.
-         * @returns {Variable[]} variables that declared by the node.
-         */
-
-    }, {
-        key: 'getDeclaredVariables',
-        value: function getDeclaredVariables(node) {
-            return this.__declaredVariables.get(node) || [];
-        }
-
-        /**
-         * acquire scope from node.
-         * @method ScopeManager#acquire
-         * @param {Esprima.Node} node - node for the acquired scope.
-         * @param {boolean=} inner - look up the most inner scope, default value is false.
-         * @return {Scope?}
-         */
-
-    }, {
-        key: 'acquire',
-        value: function acquire(node, inner) {
-            var scopes, scope, i, iz;
-
-            function predicate(scope) {
-                if (scope.type === 'function' && scope.functionExpressionScope) {
-                    return false;
-                }
-                if (scope.type === 'TDZ') {
-                    return false;
-                }
-                return true;
-            }
-
-            scopes = this.__get(node);
-            if (!scopes || scopes.length === 0) {
-                return null;
-            }
-
-            // Heuristic selection from all scopes.
-            // If you would like to get all scopes, please use ScopeManager#acquireAll.
-            if (scopes.length === 1) {
-                return scopes[0];
-            }
-
-            if (inner) {
-                for (i = scopes.length - 1; i >= 0; --i) {
-                    scope = scopes[i];
-                    if (predicate(scope)) {
-                        return scope;
-                    }
-                }
-            } else {
-                for (i = 0, iz = scopes.length; i < iz; ++i) {
-                    scope = scopes[i];
-                    if (predicate(scope)) {
-                        return scope;
-                    }
-                }
-            }
-
-            return null;
-        }
-
-        /**
-         * acquire all scopes from node.
-         * @method ScopeManager#acquireAll
-         * @param {Esprima.Node} node - node for the acquired scope.
-         * @return {Scope[]?}
-         */
-
-    }, {
-        key: 'acquireAll',
-        value: function acquireAll(node) {
-            return this.__get(node);
-        }
-
-        /**
-         * release the node.
-         * @method ScopeManager#release
-         * @param {Esprima.Node} node - releasing node.
-         * @param {boolean=} inner - look up the most inner scope, default value is false.
-         * @return {Scope?} upper scope for the node.
-         */
-
-    }, {
-        key: 'release',
-        value: function release(node, inner) {
-            var scopes, scope;
-            scopes = this.__get(node);
-            if (scopes && scopes.length) {
-                scope = scopes[0].upper;
-                if (!scope) {
-                    return null;
-                }
-                return this.acquire(scope.block, inner);
-            }
-            return null;
-        }
-    }, {
-        key: 'attach',
-        value: function attach() {}
-    }, {
-        key: 'detach',
-        value: function detach() {}
-    }, {
-        key: '__nestScope',
-        value: function __nestScope(scope) {
-            if (scope instanceof _scope.GlobalScope) {
-                (0, _assert2.default)(this.__currentScope === null);
-                this.globalScope = scope;
-            }
-            this.__currentScope = scope;
-            return scope;
-        }
-    }, {
-        key: '__nestGlobalScope',
-        value: function __nestGlobalScope(node) {
-            return this.__nestScope(new _scope.GlobalScope(this, node));
-        }
-    }, {
-        key: '__nestBlockScope',
-        value: function __nestBlockScope(node, isMethodDefinition) {
-            return this.__nestScope(new _scope.BlockScope(this, this.__currentScope, node));
-        }
-    }, {
-        key: '__nestFunctionScope',
-        value: function __nestFunctionScope(node, isMethodDefinition) {
-            return this.__nestScope(new _scope.FunctionScope(this, this.__currentScope, node, isMethodDefinition));
-        }
-    }, {
-        key: '__nestForScope',
-        value: function __nestForScope(node) {
-            return this.__nestScope(new _scope.ForScope(this, this.__currentScope, node));
-        }
-    }, {
-        key: '__nestCatchScope',
-        value: function __nestCatchScope(node) {
-            return this.__nestScope(new _scope.CatchScope(this, this.__currentScope, node));
-        }
-    }, {
-        key: '__nestWithScope',
-        value: function __nestWithScope(node) {
-            return this.__nestScope(new _scope.WithScope(this, this.__currentScope, node));
-        }
-    }, {
-        key: '__nestClassScope',
-        value: function __nestClassScope(node) {
-            return this.__nestScope(new _scope.ClassScope(this, this.__currentScope, node));
-        }
-    }, {
-        key: '__nestSwitchScope',
-        value: function __nestSwitchScope(node) {
-            return this.__nestScope(new _scope.SwitchScope(this, this.__currentScope, node));
-        }
-    }, {
-        key: '__nestModuleScope',
-        value: function __nestModuleScope(node) {
-            return this.__nestScope(new _scope.ModuleScope(this, this.__currentScope, node));
-        }
-    }, {
-        key: '__nestTDZScope',
-        value: function __nestTDZScope(node) {
-            return this.__nestScope(new _scope.TDZScope(this, this.__currentScope, node));
-        }
-    }, {
-        key: '__nestFunctionExpressionNameScope',
-        value: function __nestFunctionExpressionNameScope(node) {
-            return this.__nestScope(new _scope.FunctionExpressionNameScope(this, this.__currentScope, node));
-        }
-    }, {
-        key: '__isES6',
-        value: function __isES6() {
-            return this.__options.ecmaVersion >= 6;
-        }
-    }]);
-
-    return ScopeManager;
-}();
-
-/* vim: set sw=4 ts=4 et tw=80 : */
-
-
-exports["default"] = ScopeManager;
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjb3BlLW1hbmFnZXIuanMiXSwibmFtZXMiOlsiU2NvcGVNYW5hZ2VyIiwib3B0aW9ucyIsInNjb3BlcyIsImdsb2JhbFNjb3BlIiwiX19ub2RlVG9TY29wZSIsIldlYWtNYXAiLCJfX2N1cnJlbnRTY29wZSIsIl9fb3B0aW9ucyIsIl9fZGVjbGFyZWRWYXJpYWJsZXMiLCJkaXJlY3RpdmUiLCJvcHRpbWlzdGljIiwiaWdub3JlRXZhbCIsIm5vZGVqc1Njb3BlIiwic291cmNlVHlwZSIsImltcGxpZWRTdHJpY3QiLCJlY21hVmVyc2lvbiIsIm5vZGUiLCJnZXQiLCJpbm5lciIsInNjb3BlIiwiaSIsIml6IiwicHJlZGljYXRlIiwidHlwZSIsImZ1bmN0aW9uRXhwcmVzc2lvblNjb3BlIiwiX19nZXQiLCJsZW5ndGgiLCJ1cHBlciIsImFjcXVpcmUiLCJibG9jayIsIkdsb2JhbFNjb3BlIiwiX19uZXN0U2NvcGUiLCJpc01ldGhvZERlZmluaXRpb24iLCJCbG9ja1Njb3BlIiwiRnVuY3Rpb25TY29wZSIsIkZvclNjb3BlIiwiQ2F0Y2hTY29wZSIsIldpdGhTY29wZSIsIkNsYXNzU2NvcGUiLCJTd2l0Y2hTY29wZSIsIk1vZHVsZVNjb3BlIiwiVERaU2NvcGUiLCJGdW5jdGlvbkV4cHJlc3Npb25OYW1lU2NvcGUiXSwibWFwcGluZ3MiOiI7Ozs7OztxakJBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQXdCQTs7OztBQUNBOzs7Ozs7OztBQWdCQTs7O0lBR3FCQSxZO0FBQ2pCLDBCQUFZQyxPQUFaLEVBQXFCO0FBQUE7O0FBQ2pCLGFBQUtDLE1BQUwsR0FBYyxFQUFkO0FBQ0EsYUFBS0MsV0FBTCxHQUFtQixJQUFuQjtBQUNBLGFBQUtDLGFBQUwsR0FBcUIsSUFBSUMsT0FBSixFQUFyQjtBQUNBLGFBQUtDLGNBQUwsR0FBc0IsSUFBdEI7QUFDQSxhQUFLQyxTQUFMLEdBQWlCTixPQUFqQjtBQUNBLGFBQUtPLG1CQUFMLEdBQTJCLElBQUlILE9BQUosRUFB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QUtlLFdBQUwsQ0FBaUIsSUFBSU0sZ0JBQUosQ0FBYyxJQUFkLEVBQW9CLEtBQUsvQixjQUF6QixFQUF5Q1UsSUFBekMsQ0FBakIsQ0FBUDtBQUNIOzs7eUNBRWdCQSxJLEVBQU07QUFDbkIsbUJBQU8sS0FBS2UsV0FBTCxDQUFpQixJQUFJTyxpQkFBSixDQUFlLElBQWYsRUFBcUIsS0FBS2hDLGNBQTFCLEVBQTBDVSxJQUExQyxDQUFqQixDQUFQO0FBQ0g7OzswQ0FFaUJBLEksRUFBTTtBQUNwQixtQkFBTyxLQUFLZSxXQUFMLENBQWlCLElBQUlRLGtCQUFKLENBQWdCLElBQWhCLEVBQXNCLEtBQUtqQyxjQUEzQixFQUEyQ1UsSUFBM0MsQ0FBakIsQ0FBUDtBQUNIOzs7MENBRWlCQSxJLEVBQU07QUFDcEIsbUJBQU8sS0FBS2UsV0FBTCxDQUFpQixJQUFJUyxrQkFBSixDQUFnQixJQUFoQixFQUFzQixLQUFLbEMsY0FBM0IsRUFBMkNVLElBQTNDLENBQWpCLENBQVA7QUFDSDs7O3VDQUVjQSxJLEVBQU07QUFDakIsbUJBQU8sS0FBS2UsV0FBTCxDQUFpQixJQUFJVSxlQUFKLENBQWEsSUFBYixFQUFtQixLQUFLbkMsY0FBeEIsRUFBd0NVLElBQXhDLENBQWpCLENBQVA7QUFDSDs7OzBEQUVpQ0EsSSxFQUFNO0FBQ3BDLG1CQUFPLEtBQUtlLFdBQUwsQ0FBaUIsSUFBSVcsa0NBQUosQ0FBZ0MsSUFBaEMsRUFBc0MsS0FBS3BDLGNBQTNDLEVBQTJEVSxJQUEzRCxDQUFqQixDQUFQO0FBQ0g7OztrQ0FFUztBQUNOLG1CQUFPLEtBQUtULFNBQUwsQ0FBZVEsV0FBZixJQUE4QixDQUFyQztBQUNIOzs7Ozs7QUFHTDs7O2tCQXZNcUJmLFkiLCJmaWxlIjoic2NvcGUtbWFuYWdlci5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gIENvcHlyaWdodCAoQykgMjAxNSBZdXN1a2UgU3V6dWtpIDx1dGF0YW5lLnRlYUBnbWFpbC5jb20+XG5cbiAgUmVkaXN0cmlidXRpb24gYW5kIHVzZSBpbiBzb3VyY2UgYW5kIGJpbmFyeSBmb3Jtcywgd2l0aCBvciB3aXRob3V0XG4gIG1vZGlmaWNhdGlvbiwgYXJlIHBlcm1pdHRlZCBwcm92aWRlZCB0aGF0IHRoZSBmb2xsb3dpbmcgY29uZGl0aW9ucyBhcmUgbWV0OlxuXG4gICAgKiBSZWRpc3RyaWJ1dGlvbnMgb2Ygc291cmNlIGNvZGUgbXVzdCByZXRhaW4gdGhlIGFib3ZlIGNvcHlyaWdodFxuICAgICAgbm90aWNlLCB0aGlzIGxpc3Qgb2YgY29uZGl0aW9ucyBhbmQgdGhlIGZvbGxvd2luZyBkaXNjbGFpbWVyLlxuICAgICogUmVkaXN0cmlidXRpb25zIGluIGJpbmFyeSBmb3JtIG11c3QgcmVwcm9kdWNlIHRoZSBhYm92ZSBjb3B5cmlnaHRcbiAgICAgIG5vdGljZSwgdGhpcyBsaXN0IG9mIGNvbmRpdGlvbnMgYW5kIHRoZSBmb2xsb3dpbmcgZGlzY2xhaW1lciBpbiB0aGVcbiAgICAgIGRvY3VtZW50YXRpb24gYW5kL29yIG90aGVyIG1hdGVyaWFscyBwcm92aWRlZCB3aXRoIHRoZSBkaXN0cmlidXRpb24uXG5cbiAgVEhJUyBTT0ZUV0FSRSBJUyBQUk9WSURFRCBCWSBUSEUgQ09QWVJJR0hUIEhPTERFUlMgQU5EIENPTlRSSUJVVE9SUyBcIkFTIElTXCJcbiAgQU5EIEFOWSBFWFBSRVNTIE9SIElNUExJRUQgV0FSUkFOVElFUywgSU5DTFVESU5HLCBCVVQgTk9UIExJTUlURUQgVE8sIFRIRVxuICBJTVBMSUVEIFdBUlJBTlRJRVMgT0YgTUVSQ0hBTlRBQklMSVRZIEFORCBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRVxuICBBUkUgRElTQ0xBSU1FRC4gSU4gTk8gRVZFTlQgU0hBTEwgPENPUFlSSUdIVCBIT0xERVI+IEJFIExJQUJMRSBGT1IgQU5ZXG4gIERJUkVDVCwgSU5ESVJFQ1QsIElOQ0lERU5UQUwsIFNQRUNJQUwsIEVYRU1QTEFSWSwgT1IgQ09OU0VRVUVOVElBTCBEQU1BR0VTXG4gIChJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRFRCBUTywgUFJPQ1VSRU1FTlQgT0YgU1VCU1RJVFVURSBHT09EUyBPUiBTRVJWSUNFUztcbiAgTE9TUyBPRiBVU0UsIERBVEEsIE9SIFBST0ZJVFM7IE9SIEJVU0lORVNTIElOVEVSUlVQVElPTikgSE9XRVZFUiBDQVVTRUQgQU5EXG4gIE9OIEFOWSBUSEVPUlkgT0YgTElBQklMSVRZLCBXSEVUSEVSIElOIENPTlRSQUNULCBTVFJJQ1QgTElBQklMSVRZLCBPUiBUT1JUXG4gIChJTkNMVURJTkcgTkVHTElHRU5DRSBPUiBPVEhFUldJU0UpIEFSSVNJTkcgSU4gQU5ZIFdBWSBPVVQgT0YgVEhFIFVTRSBPRlxuICBUSElTIFNPRlRXQVJFLCBFVkVOIElGIEFEVklTRUQgT0YgVEhFIFBPU1NJQklMSVRZIE9GIFNVQ0ggREFNQUdFLlxuKi9cblxuaW1wb3J0IFNjb3BlIGZyb20gJy4vc2NvcGUnO1xuaW1wb3J0IGFzc2VydCBmcm9tICdhc3NlcnQnO1xuXG5pbXBvcnQge1xuICAgIEdsb2JhbFNjb3BlLFxuICAgIENhdGNoU2NvcGUsXG4gICAgV2l0aFNjb3BlLFxuICAgIE1vZHVsZVNjb3BlLFxuICAgIENsYXNzU2NvcGUsXG4gICAgU3dpdGNoU2NvcGUsXG4gICAgRnVuY3Rpb25TY29wZSxcbiAgICBGb3JTY29wZSxcbiAgICBURFpTY29wZSxcbiAgICBGdW5jdGlvbkV4cHJlc3Npb25OYW1lU2NvcGUsXG4gICAgQmxvY2tTY29wZVxufSBmcm9tICcuL3Njb3BlJztcblxuLyoqXG4gKiBAY2xhc3MgU2NvcGVNYW5hZ2VyXG4gKi9cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIFNjb3BlTWFuYWdlciB7XG4gICAgY29uc3RydWN0b3Iob3B0aW9ucykge1xuICAgICAgICB0aGlzLnNjb3BlcyA9IFtdO1xuICAgICAgICB0aGlzLmdsb2JhbFNjb3BlID0gbnVsbDtcbiAgICAgICAgdGhpcy5fX25vZGVUb1Njb3BlID0gbmV3IFdlYWtNYXAoKTtcbiAgICAgICAgdGhpcy5fX2N1cnJlbnRTY29wZSA9IG51bGw7XG4gICAgICAgIHRoaXMuX19vcHRpb25zID0gb3B0aW9ucztcbiAgICAgICAgdGhpcy5fX2RlY2xhcmVkVmFyaWFibGVzID0gbmV3IFdlYWtNYXAoKTtcbiAgICB9XG5cbiAgICBfX3VzZURpcmVjdGl2ZSgpIHtcbiAgICAgICAgcmV0dXJuIHRoaXMuX19vcHRpb25zLmRpcmVjdGl2ZTtcbiAgICB9XG5cbiAgICBfX2lzT3B0aW1pc3RpYygpIHtcbiAgICAgICAgcmV0dXJuIHRoaXMuX19vcHRpb25zLm9wdGltaXN0aWM7XG4gICAgfVxuXG4gICAgX19pZ25vcmVFdmFsKCkge1xuICAgICAgICByZXR1cm4gdGhpcy5fX29wdGlvbnMuaWdub3JlRXZhbDtcbiAgICB9XG5cbiAgICBfX2lzTm9kZWpzU2NvcGUoKSB7XG4gICAgICAgIHJldHVybiB0aGlzLl9fb3B0aW9ucy5ub2RlanNTY29wZTtcbiAgICB9XG5cbiAgICBpc01vZHVsZSgpIHtcbiAgICAgICAgcmV0dXJuIHRoaXMuX19vcHRpb25zLnNvdXJjZVR5cGUgPT09ICdtb2R1bGUnO1xuICAgIH1cblxuICAgIGlzSW1wbGllZFN0cmljdCgpIHtcbiAgICAgICAgcmV0dXJuIHRoaXMuX19vcHRpb25zLmltcGxpZWRTdHJpY3Q7XG4gICAgfVxuXG4gICAgaXNTdHJpY3RNb2RlU3VwcG9ydGVkKCkge1xuICAgICAgICByZXR1cm4gdGhpcy5fX29wdGlvbnMuZWNtYVZlcnNpb24gPj0gNTtcbiAgICB9XG5cbiAgICAvLyBSZXR1cm5zIGFwcHJvcHJpYXRlIHNjb3BlIGZvciB0aGlzIG5vZGUuXG4gICAgX19nZXQobm9kZSkge1xuICAgICAgICByZXR1cm4gdGhpcy5fX25vZGVUb1Njb3BlLmdldChub2RlKTtcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiBHZXQgdmFyaWFibGVzIHRoYXQgYXJlIGRlY2xhcmVkIGJ5IHRoZSBub2RlLlxuICAgICAqXG4gICAgICogXCJhcmUgZGVjbGFyZWQgYnkgdGhlIG5vZGVcIiBtZWFucyB0aGUgbm9kZSBpcyBzYW1lIGFzIGBWYXJpYWJsZS5kZWZzW10ubm9kZWAgb3IgYFZhcmlhYmxlLmRlZnNbXS5wYXJlbnRgLlxuICAgICAqIElmIHRoZSBub2RlIGRlY2xhcmVzIG5vdGhpbmcsIHRoaXMgbWV0aG9kIHJldHVybnMgYW4gZW1wdHkgYXJyYXkuXG4gICAgICogQ0FVVElPTjogVGhpcyBBUEkgaXMgZXhwZXJpbWVudGFsLiBTZWUgaHR0cHM6Ly9naXRodWIuY29tL2VzdG9vbHMvZXNjb3BlL3B1bGwvNjkgZm9yIG1vcmUgZGV0YWlscy5cbiAgICAgKlxuICAgICAqIEBwYXJhbSB7RXNwcmltYS5Ob2RlfSBub2RlIC0gYSBub2RlIHRvIGdldC5cbiAgICAgKiBAcmV0dXJucyB7VmFyaWFibGVbXX0gdmFyaWFibGVzIHRoYXQgZGVjbGFyZWQgYnkgdGhlIG5vZGUuXG4gICAgICovXG4gICAgZ2V0RGVjbGFyZWRWYXJpYWJsZXMobm9kZSkge1xuICAgICAgICByZXR1cm4gdGhpcy5fX2RlY2xhcmVkVmFyaWFibGVzLmdldChub2RlKSB8fCBbXTtcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiBhY3F1aXJlIHNjb3BlIGZyb20gbm9kZS5cbiAgICAgKiBAbWV0aG9kIFNjb3BlTWFuYWdlciNhY3F1aXJlXG4gICAgICogQHBhcmFtIHtFc3ByaW1hLk5vZGV9IG5vZGUgLSBub2RlIGZvciB0aGUgYWNxdWlyZWQgc2NvcGUuXG4gICAgICogQHBhcmFtIHtib29sZWFuPX0gaW5uZXIgLSBsb29rIHVwIHRoZSBtb3N0IGlubmVyIHNjb3BlLCBkZWZhdWx0IHZhbHVlIGlzIGZhbHNlLlxuICAgICAqIEByZXR1cm4ge1Njb3BlP31cbiAgICAgKi9cbiAgICBhY3F1aXJlKG5vZGUsIGlubmVyKSB7XG4gICAgICAgIHZhciBzY29wZXMsIHNjb3BlLCBpLCBpejtcblxuICAgICAgICBmdW5jdGlvbiBwcmVkaWNhdGUoc2NvcGUpIHtcbiAgICAgICAgICAgIGlmIChzY29wZS50eXBlID09PSAnZnVuY3Rpb24nICYmIHNjb3BlLmZ1bmN0aW9uRXhwcmVzc2lvblNjb3BlKSB7XG4gICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgaWYgKHNjb3BlLnR5cGUgPT09ICdURFonKSB7XG4gICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgcmV0dXJuIHRydWU7XG4gICAgICAgIH1cblxuICAgICAgICBzY29wZXMgPSB0aGlzLl9fZ2V0KG5vZGUpO1xuICAgICAgICBpZiAoIXNjb3BlcyB8fCBzY29wZXMubGVuZ3RoID09PSAwKSB7XG4gICAgICAgICAgICByZXR1cm4gbnVsbDtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIEhldXJpc3RpYyBzZWxlY3Rpb24gZnJvbSBhbGwgc2NvcGVzLlxuICAgICAgICAvLyBJZiB5b3Ugd291bGQgbGlrZSB0byBnZXQgYWxsIHNjb3BlcywgcGxlYXNlIHVzZSBTY29wZU1hbmFnZXIjYWNxdWlyZUFsbC5cbiAgICAgICAgaWYgKHNjb3Blcy5sZW5ndGggPT09IDEpIHtcbiAgICAgICAgICAgIHJldHVybiBzY29wZXNbMF07XG4gICAgICAgIH1cblxuICAgICAgICBpZiAoaW5uZXIpIHtcbiAgICAgICAgICAgIGZvciAoaSA9IHNjb3Blcy5sZW5ndGggLSAxOyBpID49IDA7IC0taSkge1xuICAgICAgICAgICAgICAgIHNjb3BlID0gc2NvcGVzW2ldO1xuICAgICAgICAgICAgICAgIGlmIChwcmVkaWNhdGUoc2NvcGUpKSB7XG4gICAgICAgICAgICAgICAgICAgIHJldHVybiBzY29wZTtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICB9XG4gICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICBmb3IgKGkgPSAwLCBpeiA9IHNjb3Blcy5sZW5ndGg7IGkgPCBpejsgKytpKSB7XG4gICAgICAgICAgICAgICAgc2NvcGUgPSBzY29wZXNbaV07XG4gICAgICAgICAgICAgICAgaWYgKHByZWRpY2F0ZShzY29wZSkpIHtcbiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHNjb3BlO1xuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgIH1cbiAgICAgICAgfVxuXG4gICAgICAgIHJldHVybiBudWxsO1xuICAgIH1cblxuICAgIC8qKlxuICAgICAqIGFjcXVpcmUgYWxsIHNjb3BlcyBmcm9tIG5vZGUuXG4gICAgICogQG1ldGhvZCBTY29wZU1hbmFnZXIjYWNxdWlyZUFsbFxuICAgICAqIEBwYXJhbSB7RXNwcmltYS5Ob2RlfSBub2RlIC0gbm9kZSBmb3IgdGhlIGFjcXVpcmVkIHNjb3BlLlxuICAgICAqIEByZXR1cm4ge1Njb3BlW10/fVxuICAgICAqL1xuICAgIGFjcXVpcmVBbGwobm9kZSkge1xuICAgICAgICByZXR1cm4gdGhpcy5fX2dldChub2RlKTtcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiByZWxlYXNlIHRoZSBub2RlLlxuICAgICAqIEBtZXRob2QgU2NvcGVNYW5hZ2VyI3JlbGVhc2VcbiAgICAgKiBAcGFyYW0ge0VzcHJpbWEuTm9kZX0gbm9kZSAtIHJlbGVhc2luZyBub2RlLlxuICAgICAqIEBwYXJhbSB7Ym9vbGVhbj19IGlubmVyIC0gbG9vayB1cCB0aGUgbW9zdCBpbm5lciBzY29wZSwgZGVmYXVsdCB2YWx1ZSBpcyBmYWxzZS5cbiAgICAgKiBAcmV0dXJuIHtTY29wZT99IHVwcGVyIHNjb3BlIGZvciB0aGUgbm9kZS5cbiAgICAgKi9cbiAgICByZWxlYXNlKG5vZGUsIGlubmVyKSB7XG4gICAgICAgIHZhciBzY29wZXMsIHNjb3BlO1xuICAgICAgICBzY29wZXMgPSB0aGlzLl9fZ2V0KG5vZGUpO1xuICAgICAgICBpZiAoc2NvcGVzICYmIHNjb3Blcy5sZW5ndGgpIHtcbiAgICAgICAgICAgIHNjb3BlID0gc2NvcGVzWzBdLnVwcGVyO1xuICAgICAgICAgICAgaWYgKCFzY29wZSkge1xuICAgICAgICAgICAgICAgIHJldHVybiBudWxsO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgcmV0dXJuIHRoaXMuYWNxdWlyZShzY29wZS5ibG9jaywgaW5uZXIpO1xuICAgICAgICB9XG4gICAgICAgIHJldHVybiBudWxsO1xuICAgIH1cblxuICAgIGF0dGFjaCgpIHsgfVxuXG4gICAgZGV0YWNoKCkgeyB9XG5cbiAgICBfX25lc3RTY29wZShzY29wZSkge1xuICAgICAgICBpZiAoc2NvcGUgaW5zdGFuY2VvZiBHbG9iYWxTY29wZSkge1xuICAgICAgICAgICAgYXNzZXJ0KHRoaXMuX19jdXJyZW50U2NvcGUgPT09IG51bGwpO1xuICAgICAgICAgICAgdGhpcy5nbG9iYWxTY29wZSA9IHNjb3BlO1xuICAgICAgICB9XG4gICAgICAgIHRoaXMuX19jdXJyZW50U2NvcGUgPSBzY29wZTtcbiAgICAgICAgcmV0dXJuIHNjb3BlO1xuICAgIH1cblxuICAgIF9fbmVzdEdsb2JhbFNjb3BlKG5vZGUpIHtcbiAgICAgICAgcmV0dXJuIHRoaXMuX19uZXN0U2NvcGUobmV3IEdsb2JhbFNjb3BlKHRoaXMsIG5vZGUpKTtcbiAgICB9XG5cbiAgICBfX25lc3RCbG9ja1Njb3BlKG5vZGUsIGlzTWV0aG9kRGVmaW5pdGlvbikge1xuICAgICAgICByZXR1cm4gdGhpcy5fX25lc3RTY29wZShuZXcgQmxvY2tTY29wZSh0aGlzLCB0aGlzLl9fY3VycmVudFNjb3BlLCBub2RlKSk7XG4gICAgfVxuXG4gICAgX19uZXN0RnVuY3Rpb25TY29wZShub2RlLCBpc01ldGhvZERlZmluaXRpb24pIHtcbiAgICAgICAgcmV0dXJuIHRoaXMuX19uZXN0U2NvcGUobmV3IEZ1bmN0aW9uU2NvcGUodGhpcywgdGhpcy5fX2N1cnJlbnRTY29wZSwgbm9kZSwgaXNNZXRob2REZWZpbml0aW9uKSk7XG4gICAgfVxuXG4gICAgX19uZXN0Rm9yU2NvcGUobm9kZSkge1xuICAgICAgICByZXR1cm4gdGhpcy5fX25lc3RTY29wZShuZXcgRm9yU2NvcGUodGhpcywgdGhpcy5fX2N1cnJlbnRTY29wZSwgbm9kZSkpO1xuICAgIH1cblxuICAgIF9fbmVzdENhdGNoU2NvcGUobm9kZSkge1xuICAgICAgICByZXR1cm4gdGhpcy5fX25lc3RTY29wZShuZXcgQ2F0Y2hTY29wZSh0aGlzLCB0aGlzLl9fY3VycmVudFNjb3BlLCBub2RlKSk7XG4gICAgfVxuXG4gICAgX19uZXN0V2l0aFNjb3BlKG5vZGUpIHtcbiAgICAgICAgcmV0dXJuIHRoaXMuX19uZXN0U2NvcGUobmV3IFdpdGhTY29wZSh0aGlzLCB0aGlzLl9fY3VycmVudFNjb3BlLCBub2RlKSk7XG4gICAgfVxuXG4gICAgX19uZXN0Q2xhc3NTY29wZShub2RlKSB7XG4gICAgICAgIHJldHVybiB0aGlzLl9fbmVzdFNjb3BlKG5ldyBDbGFzc1Njb3BlKHRoaXMsIHRoaXMuX19jdXJyZW50U2NvcGUsIG5vZGUpKTtcbiAgICB9XG5cbiAgICBfX25lc3RTd2l0Y2hTY29wZShub2RlKSB7XG4gICAgICAgIHJldHVybiB0aGlzLl9fbmVzdFNjb3BlKG5ldyBTd2l0Y2hTY29wZSh0aGlzLCB0aGlzLl9fY3VycmVudFNjb3BlLCBub2RlKSk7XG4gICAgfVxuXG4gICAgX19uZXN0TW9kdWxlU2NvcGUobm9kZSkge1xuICAgICAgICByZXR1cm4gdGhpcy5fX25lc3RTY29wZShuZXcgTW9kdWxlU2NvcGUodGhpcywgdGhpcy5fX2N1cnJlbnRTY29wZSwgbm9kZSkpO1xuICAgIH1cblxuICAgIF9fbmVzdFREWlNjb3BlKG5vZGUpIHtcbiAgICAgICAgcmV0dXJuIHRoaXMuX19uZXN0U2NvcGUobmV3IFREWlNjb3BlKHRoaXMsIHRoaXMuX19jdXJyZW50U2NvcGUsIG5vZGUpKTtcbiAgICB9XG5cbiAgICBfX25lc3RGdW5jdGlvbkV4cHJlc3Npb25OYW1lU2NvcGUobm9kZSkge1xuICAgICAgICByZXR1cm4gdGhpcy5fX25lc3RTY29wZShuZXcgRnVuY3Rpb25FeHByZXNzaW9uTmFtZVNjb3BlKHRoaXMsIHRoaXMuX19jdXJyZW50U2NvcGUsIG5vZGUpKTtcbiAgICB9XG5cbiAgICBfX2lzRVM2KCkge1xuICAgICAgICByZXR1cm4gdGhpcy5fX29wdGlvbnMuZWNtYVZlcnNpb24gPj0gNjtcbiAgICB9XG59XG5cbi8qIHZpbTogc2V0IHN3PTQgdHM9NCBldCB0dz04MCA6ICovXG4iXX0=
-
-
-/***/ }),
-
-/***/ 7181:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-exports.ClassScope = exports.ForScope = exports.FunctionScope = exports.SwitchScope = exports.BlockScope = exports.TDZScope = exports.WithScope = exports.CatchScope = exports.FunctionExpressionNameScope = exports.ModuleScope = exports.GlobalScope = undefined;
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); /*
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Copyright (C) 2015 Yusuke Suzuki <utatane.tea@gmail.com>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Redistribution and use in source and binary forms, with or without
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       modification, are permitted provided that the following conditions are met:
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         * Redistributions of source code must retain the above copyright
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           notice, this list of conditions and the following disclaimer.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         * Redistributions in binary form must reproduce the above copyright
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           notice, this list of conditions and the following disclaimer in the
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           documentation and/or other materials provided with the distribution.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     */
-
-var _estraverse = __webpack_require__(7085);
-
-var _reference = __webpack_require__(2681);
-
-var _reference2 = _interopRequireDefault(_reference);
-
-var _variable = __webpack_require__(9329);
-
-var _variable2 = _interopRequireDefault(_variable);
-
-var _definition = __webpack_require__(7533);
-
-var _definition2 = _interopRequireDefault(_definition);
-
-var _assert = __webpack_require__(9282);
-
-var _assert2 = _interopRequireDefault(_assert);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function isStrictScope(scope, block, isMethodDefinition, useDirective) {
-    var body, i, iz, stmt, expr;
-
-    // When upper scope is exists and strict, inner scope is also strict.
-    if (scope.upper && scope.upper.isStrict) {
-        return true;
-    }
-
-    // ArrowFunctionExpression's scope is always strict scope.
-    if (block.type === _estraverse.Syntax.ArrowFunctionExpression) {
-        return true;
-    }
-
-    if (isMethodDefinition) {
-        return true;
-    }
-
-    if (scope.type === 'class' || scope.type === 'module') {
-        return true;
-    }
-
-    if (scope.type === 'block' || scope.type === 'switch') {
-        return false;
-    }
-
-    if (scope.type === 'function') {
-        if (block.type === _estraverse.Syntax.Program) {
-            body = block;
-        } else {
-            body = block.body;
-        }
-    } else if (scope.type === 'global') {
-        body = block;
-    } else {
-        return false;
-    }
-
-    // Search 'use strict' directive.
-    if (useDirective) {
-        for (i = 0, iz = body.body.length; i < iz; ++i) {
-            stmt = body.body[i];
-            if (stmt.type !== _estraverse.Syntax.DirectiveStatement) {
-                break;
-            }
-            if (stmt.raw === '"use strict"' || stmt.raw === '\'use strict\'') {
-                return true;
-            }
-        }
-    } else {
-        for (i = 0, iz = body.body.length; i < iz; ++i) {
-            stmt = body.body[i];
-            if (stmt.type !== _estraverse.Syntax.ExpressionStatement) {
-                break;
-            }
-            expr = stmt.expression;
-            if (expr.type !== _estraverse.Syntax.Literal || typeof expr.value !== 'string') {
-                break;
-            }
-            if (expr.raw != null) {
-                if (expr.raw === '"use strict"' || expr.raw === '\'use strict\'') {
-                    return true;
-                }
-            } else {
-                if (expr.value === 'use strict') {
-                    return true;
-                }
-            }
-        }
-    }
-    return false;
-}
-
-function registerScope(scopeManager, scope) {
-    var scopes;
-
-    scopeManager.scopes.push(scope);
-
-    scopes = scopeManager.__nodeToScope.get(scope.block);
-    if (scopes) {
-        scopes.push(scope);
-    } else {
-        scopeManager.__nodeToScope.set(scope.block, [scope]);
-    }
-}
-
-function shouldBeStatically(def) {
-    return def.type === _variable2.default.ClassName || def.type === _variable2.default.Variable && def.parent.kind !== 'var';
-}
-
-/**
- * @class Scope
- */
-
-var Scope = function () {
-    function Scope(scopeManager, type, upperScope, block, isMethodDefinition) {
-        _classCallCheck(this, Scope);
-
-        /**
-         * One of 'TDZ', 'module', 'block', 'switch', 'function', 'catch', 'with', 'function', 'class', 'global'.
-         * @member {String} Scope#type
-         */
-        this.type = type;
-        /**
-        * The scoped {@link Variable}s of this scope, as <code>{ Variable.name
-        * : Variable }</code>.
-        * @member {Map} Scope#set
-        */
-        this.set = new Map();
-        /**
-         * The tainted variables of this scope, as <code>{ Variable.name :
-         * boolean }</code>.
-         * @member {Map} Scope#taints */
-        this.taints = new Map();
-        /**
-         * Generally, through the lexical scoping of JS you can always know
-         * which variable an identifier in the source code refers to. There are
-         * a few exceptions to this rule. With 'global' and 'with' scopes you
-         * can only decide at runtime which variable a reference refers to.
-         * Moreover, if 'eval()' is used in a scope, it might introduce new
-         * bindings in this or its parent scopes.
-         * All those scopes are considered 'dynamic'.
-         * @member {boolean} Scope#dynamic
-         */
-        this.dynamic = this.type === 'global' || this.type === 'with';
-        /**
-         * A reference to the scope-defining syntax node.
-         * @member {esprima.Node} Scope#block
-         */
-        this.block = block;
-        /**
-        * The {@link Reference|references} that are not resolved with this scope.
-        * @member {Reference[]} Scope#through
-        */
-        this.through = [];
-        /**
-        * The scoped {@link Variable}s of this scope. In the case of a
-        * 'function' scope this includes the automatic argument <em>arguments</em> as
-        * its first element, as well as all further formal arguments.
-        * @member {Variable[]} Scope#variables
-        */
-        this.variables = [];
-        /**
-        * Any variable {@link Reference|reference} found in this scope. This
-        * includes occurrences of local variables as well as variables from
-        * parent scopes (including the global scope). For local variables
-        * this also includes defining occurrences (like in a 'var' statement).
-        * In a 'function' scope this does not include the occurrences of the
-        * formal parameter in the parameter list.
-        * @member {Reference[]} Scope#references
-        */
-        this.references = [];
-
-        /**
-        * For 'global' and 'function' scopes, this is a self-reference. For
-        * other scope types this is the <em>variableScope</em> value of the
-        * parent scope.
-        * @member {Scope} Scope#variableScope
-        */
-        this.variableScope = this.type === 'global' || this.type === 'function' || this.type === 'module' ? this : upperScope.variableScope;
-        /**
-        * Whether this scope is created by a FunctionExpression.
-        * @member {boolean} Scope#functionExpressionScope
-        */
-        this.functionExpressionScope = false;
-        /**
-        * Whether this is a scope that contains an 'eval()' invocation.
-        * @member {boolean} Scope#directCallToEvalScope
-        */
-        this.directCallToEvalScope = false;
-        /**
-        * @member {boolean} Scope#thisFound
-        */
-        this.thisFound = false;
-
-        this.__left = [];
-
-        /**
-        * Reference to the parent {@link Scope|scope}.
-        * @member {Scope} Scope#upper
-        */
-        this.upper = upperScope;
-        /**
-        * Whether 'use strict' is in effect in this scope.
-        * @member {boolean} Scope#isStrict
-        */
-        this.isStrict = isStrictScope(this, block, isMethodDefinition, scopeManager.__useDirective());
-
-        /**
-        * List of nested {@link Scope}s.
-        * @member {Scope[]} Scope#childScopes
-        */
-        this.childScopes = [];
-        if (this.upper) {
-            this.upper.childScopes.push(this);
-        }
-
-        this.__declaredVariables = scopeManager.__declaredVariables;
-
-        registerScope(scopeManager, this);
-    }
-
-    _createClass(Scope, [{
-        key: '__shouldStaticallyClose',
-        value: function __shouldStaticallyClose(scopeManager) {
-            return !this.dynamic || scopeManager.__isOptimistic();
-        }
-    }, {
-        key: '__shouldStaticallyCloseForGlobal',
-        value: function __shouldStaticallyCloseForGlobal(ref) {
-            // On global scope, let/const/class declarations should be resolved statically.
-            var name = ref.identifier.name;
-            if (!this.set.has(name)) {
-                return false;
-            }
-
-            var variable = this.set.get(name);
-            var defs = variable.defs;
-            return defs.length > 0 && defs.every(shouldBeStatically);
-        }
-    }, {
-        key: '__staticCloseRef',
-        value: function __staticCloseRef(ref) {
-            if (!this.__resolve(ref)) {
-                this.__delegateToUpperScope(ref);
-            }
-        }
-    }, {
-        key: '__dynamicCloseRef',
-        value: function __dynamicCloseRef(ref) {
-            // notify all names are through to global
-            var current = this;
-            do {
-                current.through.push(ref);
-                current = current.upper;
-            } while (current);
-        }
-    }, {
-        key: '__globalCloseRef',
-        value: function __globalCloseRef(ref) {
-            // let/const/class declarations should be resolved statically.
-            // others should be resolved dynamically.
-            if (this.__shouldStaticallyCloseForGlobal(ref)) {
-                this.__staticCloseRef(ref);
-            } else {
-                this.__dynamicCloseRef(ref);
-            }
-        }
-    }, {
-        key: '__close',
-        value: function __close(scopeManager) {
-            var closeRef;
-            if (this.__shouldStaticallyClose(scopeManager)) {
-                closeRef = this.__staticCloseRef;
-            } else if (this.type !== 'global') {
-                closeRef = this.__dynamicCloseRef;
-            } else {
-                closeRef = this.__globalCloseRef;
-            }
-
-            // Try Resolving all references in this scope.
-            for (var i = 0, iz = this.__left.length; i < iz; ++i) {
-                var ref = this.__left[i];
-                closeRef.call(this, ref);
-            }
-            this.__left = null;
-
-            return this.upper;
-        }
-    }, {
-        key: '__resolve',
-        value: function __resolve(ref) {
-            var variable, name;
-            name = ref.identifier.name;
-            if (this.set.has(name)) {
-                variable = this.set.get(name);
-                variable.references.push(ref);
-                variable.stack = variable.stack && ref.from.variableScope === this.variableScope;
-                if (ref.tainted) {
-                    variable.tainted = true;
-                    this.taints.set(variable.name, true);
-                }
-                ref.resolved = variable;
-                return true;
-            }
-            return false;
-        }
-    }, {
-        key: '__delegateToUpperScope',
-        value: function __delegateToUpperScope(ref) {
-            if (this.upper) {
-                this.upper.__left.push(ref);
-            }
-            this.through.push(ref);
-        }
-    }, {
-        key: '__addDeclaredVariablesOfNode',
-        value: function __addDeclaredVariablesOfNode(variable, node) {
-            if (node == null) {
-                return;
-            }
-
-            var variables = this.__declaredVariables.get(node);
-            if (variables == null) {
-                variables = [];
-                this.__declaredVariables.set(node, variables);
-            }
-            if (variables.indexOf(variable) === -1) {
-                variables.push(variable);
-            }
-        }
-    }, {
-        key: '__defineGeneric',
-        value: function __defineGeneric(name, set, variables, node, def) {
-            var variable;
-
-            variable = set.get(name);
-            if (!variable) {
-                variable = new _variable2.default(name, this);
-                set.set(name, variable);
-                variables.push(variable);
-            }
-
-            if (def) {
-                variable.defs.push(def);
-                if (def.type !== _variable2.default.TDZ) {
-                    this.__addDeclaredVariablesOfNode(variable, def.node);
-                    this.__addDeclaredVariablesOfNode(variable, def.parent);
-                }
-            }
-            if (node) {
-                variable.identifiers.push(node);
-            }
-        }
-    }, {
-        key: '__define',
-        value: function __define(node, def) {
-            if (node && node.type === _estraverse.Syntax.Identifier) {
-                this.__defineGeneric(node.name, this.set, this.variables, node, def);
-            }
-        }
-    }, {
-        key: '__referencing',
-        value: function __referencing(node, assign, writeExpr, maybeImplicitGlobal, partial, init) {
-            // because Array element may be null
-            if (!node || node.type !== _estraverse.Syntax.Identifier) {
-                return;
-            }
-
-            // Specially handle like `this`.
-            if (node.name === 'super') {
-                return;
-            }
-
-            var ref = new _reference2.default(node, this, assign || _reference2.default.READ, writeExpr, maybeImplicitGlobal, !!partial, !!init);
-            this.references.push(ref);
-            this.__left.push(ref);
-        }
-    }, {
-        key: '__detectEval',
-        value: function __detectEval() {
-            var current;
-            current = this;
-            this.directCallToEvalScope = true;
-            do {
-                current.dynamic = true;
-                current = current.upper;
-            } while (current);
-        }
-    }, {
-        key: '__detectThis',
-        value: function __detectThis() {
-            this.thisFound = true;
-        }
-    }, {
-        key: '__isClosed',
-        value: function __isClosed() {
-            return this.__left === null;
-        }
-
-        /**
-         * returns resolved {Reference}
-         * @method Scope#resolve
-         * @param {Esprima.Identifier} ident - identifier to be resolved.
-         * @return {Reference}
-         */
-
-    }, {
-        key: 'resolve',
-        value: function resolve(ident) {
-            var ref, i, iz;
-            (0, _assert2.default)(this.__isClosed(), 'Scope should be closed.');
-            (0, _assert2.default)(ident.type === _estraverse.Syntax.Identifier, 'Target should be identifier.');
-            for (i = 0, iz = this.references.length; i < iz; ++i) {
-                ref = this.references[i];
-                if (ref.identifier === ident) {
-                    return ref;
-                }
-            }
-            return null;
-        }
-
-        /**
-         * returns this scope is static
-         * @method Scope#isStatic
-         * @return {boolean}
-         */
-
-    }, {
-        key: 'isStatic',
-        value: function isStatic() {
-            return !this.dynamic;
-        }
-
-        /**
-         * returns this scope has materialized arguments
-         * @method Scope#isArgumentsMaterialized
-         * @return {boolean}
-         */
-
-    }, {
-        key: 'isArgumentsMaterialized',
-        value: function isArgumentsMaterialized() {
-            return true;
-        }
-
-        /**
-         * returns this scope has materialized `this` reference
-         * @method Scope#isThisMaterialized
-         * @return {boolean}
-         */
-
-    }, {
-        key: 'isThisMaterialized',
-        value: function isThisMaterialized() {
-            return true;
-        }
-    }, {
-        key: 'isUsedName',
-        value: function isUsedName(name) {
-            if (this.set.has(name)) {
-                return true;
-            }
-            for (var i = 0, iz = this.through.length; i < iz; ++i) {
-                if (this.through[i].identifier.name === name) {
-                    return true;
-                }
-            }
-            return false;
-        }
-    }]);
-
-    return Scope;
-}();
-
-exports["default"] = Scope;
-
-var GlobalScope = exports.GlobalScope = function (_Scope) {
-    _inherits(GlobalScope, _Scope);
-
-    function GlobalScope(scopeManager, block) {
-        _classCallCheck(this, GlobalScope);
-
-        var _this = _possibleConstructorReturn(this, (GlobalScope.__proto__ || Object.getPrototypeOf(GlobalScope)).call(this, scopeManager, 'global', null, block, false));
-
-        _this.implicit = {
-            set: new Map(),
-            variables: [],
-            /**
-            * List of {@link Reference}s that are left to be resolved (i.e. which
-            * need to be linked to the variable they refer to).
-            * @member {Reference[]} Scope#implicit#left
-            */
-            left: []
-        };
-        return _this;
-    }
-
-    _createClass(GlobalScope, [{
-        key: '__close',
-        value: function __close(scopeManager) {
-            var implicit = [];
-            for (var i = 0, iz = this.__left.length; i < iz; ++i) {
-                var ref = this.__left[i];
-                if (ref.__maybeImplicitGlobal && !this.set.has(ref.identifier.name)) {
-                    implicit.push(ref.__maybeImplicitGlobal);
-                }
-            }
-
-            // create an implicit global variable from assignment expression
-            for (var _i = 0, _iz = implicit.length; _i < _iz; ++_i) {
-                var info = implicit[_i];
-                this.__defineImplicit(info.pattern, new _definition2.default(_variable2.default.ImplicitGlobalVariable, info.pattern, info.node, null, null, null));
-            }
-
-            this.implicit.left = this.__left;
-
-            return _get(GlobalScope.prototype.__proto__ || Object.getPrototypeOf(GlobalScope.prototype), '__close', this).call(this, scopeManager);
-        }
-    }, {
-        key: '__defineImplicit',
-        value: function __defineImplicit(node, def) {
-            if (node && node.type === _estraverse.Syntax.Identifier) {
-                this.__defineGeneric(node.name, this.implicit.set, this.implicit.variables, node, def);
-            }
-        }
-    }]);
-
-    return GlobalScope;
-}(Scope);
-
-var ModuleScope = exports.ModuleScope = function (_Scope2) {
-    _inherits(ModuleScope, _Scope2);
-
-    function ModuleScope(scopeManager, upperScope, block) {
-        _classCallCheck(this, ModuleScope);
-
-        return _possibleConstructorReturn(this, (ModuleScope.__proto__ || Object.getPrototypeOf(ModuleScope)).call(this, scopeManager, 'module', upperScope, block, false));
-    }
-
-    return ModuleScope;
-}(Scope);
-
-var FunctionExpressionNameScope = exports.FunctionExpressionNameScope = function (_Scope3) {
-    _inherits(FunctionExpressionNameScope, _Scope3);
-
-    function FunctionExpressionNameScope(scopeManager, upperScope, block) {
-        _classCallCheck(this, FunctionExpressionNameScope);
-
-        var _this3 = _possibleConstructorReturn(this, (FunctionExpressionNameScope.__proto__ || Object.getPrototypeOf(FunctionExpressionNameScope)).call(this, scopeManager, 'function-expression-name', upperScope, block, false));
-
-        _this3.__define(block.id, new _definition2.default(_variable2.default.FunctionName, block.id, block, null, null, null));
-        _this3.functionExpressionScope = true;
-        return _this3;
-    }
-
-    return FunctionExpressionNameScope;
-}(Scope);
-
-var CatchScope = exports.CatchScope = function (_Scope4) {
-    _inherits(CatchScope, _Scope4);
-
-    function CatchScope(scopeManager, upperScope, block) {
-        _classCallCheck(this, CatchScope);
-
-        return _possibleConstructorReturn(this, (CatchScope.__proto__ || Object.getPrototypeOf(CatchScope)).call(this, scopeManager, 'catch', upperScope, block, false));
-    }
-
-    return CatchScope;
-}(Scope);
-
-var WithScope = exports.WithScope = function (_Scope5) {
-    _inherits(WithScope, _Scope5);
-
-    function WithScope(scopeManager, upperScope, block) {
-        _classCallCheck(this, WithScope);
-
-        return _possibleConstructorReturn(this, (WithScope.__proto__ || Object.getPrototypeOf(WithScope)).call(this, scopeManager, 'with', upperScope, block, false));
-    }
-
-    _createClass(WithScope, [{
-        key: '__close',
-        value: function __close(scopeManager) {
-            if (this.__shouldStaticallyClose(scopeManager)) {
-                return _get(WithScope.prototype.__proto__ || Object.getPrototypeOf(WithScope.prototype), '__close', this).call(this, scopeManager);
-            }
-
-            for (var i = 0, iz = this.__left.length; i < iz; ++i) {
-                var ref = this.__left[i];
-                ref.tainted = true;
-                this.__delegateToUpperScope(ref);
-            }
-            this.__left = null;
-
-            return this.upper;
-        }
-    }]);
-
-    return WithScope;
-}(Scope);
-
-var TDZScope = exports.TDZScope = function (_Scope6) {
-    _inherits(TDZScope, _Scope6);
-
-    function TDZScope(scopeManager, upperScope, block) {
-        _classCallCheck(this, TDZScope);
-
-        return _possibleConstructorReturn(this, (TDZScope.__proto__ || Object.getPrototypeOf(TDZScope)).call(this, scopeManager, 'TDZ', upperScope, block, false));
-    }
-
-    return TDZScope;
-}(Scope);
-
-var BlockScope = exports.BlockScope = function (_Scope7) {
-    _inherits(BlockScope, _Scope7);
-
-    function BlockScope(scopeManager, upperScope, block) {
-        _classCallCheck(this, BlockScope);
-
-        return _possibleConstructorReturn(this, (BlockScope.__proto__ || Object.getPrototypeOf(BlockScope)).call(this, scopeManager, 'block', upperScope, block, false));
-    }
-
-    return BlockScope;
-}(Scope);
-
-var SwitchScope = exports.SwitchScope = function (_Scope8) {
-    _inherits(SwitchScope, _Scope8);
-
-    function SwitchScope(scopeManager, upperScope, block) {
-        _classCallCheck(this, SwitchScope);
-
-        return _possibleConstructorReturn(this, (SwitchScope.__proto__ || Object.getPrototypeOf(SwitchScope)).call(this, scopeManager, 'switch', upperScope, block, false));
-    }
-
-    return SwitchScope;
-}(Scope);
-
-var FunctionScope = exports.FunctionScope = function (_Scope9) {
-    _inherits(FunctionScope, _Scope9);
-
-    function FunctionScope(scopeManager, upperScope, block, isMethodDefinition) {
-        _classCallCheck(this, FunctionScope);
-
-        // section 9.2.13, FunctionDeclarationInstantiation.
-        // NOTE Arrow functions never have an arguments objects.
-        var _this9 = _possibleConstructorReturn(this, (FunctionScope.__proto__ || Object.getPrototypeOf(FunctionScope)).call(this, scopeManager, 'function', upperScope, block, isMethodDefinition));
-
-        if (_this9.block.type !== _estraverse.Syntax.ArrowFunctionExpression) {
-            _this9.__defineArguments();
-        }
-        return _this9;
-    }
-
-    _createClass(FunctionScope, [{
-        key: 'isArgumentsMaterialized',
-        value: function isArgumentsMaterialized() {
-            // TODO(Constellation)
-            // We can more aggressive on this condition like this.
-            //
-            // function t() {
-            //     // arguments of t is always hidden.
-            //     function arguments() {
-            //     }
-            // }
-            if (this.block.type === _estraverse.Syntax.ArrowFunctionExpression) {
-                return false;
-            }
-
-            if (!this.isStatic()) {
-                return true;
-            }
-
-            var variable = this.set.get('arguments');
-            (0, _assert2.default)(variable, 'Always have arguments variable.');
-            return variable.tainted || variable.references.length !== 0;
-        }
-    }, {
-        key: 'isThisMaterialized',
-        value: function isThisMaterialized() {
-            if (!this.isStatic()) {
-                return true;
-            }
-            return this.thisFound;
-        }
-    }, {
-        key: '__defineArguments',
-        value: function __defineArguments() {
-            this.__defineGeneric('arguments', this.set, this.variables, null, null);
-            this.taints.set('arguments', true);
-        }
-    }]);
-
-    return FunctionScope;
-}(Scope);
-
-var ForScope = exports.ForScope = function (_Scope10) {
-    _inherits(ForScope, _Scope10);
-
-    function ForScope(scopeManager, upperScope, block) {
-        _classCallCheck(this, ForScope);
-
-        return _possibleConstructorReturn(this, (ForScope.__proto__ || Object.getPrototypeOf(ForScope)).call(this, scopeManager, 'for', upperScope, block, false));
-    }
-
-    return ForScope;
-}(Scope);
-
-var ClassScope = exports.ClassScope = function (_Scope11) {
-    _inherits(ClassScope, _Scope11);
-
-    function ClassScope(scopeManager, upperScope, block) {
-        _classCallCheck(this, ClassScope);
-
-        return _possibleConstructorReturn(this, (ClassScope.__proto__ || Object.getPrototypeOf(ClassScope)).call(this, scopeManager, 'class', upperScope, block, false));
-    }
-
-    return ClassScope;
-}(Scope);
-
-/* vim: set sw=4 ts=4 et tw=80 : */
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjb3BlLmpzIl0sIm5hbWVzIjpbImlzU3RyaWN0U2NvcGUiLCJzY29wZSIsImJsb2NrIiwiaXNNZXRob2REZWZpbml0aW9uIiwidXNlRGlyZWN0aXZlIiwiYm9keSIsImkiLCJpeiIsInN0bXQiLCJleHByIiwidXBwZXIiLCJpc1N0cmljdCIsInR5cGUiLCJTeW50YXgiLCJBcnJvd0Z1bmN0aW9uRXhwcmVzc2lvbiIsIlByb2dyYW0iLCJsZW5ndGgiLCJEaXJlY3RpdmVTdGF0ZW1lbnQiLCJyYXciLCJFeHByZXNzaW9uU3RhdGVtZW50IiwiZXhwcmVzc2lvbiIsIkxpdGVyYWwiLCJ2YWx1ZSIsInJlZ2lzdGVyU2NvcGUiLCJzY29wZU1hbmFnZXIiLCJzY29wZXMiLCJwdXNoIiwiX19ub2RlVG9TY29wZSIsImdldCIsInNldCIsInNob3VsZEJlU3RhdGljYWxseSIsImRlZiIsIlZhcmlhYmxlIiwiQ2xhc3NOYW1lIiwicGFyZW50Iiwia2luZCIsIlNjb3BlIiwidXBwZXJTY29wZSIsIk1hcCIsInRhaW50cyIsImR5bmFtaWMiLCJ0aHJvdWdoIiwidmFyaWFibGVzIiwicmVmZXJlbmNlcyIsInZhcmlhYmxlU2NvcGUiLCJmdW5jdGlvbkV4cHJlc3Npb25TY29wZSIsImRpcmVjdENhbGxUb0V2YWxTY29wZSIsInRoaXNGb3VuZCIsIl9fbGVmdCIsIl9fdXNlRGlyZWN0aXZlIiwiY2hpbGRTY29wZXMiLCJfX2RlY2xhcmVkVmFyaWFibGVzIiwiX19pc09wdGltaXN0aWMiLCJyZWYiLCJuYW1lIiwiaWRlbnRpZmllciIsImhhcyIsInZhcmlhYmxlIiwiZGVmcyIsImV2ZXJ5IiwiX19yZXNvbHZlIiwiX19kZWxlZ2F0ZVRvVXBwZXJTY29wZSIsImN1cnJlbnQiLCJfX3Nob3VsZFN0YXRpY2FsbHlDbG9zZUZvckdsb2JhbCIsIl9fc3RhdGljQ2xvc2VSZWYiLCJfX2R5bmFtaWNDbG9zZVJlZiIsImNsb3NlUmVmIiwiX19zaG91bGRTdGF0aWNhbGx5Q2xvc2UiLCJfX2dsb2JhbENsb3NlUmVmIiwiY2FsbCIsInN0YWNrIiwiZnJvbSIsInRhaW50ZWQiLCJyZXNvbHZlZCIsIm5vZGUiLCJpbmRleE9mIiwiVERaIiwiX19hZGREZWNsYXJlZFZhcmlhYmxlc09mTm9kZSIsImlkZW50aWZpZXJzIiwiSWRlbnRpZmllciIsIl9fZGVmaW5lR2VuZXJpYyIsImFzc2lnbiIsIndyaXRlRXhwciIsIm1heWJlSW1wbGljaXRHbG9iYWwiLCJwYXJ0aWFsIiwiaW5pdCIsIlJlZmVyZW5jZSIsIlJFQUQiLCJpZGVudCIsIl9faXNDbG9zZWQiLCJHbG9iYWxTY29wZSIsImltcGxpY2l0IiwibGVmdCIsIl9fbWF5YmVJbXBsaWNpdEdsb2JhbCIsImluZm8iLCJfX2RlZmluZUltcGxpY2l0IiwicGF0dGVybiIsIkRlZmluaXRpb24iLCJJbXBsaWNpdEdsb2JhbFZhcmlhYmxlIiwiTW9kdWxlU2NvcGUiLCJGdW5jdGlvbkV4cHJlc3Npb25OYW1lU2NvcGUiLCJfX2RlZmluZSIsImlkIiwiRnVuY3Rpb25OYW1lIiwiQ2F0Y2hTY29wZSIsIldpdGhTY29wZSIsIlREWlNjb3BlIiwiQmxvY2tTY29wZSIsIlN3aXRjaFNjb3BlIiwiRnVuY3Rpb25TY29wZSIsIl9fZGVmaW5lQXJndW1lbnRzIiwiaXNTdGF0aWMiLCJGb3JTY29wZSIsIkNsYXNzU2NvcGUiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztxakJBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQXdCQTs7QUFFQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7Ozs7Ozs7Ozs7O0FBRUEsU0FBU0EsYUFBVCxDQUF1QkMsS0FBdkIsRUFBOEJDLEtBQTlCLEVBQXFDQyxrQkFBckMsRUFBeURDLFlBQXpELEVBQXVFO0FBQ25FLFFBQUlDLElBQUosRUFBVUMsQ0FBVixFQUFhQyxFQUFiLEVBQWlCQyxJQUFqQixFQUF1QkMsSUFBdkI7O0FBRUE7QUFDQSxRQUFJUixNQUFNUyxLQUFOLElBQWVULE1BQU1TLEtBQU4sQ0FBWUMsUUFBL0IsRUFBeUM7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VSxXQUFBQSxVOzs7QUFDVCx3QkFBWXpGLFlBQVosRUFBMEJhLFVBQTFCLEVBQXNDbkMsS0FBdEMsRUFBNkM7QUFBQTs7QUFBQSx1SEFDbkNzQixZQURtQyxFQUNyQixPQURxQixFQUNaYSxVQURZLEVBQ0FuQyxLQURBLEVBQ08sS0FEUDtBQUU1Qzs7O0VBSDJCa0MsSzs7QUFNaEMiLCJmaWxlIjoic2NvcGUuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICBDb3B5cmlnaHQgKEMpIDIwMTUgWXVzdWtlIFN1enVraSA8dXRhdGFuZS50ZWFAZ21haWwuY29tPlxuXG4gIFJlZGlzdHJpYnV0aW9uIGFuZCB1c2UgaW4gc291cmNlIGFuZCBiaW5hcnkgZm9ybXMsIHdpdGggb3Igd2l0aG91dFxuICBtb2RpZmljYXRpb24sIGFyZSBwZXJtaXR0ZWQgcHJvdmlkZWQgdGhhdCB0aGUgZm9sbG93aW5nIGNvbmRpdGlvbnMgYXJlIG1ldDpcblxuICAgICogUmVkaXN0cmlidXRpb25zIG9mIHNvdXJjZSBjb2RlIG11c3QgcmV0YWluIHRoZSBhYm92ZSBjb3B5cmlnaHRcbiAgICAgIG5vdGljZSwgdGhpcyBsaXN0IG9mIGNvbmRpdGlvbnMgYW5kIHRoZSBmb2xsb3dpbmcgZGlzY2xhaW1lci5cbiAgICAqIFJlZGlzdHJpYnV0aW9ucyBpbiBiaW5hcnkgZm9ybSBtdXN0IHJlcHJvZHVjZSB0aGUgYWJvdmUgY29weXJpZ2h0XG4gICAgICBub3RpY2UsIHRoaXMgbGlzdCBvZiBjb25kaXRpb25zIGFuZCB0aGUgZm9sbG93aW5nIGRpc2NsYWltZXIgaW4gdGhlXG4gICAgICBkb2N1bWVudGF0aW9uIGFuZC9vciBvdGhlciBtYXRlcmlhbHMgcHJvdmlkZWQgd2l0aCB0aGUgZGlzdHJpYnV0aW9uLlxuXG4gIFRISVMgU09GVFdBUkUgSVMgUFJPVklERUQgQlkgVEhFIENPUFlSSUdIVCBIT0xERVJTIEFORCBDT05UUklCVVRPUlMgXCJBUyBJU1wiXG4gIEFORCBBTlkgRVhQUkVTUyBPUiBJTVBMSUVEIFdBUlJBTlRJRVMsIElOQ0xVRElORywgQlVUIE5PVCBMSU1JVEVEIFRPLCBUSEVcbiAgSU1QTElFRCBXQVJSQU5USUVTIE9GIE1FUkNIQU5UQUJJTElUWSBBTkQgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0VcbiAgQVJFIERJU0NMQUlNRUQuIElOIE5PIEVWRU5UIFNIQUxMIDxDT1BZUklHSFQgSE9MREVSPiBCRSBMSUFCTEUgRk9SIEFOWVxuICBESVJFQ1QsIElORElSRUNULCBJTkNJREVOVEFMLCBTUEVDSUFMLCBFWEVNUExBUlksIE9SIENPTlNFUVVFTlRJQUwgREFNQUdFU1xuICAoSU5DTFVESU5HLCBCVVQgTk9UIExJTUlURUQgVE8sIFBST0NVUkVNRU5UIE9GIFNVQlNUSVRVVEUgR09PRFMgT1IgU0VSVklDRVM7XG4gIExPU1MgT0YgVVNFLCBEQVRBLCBPUiBQUk9GSVRTOyBPUiBCVVNJTkVTUyBJTlRFUlJVUFRJT04pIEhPV0VWRVIgQ0FVU0VEIEFORFxuICBPTiBBTlkgVEhFT1JZIE9GIExJQUJJTElUWSwgV0hFVEhFUiBJTiBDT05UUkFDVCwgU1RSSUNUIExJQUJJTElUWSwgT1IgVE9SVFxuICAoSU5DTFVESU5HIE5FR0xJR0VOQ0UgT1IgT1RIRVJXSVNFKSBBUklTSU5HIElOIEFOWSBXQVkgT1VUIE9GIFRIRSBVU0UgT0ZcbiAgVEhJUyBTT0ZUV0FSRSwgRVZFTiBJRiBBRFZJU0VEIE9GIFRIRSBQT1NTSUJJTElUWSBPRiBTVUNIIERBTUFHRS5cbiovXG5cbmltcG9ydCB7IFN5bnRheCB9IGZyb20gJ2VzdHJhdmVyc2UnO1xuXG5pbXBvcnQgUmVmZXJlbmNlIGZyb20gJy4vcmVmZXJlbmNlJztcbmltcG9ydCBWYXJpYWJsZSBmcm9tICcuL3ZhcmlhYmxlJztcbmltcG9ydCBEZWZpbml0aW9uIGZyb20gJy4vZGVmaW5pdGlvbic7XG5pbXBvcnQgYXNzZXJ0IGZyb20gJ2Fzc2VydCc7XG5cbmZ1bmN0aW9uIGlzU3RyaWN0U2NvcGUoc2NvcGUsIGJsb2NrLCBpc01ldGhvZERlZmluaXRpb24sIHVzZURpcmVjdGl2ZSkge1xuICAgIHZhciBib2R5LCBpLCBpeiwgc3RtdCwgZXhwcjtcblxuICAgIC8vIFdoZW4gdXBwZXIgc2NvcGUgaXMgZXhpc3RzIGFuZCBzdHJpY3QsIGlubmVyIHNjb3BlIGlzIGFsc28gc3RyaWN0LlxuICAgIGlmIChzY29wZS51cHBlciAmJiBzY29wZS51cHBlci5pc1N0cmljdCkge1xuICAgICAgICByZXR1cm4gdHJ1ZTtcbiAgICB9XG5cbiAgICAvLyBBcnJvd0Z1bmN0aW9uRXhwcmVzc2lvbidzIHNjb3BlIGlzIGFsd2F5cyBzdHJpY3Qgc2NvcGUuXG4gICAgaWYgKGJsb2NrLnR5cGUgPT09IFN5bnRheC5BcnJvd0Z1bmN0aW9uRXhwcmVzc2lvbikge1xuICAgICAgICByZXR1cm4gdHJ1ZTtcbiAgICB9XG5cbiAgICBpZiAoaXNNZXRob2REZWZpbml0aW9uKSB7XG4gICAgICAgIHJldHVybiB0cnVlO1xuICAgIH1cblxuICAgIGlmIChzY29wZS50eXBlID09PSAnY2xhc3MnIHx8IHNjb3BlLnR5cGUgPT09ICdtb2R1bGUnKSB7XG4gICAgICAgIHJldHVybiB0cnVlO1xuICAgIH1cblxuICAgIGlmIChzY29wZS50eXBlID09PSAnYmxvY2snIHx8IHNjb3BlLnR5cGUgPT09ICdzd2l0Y2gnKSB7XG4gICAgICAgIHJldHVybiBmYWxzZTtcbiAgICB9XG5cbiAgICBpZiAoc2NvcGUudHlwZSA9PT0gJ2Z1bmN0aW9uJykge1xuICAgICAgICBpZiAoYmxvY2sudHlwZSA9PT0gU3ludGF4LlByb2dyYW0pIHtcbiAgICAgICAgICAgIGJvZHkgPSBibG9jaztcbiAgICAgICAgfSBlbHNlIHtcbiAgICAgICAgICAgIGJvZHkgPSBibG9jay5ib2R5O1xuICAgICAgICB9XG4gICAgfSBlbHNlIGlmIChzY29wZS50eXBlID09PSAnZ2xvYmFsJykge1xuICAgICAgICBib2R5ID0gYmxvY2s7XG4gICAgfSBlbHNlIHtcbiAgICAgICAgcmV0dXJuIGZhbHNlO1xuICAgIH1cblxuICAgIC8vIFNlYXJjaCAndXNlIHN0cmljdCcgZGlyZWN0aXZlLlxuICAgIGlmICh1c2VEaXJlY3RpdmUpIHtcbiAgICAgICAgZm9yIChpID0gMCwgaXogPSBib2R5LmJvZHkubGVuZ3RoOyBpIDwgaXo7ICsraSkge1xuICAgICAgICAgICAgc3RtdCA9IGJvZHkuYm9keVtpXTtcbiAgICAgICAgICAgIGlmIChzdG10LnR5cGUgIT09IFN5bnRheC5EaXJlY3RpdmVTdGF0ZW1lbnQpIHtcbiAgICAgICAgICAgICAgICBicmVhaztcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGlmIChzdG10LnJhdyA9PT0gJ1widXNlIHN0cmljdFwiJyB8fCBzdG10LnJhdyA9PT0gJ1xcJ3VzZSBzdHJpY3RcXCcnKSB7XG4gICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7XG4gICAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICB9IGVsc2Uge1xuICAgICAgICBmb3IgKGkgPSAwLCBpeiA9IGJvZHkuYm9keS5sZW5ndGg7IGkgPCBpejsgKytpKSB7XG4gICAgICAgICAgICBzdG10ID0gYm9keS5ib2R5W2ldO1xuICAgICAgICAgICAgaWYgKHN0bXQudHlwZSAhPT0gU3ludGF4LkV4cHJlc3Npb25TdGF0ZW1lbnQpIHtcbiAgICAgICAgICAgICAgICBicmVhaztcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGV4cHIgPSBzdG10LmV4cHJlc3Npb247XG4gICAgICAgICAgICBpZiAoZXhwci50eXBlICE9PSBTeW50YXguTGl0ZXJhbCB8fCB0eXBlb2YgZXhwci52YWx1ZSAhPT0gJ3N0cmluZycpIHtcbiAgICAgICAgICAgICAgICBicmVhaztcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGlmIChleHByLnJhdyAhPSBudWxsKSB7XG4gICAgICAgICAgICAgICAgaWYgKGV4cHIucmF3ID09PSAnXCJ1c2Ugc3RyaWN0XCInIHx8IGV4cHIucmF3ID09PSAnXFwndXNlIHN0cmljdFxcJycpIHtcbiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfSBlbHNlIHtcbiAgICAgICAgICAgICAgICBpZiAoZXhwci52YWx1ZSA9PT0gJ3VzZSBzdHJpY3QnKSB7XG4gICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlO1xuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgIH1cbiAgICByZXR1cm4gZmFsc2U7XG59XG5cbmZ1bmN0aW9uIHJlZ2lzdGVyU2NvcGUoc2NvcGVNYW5hZ2VyLCBzY29wZSkge1xuICAgIHZhciBzY29wZXM7XG5cbiAgICBzY29wZU1hbmFnZXIuc2NvcGVzLnB1c2goc2NvcGUpO1xuXG4gICAgc2NvcGVzID0gc2NvcGVNYW5hZ2VyLl9fbm9kZVRvU2NvcGUuZ2V0KHNjb3BlLmJsb2NrKTtcbiAgICBpZiAoc2NvcGVzKSB7XG4gICAgICAgIHNjb3Blcy5wdXNoKHNjb3BlKTtcbiAgICB9IGVsc2Uge1xuICAgICAgICBzY29wZU1hbmFnZXIuX19ub2RlVG9TY29wZS5zZXQoc2NvcGUuYmxvY2ssIFsgc2NvcGUgXSk7XG4gICAgfVxufVxuXG5mdW5jdGlvbiBzaG91bGRCZVN0YXRpY2FsbHkoZGVmKSB7XG4gICAgcmV0dXJuIChcbiAgICAgICAgKGRlZi50eXBlID09PSBWYXJpYWJsZS5DbGFzc05hbWUpIHx8XG4gICAgICAgIChkZWYudHlwZSA9PT0gVmFyaWFibGUuVmFyaWFibGUgJiYgZGVmLnBhcmVudC5raW5kICE9PSAndmFyJylcbiAgICApO1xufVxuXG4vKipcbiAqIEBjbGFzcyBTY29wZVxuICovXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBTY29wZSB7XG4gICAgY29uc3RydWN0b3Ioc2NvcGVNYW5hZ2VyLCB0eXBlLCB1cHBlclNjb3BlLCBibG9jaywgaXNNZXRob2REZWZpbml0aW9uKSB7XG4gICAgICAgIC8qKlxuICAgICAgICAgKiBPbmUgb2YgJ1REWicsICdtb2R1bGUnLCAnYmxvY2snLCAnc3dpdGNoJywgJ2Z1bmN0aW9uJywgJ2NhdGNoJywgJ3dpdGgnLCAnZnVuY3Rpb24nLCAnY2xhc3MnLCAnZ2xvYmFsJy5cbiAgICAgICAgICogQG1lbWJlciB7U3RyaW5nfSBTY29wZSN0eXBlXG4gICAgICAgICAqL1xuICAgICAgICB0aGlzLnR5cGUgPSB0eXBlO1xuICAgICAgICAgLyoqXG4gICAgICAgICAqIFRoZSBzY29wZWQge0BsaW5rIFZhcmlhYmxlfXMgb2YgdGhpcyBzY29wZSwgYXMgPGNvZGU+eyBWYXJpYWJsZS5uYW1lXG4gICAgICAgICAqIDogVmFyaWFibGUgfTwvY29kZT4uXG4gICAgICAgICAqIEBtZW1iZXIge01hcH0gU2NvcGUjc2V0XG4gICAgICAgICAqL1xuICAgICAgICB0aGlzLnNldCA9IG5ldyBNYXAoKTtcbiAgICAgICAgLyoqXG4gICAgICAgICAqIFRoZSB0YWludGVkIHZhcmlhYmxlcyBvZiB0aGlzIHNjb3BlLCBhcyA8Y29kZT57IFZhcmlhYmxlLm5hbWUgOlxuICAgICAgICAgKiBib29sZWFuIH08L2NvZGU+LlxuICAgICAgICAgKiBAbWVtYmVyIHtNYXB9IFNjb3BlI3RhaW50cyAqL1xuICAgICAgICB0aGlzLnRhaW50cyA9IG5ldyBNYXAoKTtcbiAgICAgICAgLyoqXG4gICAgICAgICAqIEdlbmVyYWxseSwgdGhyb3VnaCB0aGUgbGV4aWNhbCBzY29waW5nIG9mIEpTIHlvdSBjYW4gYWx3YXlzIGtub3dcbiAgICAgICAgICogd2hpY2ggdmFyaWFibGUgYW4gaWRlbnRpZmllciBpbiB0aGUgc291cmNlIGNvZGUgcmVmZXJzIHRvLiBUaGVyZSBhcmVcbiAgICAgICAgICogYSBmZXcgZXhjZXB0aW9ucyB0byB0aGlzIHJ1bGUuIFdpdGggJ2dsb2JhbCcgYW5kICd3aXRoJyBzY29wZXMgeW91XG4gICAgICAgICAqIGNhbiBvbmx5IGRlY2lkZSBhdCBydW50aW1lIHdoaWNoIHZhcmlhYmxlIGEgcmVmZXJlbmNlIHJlZmVycyB0by5cbiAgICAgICAgICogTW9yZW92ZXIsIGlmICdldmFsKCknIGlzIHVzZWQgaW4gYSBzY29wZSwgaXQgbWlnaHQgaW50cm9kdWNlIG5ld1xuICAgICAgICAgKiBiaW5kaW5ncyBpbiB0aGlzIG9yIGl0cyBwYXJlbnQgc2NvcGVzLlxuICAgICAgICAgKiBBbGwgdGhvc2Ugc2NvcGVzIGFyZSBjb25zaWRlcmVkICdkeW5hbWljJy5cbiAgICAgICAgICogQG1lbWJlciB7Ym9vbGVhbn0gU2NvcGUjZHluYW1pY1xuICAgICAgICAgKi9cbiAgICAgICAgdGhpcy5keW5hbWljID0gdGhpcy50eXBlID09PSAnZ2xvYmFsJyB8fCB0aGlzLnR5cGUgPT09ICd3aXRoJztcbiAgICAgICAgLyoqXG4gICAgICAgICAqIEEgcmVmZXJlbmNlIHRvIHRoZSBzY29wZS1kZWZpbmluZyBzeW50YXggbm9kZS5cbiAgICAgICAgICogQG1lbWJlciB7ZXNwcmltYS5Ob2RlfSBTY29wZSNibG9ja1xuICAgICAgICAgKi9cbiAgICAgICAgdGhpcy5ibG9jayA9IGJsb2NrO1xuICAgICAgICAgLyoqXG4gICAgICAgICAqIFRoZSB7QGxpbmsgUmVmZXJlbmNlfHJlZmVyZW5jZXN9IHRoYXQgYXJlIG5vdCByZXNvbHZlZCB3aXRoIHRoaXMgc2NvcGUuXG4gICAgICAgICAqIEBtZW1iZXIge1JlZmVyZW5jZVtdfSBTY29wZSN0aHJvdWdoXG4gICAgICAgICAqL1xuICAgICAgICB0aGlzLnRocm91Z2ggPSBbXTtcbiAgICAgICAgIC8qKlxuICAgICAgICAgKiBUaGUgc2NvcGVkIHtAbGluayBWYXJpYWJsZX1zIG9mIHRoaXMgc2NvcGUuIEluIHRoZSBjYXNlIG9mIGFcbiAgICAgICAgICogJ2Z1bmN0aW9uJyBzY29wZSB0aGlzIGluY2x1ZGVzIHRoZSBhdXRvbWF0aWMgYXJndW1lbnQgPGVtPmFyZ3VtZW50czwvZW0+IGFzXG4gICAgICAgICAqIGl0cyBmaXJzdCBlbGVtZW50LCBhcyB3ZWxsIGFzIGFsbCBmdXJ0aGVyIGZvcm1hbCBhcmd1bWVudHMuXG4gICAgICAgICAqIEBtZW1iZXIge1ZhcmlhYmxlW119IFNjb3BlI3ZhcmlhYmxlc1xuICAgICAgICAgKi9cbiAgICAgICAgdGhpcy52YXJpYWJsZXMgPSBbXTtcbiAgICAgICAgIC8qKlxuICAgICAgICAgKiBBbnkgdmFyaWFibGUge0BsaW5rIFJlZmVyZW5jZXxyZWZlcmVuY2V9IGZvdW5kIGluIHRoaXMgc2NvcGUuIFRoaXNcbiAgICAgICAgICogaW5jbHVkZXMgb2NjdXJyZW5jZXMgb2YgbG9jYWwgdmFyaWFibGVzIGFzIHdlbGwgYXMgdmFyaWFibGVzIGZyb21cbiAgICAgICAgICogcGFyZW50IHNjb3BlcyAoaW5jbHVkaW5nIHRoZSBnbG9iYWwgc2NvcGUpLiBGb3IgbG9jYWwgdmFyaWFibGVzXG4gICAgICAgICAqIHRoaXMgYWxzbyBpbmNsdWRlcyBkZWZpbmluZyBvY2N1cnJlbmNlcyAobGlrZSBpbiBhICd2YXInIHN0YXRlbWVudCkuXG4gICAgICAgICAqIEluIGEgJ2Z1bmN0aW9uJyBzY29wZSB0aGlzIGRvZXMgbm90IGluY2x1ZGUgdGhlIG9jY3VycmVuY2VzIG9mIHRoZVxuICAgICAgICAgKiBmb3JtYWwgcGFyYW1ldGVyIGluIHRoZSBwYXJhbWV0ZXIgbGlzdC5cbiAgICAgICAgICogQG1lbWJlciB7UmVmZXJlbmNlW119IFNjb3BlI3JlZmVyZW5jZXNcbiAgICAgICAgICovXG4gICAgICAgIHRoaXMucmVmZXJlbmNlcyA9IFtdO1xuXG4gICAgICAgICAvKipcbiAgICAgICAgICogRm9yICdnbG9iYWwnIGFuZCAnZnVuY3Rpb24nIHNjb3BlcywgdGhpcyBpcyBhIHNlbGYtcmVmZXJlbmNlLiBGb3JcbiAgICAgICAgICogb3RoZXIgc2NvcGUgdHlwZXMgdGhpcyBpcyB0aGUgPGVtPnZhcmlhYmxlU2NvcGU8L2VtPiB2YWx1ZSBvZiB0aGVcbiAgICAgICAgICogcGFyZW50IHNjb3BlLlxuICAgICAgICAgKiBAbWVtYmVyIHtTY29wZX0gU2NvcGUjdmFyaWFibGVTY29wZVxuICAgICAgICAgKi9cbiAgICAgICAgdGhpcy52YXJpYWJsZVNjb3BlID1cbiAgICAgICAgICAgICh0aGlzLnR5cGUgPT09ICdnbG9iYWwnIHx8IHRoaXMudHlwZSA9PT0gJ2Z1bmN0aW9uJyB8fCB0aGlzLnR5cGUgPT09ICdtb2R1bGUnKSA/IHRoaXMgOiB1cHBlclNjb3BlLnZhcmlhYmxlU2NvcGU7XG4gICAgICAgICAvKipcbiAgICAgICAgICogV2hldGhlciB0aGlzIHNjb3BlIGlzIGNyZWF0ZWQgYnkgYSBGdW5jdGlvbkV4cHJlc3Npb24uXG4gICAgICAgICAqIEBtZW1iZXIge2Jvb2xlYW59IFNjb3BlI2Z1bmN0aW9uRXhwcmVzc2lvblNjb3BlXG4gICAgICAgICAqL1xuICAgICAgICB0aGlzLmZ1bmN0aW9uRXhwcmVzc2lvblNjb3BlID0gZmFsc2U7XG4gICAgICAgICAvKipcbiAgICAgICAgICogV2hldGhlciB0aGlzIGlzIGEgc2NvcGUgdGhhdCBjb250YWlucyBhbiAnZXZhbCgpJyBpbnZvY2F0aW9uLlxuICAgICAgICAgKiBAbWVtYmVyIHtib29sZWFufSBTY29wZSNkaXJlY3RDYWxsVG9FdmFsU2NvcGVcbiAgICAgICAgICovXG4gICAgICAgIHRoaXMuZGlyZWN0Q2FsbFRvRXZhbFNjb3BlID0gZmFsc2U7XG4gICAgICAgICAvKipcbiAgICAgICAgICogQG1lbWJlciB7Ym9vbGVhbn0gU2NvcGUjdGhpc0ZvdW5kXG4gICAgICAgICAqL1xuICAgICAgICB0aGlzLnRoaXNGb3VuZCA9IGZhbHNlO1xuXG4gICAgICAgIHRoaXMuX19sZWZ0ID0gW107XG5cbiAgICAgICAgIC8qKlxuICAgICAgICAgKiBSZWZlcmVuY2UgdG8gdGhlIHBhcmVudCB7QGxpbmsgU2NvcGV8c2NvcGV9LlxuICAgICAgICAgKiBAbWVtYmVyIHtTY29wZX0gU2NvcGUjdXBwZXJcbiAgICAgICAgICovXG4gICAgICAgIHRoaXMudXBwZXIgPSB1cHBlclNjb3BlO1xuICAgICAgICAgLyoqXG4gICAgICAgICAqIFdoZXRoZXIgJ3VzZSBzdHJpY3QnIGlzIGluIGVmZmVjdCBpbiB0aGlzIHNjb3BlLlxuICAgICAgICAgKiBAbWVtYmVyIHtib29sZWFufSBTY29wZSNpc1N0cmljdFxuICAgICAgICAgKi9cbiAgICAgICAgdGhpcy5pc1N0cmljdCA9IGlzU3RyaWN0U2NvcGUodGhpcywgYmxvY2ssIGlzTWV0aG9kRGVmaW5pdGlvbiwgc2NvcGVNYW5hZ2VyLl9fdXNlRGlyZWN0aXZlKCkpO1xuXG4gICAgICAgICAvKipcbiAgICAgICAgICogTGlzdCBvZiBuZXN0ZWQge0BsaW5rIFNjb3BlfXMuXG4gICAgICAgICAqIEBtZW1iZXIge1Njb3BlW119IFNjb3BlI2NoaWxkU2NvcGVzXG4gICAgICAgICAqL1xuICAgICAgICB0aGlzLmNoaWxkU2NvcGVzID0gW107XG4gICAgICAgIGlmICh0aGlzLnVwcGVyKSB7XG4gICAgICAgICAgICB0aGlzLnVwcGVyLmNoaWxkU2NvcGVzLnB1c2godGhpcyk7XG4gICAgICAgIH1cblxuICAgICAgICB0aGlzLl9fZGVjbGFyZWRWYXJpYWJsZXMgPSBzY29wZU1hbmFnZXIuX19kZWNsYXJlZFZhcmlhYmxlcztcblxuICAgICAgICByZWdpc3RlclNjb3BlKHNjb3BlTWFuYWdlciwgdGhpcyk7XG4gICAgfVxuXG4gICAgX19zaG91bGRTdGF0aWNhbGx5Q2xvc2Uoc2NvcGVNYW5hZ2VyKSB7XG4gICAgICAgIHJldHVybiAoIXRoaXMuZHluYW1pYyB8fCBzY29wZU1hbmFnZXIuX19pc09wdGltaXN0aWMoKSk7XG4gICAgfVxuXG4gICAgX19zaG91bGRTdGF0aWNhbGx5Q2xvc2VGb3JHbG9iYWwocmVmKSB7XG4gICAgICAgIC8vIE9uIGdsb2JhbCBzY29wZSwgbGV0L2NvbnN0L2NsYXNzIGRlY2xhcmF0aW9ucyBzaG91bGQgYmUgcmVzb2x2ZWQgc3RhdGljYWxseS5cbiAgICAgICAgdmFyIG5hbWUgPSByZWYuaWRlbnRpZmllci5uYW1lO1xuICAgICAgICBpZiAoIXRoaXMuc2V0LmhhcyhuYW1lKSkge1xuICAgICAgICAgICAgcmV0dXJuIGZhbHNlO1xuICAgICAgICB9XG5cbiAgICAgICAgdmFyIHZhcmlhYmxlID0gdGhpcy5zZXQuZ2V0KG5hbWUpO1xuICAgICAgICB2YXIgZGVmcyA9IHZhcmlhYmxlLmRlZnM7XG4gICAgICAgIHJldHVybiBkZWZzLmxlbmd0aCA+IDAgJiYgZGVmcy5ldmVyeShzaG91bGRCZVN0YXRpY2FsbHkpO1xuICAgIH1cblxuICAgIF9fc3RhdGljQ2xvc2VSZWYocmVmKSB7XG4gICAgICAgIGlmICghdGhpcy5fX3Jlc29sdmUocmVmKSkge1xuICAgICAgICAgICAgdGhpcy5fX2RlbGVnYXRlVG9VcHBlclNjb3BlKHJlZik7XG4gICAgICAgIH1cbiAgICB9XG5cbiAgICBfX2R5bmFtaWNDbG9zZVJlZihyZWYpIHtcbiAgICAgICAgLy8gbm90aWZ5IGFsbCBuYW1lcyBhcmUgdGhyb3VnaCB0byBnbG9iYWxcbiAgICAgICAgbGV0IGN1cnJlbnQgPSB0aGlzO1xuICAgICAgICBkbyB7XG4gICAgICAgICAgICBjdXJyZW50LnRocm91Z2gucHVzaChyZWYpO1xuICAgICAgICAgICAgY3VycmVudCA9IGN1cnJlbnQudXBwZXI7XG4gICAgICAgIH0gd2hpbGUgKGN1cnJlbnQpO1xuICAgIH1cblxuICAgIF9fZ2xvYmFsQ2xvc2VSZWYocmVmKSB7XG4gICAgICAgIC8vIGxldC9jb25zdC9jbGFzcyBkZWNsYXJhdGlvbnMgc2hvdWxkIGJlIHJlc29sdmVkIHN0YXRpY2FsbHkuXG4gICAgICAgIC8vIG90aGVycyBzaG91bGQgYmUgcmVzb2x2ZWQgZHluYW1pY2FsbHkuXG4gICAgICAgIGlmICh0aGlzLl9fc2hvdWxkU3RhdGljYWxseUNsb3NlRm9yR2xvYmFsKHJlZikpIHtcbiAgICAgICAgICAgIHRoaXMuX19zdGF0aWNDbG9zZVJlZihyZWYpO1xuICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgdGhpcy5fX2R5bmFtaWNDbG9zZVJlZihyZWYpO1xuICAgICAgICB9XG4gICAgfVxuXG4gICAgX19jbG9zZShzY29wZU1hbmFnZXIpIHtcbiAgICAgICAgdmFyIGNsb3NlUmVmO1xuICAgICAgICBpZiAodGhpcy5fX3Nob3VsZFN0YXRpY2FsbHlDbG9zZShzY29wZU1hbmFnZXIpKSB7XG4gICAgICAgICAgICBjbG9zZVJlZiA9IHRoaXMuX19zdGF0aWNDbG9zZVJlZjtcbiAgICAgICAgfSBlbHNlIGlmICh0aGlzLnR5cGUgIT09ICdnbG9iYWwnKSB7XG4gICAgICAgICAgICBjbG9zZVJlZiA9IHRoaXMuX19keW5hbWljQ2xvc2VSZWY7XG4gICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICBjbG9zZVJlZiA9IHRoaXMuX19nbG9iYWxDbG9zZVJlZjtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFRyeSBSZXNvbHZpbmcgYWxsIHJlZmVyZW5jZXMgaW4gdGhpcyBzY29wZS5cbiAgICAgICAgZm9yIChsZXQgaSA9IDAsIGl6ID0gdGhpcy5fX2xlZnQubGVuZ3RoOyBpIDwgaXo7ICsraSkge1xuICAgICAgICAgICAgbGV0IHJlZiA9IHRoaXMuX19sZWZ0W2ldO1xuICAgICAgICAgICAgY2xvc2VSZWYuY2FsbCh0aGlzLCByZWYpO1xuICAgICAgICB9XG4gICAgICAgIHRoaXMuX19sZWZ0ID0gbnVsbDtcblxuICAgICAgICByZXR1cm4gdGhpcy51cHBlcjtcbiAgICB9XG5cbiAgICBfX3Jlc29sdmUocmVmKSB7XG4gICAgICAgIHZhciB2YXJpYWJsZSwgbmFtZTtcbiAgICAgICAgbmFtZSA9IHJlZi5pZGVudGlmaWVyLm5hbWU7XG4gICAgICAgIGlmICh0aGlzLnNldC5oYXMobmFtZSkpIHtcbiAgICAgICAgICAgIHZhcmlhYmxlID0gdGhpcy5zZXQuZ2V0KG5hbWUpO1xuICAgICAgICAgICAgdmFyaWFibGUucmVmZXJlbmNlcy5wdXNoKHJlZik7XG4gICAgICAgICAgICB2YXJpYWJsZS5zdGFjayA9IHZhcmlhYmxlLnN0YWNrICYmIHJlZi5mcm9tLnZhcmlhYmxlU2NvcGUgPT09IHRoaXMudmFyaWFibGVTY29wZTtcbiAgICAgICAgICAgIGlmIChyZWYudGFpbnRlZCkge1xuICAgICAgICAgICAgICAgIHZhcmlhYmxlLnRhaW50ZWQgPSB0cnVlO1xuICAgICAgICAgICAgICAgIHRoaXMudGFpbnRzLnNldCh2YXJpYWJsZS5uYW1lLCB0cnVlKTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIHJlZi5yZXNvbHZlZCA9IHZhcmlhYmxlO1xuICAgICAgICAgICAgcmV0dXJuIHRydWU7XG4gICAgICAgIH1cbiAgICAgICAgcmV0dXJuIGZhbHNlO1xuICAgIH1cblxuICAgIF9fZGVsZWdhdGVUb1VwcGVyU2NvcGUocmVmKSB7XG4gICAgICAgIGlmICh0aGlzLnVwcGVyKSB7XG4gICAgICAgICAgICB0aGlzLnVwcGVyLl9fbGVmdC5wdXNoKHJlZik7XG4gICAgICAgIH1cbiAgICAgICAgdGhpcy50aHJvdWdoLnB1c2gocmVmKTtcbiAgICB9XG5cbiAgICBfX2FkZERlY2xhcmVkVmFyaWFibGVzT2ZOb2RlKHZhcmlhYmxlLCBub2RlKSB7XG4gICAgICAgIGlmIChub2RlID09IG51bGwpIHtcbiAgICAgICAgICAgIHJldHVybjtcbiAgICAgICAgfVxuXG4gICAgICAgIHZhciB2YXJpYWJsZXMgPSB0aGlzLl9fZGVjbGFyZWRWYXJpYWJsZXMuZ2V0KG5vZGUpO1xuICAgICAgICBpZiAodmFyaWFibGVzID09IG51bGwpIHtcbiAgICAgICAgICAgIHZhcmlhYmxlcyA9IFtdO1xuICAgICAgICAgICAgdGhpcy5fX2RlY2xhcmVkVmFyaWFibGVzLnNldChub2RlLCB2YXJpYWJsZXMpO1xuICAgICAgICB9XG4gICAgICAgIGlmICh2YXJpYWJsZXMuaW5kZXhPZih2YXJpYWJsZSkgPT09IC0xKSB7XG4gICAgICAgICAgICB2YXJpYWJsZXMucHVzaCh2YXJpYWJsZSk7XG4gICAgICAgIH1cbiAgICB9XG5cbiAgICBfX2RlZmluZUdlbmVyaWMobmFtZSwgc2V0LCB2YXJpYWJsZXMsIG5vZGUsIGRlZikge1xuICAgICAgICB2YXIgdmFyaWFibGU7XG5cbiAgICAgICAgdmFyaWFibGUgPSBzZXQuZ2V0KG5hbWUpO1xuICAgICAgICBpZiAoIXZhcmlhYmxlKSB7XG4gICAgICAgICAgICB2YXJpYWJsZSA9IG5ldyBWYXJpYWJsZShuYW1lLCB0aGlzKTtcbiAgICAgICAgICAgIHNldC5zZXQobmFtZSwgdmFyaWFibGUpO1xuICAgICAgICAgICAgdmFyaWFibGVzLnB1c2godmFyaWFibGUpO1xuICAgICAgICB9XG5cbiAgICAgICAgaWYgKGRlZikge1xuICAgICAgICAgICAgdmFyaWFibGUuZGVmcy5wdXNoKGRlZik7XG4gICAgICAgICAgICBpZiAoZGVmLnR5cGUgIT09IFZhcmlhYmxlLlREWikge1xuICAgICAgICAgICAgICAgIHRoaXMuX19hZGREZWNsYXJlZFZhcmlhYmxlc09mTm9kZSh2YXJpYWJsZSwgZGVmLm5vZGUpO1xuICAgICAgICAgICAgICAgIHRoaXMuX19hZGREZWNsYXJlZFZhcmlhYmxlc09mTm9kZSh2YXJpYWJsZSwgZGVmLnBhcmVudCk7XG4gICAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICAgICAgaWYgKG5vZGUpIHtcbiAgICAgICAgICAgIHZhcmlhYmxlLmlkZW50aWZpZXJzLnB1c2gobm9kZSk7XG4gICAgICAgIH1cbiAgICB9XG5cbiAgICBfX2RlZmluZShub2RlLCBkZWYpIHtcbiAgICAgICAgaWYgKG5vZGUgJiYgbm9kZS50eXBlID09PSBTeW50YXguSWRlbnRpZmllcikge1xuICAgICAgICAgICAgdGhpcy5fX2RlZmluZUdlbmVyaWMoXG4gICAgICAgICAgICAgICAgICAgIG5vZGUubmFtZSxcbiAgICAgICAgICAgICAgICAgICAgdGhpcy5zZXQsXG4gICAgICAgICAgICAgICAgICAgIHRoaXMudmFyaWFibGVzLFxuICAgICAgICAgICAgICAgICAgICBub2RlLFxuICAgICAgICAgICAgICAgICAgICBkZWYpO1xuICAgICAgICB9XG4gICAgfVxuXG4gICAgX19yZWZlcmVuY2luZyhub2RlLCBhc3NpZ24sIHdyaXRlRXhwciwgbWF5YmVJbXBsaWNpdEdsb2JhbCwgcGFydGlhbCwgaW5pdCkge1xuICAgICAgICAvLyBiZWNhdXNlIEFycmF5IGVsZW1lbnQgbWF5IGJlIG51bGxcbiAgICAgICAgaWYgKCFub2RlIHx8IG5vZGUudHlwZSAhPT0gU3ludGF4LklkZW50aWZpZXIpIHtcbiAgICAgICAgICAgIHJldHVybjtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFNwZWNpYWxseSBoYW5kbGUgbGlrZSBgdGhpc2AuXG4gICAgICAgIGlmIChub2RlLm5hbWUgPT09ICdzdXBlcicpIHtcbiAgICAgICAgICAgIHJldHVybjtcbiAgICAgICAgfVxuXG4gICAgICAgIGxldCByZWYgPSBuZXcgUmVmZXJlbmNlKG5vZGUsIHRoaXMsIGFzc2lnbiB8fCBSZWZlcmVuY2UuUkVBRCwgd3JpdGVFeHByLCBtYXliZUltcGxpY2l0R2xvYmFsLCAhIXBhcnRpYWwsICEhaW5pdCk7XG4gICAgICAgIHRoaXMucmVmZXJlbmNlcy5wdXNoKHJlZik7XG4gICAgICAgIHRoaXMuX19sZWZ0LnB1c2gocmVmKTtcbiAgICB9XG5cbiAgICBfX2RldGVjdEV2YWwoKSB7XG4gICAgICAgIHZhciBjdXJyZW50O1xuICAgICAgICBjdXJyZW50ID0gdGhpcztcbiAgICAgICAgdGhpcy5kaXJlY3RDYWxsVG9FdmFsU2NvcGUgPSB0cnVlO1xuICAgICAgICBkbyB7XG4gICAgICAgICAgICBjdXJyZW50LmR5bmFtaWMgPSB0cnVlO1xuICAgICAgICAgICAgY3VycmVudCA9IGN1cnJlbnQudXBwZXI7XG4gICAgICAgIH0gd2hpbGUgKGN1cnJlbnQpO1xuICAgIH1cblxuICAgIF9fZGV0ZWN0VGhpcygpIHtcbiAgICAgICAgdGhpcy50aGlzRm91bmQgPSB0cnVlO1xuICAgIH1cblxuICAgIF9faXNDbG9zZWQoKSB7XG4gICAgICAgIHJldHVybiB0aGlzLl9fbGVmdCA9PT0gbnVsbDtcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiByZXR1cm5zIHJlc29sdmVkIHtSZWZlcmVuY2V9XG4gICAgICogQG1ldGhvZCBTY29wZSNyZXNvbHZlXG4gICAgICogQHBhcmFtIHtFc3ByaW1hLklkZW50aWZpZXJ9IGlkZW50IC0gaWRlbnRpZmllciB0byBiZSByZXNvbHZlZC5cbiAgICAgKiBAcmV0dXJuIHtSZWZlcmVuY2V9XG4gICAgICovXG4gICAgcmVzb2x2ZShpZGVudCkge1xuICAgICAgICB2YXIgcmVmLCBpLCBpejtcbiAgICAgICAgYXNzZXJ0KHRoaXMuX19pc0Nsb3NlZCgpLCAnU2NvcGUgc2hvdWxkIGJlIGNsb3NlZC4nKTtcbiAgICAgICAgYXNzZXJ0KGlkZW50LnR5cGUgPT09IFN5bnRheC5JZGVudGlmaWVyLCAnVGFyZ2V0IHNob3VsZCBiZSBpZGVudGlmaWVyLicpO1xuICAgICAgICBmb3IgKGkgPSAwLCBpeiA9IHRoaXMucmVmZXJlbmNlcy5sZW5ndGg7IGkgPCBpejsgKytpKSB7XG4gICAgICAgICAgICByZWYgPSB0aGlzLnJlZmVyZW5jZXNbaV07XG4gICAgICAgICAgICBpZiAocmVmLmlkZW50aWZpZXIgPT09IGlkZW50KSB7XG4gICAgICAgICAgICAgICAgcmV0dXJuIHJlZjtcbiAgICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgICByZXR1cm4gbnVsbDtcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiByZXR1cm5zIHRoaXMgc2NvcGUgaXMgc3RhdGljXG4gICAgICogQG1ldGhvZCBTY29wZSNpc1N0YXRpY1xuICAgICAqIEByZXR1cm4ge2Jvb2xlYW59XG4gICAgICovXG4gICAgaXNTdGF0aWMoKSB7XG4gICAgICAgIHJldHVybiAhdGhpcy5keW5hbWljO1xuICAgIH1cblxuICAgIC8qKlxuICAgICAqIHJldHVybnMgdGhpcyBzY29wZSBoYXMgbWF0ZXJpYWxpemVkIGFyZ3VtZW50c1xuICAgICAqIEBtZXRob2QgU2NvcGUjaXNBcmd1bWVudHNNYXRlcmlhbGl6ZWRcbiAgICAgKiBAcmV0dXJuIHtib29sZWFufVxuICAgICAqL1xuICAgIGlzQXJndW1lbnRzTWF0ZXJpYWxpemVkKCkge1xuICAgICAgICByZXR1cm4gdHJ1ZTtcbiAgICB9XG5cbiAgICAvKipcbiAgICAgKiByZXR1cm5zIHRoaXMgc2NvcGUgaGFzIG1hdGVyaWFsaXplZCBgdGhpc2AgcmVmZXJlbmNlXG4gICAgICogQG1ldGhvZCBTY29wZSNpc1RoaXNNYXRlcmlhbGl6ZWRcbiAgICAgKiBAcmV0dXJuIHtib29sZWFufVxuICAgICAqL1xuICAgIGlzVGhpc01hdGVyaWFsaXplZCgpIHtcbiAgICAgICAgcmV0dXJuIHRydWU7XG4gICAgfVxuXG4gICAgaXNVc2VkTmFtZShuYW1lKSB7XG4gICAgICAgIGlmICh0aGlzLnNldC5oYXMobmFtZSkpIHtcbiAgICAgICAgICAgIHJldHVybiB0cnVlO1xuICAgICAgICB9XG4gICAgICAgIGZvciAodmFyIGkgPSAwLCBpeiA9IHRoaXMudGhyb3VnaC5sZW5ndGg7IGkgPCBpejsgKytpKSB7XG4gICAgICAgICAgICBpZiAodGhpcy50aHJvdWdoW2ldLmlkZW50aWZpZXIubmFtZSA9PT0gbmFtZSkge1xuICAgICAgICAgICAgICAgIHJldHVybiB0cnVlO1xuICAgICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICAgIHJldHVybiBmYWxzZTtcbiAgICB9XG59XG5cbmV4cG9ydCBjbGFzcyBHbG9iYWxTY29wZSBleHRlbmRzIFNjb3BlIHtcbiAgICBjb25zdHJ1Y3RvcihzY29wZU1hbmFnZXIsIGJsb2NrKSB7XG4gICAgICAgIHN1cGVyKHNjb3BlTWFuYWdlciwgJ2dsb2JhbCcsIG51bGwsIGJsb2NrLCBmYWxzZSk7XG4gICAgICAgIHRoaXMuaW1wbGljaXQgPSB7XG4gICAgICAgICAgICBzZXQ6IG5ldyBNYXAoKSxcbiAgICAgICAgICAgIHZhcmlhYmxlczogW10sXG4gICAgICAgICAgICAvKipcbiAgICAgICAgICAgICogTGlzdCBvZiB7QGxpbmsgUmVmZXJlbmNlfXMgdGhhdCBhcmUgbGVmdCB0byBiZSByZXNvbHZlZCAoaS5lLiB3aGljaFxuICAgICAgICAgICAgKiBuZWVkIHRvIGJlIGxpbmtlZCB0byB0aGUgdmFyaWFibGUgdGhleSByZWZlciB0bykuXG4gICAgICAgICAgICAqIEBtZW1iZXIge1JlZmVyZW5jZVtdfSBTY29wZSNpbXBsaWNpdCNsZWZ0XG4gICAgICAgICAgICAqL1xuICAgICAgICAgICAgbGVmdDogW11cbiAgICAgICAgfTtcbiAgICB9XG5cbiAgICBfX2Nsb3NlKHNjb3BlTWFuYWdlcikge1xuICAgICAgICBsZXQgaW1wbGljaXQgPSBbXTtcbiAgICAgICAgZm9yIChsZXQgaSA9IDAsIGl6ID0gdGhpcy5fX2xlZnQubGVuZ3RoOyBpIDwgaXo7ICsraSkge1xuICAgICAgICAgICAgbGV0IHJlZiA9IHRoaXMuX19sZWZ0W2ldO1xuICAgICAgICAgICAgaWYgKHJlZi5fX21heWJlSW1wbGljaXRHbG9iYWwgJiYgIXRoaXMuc2V0LmhhcyhyZWYuaWRlbnRpZmllci5uYW1lKSkge1xuICAgICAgICAgICAgICAgIGltcGxpY2l0LnB1c2gocmVmLl9fbWF5YmVJbXBsaWNpdEdsb2JhbCk7XG4gICAgICAgICAgICB9XG4gICAgICAgIH1cblxuICAgICAgICAvLyBjcmVhdGUgYW4gaW1wbGljaXQgZ2xvYmFsIHZhcmlhYmxlIGZyb20gYXNzaWdubWVudCBleHByZXNzaW9uXG4gICAgICAgIGZvciAobGV0IGkgPSAwLCBpeiA9IGltcGxpY2l0Lmxlbmd0aDsgaSA8IGl6OyArK2kpIHtcbiAgICAgICAgICAgIGxldCBpbmZvID0gaW1wbGljaXRbaV07XG4gICAgICAgICAgICB0aGlzLl9fZGVmaW5lSW1wbGljaXQoaW5mby5wYXR0ZXJuLFxuICAgICAgICAgICAgICAgICAgICBuZXcgRGVmaW5pdGlvbihcbiAgICAgICAgICAgICAgICAgICAgICAgIFZhcmlhYmxlLkltcGxpY2l0R2xvYmFsVmFyaWFibGUsXG4gICAgICAgICAgICAgICAgICAgICAgICBpbmZvLnBhdHRlcm4sXG4gICAgICAgICAgICAgICAgICAgICAgICBpbmZvLm5vZGUsXG4gICAgICAgICAgICAgICAgICAgICAgICBudWxsLFxuICAgICAgICAgICAgICAgICAgICAgICAgbnVsbCxcbiAgICAgICAgICAgICAgICAgICAgICAgIG51bGxcbiAgICAgICAgICAgICAgICAgICAgKSk7XG5cbiAgICAgICAgfVxuXG4gICAgICAgIHRoaXMuaW1wbGljaXQubGVmdCA9IHRoaXMuX19sZWZ0O1xuXG4gICAgICAgIHJldHVybiBzdXBlci5fX2Nsb3NlKHNjb3BlTWFuYWdlcik7XG4gICAgfVxuXG4gICAgX19kZWZpbmVJbXBsaWNpdChub2RlLCBkZWYpIHtcbiAgICAgICAgaWYgKG5vZGUgJiYgbm9kZS50eXBlID09PSBTeW50YXguSWRlbnRpZmllcikge1xuICAgICAgICAgICAgdGhpcy5fX2RlZmluZUdlbmVyaWMoXG4gICAgICAgICAgICAgICAgICAgIG5vZGUubmFtZSxcbiAgICAgICAgICAgICAgICAgICAgdGhpcy5pbXBsaWNpdC5zZXQsXG4gICAgICAgICAgICAgICAgICAgIHRoaXMuaW1wbGljaXQudmFyaWFibGVzLFxuICAgICAgICAgICAgICAgICAgICBub2RlLFxuICAgICAgICAgICAgICAgICAgICBkZWYpO1xuICAgICAgICB9XG4gICAgfVxufVxuXG5leHBvcnQgY2xhc3MgTW9kdWxlU2NvcGUgZXh0ZW5kcyBTY29wZSB7XG4gICAgY29uc3RydWN0b3Ioc2NvcGVNYW5hZ2VyLCB1cHBlclNjb3BlLCBibG9jaykge1xuICAgICAgICBzdXBlcihzY29wZU1hbmFnZXIsICdtb2R1bGUnLCB1cHBlclNjb3BlLCBibG9jaywgZmFsc2UpO1xuICAgIH1cbn1cblxuZXhwb3J0IGNsYXNzIEZ1bmN0aW9uRXhwcmVzc2lvbk5hbWVTY29wZSBleHRlbmRzIFNjb3BlIHtcbiAgICBjb25zdHJ1Y3RvcihzY29wZU1hbmFnZXIsIHVwcGVyU2NvcGUsIGJsb2NrKSB7XG4gICAgICAgIHN1cGVyKHNjb3BlTWFuYWdlciwgJ2Z1bmN0aW9uLWV4cHJlc3Npb24tbmFtZScsIHVwcGVyU2NvcGUsIGJsb2NrLCBmYWxzZSk7XG4gICAgICAgIHRoaXMuX19kZWZpbmUoYmxvY2suaWQsXG4gICAgICAgICAgICAgICAgbmV3IERlZmluaXRpb24oXG4gICAgICAgICAgICAgICAgICAgIFZhcmlhYmxlLkZ1bmN0aW9uTmFtZSxcbiAgICAgICAgICAgICAgICAgICAgYmxvY2suaWQsXG4gICAgICAgICAgICAgICAgICAgIGJsb2NrLFxuICAgICAgICAgICAgICAgICAgICBudWxsLFxuICAgICAgICAgICAgICAgICAgICBudWxsLFxuICAgICAgICAgICAgICAgICAgICBudWxsXG4gICAgICAgICAgICAgICAgKSk7XG4gICAgICAgIHRoaXMuZnVuY3Rpb25FeHByZXNzaW9uU2NvcGUgPSB0cnVlO1xuICAgIH1cbn1cblxuZXhwb3J0IGNsYXNzIENhdGNoU2NvcGUgZXh0ZW5kcyBTY29wZSB7XG4gICAgY29uc3RydWN0b3Ioc2NvcGVNYW5hZ2VyLCB1cHBlclNjb3BlLCBibG9jaykge1xuICAgICAgICBzdXBlcihzY29wZU1hbmFnZXIsICdjYXRjaCcsIHVwcGVyU2NvcGUsIGJsb2NrLCBmYWxzZSk7XG4gICAgfVxufVxuXG5leHBvcnQgY2xhc3MgV2l0aFNjb3BlIGV4dGVuZHMgU2NvcGUge1xuICAgIGNvbnN0cnVjdG9yKHNjb3BlTWFuYWdlciwgdXBwZXJTY29wZSwgYmxvY2spIHtcbiAgICAgICAgc3VwZXIoc2NvcGVNYW5hZ2VyLCAnd2l0aCcsIHVwcGVyU2NvcGUsIGJsb2NrLCBmYWxzZSk7XG4gICAgfVxuXG4gICAgX19jbG9zZShzY29wZU1hbmFnZXIpIHtcbiAgICAgICAgaWYgKHRoaXMuX19zaG91bGRTdGF0aWNhbGx5Q2xvc2Uoc2NvcGVNYW5hZ2VyKSkge1xuICAgICAgICAgICAgcmV0dXJuIHN1cGVyLl9fY2xvc2Uoc2NvcGVNYW5hZ2VyKTtcbiAgICAgICAgfVxuXG4gICAgICAgIGZvciAobGV0IGkgPSAwLCBpeiA9IHRoaXMuX19sZWZ0Lmxlbmd0aDsgaSA8IGl6OyArK2kpIHtcbiAgICAgICAgICAgIGxldCByZWYgPSB0aGlzLl9fbGVmdFtpXTtcbiAgICAgICAgICAgIHJlZi50YWludGVkID0gdHJ1ZTtcbiAgICAgICAgICAgIHRoaXMuX19kZWxlZ2F0ZVRvVXBwZXJTY29wZShyZWYpO1xuICAgICAgICB9XG4gICAgICAgIHRoaXMuX19sZWZ0ID0gbnVsbDtcblxuICAgICAgICByZXR1cm4gdGhpcy51cHBlcjtcbiAgICB9XG59XG5cbmV4cG9ydCBjbGFzcyBURFpTY29wZSBleHRlbmRzIFNjb3BlIHtcbiAgICBjb25zdHJ1Y3RvcihzY29wZU1hbmFnZXIsIHVwcGVyU2NvcGUsIGJsb2NrKSB7XG4gICAgICAgIHN1cGVyKHNjb3BlTWFuYWdlciwgJ1REWicsIHVwcGVyU2NvcGUsIGJsb2NrLCBmYWxzZSk7XG4gICAgfVxufVxuXG5leHBvcnQgY2xhc3MgQmxvY2tTY29wZSBleHRlbmRzIFNjb3BlIHtcbiAgICBjb25zdHJ1Y3RvcihzY29wZU1hbmFnZXIsIHVwcGVyU2NvcGUsIGJsb2NrKSB7XG4gICAgICAgIHN1cGVyKHNjb3BlTWFuYWdlciwgJ2Jsb2NrJywgdXBwZXJTY29wZSwgYmxvY2ssIGZhbHNlKTtcbiAgICB9XG59XG5cbmV4cG9ydCBjbGFzcyBTd2l0Y2hTY29wZSBleHRlbmRzIFNjb3BlIHtcbiAgICBjb25zdHJ1Y3RvcihzY29wZU1hbmFnZXIsIHVwcGVyU2NvcGUsIGJsb2NrKSB7XG4gICAgICAgIHN1cGVyKHNjb3BlTWFuYWdlciwgJ3N3aXRjaCcsIHVwcGVyU2NvcGUsIGJsb2NrLCBmYWxzZSk7XG4gICAgfVxufVxuXG5leHBvcnQgY2xhc3MgRnVuY3Rpb25TY29wZSBleHRlbmRzIFNjb3BlIHtcbiAgICBjb25zdHJ1Y3RvcihzY29wZU1hbmFnZXIsIHVwcGVyU2NvcGUsIGJsb2NrLCBpc01ldGhvZERlZmluaXRpb24pIHtcbiAgICAgICAgc3VwZXIoc2NvcGVNYW5hZ2VyLCAnZnVuY3Rpb24nLCB1cHBlclNjb3BlLCBibG9jaywgaXNNZXRob2REZWZpbml0aW9uKTtcblxuICAgICAgICAvLyBzZWN0aW9uIDkuMi4xMywgRnVuY3Rpb25EZWNsYXJhdGlvbkluc3RhbnRpYXRpb24uXG4gICAgICAgIC8vIE5PVEUgQXJyb3cgZnVuY3Rpb25zIG5ldmVyIGhhdmUgYW4gYXJndW1lbnRzIG9iamVjdHMuXG4gICAgICAgIGlmICh0aGlzLmJsb2NrLnR5cGUgIT09IFN5bnRheC5BcnJvd0Z1bmN0aW9uRXhwcmVzc2lvbikge1xuICAgICAgICAgICAgdGhpcy5fX2RlZmluZUFyZ3VtZW50cygpO1xuICAgICAgICB9XG4gICAgfVxuXG4gICAgaXNBcmd1bWVudHNNYXRlcmlhbGl6ZWQoKSB7XG4gICAgICAgIC8vIFRPRE8oQ29uc3RlbGxhdGlvbilcbiAgICAgICAgLy8gV2UgY2FuIG1vcmUgYWdncmVzc2l2ZSBvbiB0aGlzIGNvbmRpdGlvbiBsaWtlIHRoaXMuXG4gICAgICAgIC8vXG4gICAgICAgIC8vIGZ1bmN0aW9uIHQoKSB7XG4gICAgICAgIC8vICAgICAvLyBhcmd1bWVudHMgb2YgdCBpcyBhbHdheXMgaGlkZGVuLlxuICAgICAgICAvLyAgICAgZnVuY3Rpb24gYXJndW1lbnRzKCkge1xuICAgICAgICAvLyAgICAgfVxuICAgICAgICAvLyB9XG4gICAgICAgIGlmICh0aGlzLmJsb2NrLnR5cGUgPT09IFN5bnRheC5BcnJvd0Z1bmN0aW9uRXhwcmVzc2lvbikge1xuICAgICAgICAgICAgcmV0dXJuIGZhbHNlO1xuICAgICAgICB9XG5cbiAgICAgICAgaWYgKCF0aGlzLmlzU3RhdGljKCkpIHtcbiAgICAgICAgICAgIHJldHVybiB0cnVlO1xuICAgICAgICB9XG5cbiAgICAgICAgbGV0IHZhcmlhYmxlID0gdGhpcy5zZXQuZ2V0KCdhcmd1bWVudHMnKTtcbiAgICAgICAgYXNzZXJ0KHZhcmlhYmxlLCAnQWx3YXlzIGhhdmUgYXJndW1lbnRzIHZhcmlhYmxlLicpO1xuICAgICAgICByZXR1cm4gdmFyaWFibGUudGFpbnRlZCB8fCB2YXJpYWJsZS5yZWZlcmVuY2VzLmxlbmd0aCAgIT09IDA7XG4gICAgfVxuXG4gICAgaXNUaGlzTWF0ZXJpYWxpemVkKCkge1xuICAgICAgICBpZiAoIXRoaXMuaXNTdGF0aWMoKSkge1xuICAgICAgICAgICAgcmV0dXJuIHRydWU7XG4gICAgICAgIH1cbiAgICAgICAgcmV0dXJuIHRoaXMudGhpc0ZvdW5kO1xuICAgIH1cblxuICAgIF9fZGVmaW5lQXJndW1lbnRzKCkge1xuICAgICAgICB0aGlzLl9fZGVmaW5lR2VuZXJpYyhcbiAgICAgICAgICAgICAgICAnYXJndW1lbnRzJyxcbiAgICAgICAgICAgICAgICB0aGlzLnNldCxcbiAgICAgICAgICAgICAgICB0aGlzLnZhcmlhYmxlcyxcbiAgICAgICAgICAgICAgICBudWxsLFxuICAgICAgICAgICAgICAgIG51bGwpO1xuICAgICAgICB0aGlzLnRhaW50cy5zZXQoJ2FyZ3VtZW50cycsIHRydWUpO1xuICAgIH1cbn1cblxuZXhwb3J0IGNsYXNzIEZvclNjb3BlIGV4dGVuZHMgU2NvcGUge1xuICAgIGNvbnN0cnVjdG9yKHNjb3BlTWFuYWdlciwgdXBwZXJTY29wZSwgYmxvY2spIHtcbiAgICAgICAgc3VwZXIoc2NvcGVNYW5hZ2VyLCAnZm9yJywgdXBwZXJTY29wZSwgYmxvY2ssIGZhbHNlKTtcbiAgICB9XG59XG5cbmV4cG9ydCBjbGFzcyBDbGFzc1Njb3BlIGV4dGVuZHMgU2NvcGUge1xuICAgIGNvbnN0cnVjdG9yKHNjb3BlTWFuYWdlciwgdXBwZXJTY29wZSwgYmxvY2spIHtcbiAgICAgICAgc3VwZXIoc2NvcGVNYW5hZ2VyLCAnY2xhc3MnLCB1cHBlclNjb3BlLCBibG9jaywgZmFsc2UpO1xuICAgIH1cbn1cblxuLyogdmltOiBzZXQgc3c9NCB0cz00IGV0IHR3PTgwIDogKi9cbiJdfQ==
-
-
-/***/ }),
-
-/***/ 9329:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/*
-  Copyright (C) 2015 Yusuke Suzuki <utatane.tea@gmail.com>
-
-  Redistribution and use in source and binary forms, with or without
-  modification, are permitted provided that the following conditions are met:
-
-    * Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright
-      notice, this list of conditions and the following disclaimer in the
-      documentation and/or other materials provided with the distribution.
-
-  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-  ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
-  DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-  (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-  LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
-
-/**
- * A Variable represents a locally scoped identifier. These include arguments to
- * functions.
- * @class Variable
- */
-var Variable = function Variable(name, scope) {
-  _classCallCheck(this, Variable);
-
-  /**
-   * The variable name, as given in the source code.
-   * @member {String} Variable#name
-   */
-  this.name = name;
-  /**
-   * List of defining occurrences of this variable (like in 'var ...'
-   * statements or as parameter), as AST nodes.
-   * @member {esprima.Identifier[]} Variable#identifiers
-   */
-  this.identifiers = [];
-  /**
-   * List of {@link Reference|references} of this variable (excluding parameter entries)
-   * in its defining scope and all nested scopes. For defining
-   * occurrences only see {@link Variable#defs}.
-   * @member {Reference[]} Variable#references
-   */
-  this.references = [];
-
-  /**
-   * List of defining occurrences of this variable (like in 'var ...'
-   * statements or as parameter), as custom objects.
-   * @member {Definition[]} Variable#defs
-   */
-  this.defs = [];
-
-  this.tainted = false;
-  /**
-   * Whether this is a stack variable.
-   * @member {boolean} Variable#stack
-   */
-  this.stack = true;
-  /**
-   * Reference to the enclosing Scope.
-   * @member {Scope} Variable#scope
-   */
-  this.scope = scope;
-};
-
-exports["default"] = Variable;
-
-
-Variable.CatchClause = 'CatchClause';
-Variable.Parameter = 'Parameter';
-Variable.FunctionName = 'FunctionName';
-Variable.ClassName = 'ClassName';
-Variable.Variable = 'Variable';
-Variable.ImportBinding = 'ImportBinding';
-Variable.TDZ = 'TDZ';
-Variable.ImplicitGlobalVariable = 'ImplicitGlobalVariable';
-
-/* vim: set sw=4 ts=4 et tw=80 : */
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInZhcmlhYmxlLmpzIl0sIm5hbWVzIjpbIlZhcmlhYmxlIiwibmFtZSIsInNjb3BlIiwiaWRlbnRpZmllcnMiLCJyZWZlcmVuY2VzIiwiZGVmcyIsInRhaW50ZWQiLCJzdGFjayIsIkNhdGNoQ2xhdXNlIiwiUGFyYW1ldGVyIiwiRnVuY3Rpb25OYW1lIiwiQ2xhc3NOYW1lIiwiSW1wb3J0QmluZGluZyIsIlREWiIsIkltcGxpY2l0R2xvYmFsVmFyaWFibGUiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQXdCQTs7Ozs7SUFLcUJBLFEsR0FDakIsa0JBQVlDLElBQVosRUFBa0JDLEtBQWxCLEVBQXlCO0FBQUE7O0FBQ3JCOzs7O0FBSUEsT0FBS0QsSUFBTCxHQUFZQSxJQUFaO0FBQ0E7Ozs7O0FBS0EsT0FBS0UsV0FBTCxHQUFtQixFQUFuQjtBQUNBOzs7Ozs7QUFNQSxPQUFLQyxVQUFMLEdBQWtCLEVBQWxCOztBQUVBOzs7OztBQUtBLE9BQUtDLElBQUwsR0FBWSxFQUFaOztBQUVBLE9BQUtDLE9BQUwsR0FBZSxLQUFmO0FBQ0E7Ozs7QUFJQSxPQUFLQyxLQUFMLEdBQWEsSUFBYjtBQUNBOzs7O0FBSUEsT0FBS0wsS0FBTCxHQUFhQSxLQUFiO0FBQ0gsQzs7a0JBdkNnQkYsUTs7O0FBMENyQkEsU0FBU1EsV0FBVCxHQUF1QixhQUF2QjtBQUNBUixTQUFTUyxTQUFULEdBQXFCLFdBQXJCO0FBQ0FULFNBQVNVLFlBQVQsR0FBd0IsY0FBeEI7QUFDQVYsU0FBU1csU0FBVCxHQUFxQixXQUFyQjtBQUNBWCxTQUFTQSxRQUFULEdBQW9CLFVBQXBCO0FBQ0FBLFNBQVNZLGFBQVQsR0FBeUIsZUFBekI7QUFDQVosU0FBU2EsR0FBVCxHQUFlLEtBQWY7QUFDQWIsU0FBU2Msc0JBQVQsR0FBa0Msd0JBQWxDOztBQUVBIiwiZmlsZSI6InZhcmlhYmxlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAgQ29weXJpZ2h0IChDKSAyMDE1IFl1c3VrZSBTdXp1a2kgPHV0YXRhbmUudGVhQGdtYWlsLmNvbT5cblxuICBSZWRpc3RyaWJ1dGlvbiBhbmQgdXNlIGluIHNvdXJjZSBhbmQgYmluYXJ5IGZvcm1zLCB3aXRoIG9yIHdpdGhvdXRcbiAgbW9kaWZpY2F0aW9uLCBhcmUgcGVybWl0dGVkIHByb3ZpZGVkIHRoYXQgdGhlIGZvbGxvd2luZyBjb25kaXRpb25zIGFyZSBtZXQ6XG5cbiAgICAqIFJlZGlzdHJpYnV0aW9ucyBvZiBzb3VyY2UgY29kZSBtdXN0IHJldGFpbiB0aGUgYWJvdmUgY29weXJpZ2h0XG4gICAgICBub3RpY2UsIHRoaXMgbGlzdCBvZiBjb25kaXRpb25zIGFuZCB0aGUgZm9sbG93aW5nIGRpc2NsYWltZXIuXG4gICAgKiBSZWRpc3RyaWJ1dGlvbnMgaW4gYmluYXJ5IGZvcm0gbXVzdCByZXByb2R1Y2UgdGhlIGFib3ZlIGNvcHlyaWdodFxuICAgICAgbm90aWNlLCB0aGlzIGxpc3Qgb2YgY29uZGl0aW9ucyBhbmQgdGhlIGZvbGxvd2luZyBkaXNjbGFpbWVyIGluIHRoZVxuICAgICAgZG9jdW1lbnRhdGlvbiBhbmQvb3Igb3RoZXIgbWF0ZXJpYWxzIHByb3ZpZGVkIHdpdGggdGhlIGRpc3RyaWJ1dGlvbi5cblxuICBUSElTIFNPRlRXQVJFIElTIFBST1ZJREVEIEJZIFRIRSBDT1BZUklHSFQgSE9MREVSUyBBTkQgQ09OVFJJQlVUT1JTIFwiQVMgSVNcIlxuICBBTkQgQU5ZIEVYUFJFU1MgT1IgSU1QTElFRCBXQVJSQU5USUVTLCBJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRFRCBUTywgVEhFXG4gIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFkgQU5EIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFXG4gIEFSRSBESVNDTEFJTUVELiBJTiBOTyBFVkVOVCBTSEFMTCA8Q09QWVJJR0hUIEhPTERFUj4gQkUgTElBQkxFIEZPUiBBTllcbiAgRElSRUNULCBJTkRJUkVDVCwgSU5DSURFTlRBTCwgU1BFQ0lBTCwgRVhFTVBMQVJZLCBPUiBDT05TRVFVRU5USUFMIERBTUFHRVNcbiAgKElOQ0xVRElORywgQlVUIE5PVCBMSU1JVEVEIFRPLCBQUk9DVVJFTUVOVCBPRiBTVUJTVElUVVRFIEdPT0RTIE9SIFNFUlZJQ0VTO1xuICBMT1NTIE9GIFVTRSwgREFUQSwgT1IgUFJPRklUUzsgT1IgQlVTSU5FU1MgSU5URVJSVVBUSU9OKSBIT1dFVkVSIENBVVNFRCBBTkRcbiAgT04gQU5ZIFRIRU9SWSBPRiBMSUFCSUxJVFksIFdIRVRIRVIgSU4gQ09OVFJBQ1QsIFNUUklDVCBMSUFCSUxJVFksIE9SIFRPUlRcbiAgKElOQ0xVRElORyBORUdMSUdFTkNFIE9SIE9USEVSV0lTRSkgQVJJU0lORyBJTiBBTlkgV0FZIE9VVCBPRiBUSEUgVVNFIE9GXG4gIFRISVMgU09GVFdBUkUsIEVWRU4gSUYgQURWSVNFRCBPRiBUSEUgUE9TU0lCSUxJVFkgT0YgU1VDSCBEQU1BR0UuXG4qL1xuXG4vKipcbiAqIEEgVmFyaWFibGUgcmVwcmVzZW50cyBhIGxvY2FsbHkgc2NvcGVkIGlkZW50aWZpZXIuIFRoZXNlIGluY2x1ZGUgYXJndW1lbnRzIHRvXG4gKiBmdW5jdGlvbnMuXG4gKiBAY2xhc3MgVmFyaWFibGVcbiAqL1xuZXhwb3J0IGRlZmF1bHQgY2xhc3MgVmFyaWFibGUge1xuICAgIGNvbnN0cnVjdG9yKG5hbWUsIHNjb3BlKSB7XG4gICAgICAgIC8qKlxuICAgICAgICAgKiBUaGUgdmFyaWFibGUgbmFtZSwgYXMgZ2l2ZW4gaW4gdGhlIHNvdXJjZSBjb2RlLlxuICAgICAgICAgKiBAbWVtYmVyIHtTdHJpbmd9IFZhcmlhYmxlI25hbWVcbiAgICAgICAgICovXG4gICAgICAgIHRoaXMubmFtZSA9IG5hbWU7XG4gICAgICAgIC8qKlxuICAgICAgICAgKiBMaXN0IG9mIGRlZmluaW5nIG9jY3VycmVuY2VzIG9mIHRoaXMgdmFyaWFibGUgKGxpa2UgaW4gJ3ZhciAuLi4nXG4gICAgICAgICAqIHN0YXRlbWVudHMgb3IgYXMgcGFyYW1ldGVyKSwgYXMgQVNUIG5vZGVzLlxuICAgICAgICAgKiBAbWVtYmVyIHtlc3ByaW1hLklkZW50aWZpZXJbXX0gVmFyaWFibGUjaWRlbnRpZmllcnNcbiAgICAgICAgICovXG4gICAgICAgIHRoaXMuaWRlbnRpZmllcnMgPSBbXTtcbiAgICAgICAgLyoqXG4gICAgICAgICAqIExpc3Qgb2Yge0BsaW5rIFJlZmVyZW5jZXxyZWZlcmVuY2VzfSBvZiB0aGlzIHZhcmlhYmxlIChleGNsdWRpbmcgcGFyYW1ldGVyIGVudHJpZXMpXG4gICAgICAgICAqIGluIGl0cyBkZWZpbmluZyBzY29wZSBhbmQgYWxsIG5lc3RlZCBzY29wZXMuIEZvciBkZWZpbmluZ1xuICAgICAgICAgKiBvY2N1cnJlbmNlcyBvbmx5IHNlZSB7QGxpbmsgVmFyaWFibGUjZGVmc30uXG4gICAgICAgICAqIEBtZW1iZXIge1JlZmVyZW5jZVtdfSBWYXJpYWJsZSNyZWZlcmVuY2VzXG4gICAgICAgICAqL1xuICAgICAgICB0aGlzLnJlZmVyZW5jZXMgPSBbXTtcblxuICAgICAgICAvKipcbiAgICAgICAgICogTGlzdCBvZiBkZWZpbmluZyBvY2N1cnJlbmNlcyBvZiB0aGlzIHZhcmlhYmxlIChsaWtlIGluICd2YXIgLi4uJ1xuICAgICAgICAgKiBzdGF0ZW1lbnRzIG9yIGFzIHBhcmFtZXRlciksIGFzIGN1c3RvbSBvYmplY3RzLlxuICAgICAgICAgKiBAbWVtYmVyIHtEZWZpbml0aW9uW119IFZhcmlhYmxlI2RlZnNcbiAgICAgICAgICovXG4gICAgICAgIHRoaXMuZGVmcyA9IFtdO1xuXG4gICAgICAgIHRoaXMudGFpbnRlZCA9IGZhbHNlO1xuICAgICAgICAvKipcbiAgICAgICAgICogV2hldGhlciB0aGlzIGlzIGEgc3RhY2sgdmFyaWFibGUuXG4gICAgICAgICAqIEBtZW1iZXIge2Jvb2xlYW59IFZhcmlhYmxlI3N0YWNrXG4gICAgICAgICAqL1xuICAgICAgICB0aGlzLnN0YWNrID0gdHJ1ZTtcbiAgICAgICAgLyoqXG4gICAgICAgICAqIFJlZmVyZW5jZSB0byB0aGUgZW5jbG9zaW5nIFNjb3BlLlxuICAgICAgICAgKiBAbWVtYmVyIHtTY29wZX0gVmFyaWFibGUjc2NvcGVcbiAgICAgICAgICovXG4gICAgICAgIHRoaXMuc2NvcGUgPSBzY29wZTtcbiAgICB9XG59XG5cblZhcmlhYmxlLkNhdGNoQ2xhdXNlID0gJ0NhdGNoQ2xhdXNlJztcblZhcmlhYmxlLlBhcmFtZXRlciA9ICdQYXJhbWV0ZXInO1xuVmFyaWFibGUuRnVuY3Rpb25OYW1lID0gJ0Z1bmN0aW9uTmFtZSc7XG5WYXJpYWJsZS5DbGFzc05hbWUgPSAnQ2xhc3NOYW1lJztcblZhcmlhYmxlLlZhcmlhYmxlID0gJ1ZhcmlhYmxlJztcblZhcmlhYmxlLkltcG9ydEJpbmRpbmcgPSAnSW1wb3J0QmluZGluZyc7XG5WYXJpYWJsZS5URFogPSAnVERaJztcblZhcmlhYmxlLkltcGxpY2l0R2xvYmFsVmFyaWFibGUgPSAnSW1wbGljaXRHbG9iYWxWYXJpYWJsZSc7XG5cbi8qIHZpbTogc2V0IHN3PTQgdHM9NCBldCB0dz04MCA6ICovXG4iXX0=
-
-
-/***/ }),
-
-/***/ 7901:
-/***/ ((__unused_webpack_module, exports) => {
-
-/*
-  Copyright (C) 2012-2013 Yusuke Suzuki <utatane.tea@gmail.com>
-  Copyright (C) 2012 Ariya Hidayat <ariya.hidayat@gmail.com>
-
-  Redistribution and use in source and binary forms, with or without
-  modification, are permitted provided that the following conditions are met:
-
-    * Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright
-      notice, this list of conditions and the following disclaimer in the
-      documentation and/or other materials provided with the distribution.
-
-  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-  ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
-  DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-  (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-  LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
-/*jslint vars:false, bitwise:true*/
-/*jshint indent:4*/
-/*global exports:true*/
-(function clone(exports) {
-    'use strict';
-
-    var Syntax,
-        VisitorOption,
-        VisitorKeys,
-        BREAK,
-        SKIP,
-        REMOVE;
-
-    function deepCopy(obj) {
-        var ret = {}, key, val;
-        for (key in obj) {
-            if (obj.hasOwnProperty(key)) {
-                val = obj[key];
-                if (typeof val === 'object' && val !== null) {
-                    ret[key] = deepCopy(val);
-                } else {
-                    ret[key] = val;
-                }
-            }
-        }
-        return ret;
-    }
-
-    // based on LLVM libc++ upper_bound / lower_bound
-    // MIT License
-
-    function upperBound(array, func) {
-        var diff, len, i, current;
-
-        len = array.length;
-        i = 0;
-
-        while (len) {
-            diff = len >>> 1;
-            current = i + diff;
-            if (func(array[current])) {
-                len = diff;
-            } else {
-                i = current + 1;
-                len -= diff + 1;
-            }
-        }
-        return i;
-    }
-
-    Syntax = {
-        AssignmentExpression: 'AssignmentExpression',
-        AssignmentPattern: 'AssignmentPattern',
-        ArrayExpression: 'ArrayExpression',
-        ArrayPattern: 'ArrayPattern',
-        ArrowFunctionExpression: 'ArrowFunctionExpression',
-        AwaitExpression: 'AwaitExpression', // CAUTION: It's deferred to ES7.
-        BlockStatement: 'BlockStatement',
-        BinaryExpression: 'BinaryExpression',
-        BreakStatement: 'BreakStatement',
-        CallExpression: 'CallExpression',
-        CatchClause: 'CatchClause',
-        ChainExpression: 'ChainExpression',
-        ClassBody: 'ClassBody',
-        ClassDeclaration: 'ClassDeclaration',
-        ClassExpression: 'ClassExpression',
-        ComprehensionBlock: 'ComprehensionBlock',  // CAUTION: It's deferred to ES7.
-        ComprehensionExpression: 'ComprehensionExpression',  // CAUTION: It's deferred to ES7.
-        ConditionalExpression: 'ConditionalExpression',
-        ContinueStatement: 'ContinueStatement',
-        DebuggerStatement: 'DebuggerStatement',
-        DirectiveStatement: 'DirectiveStatement',
-        DoWhileStatement: 'DoWhileStatement',
-        EmptyStatement: 'EmptyStatement',
-        ExportAllDeclaration: 'ExportAllDeclaration',
-        ExportDefaultDeclaration: 'ExportDefaultDeclaration',
-        ExportNamedDeclaration: 'ExportNamedDeclaration',
-        ExportSpecifier: 'ExportSpecifier',
-        ExpressionStatement: 'ExpressionStatement',
-        ForStatement: 'ForStatement',
-        ForInStatement: 'ForInStatement',
-        ForOfStatement: 'ForOfStatement',
-        FunctionDeclaration: 'FunctionDeclaration',
-        FunctionExpression: 'FunctionExpression',
-        GeneratorExpression: 'GeneratorExpression',  // CAUTION: It's deferred to ES7.
-        Identifier: 'Identifier',
-        IfStatement: 'IfStatement',
-        ImportExpression: 'ImportExpression',
-        ImportDeclaration: 'ImportDeclaration',
-        ImportDefaultSpecifier: 'ImportDefaultSpecifier',
-        ImportNamespaceSpecifier: 'ImportNamespaceSpecifier',
-        ImportSpecifier: 'ImportSpecifier',
-        Literal: 'Literal',
-        LabeledStatement: 'LabeledStatement',
-        LogicalExpression: 'LogicalExpression',
-        MemberExpression: 'MemberExpression',
-        MetaProperty: 'MetaProperty',
-        MethodDefinition: 'MethodDefinition',
-        ModuleSpecifier: 'ModuleSpecifier',
-        NewExpression: 'NewExpression',
-        ObjectExpression: 'ObjectExpression',
-        ObjectPattern: 'ObjectPattern',
-        PrivateIdentifier: 'PrivateIdentifier',
-        Program: 'Program',
-        Property: 'Property',
-        PropertyDefinition: 'PropertyDefinition',
-        RestElement: 'RestElement',
-        ReturnStatement: 'ReturnStatement',
-        SequenceExpression: 'SequenceExpression',
-        SpreadElement: 'SpreadElement',
-        Super: 'Super',
-        SwitchStatement: 'SwitchStatement',
-        SwitchCase: 'SwitchCase',
-        TaggedTemplateExpression: 'TaggedTemplateExpression',
-        TemplateElement: 'TemplateElement',
-        TemplateLiteral: 'TemplateLiteral',
-        ThisExpression: 'ThisExpression',
-        ThrowStatement: 'ThrowStatement',
-        TryStatement: 'TryStatement',
-        UnaryExpression: 'UnaryExpression',
-        UpdateExpression: 'UpdateExpression',
-        VariableDeclaration: 'VariableDeclaration',
-        VariableDeclarator: 'VariableDeclarator',
-        WhileStatement: 'WhileStatement',
-        WithStatement: 'WithStatement',
-        YieldExpression: 'YieldExpression'
-    };
-
-    VisitorKeys = {
-        AssignmentExpression: ['left', 'right'],
-        AssignmentPattern: ['left', 'right'],
-        ArrayExpression: ['elements'],
-        ArrayPattern: ['elements'],
-        ArrowFunctionExpression: ['params', 'body'],
-        AwaitExpression: ['argument'], // CAUTION: It's deferred to ES7.
-        BlockStatement: ['body'],
-        BinaryExpression: ['left', 'right'],
-        BreakStatement: ['label'],
-        CallExpression: ['callee', 'arguments'],
-        CatchClause: ['param', 'body'],
-        ChainExpression: ['expression'],
-        ClassBody: ['body'],
-        ClassDeclaration: ['id', 'superClass', 'body'],
-        ClassExpression: ['id', 'superClass', 'body'],
-        ComprehensionBlock: ['left', 'right'],  // CAUTION: It's deferred to ES7.
-        ComprehensionExpression: ['blocks', 'filter', 'body'],  // CAUTION: It's deferred to ES7.
-        ConditionalExpression: ['test', 'consequent', 'alternate'],
-        ContinueStatement: ['label'],
-        DebuggerStatement: [],
-        DirectiveStatement: [],
-        DoWhileStatement: ['body', 'test'],
-        EmptyStatement: [],
-        ExportAllDeclaration: ['source'],
-        ExportDefaultDeclaration: ['declaration'],
-        ExportNamedDeclaration: ['declaration', 'specifiers', 'source'],
-        ExportSpecifier: ['exported', 'local'],
-        ExpressionStatement: ['expression'],
-        ForStatement: ['init', 'test', 'update', 'body'],
-        ForInStatement: ['left', 'right', 'body'],
-        ForOfStatement: ['left', 'right', 'body'],
-        FunctionDeclaration: ['id', 'params', 'body'],
-        FunctionExpression: ['id', 'params', 'body'],
-        GeneratorExpression: ['blocks', 'filter', 'body'],  // CAUTION: It's deferred to ES7.
-        Identifier: [],
-        IfStatement: ['test', 'consequent', 'alternate'],
-        ImportExpression: ['source'],
-        ImportDeclaration: ['specifiers', 'source'],
-        ImportDefaultSpecifier: ['local'],
-        ImportNamespaceSpecifier: ['local'],
-        ImportSpecifier: ['imported', 'local'],
-        Literal: [],
-        LabeledStatement: ['label', 'body'],
-        LogicalExpression: ['left', 'right'],
-        MemberExpression: ['object', 'property'],
-        MetaProperty: ['meta', 'property'],
-        MethodDefinition: ['key', 'value'],
-        ModuleSpecifier: [],
-        NewExpression: ['callee', 'arguments'],
-        ObjectExpression: ['properties'],
-        ObjectPattern: ['properties'],
-        PrivateIdentifier: [],
-        Program: ['body'],
-        Property: ['key', 'value'],
-        PropertyDefinition: ['key', 'value'],
-        RestElement: [ 'argument' ],
-        ReturnStatement: ['argument'],
-        SequenceExpression: ['expressions'],
-        SpreadElement: ['argument'],
-        Super: [],
-        SwitchStatement: ['discriminant', 'cases'],
-        SwitchCase: ['test', 'consequent'],
-        TaggedTemplateExpression: ['tag', 'quasi'],
-        TemplateElement: [],
-        TemplateLiteral: ['quasis', 'expressions'],
-        ThisExpression: [],
-        ThrowStatement: ['argument'],
-        TryStatement: ['block', 'handler', 'finalizer'],
-        UnaryExpression: ['argument'],
-        UpdateExpression: ['argument'],
-        VariableDeclaration: ['declarations'],
-        VariableDeclarator: ['id', 'init'],
-        WhileStatement: ['test', 'body'],
-        WithStatement: ['object', 'body'],
-        YieldExpression: ['argument']
-    };
-
-    // unique id
-    BREAK = {};
-    SKIP = {};
-    REMOVE = {};
-
-    VisitorOption = {
-        Break: BREAK,
-        Skip: SKIP,
-        Remove: REMOVE
-    };
-
-    function Reference(parent, key) {
-        this.parent = parent;
-        this.key = key;
-    }
-
-    Reference.prototype.replace = function replace(node) {
-        this.parent[this.key] = node;
-    };
-
-    Reference.prototype.remove = function remove() {
-        if (Array.isArray(this.parent)) {
-            this.parent.splice(this.key, 1);
-            return true;
-        } else {
-            this.replace(null);
-            return false;
-        }
-    };
-
-    function Element(node, path, wrap, ref) {
-        this.node = node;
-        this.path = path;
-        this.wrap = wrap;
-        this.ref = ref;
-    }
-
-    function Controller() { }
-
-    // API:
-    // return property path array from root to current node
-    Controller.prototype.path = function path() {
-        var i, iz, j, jz, result, element;
-
-        function addToPath(result, path) {
-            if (Array.isArray(path)) {
-                for (j = 0, jz = path.length; j < jz; ++j) {
-                    result.push(path[j]);
-                }
-            } else {
-                result.push(path);
-            }
-        }
-
-        // root node
-        if (!this.__current.path) {
-            return null;
-        }
-
-        // first node is sentinel, second node is root element
-        result = [];
-        for (i = 2, iz = this.__leavelist.length; i < iz; ++i) {
-            element = this.__leavelist[i];
-            addToPath(result, element.path);
-        }
-        addToPath(result, this.__current.path);
-        return result;
-    };
-
-    // API:
-    // return type of current node
-    Controller.prototype.type = function () {
-        var node = this.current();
-        return node.type || this.__current.wrap;
-    };
-
-    // API:
-    // return array of parent elements
-    Controller.prototype.parents = function parents() {
-        var i, iz, result;
-
-        // first node is sentinel
-        result = [];
-        for (i = 1, iz = this.__leavelist.length; i < iz; ++i) {
-            result.push(this.__leavelist[i].node);
-        }
-
-        return result;
-    };
-
-    // API:
-    // return current node
-    Controller.prototype.current = function current() {
-        return this.__current.node;
-    };
-
-    Controller.prototype.__execute = function __execute(callback, element) {
-        var previous, result;
-
-        result = undefined;
-
-        previous  = this.__current;
-        this.__current = element;
-        this.__state = null;
-        if (callback) {
-            result = callback.call(this, element.node, this.__leavelist[this.__leavelist.length - 1].node);
-        }
-        this.__current = previous;
-
-        return result;
-    };
-
-    // API:
-    // notify control skip / break
-    Controller.prototype.notify = function notify(flag) {
-        this.__state = flag;
-    };
-
-    // API:
-    // skip child nodes of current node
-    Controller.prototype.skip = function () {
-        this.notify(SKIP);
-    };
-
-    // API:
-    // break traversals
-    Controller.prototype['break'] = function () {
-        this.notify(BREAK);
-    };
-
-    // API:
-    // remove node
-    Controller.prototype.remove = function () {
-        this.notify(REMOVE);
-    };
-
-    Controller.prototype.__initialize = function(root, visitor) {
-        this.visitor = visitor;
-        this.root = root;
-        this.__worklist = [];
-        this.__leavelist = [];
-        this.__current = null;
-        this.__state = null;
-        this.__fallback = null;
-        if (visitor.fallback === 'iteration') {
-            this.__fallback = Object.keys;
-        } else if (typeof visitor.fallback === 'function') {
-            this.__fallback = visitor.fallback;
-        }
-
-        this.__keys = VisitorKeys;
-        if (visitor.keys) {
-            this.__keys = Object.assign(Object.create(this.__keys), visitor.keys);
-        }
-    };
-
-    function isNode(node) {
-        if (node == null) {
-            return false;
-        }
-        return typeof node === 'object' && typeof node.type === 'string';
-    }
-
-    function isProperty(nodeType, key) {
-        return (nodeType === Syntax.ObjectExpression || nodeType === Syntax.ObjectPattern) && 'properties' === key;
-    }
-  
-    function candidateExistsInLeaveList(leavelist, candidate) {
-        for (var i = leavelist.length - 1; i >= 0; --i) {
-            if (leavelist[i].node === candidate) {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    Controller.prototype.traverse = function traverse(root, visitor) {
-        var worklist,
-            leavelist,
-            element,
-            node,
-            nodeType,
-            ret,
-            key,
-            current,
-            current2,
-            candidates,
-            candidate,
-            sentinel;
-
-        this.__initialize(root, visitor);
-
-        sentinel = {};
-
-        // reference
-        worklist = this.__worklist;
-        leavelist = this.__leavelist;
-
-        // initialize
-        worklist.push(new Element(root, null, null, null));
-        leavelist.push(new Element(null, null, null, null));
-
-        while (worklist.length) {
-            element = worklist.pop();
-
-            if (element === sentinel) {
-                element = leavelist.pop();
-
-                ret = this.__execute(visitor.leave, element);
-
-                if (this.__state === BREAK || ret === BREAK) {
-                    return;
-                }
-                continue;
-            }
-
-            if (element.node) {
-
-                ret = this.__execute(visitor.enter, element);
-
-                if (this.__state === BREAK || ret === BREAK) {
-                    return;
-                }
-
-                worklist.push(sentinel);
-                leavelist.push(element);
-
-                if (this.__state === SKIP || ret === SKIP) {
-                    continue;
-                }
-
-                node = element.node;
-                nodeType = node.type || element.wrap;
-                candidates = this.__keys[nodeType];
-                if (!candidates) {
-                    if (this.__fallback) {
-                        candidates = this.__fallback(node);
-                    } else {
-                        throw new Error('Unknown node type ' + nodeType + '.');
-                    }
-                }
-
-                current = candidates.length;
-                while ((current -= 1) >= 0) {
-                    key = candidates[current];
-                    candidate = node[key];
-                    if (!candidate) {
-                        continue;
-                    }
-
-                    if (Array.isArray(candidate)) {
-                        current2 = candidate.length;
-                        while ((current2 -= 1) >= 0) {
-                            if (!candidate[current2]) {
-                                continue;
-                            }
-
-                            if (candidateExistsInLeaveList(leavelist, candidate[current2])) {
-                              continue;
-                            }
-
-                            if (isProperty(nodeType, candidates[current])) {
-                                element = new Element(candidate[current2], [key, current2], 'Property', null);
-                            } else if (isNode(candidate[current2])) {
-                                element = new Element(candidate[current2], [key, current2], null, null);
-                            } else {
-                                continue;
-                            }
-                            worklist.push(element);
-                        }
-                    } else if (isNode(candidate)) {
-                        if (candidateExistsInLeaveList(leavelist, candidate)) {
-                          continue;
-                        }
-
-                        worklist.push(new Element(candidate, key, null, null));
-                    }
-                }
-            }
-        }
-    };
-
-    Controller.prototype.replace = function replace(root, visitor) {
-        var worklist,
-            leavelist,
-            node,
-            nodeType,
-            target,
-            element,
-            current,
-            current2,
-            candidates,
-            candidate,
-            sentinel,
-            outer,
-            key;
-
-        function removeElem(element) {
-            var i,
-                key,
-                nextElem,
-                parent;
-
-            if (element.ref.remove()) {
-                // When the reference is an element of an array.
-                key = element.ref.key;
-                parent = element.ref.parent;
-
-                // If removed from array, then decrease following items' keys.
-                i = worklist.length;
-                while (i--) {
-                    nextElem = worklist[i];
-                    if (nextElem.ref && nextElem.ref.parent === parent) {
-                        if  (nextElem.ref.key < key) {
-                            break;
-                        }
-                        --nextElem.ref.key;
-                    }
-                }
-            }
-        }
-
-        this.__initialize(root, visitor);
-
-        sentinel = {};
-
-        // reference
-        worklist = this.__worklist;
-        leavelist = this.__leavelist;
-
-        // initialize
-        outer = {
-            root: root
-        };
-        element = new Element(root, null, null, new Reference(outer, 'root'));
-        worklist.push(element);
-        leavelist.push(element);
-
-        while (worklist.length) {
-            element = worklist.pop();
-
-            if (element === sentinel) {
-                element = leavelist.pop();
-
-                target = this.__execute(visitor.leave, element);
-
-                // node may be replaced with null,
-                // so distinguish between undefined and null in this place
-                if (target !== undefined && target !== BREAK && target !== SKIP && target !== REMOVE) {
-                    // replace
-                    element.ref.replace(target);
-                }
-
-                if (this.__state === REMOVE || target === REMOVE) {
-                    removeElem(element);
-                }
-
-                if (this.__state === BREAK || target === BREAK) {
-                    return outer.root;
-                }
-                continue;
-            }
-
-            target = this.__execute(visitor.enter, element);
-
-            // node may be replaced with null,
-            // so distinguish between undefined and null in this place
-            if (target !== undefined && target !== BREAK && target !== SKIP && target !== REMOVE) {
-                // replace
-                element.ref.replace(target);
-                element.node = target;
-            }
-
-            if (this.__state === REMOVE || target === REMOVE) {
-                removeElem(element);
-                element.node = null;
-            }
-
-            if (this.__state === BREAK || target === BREAK) {
-                return outer.root;
-            }
-
-            // node may be null
-            node = element.node;
-            if (!node) {
-                continue;
-            }
-
-            worklist.push(sentinel);
-            leavelist.push(element);
-
-            if (this.__state === SKIP || target === SKIP) {
-                continue;
-            }
-
-            nodeType = node.type || element.wrap;
-            candidates = this.__keys[nodeType];
-            if (!candidates) {
-                if (this.__fallback) {
-                    candidates = this.__fallback(node);
-                } else {
-                    throw new Error('Unknown node type ' + nodeType + '.');
-                }
-            }
-
-            current = candidates.length;
-            while ((current -= 1) >= 0) {
-                key = candidates[current];
-                candidate = node[key];
-                if (!candidate) {
-                    continue;
-                }
-
-                if (Array.isArray(candidate)) {
-                    current2 = candidate.length;
-                    while ((current2 -= 1) >= 0) {
-                        if (!candidate[current2]) {
-                            continue;
-                        }
-                        if (isProperty(nodeType, candidates[current])) {
-                            element = new Element(candidate[current2], [key, current2], 'Property', new Reference(candidate, current2));
-                        } else if (isNode(candidate[current2])) {
-                            element = new Element(candidate[current2], [key, current2], null, new Reference(candidate, current2));
-                        } else {
-                            continue;
-                        }
-                        worklist.push(element);
-                    }
-                } else if (isNode(candidate)) {
-                    worklist.push(new Element(candidate, key, null, new Reference(node, key)));
-                }
-            }
-        }
-
-        return outer.root;
-    };
-
-    function traverse(root, visitor) {
-        var controller = new Controller();
-        return controller.traverse(root, visitor);
-    }
-
-    function replace(root, visitor) {
-        var controller = new Controller();
-        return controller.replace(root, visitor);
-    }
-
-    function extendCommentRange(comment, tokens) {
-        var target;
-
-        target = upperBound(tokens, function search(token) {
-            return token.range[0] > comment.range[0];
-        });
-
-        comment.extendedRange = [comment.range[0], comment.range[1]];
-
-        if (target !== tokens.length) {
-            comment.extendedRange[1] = tokens[target].range[0];
-        }
-
-        target -= 1;
-        if (target >= 0) {
-            comment.extendedRange[0] = tokens[target].range[1];
-        }
-
-        return comment;
-    }
-
-    function attachComments(tree, providedComments, tokens) {
-        // At first, we should calculate extended comment ranges.
-        var comments = [], comment, len, i, cursor;
-
-        if (!tree.range) {
-            throw new Error('attachComments needs range information');
-        }
-
-        // tokens array is empty, we attach comments to tree as 'leadingComments'
-        if (!tokens.length) {
-            if (providedComments.length) {
-                for (i = 0, len = providedComments.length; i < len; i += 1) {
-                    comment = deepCopy(providedComments[i]);
-                    comment.extendedRange = [0, tree.range[0]];
-                    comments.push(comment);
-                }
-                tree.leadingComments = comments;
-            }
-            return tree;
-        }
-
-        for (i = 0, len = providedComments.length; i < len; i += 1) {
-            comments.push(extendCommentRange(deepCopy(providedComments[i]), tokens));
-        }
-
-        // This is based on John Freeman's implementation.
-        cursor = 0;
-        traverse(tree, {
-            enter: function (node) {
-                var comment;
-
-                while (cursor < comments.length) {
-                    comment = comments[cursor];
-                    if (comment.extendedRange[1] > node.range[0]) {
-                        break;
-                    }
-
-                    if (comment.extendedRange[1] === node.range[0]) {
-                        if (!node.leadingComments) {
-                            node.leadingComments = [];
-                        }
-                        node.leadingComments.push(comment);
-                        comments.splice(cursor, 1);
-                    } else {
-                        cursor += 1;
-                    }
-                }
-
-                // already out of owned node
-                if (cursor === comments.length) {
-                    return VisitorOption.Break;
-                }
-
-                if (comments[cursor].extendedRange[0] > node.range[1]) {
-                    return VisitorOption.Skip;
-                }
-            }
-        });
-
-        cursor = 0;
-        traverse(tree, {
-            leave: function (node) {
-                var comment;
-
-                while (cursor < comments.length) {
-                    comment = comments[cursor];
-                    if (node.range[1] < comment.extendedRange[0]) {
-                        break;
-                    }
-
-                    if (node.range[1] === comment.extendedRange[0]) {
-                        if (!node.trailingComments) {
-                            node.trailingComments = [];
-                        }
-                        node.trailingComments.push(comment);
-                        comments.splice(cursor, 1);
-                    } else {
-                        cursor += 1;
-                    }
-                }
-
-                // already out of owned node
-                if (cursor === comments.length) {
-                    return VisitorOption.Break;
-                }
-
-                if (comments[cursor].extendedRange[0] > node.range[1]) {
-                    return VisitorOption.Skip;
-                }
-            }
-        });
-
-        return tree;
-    }
-
-    exports.Syntax = Syntax;
-    exports.traverse = traverse;
-    exports.replace = replace;
-    exports.attachComments = attachComments;
-    exports.VisitorKeys = VisitorKeys;
-    exports.VisitorOption = VisitorOption;
-    exports.Controller = Controller;
-    exports.cloneEnvironment = function () { return clone({}); };
-
-    return exports;
-}(exports));
-/* vim: set sw=4 ts=4 et tw=80 : */
 
 
 /***/ }),
@@ -29116,7 +25617,7 @@ return /******/ (function(modules) { // webpackBootstrap
 (function () {
     'use strict';
 
-    var estraverse = __webpack_require__(3094);
+    var estraverse = __webpack_require__(7085);
 
     function isNode(node) {
         if (node == null) {
@@ -29211,7 +25712,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ }),
 
-/***/ 3094:
+/***/ 7085:
 /***/ ((__unused_webpack_module, exports) => {
 
 /*
@@ -30023,795 +26524,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ }),
 
-/***/ 7085:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-/*
-  Copyright (C) 2012-2013 Yusuke Suzuki <utatane.tea@gmail.com>
-  Copyright (C) 2012 Ariya Hidayat <ariya.hidayat@gmail.com>
-
-  Redistribution and use in source and binary forms, with or without
-  modification, are permitted provided that the following conditions are met:
-
-    * Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright
-      notice, this list of conditions and the following disclaimer in the
-      documentation and/or other materials provided with the distribution.
-
-  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-  ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
-  DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-  (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-  LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
-/*jslint vars:false, bitwise:true*/
-/*jshint indent:4*/
-/*global exports:true*/
-(function clone(exports) {
-    'use strict';
-
-    var Syntax,
-        VisitorOption,
-        VisitorKeys,
-        BREAK,
-        SKIP,
-        REMOVE;
-
-    function deepCopy(obj) {
-        var ret = {}, key, val;
-        for (key in obj) {
-            if (obj.hasOwnProperty(key)) {
-                val = obj[key];
-                if (typeof val === 'object' && val !== null) {
-                    ret[key] = deepCopy(val);
-                } else {
-                    ret[key] = val;
-                }
-            }
-        }
-        return ret;
-    }
-
-    // based on LLVM libc++ upper_bound / lower_bound
-    // MIT License
-
-    function upperBound(array, func) {
-        var diff, len, i, current;
-
-        len = array.length;
-        i = 0;
-
-        while (len) {
-            diff = len >>> 1;
-            current = i + diff;
-            if (func(array[current])) {
-                len = diff;
-            } else {
-                i = current + 1;
-                len -= diff + 1;
-            }
-        }
-        return i;
-    }
-
-    Syntax = {
-        AssignmentExpression: 'AssignmentExpression',
-        AssignmentPattern: 'AssignmentPattern',
-        ArrayExpression: 'ArrayExpression',
-        ArrayPattern: 'ArrayPattern',
-        ArrowFunctionExpression: 'ArrowFunctionExpression',
-        AwaitExpression: 'AwaitExpression', // CAUTION: It's deferred to ES7.
-        BlockStatement: 'BlockStatement',
-        BinaryExpression: 'BinaryExpression',
-        BreakStatement: 'BreakStatement',
-        CallExpression: 'CallExpression',
-        CatchClause: 'CatchClause',
-        ClassBody: 'ClassBody',
-        ClassDeclaration: 'ClassDeclaration',
-        ClassExpression: 'ClassExpression',
-        ComprehensionBlock: 'ComprehensionBlock',  // CAUTION: It's deferred to ES7.
-        ComprehensionExpression: 'ComprehensionExpression',  // CAUTION: It's deferred to ES7.
-        ConditionalExpression: 'ConditionalExpression',
-        ContinueStatement: 'ContinueStatement',
-        DebuggerStatement: 'DebuggerStatement',
-        DirectiveStatement: 'DirectiveStatement',
-        DoWhileStatement: 'DoWhileStatement',
-        EmptyStatement: 'EmptyStatement',
-        ExportAllDeclaration: 'ExportAllDeclaration',
-        ExportDefaultDeclaration: 'ExportDefaultDeclaration',
-        ExportNamedDeclaration: 'ExportNamedDeclaration',
-        ExportSpecifier: 'ExportSpecifier',
-        ExpressionStatement: 'ExpressionStatement',
-        ForStatement: 'ForStatement',
-        ForInStatement: 'ForInStatement',
-        ForOfStatement: 'ForOfStatement',
-        FunctionDeclaration: 'FunctionDeclaration',
-        FunctionExpression: 'FunctionExpression',
-        GeneratorExpression: 'GeneratorExpression',  // CAUTION: It's deferred to ES7.
-        Identifier: 'Identifier',
-        IfStatement: 'IfStatement',
-        ImportExpression: 'ImportExpression',
-        ImportDeclaration: 'ImportDeclaration',
-        ImportDefaultSpecifier: 'ImportDefaultSpecifier',
-        ImportNamespaceSpecifier: 'ImportNamespaceSpecifier',
-        ImportSpecifier: 'ImportSpecifier',
-        Literal: 'Literal',
-        LabeledStatement: 'LabeledStatement',
-        LogicalExpression: 'LogicalExpression',
-        MemberExpression: 'MemberExpression',
-        MetaProperty: 'MetaProperty',
-        MethodDefinition: 'MethodDefinition',
-        ModuleSpecifier: 'ModuleSpecifier',
-        NewExpression: 'NewExpression',
-        ObjectExpression: 'ObjectExpression',
-        ObjectPattern: 'ObjectPattern',
-        Program: 'Program',
-        Property: 'Property',
-        RestElement: 'RestElement',
-        ReturnStatement: 'ReturnStatement',
-        SequenceExpression: 'SequenceExpression',
-        SpreadElement: 'SpreadElement',
-        Super: 'Super',
-        SwitchStatement: 'SwitchStatement',
-        SwitchCase: 'SwitchCase',
-        TaggedTemplateExpression: 'TaggedTemplateExpression',
-        TemplateElement: 'TemplateElement',
-        TemplateLiteral: 'TemplateLiteral',
-        ThisExpression: 'ThisExpression',
-        ThrowStatement: 'ThrowStatement',
-        TryStatement: 'TryStatement',
-        UnaryExpression: 'UnaryExpression',
-        UpdateExpression: 'UpdateExpression',
-        VariableDeclaration: 'VariableDeclaration',
-        VariableDeclarator: 'VariableDeclarator',
-        WhileStatement: 'WhileStatement',
-        WithStatement: 'WithStatement',
-        YieldExpression: 'YieldExpression'
-    };
-
-    VisitorKeys = {
-        AssignmentExpression: ['left', 'right'],
-        AssignmentPattern: ['left', 'right'],
-        ArrayExpression: ['elements'],
-        ArrayPattern: ['elements'],
-        ArrowFunctionExpression: ['params', 'body'],
-        AwaitExpression: ['argument'], // CAUTION: It's deferred to ES7.
-        BlockStatement: ['body'],
-        BinaryExpression: ['left', 'right'],
-        BreakStatement: ['label'],
-        CallExpression: ['callee', 'arguments'],
-        CatchClause: ['param', 'body'],
-        ClassBody: ['body'],
-        ClassDeclaration: ['id', 'superClass', 'body'],
-        ClassExpression: ['id', 'superClass', 'body'],
-        ComprehensionBlock: ['left', 'right'],  // CAUTION: It's deferred to ES7.
-        ComprehensionExpression: ['blocks', 'filter', 'body'],  // CAUTION: It's deferred to ES7.
-        ConditionalExpression: ['test', 'consequent', 'alternate'],
-        ContinueStatement: ['label'],
-        DebuggerStatement: [],
-        DirectiveStatement: [],
-        DoWhileStatement: ['body', 'test'],
-        EmptyStatement: [],
-        ExportAllDeclaration: ['source'],
-        ExportDefaultDeclaration: ['declaration'],
-        ExportNamedDeclaration: ['declaration', 'specifiers', 'source'],
-        ExportSpecifier: ['exported', 'local'],
-        ExpressionStatement: ['expression'],
-        ForStatement: ['init', 'test', 'update', 'body'],
-        ForInStatement: ['left', 'right', 'body'],
-        ForOfStatement: ['left', 'right', 'body'],
-        FunctionDeclaration: ['id', 'params', 'body'],
-        FunctionExpression: ['id', 'params', 'body'],
-        GeneratorExpression: ['blocks', 'filter', 'body'],  // CAUTION: It's deferred to ES7.
-        Identifier: [],
-        IfStatement: ['test', 'consequent', 'alternate'],
-        ImportExpression: ['source'],
-        ImportDeclaration: ['specifiers', 'source'],
-        ImportDefaultSpecifier: ['local'],
-        ImportNamespaceSpecifier: ['local'],
-        ImportSpecifier: ['imported', 'local'],
-        Literal: [],
-        LabeledStatement: ['label', 'body'],
-        LogicalExpression: ['left', 'right'],
-        MemberExpression: ['object', 'property'],
-        MetaProperty: ['meta', 'property'],
-        MethodDefinition: ['key', 'value'],
-        ModuleSpecifier: [],
-        NewExpression: ['callee', 'arguments'],
-        ObjectExpression: ['properties'],
-        ObjectPattern: ['properties'],
-        Program: ['body'],
-        Property: ['key', 'value'],
-        RestElement: [ 'argument' ],
-        ReturnStatement: ['argument'],
-        SequenceExpression: ['expressions'],
-        SpreadElement: ['argument'],
-        Super: [],
-        SwitchStatement: ['discriminant', 'cases'],
-        SwitchCase: ['test', 'consequent'],
-        TaggedTemplateExpression: ['tag', 'quasi'],
-        TemplateElement: [],
-        TemplateLiteral: ['quasis', 'expressions'],
-        ThisExpression: [],
-        ThrowStatement: ['argument'],
-        TryStatement: ['block', 'handler', 'finalizer'],
-        UnaryExpression: ['argument'],
-        UpdateExpression: ['argument'],
-        VariableDeclaration: ['declarations'],
-        VariableDeclarator: ['id', 'init'],
-        WhileStatement: ['test', 'body'],
-        WithStatement: ['object', 'body'],
-        YieldExpression: ['argument']
-    };
-
-    // unique id
-    BREAK = {};
-    SKIP = {};
-    REMOVE = {};
-
-    VisitorOption = {
-        Break: BREAK,
-        Skip: SKIP,
-        Remove: REMOVE
-    };
-
-    function Reference(parent, key) {
-        this.parent = parent;
-        this.key = key;
-    }
-
-    Reference.prototype.replace = function replace(node) {
-        this.parent[this.key] = node;
-    };
-
-    Reference.prototype.remove = function remove() {
-        if (Array.isArray(this.parent)) {
-            this.parent.splice(this.key, 1);
-            return true;
-        } else {
-            this.replace(null);
-            return false;
-        }
-    };
-
-    function Element(node, path, wrap, ref) {
-        this.node = node;
-        this.path = path;
-        this.wrap = wrap;
-        this.ref = ref;
-    }
-
-    function Controller() { }
-
-    // API:
-    // return property path array from root to current node
-    Controller.prototype.path = function path() {
-        var i, iz, j, jz, result, element;
-
-        function addToPath(result, path) {
-            if (Array.isArray(path)) {
-                for (j = 0, jz = path.length; j < jz; ++j) {
-                    result.push(path[j]);
-                }
-            } else {
-                result.push(path);
-            }
-        }
-
-        // root node
-        if (!this.__current.path) {
-            return null;
-        }
-
-        // first node is sentinel, second node is root element
-        result = [];
-        for (i = 2, iz = this.__leavelist.length; i < iz; ++i) {
-            element = this.__leavelist[i];
-            addToPath(result, element.path);
-        }
-        addToPath(result, this.__current.path);
-        return result;
-    };
-
-    // API:
-    // return type of current node
-    Controller.prototype.type = function () {
-        var node = this.current();
-        return node.type || this.__current.wrap;
-    };
-
-    // API:
-    // return array of parent elements
-    Controller.prototype.parents = function parents() {
-        var i, iz, result;
-
-        // first node is sentinel
-        result = [];
-        for (i = 1, iz = this.__leavelist.length; i < iz; ++i) {
-            result.push(this.__leavelist[i].node);
-        }
-
-        return result;
-    };
-
-    // API:
-    // return current node
-    Controller.prototype.current = function current() {
-        return this.__current.node;
-    };
-
-    Controller.prototype.__execute = function __execute(callback, element) {
-        var previous, result;
-
-        result = undefined;
-
-        previous  = this.__current;
-        this.__current = element;
-        this.__state = null;
-        if (callback) {
-            result = callback.call(this, element.node, this.__leavelist[this.__leavelist.length - 1].node);
-        }
-        this.__current = previous;
-
-        return result;
-    };
-
-    // API:
-    // notify control skip / break
-    Controller.prototype.notify = function notify(flag) {
-        this.__state = flag;
-    };
-
-    // API:
-    // skip child nodes of current node
-    Controller.prototype.skip = function () {
-        this.notify(SKIP);
-    };
-
-    // API:
-    // break traversals
-    Controller.prototype['break'] = function () {
-        this.notify(BREAK);
-    };
-
-    // API:
-    // remove node
-    Controller.prototype.remove = function () {
-        this.notify(REMOVE);
-    };
-
-    Controller.prototype.__initialize = function(root, visitor) {
-        this.visitor = visitor;
-        this.root = root;
-        this.__worklist = [];
-        this.__leavelist = [];
-        this.__current = null;
-        this.__state = null;
-        this.__fallback = null;
-        if (visitor.fallback === 'iteration') {
-            this.__fallback = Object.keys;
-        } else if (typeof visitor.fallback === 'function') {
-            this.__fallback = visitor.fallback;
-        }
-
-        this.__keys = VisitorKeys;
-        if (visitor.keys) {
-            this.__keys = Object.assign(Object.create(this.__keys), visitor.keys);
-        }
-    };
-
-    function isNode(node) {
-        if (node == null) {
-            return false;
-        }
-        return typeof node === 'object' && typeof node.type === 'string';
-    }
-
-    function isProperty(nodeType, key) {
-        return (nodeType === Syntax.ObjectExpression || nodeType === Syntax.ObjectPattern) && 'properties' === key;
-    }
-
-    Controller.prototype.traverse = function traverse(root, visitor) {
-        var worklist,
-            leavelist,
-            element,
-            node,
-            nodeType,
-            ret,
-            key,
-            current,
-            current2,
-            candidates,
-            candidate,
-            sentinel;
-
-        this.__initialize(root, visitor);
-
-        sentinel = {};
-
-        // reference
-        worklist = this.__worklist;
-        leavelist = this.__leavelist;
-
-        // initialize
-        worklist.push(new Element(root, null, null, null));
-        leavelist.push(new Element(null, null, null, null));
-
-        while (worklist.length) {
-            element = worklist.pop();
-
-            if (element === sentinel) {
-                element = leavelist.pop();
-
-                ret = this.__execute(visitor.leave, element);
-
-                if (this.__state === BREAK || ret === BREAK) {
-                    return;
-                }
-                continue;
-            }
-
-            if (element.node) {
-
-                ret = this.__execute(visitor.enter, element);
-
-                if (this.__state === BREAK || ret === BREAK) {
-                    return;
-                }
-
-                worklist.push(sentinel);
-                leavelist.push(element);
-
-                if (this.__state === SKIP || ret === SKIP) {
-                    continue;
-                }
-
-                node = element.node;
-                nodeType = node.type || element.wrap;
-                candidates = this.__keys[nodeType];
-                if (!candidates) {
-                    if (this.__fallback) {
-                        candidates = this.__fallback(node);
-                    } else {
-                        throw new Error('Unknown node type ' + nodeType + '.');
-                    }
-                }
-
-                current = candidates.length;
-                while ((current -= 1) >= 0) {
-                    key = candidates[current];
-                    candidate = node[key];
-                    if (!candidate) {
-                        continue;
-                    }
-
-                    if (Array.isArray(candidate)) {
-                        current2 = candidate.length;
-                        while ((current2 -= 1) >= 0) {
-                            if (!candidate[current2]) {
-                                continue;
-                            }
-                            if (isProperty(nodeType, candidates[current])) {
-                                element = new Element(candidate[current2], [key, current2], 'Property', null);
-                            } else if (isNode(candidate[current2])) {
-                                element = new Element(candidate[current2], [key, current2], null, null);
-                            } else {
-                                continue;
-                            }
-                            worklist.push(element);
-                        }
-                    } else if (isNode(candidate)) {
-                        worklist.push(new Element(candidate, key, null, null));
-                    }
-                }
-            }
-        }
-    };
-
-    Controller.prototype.replace = function replace(root, visitor) {
-        var worklist,
-            leavelist,
-            node,
-            nodeType,
-            target,
-            element,
-            current,
-            current2,
-            candidates,
-            candidate,
-            sentinel,
-            outer,
-            key;
-
-        function removeElem(element) {
-            var i,
-                key,
-                nextElem,
-                parent;
-
-            if (element.ref.remove()) {
-                // When the reference is an element of an array.
-                key = element.ref.key;
-                parent = element.ref.parent;
-
-                // If removed from array, then decrease following items' keys.
-                i = worklist.length;
-                while (i--) {
-                    nextElem = worklist[i];
-                    if (nextElem.ref && nextElem.ref.parent === parent) {
-                        if  (nextElem.ref.key < key) {
-                            break;
-                        }
-                        --nextElem.ref.key;
-                    }
-                }
-            }
-        }
-
-        this.__initialize(root, visitor);
-
-        sentinel = {};
-
-        // reference
-        worklist = this.__worklist;
-        leavelist = this.__leavelist;
-
-        // initialize
-        outer = {
-            root: root
-        };
-        element = new Element(root, null, null, new Reference(outer, 'root'));
-        worklist.push(element);
-        leavelist.push(element);
-
-        while (worklist.length) {
-            element = worklist.pop();
-
-            if (element === sentinel) {
-                element = leavelist.pop();
-
-                target = this.__execute(visitor.leave, element);
-
-                // node may be replaced with null,
-                // so distinguish between undefined and null in this place
-                if (target !== undefined && target !== BREAK && target !== SKIP && target !== REMOVE) {
-                    // replace
-                    element.ref.replace(target);
-                }
-
-                if (this.__state === REMOVE || target === REMOVE) {
-                    removeElem(element);
-                }
-
-                if (this.__state === BREAK || target === BREAK) {
-                    return outer.root;
-                }
-                continue;
-            }
-
-            target = this.__execute(visitor.enter, element);
-
-            // node may be replaced with null,
-            // so distinguish between undefined and null in this place
-            if (target !== undefined && target !== BREAK && target !== SKIP && target !== REMOVE) {
-                // replace
-                element.ref.replace(target);
-                element.node = target;
-            }
-
-            if (this.__state === REMOVE || target === REMOVE) {
-                removeElem(element);
-                element.node = null;
-            }
-
-            if (this.__state === BREAK || target === BREAK) {
-                return outer.root;
-            }
-
-            // node may be null
-            node = element.node;
-            if (!node) {
-                continue;
-            }
-
-            worklist.push(sentinel);
-            leavelist.push(element);
-
-            if (this.__state === SKIP || target === SKIP) {
-                continue;
-            }
-
-            nodeType = node.type || element.wrap;
-            candidates = this.__keys[nodeType];
-            if (!candidates) {
-                if (this.__fallback) {
-                    candidates = this.__fallback(node);
-                } else {
-                    throw new Error('Unknown node type ' + nodeType + '.');
-                }
-            }
-
-            current = candidates.length;
-            while ((current -= 1) >= 0) {
-                key = candidates[current];
-                candidate = node[key];
-                if (!candidate) {
-                    continue;
-                }
-
-                if (Array.isArray(candidate)) {
-                    current2 = candidate.length;
-                    while ((current2 -= 1) >= 0) {
-                        if (!candidate[current2]) {
-                            continue;
-                        }
-                        if (isProperty(nodeType, candidates[current])) {
-                            element = new Element(candidate[current2], [key, current2], 'Property', new Reference(candidate, current2));
-                        } else if (isNode(candidate[current2])) {
-                            element = new Element(candidate[current2], [key, current2], null, new Reference(candidate, current2));
-                        } else {
-                            continue;
-                        }
-                        worklist.push(element);
-                    }
-                } else if (isNode(candidate)) {
-                    worklist.push(new Element(candidate, key, null, new Reference(node, key)));
-                }
-            }
-        }
-
-        return outer.root;
-    };
-
-    function traverse(root, visitor) {
-        var controller = new Controller();
-        return controller.traverse(root, visitor);
-    }
-
-    function replace(root, visitor) {
-        var controller = new Controller();
-        return controller.replace(root, visitor);
-    }
-
-    function extendCommentRange(comment, tokens) {
-        var target;
-
-        target = upperBound(tokens, function search(token) {
-            return token.range[0] > comment.range[0];
-        });
-
-        comment.extendedRange = [comment.range[0], comment.range[1]];
-
-        if (target !== tokens.length) {
-            comment.extendedRange[1] = tokens[target].range[0];
-        }
-
-        target -= 1;
-        if (target >= 0) {
-            comment.extendedRange[0] = tokens[target].range[1];
-        }
-
-        return comment;
-    }
-
-    function attachComments(tree, providedComments, tokens) {
-        // At first, we should calculate extended comment ranges.
-        var comments = [], comment, len, i, cursor;
-
-        if (!tree.range) {
-            throw new Error('attachComments needs range information');
-        }
-
-        // tokens array is empty, we attach comments to tree as 'leadingComments'
-        if (!tokens.length) {
-            if (providedComments.length) {
-                for (i = 0, len = providedComments.length; i < len; i += 1) {
-                    comment = deepCopy(providedComments[i]);
-                    comment.extendedRange = [0, tree.range[0]];
-                    comments.push(comment);
-                }
-                tree.leadingComments = comments;
-            }
-            return tree;
-        }
-
-        for (i = 0, len = providedComments.length; i < len; i += 1) {
-            comments.push(extendCommentRange(deepCopy(providedComments[i]), tokens));
-        }
-
-        // This is based on John Freeman's implementation.
-        cursor = 0;
-        traverse(tree, {
-            enter: function (node) {
-                var comment;
-
-                while (cursor < comments.length) {
-                    comment = comments[cursor];
-                    if (comment.extendedRange[1] > node.range[0]) {
-                        break;
-                    }
-
-                    if (comment.extendedRange[1] === node.range[0]) {
-                        if (!node.leadingComments) {
-                            node.leadingComments = [];
-                        }
-                        node.leadingComments.push(comment);
-                        comments.splice(cursor, 1);
-                    } else {
-                        cursor += 1;
-                    }
-                }
-
-                // already out of owned node
-                if (cursor === comments.length) {
-                    return VisitorOption.Break;
-                }
-
-                if (comments[cursor].extendedRange[0] > node.range[1]) {
-                    return VisitorOption.Skip;
-                }
-            }
-        });
-
-        cursor = 0;
-        traverse(tree, {
-            leave: function (node) {
-                var comment;
-
-                while (cursor < comments.length) {
-                    comment = comments[cursor];
-                    if (node.range[1] < comment.extendedRange[0]) {
-                        break;
-                    }
-
-                    if (node.range[1] === comment.extendedRange[0]) {
-                        if (!node.trailingComments) {
-                            node.trailingComments = [];
-                        }
-                        node.trailingComments.push(comment);
-                        comments.splice(cursor, 1);
-                    } else {
-                        cursor += 1;
-                    }
-                }
-
-                // already out of owned node
-                if (cursor === comments.length) {
-                    return VisitorOption.Break;
-                }
-
-                if (comments[cursor].extendedRange[0] > node.range[1]) {
-                    return VisitorOption.Skip;
-                }
-            }
-        });
-
-        return tree;
-    }
-
-    exports.version = (__webpack_require__(2600)/* .version */ .i8);
-    exports.Syntax = Syntax;
-    exports.traverse = traverse;
-    exports.replace = replace;
-    exports.attachComments = attachComments;
-    exports.VisitorKeys = VisitorKeys;
-    exports.VisitorOption = VisitorOption;
-    exports.Controller = Controller;
-    exports.cloneEnvironment = function () { return clone({}); };
-
-    return exports;
-}(exports));
-/* vim: set sw=4 ts=4 et tw=80 : */
-
-
-/***/ }),
-
 /***/ 4029:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -30891,43 +26603,75 @@ module.exports = forEach;
 /* eslint no-invalid-this: 1 */
 
 var ERROR_MESSAGE = 'Function.prototype.bind called on incompatible ';
-var slice = Array.prototype.slice;
 var toStr = Object.prototype.toString;
+var max = Math.max;
 var funcType = '[object Function]';
+
+var concatty = function concatty(a, b) {
+    var arr = [];
+
+    for (var i = 0; i < a.length; i += 1) {
+        arr[i] = a[i];
+    }
+    for (var j = 0; j < b.length; j += 1) {
+        arr[j + a.length] = b[j];
+    }
+
+    return arr;
+};
+
+var slicy = function slicy(arrLike, offset) {
+    var arr = [];
+    for (var i = offset || 0, j = 0; i < arrLike.length; i += 1, j += 1) {
+        arr[j] = arrLike[i];
+    }
+    return arr;
+};
+
+var joiny = function (arr, joiner) {
+    var str = '';
+    for (var i = 0; i < arr.length; i += 1) {
+        str += arr[i];
+        if (i + 1 < arr.length) {
+            str += joiner;
+        }
+    }
+    return str;
+};
 
 module.exports = function bind(that) {
     var target = this;
-    if (typeof target !== 'function' || toStr.call(target) !== funcType) {
+    if (typeof target !== 'function' || toStr.apply(target) !== funcType) {
         throw new TypeError(ERROR_MESSAGE + target);
     }
-    var args = slice.call(arguments, 1);
+    var args = slicy(arguments, 1);
 
     var bound;
     var binder = function () {
         if (this instanceof bound) {
             var result = target.apply(
                 this,
-                args.concat(slice.call(arguments))
+                concatty(args, arguments)
             );
             if (Object(result) === result) {
                 return result;
             }
             return this;
-        } else {
-            return target.apply(
-                that,
-                args.concat(slice.call(arguments))
-            );
         }
+        return target.apply(
+            that,
+            concatty(args, arguments)
+        );
+
     };
 
-    var boundLength = Math.max(0, target.length - args.length);
+    var boundLength = max(0, target.length - args.length);
     var boundArgs = [];
     for (var i = 0; i < boundLength; i++) {
-        boundArgs.push('$' + i);
+        boundArgs[i] = '$' + i;
     }
 
-    bound = Function('binder', 'return function (' + boundArgs.join(',') + '){ return binder.apply(this,arguments); }')(binder);
+    bound = Function('binder', 'return function (' + joiny(boundArgs, ',') + '){ return binder.apply(this,arguments); }')(binder);
 
     if (target.prototype) {
         var Empty = function Empty() {};
@@ -31175,7 +26919,7 @@ var LEGACY_ALIASES = {
 };
 
 var bind = __webpack_require__(8612);
-var hasOwn = __webpack_require__(7642);
+var hasOwn = __webpack_require__(8824);
 var $concat = bind.call(Function.call, Array.prototype.concat);
 var $spliceApply = bind.call(Function.apply, Array.prototype.splice);
 var $replace = bind.call(Function.call, String.prototype.replace);
@@ -31484,15 +27228,18 @@ module.exports = function hasToStringTagShams() {
 
 /***/ }),
 
-/***/ 7642:
+/***/ 8824:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
+var call = Function.prototype.call;
+var $hasOwn = Object.prototype.hasOwnProperty;
 var bind = __webpack_require__(8612);
 
-module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
+/** @type {(o: {}, p: PropertyKey) => p is keyof o} */
+module.exports = bind.call(call, $hasOwn);
 
 
 /***/ }),
@@ -42886,6 +38633,123 @@ module.exports = function isArguments(value) {
 
 /***/ }),
 
+/***/ 2837:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+// modified from https://github.com/es-shims/es6-shim
+var objectKeys = __webpack_require__(2215);
+var hasSymbols = __webpack_require__(5419)();
+var callBound = __webpack_require__(1924);
+var toObject = Object;
+var $push = callBound('Array.prototype.push');
+var $propIsEnumerable = callBound('Object.prototype.propertyIsEnumerable');
+var originalGetSymbols = hasSymbols ? Object.getOwnPropertySymbols : null;
+
+// eslint-disable-next-line no-unused-vars
+module.exports = function assign(target, source1) {
+	if (target == null) { throw new TypeError('target must be an object'); }
+	var to = toObject(target); // step 1
+	if (arguments.length === 1) {
+		return to; // step 2
+	}
+	for (var s = 1; s < arguments.length; ++s) {
+		var from = toObject(arguments[s]); // step 3.a.i
+
+		// step 3.a.ii:
+		var keys = objectKeys(from);
+		var getSymbols = hasSymbols && (Object.getOwnPropertySymbols || originalGetSymbols);
+		if (getSymbols) {
+			var syms = getSymbols(from);
+			for (var j = 0; j < syms.length; ++j) {
+				var key = syms[j];
+				if ($propIsEnumerable(from, key)) {
+					$push(keys, key);
+				}
+			}
+		}
+
+		// step 3.a.iii:
+		for (var i = 0; i < keys.length; ++i) {
+			var nextKey = keys[i];
+			if ($propIsEnumerable(from, nextKey)) { // step 3.a.iii.2
+				var propValue = from[nextKey]; // step 3.a.iii.2.a
+				to[nextKey] = propValue; // step 3.a.iii.2.b
+			}
+		}
+	}
+
+	return to; // step 4
+};
+
+
+/***/ }),
+
+/***/ 8162:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var implementation = __webpack_require__(2837);
+
+var lacksProperEnumerationOrder = function () {
+	if (!Object.assign) {
+		return false;
+	}
+	/*
+	 * v8, specifically in node 4.x, has a bug with incorrect property enumeration order
+	 * note: this does not detect the bug unless there's 20 characters
+	 */
+	var str = 'abcdefghijklmnopqrst';
+	var letters = str.split('');
+	var map = {};
+	for (var i = 0; i < letters.length; ++i) {
+		map[letters[i]] = letters[i];
+	}
+	var obj = Object.assign({}, map);
+	var actual = '';
+	for (var k in obj) {
+		actual += k;
+	}
+	return str !== actual;
+};
+
+var assignHasPendingExceptions = function () {
+	if (!Object.assign || !Object.preventExtensions) {
+		return false;
+	}
+	/*
+	 * Firefox 37 still has "pending exception" logic in its Object.assign implementation,
+	 * which is 72% slower than our shim, and Firefox 40's native implementation.
+	 */
+	var thrower = Object.preventExtensions({ 1: 2 });
+	try {
+		Object.assign(thrower, 'xy');
+	} catch (e) {
+		return thrower[1] === 'y';
+	}
+	return false;
+};
+
+module.exports = function getPolyfill() {
+	if (!Object.assign) {
+		return implementation;
+	}
+	if (lacksProperEnumerationOrder()) {
+		return implementation;
+	}
+	if (assignHasPendingExceptions()) {
+		return implementation;
+	}
+	return Object.assign;
+};
+
+
+/***/ }),
+
 /***/ 4155:
 /***/ ((module) => {
 
@@ -43073,6 +38937,55 @@ process.chdir = function (dir) {
     throw new Error('process.chdir is not supported');
 };
 process.umask = function() { return 0; };
+
+
+/***/ }),
+
+/***/ 7771:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var GetIntrinsic = __webpack_require__(210);
+var define = __webpack_require__(2296);
+var hasDescriptors = __webpack_require__(1044)();
+var gOPD = __webpack_require__(7296);
+
+var $TypeError = GetIntrinsic('%TypeError%');
+var $floor = GetIntrinsic('%Math.floor%');
+
+module.exports = function setFunctionLength(fn, length) {
+	if (typeof fn !== 'function') {
+		throw new $TypeError('`fn` is not a function');
+	}
+	if (typeof length !== 'number' || length < 0 || length > 0xFFFFFFFF || $floor(length) !== length) {
+		throw new $TypeError('`length` must be a positive 32-bit integer');
+	}
+
+	var loose = arguments.length > 2 && !!arguments[2];
+
+	var functionLengthIsConfigurable = true;
+	var functionLengthIsWritable = true;
+	if ('length' in fn && gOPD) {
+		var desc = gOPD(fn, 'length');
+		if (desc && !desc.configurable) {
+			functionLengthIsConfigurable = false;
+		}
+		if (desc && !desc.writable) {
+			functionLengthIsWritable = false;
+		}
+	}
+
+	if (functionLengthIsConfigurable || functionLengthIsWritable || !loose) {
+		if (hasDescriptors) {
+			define(fn, 'length', length, true, true);
+		} else {
+			define(fn, 'length', length);
+		}
+	}
+	return fn;
+};
 
 
 /***/ }),
@@ -44200,7 +40113,10 @@ if (hasToStringTag && gOPD && getPrototypeOf) {
 } else {
 	forEach(typedArrays, function (typedArray) {
 		var arr = new g[typedArray]();
-		cache['$' + typedArray] = callBind(arr.slice);
+		var fn = arr.slice || arr.set;
+		if (fn) {
+			cache['$' + typedArray] = callBind(fn);
+		}
 	});
 }
 
@@ -44286,7 +40202,7 @@ module.exports = function availableTypedArrays() {
 
 /***/ }),
 
-/***/ 4900:
+/***/ 7325:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -44295,7 +40211,7 @@ module.exports = function availableTypedArrays() {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 var assert = __webpack_require__(9282);
-var estraverse = __webpack_require__(7901);
+var estraverse = __webpack_require__(7085);
 var esrecurse = __webpack_require__(8192);
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
@@ -46013,9 +41929,9 @@ class Referencer extends esrecurse__default["default"].Visitor {
 
         this.close(node);
     }
-
-    visitClass(node) {
-        if (node.type === Syntax.ClassDeclaration) {
+	
+	visitClass(node) {
+        if (node.type === Syntax.ClassDeclaration) {	// define class.id in outter scope
             this.currentScope().__define(node.id,
                 new Definition(
                     Variable.ClassName,
@@ -46026,24 +41942,27 @@ class Referencer extends esrecurse__default["default"].Visitor {
                     null
                 ));
         }
-
-        this.visit(node.superClass);
-
-        this.scopeManager.__nestClassScope(node);
+		
+		let need_fix_ = node.superClass && node.superClass.type!=='Identifier';
+		if(!need_fix_) this.visit(node.superClass);
+		
+		this.scopeManager.__nestClassScope(node);	// generate a new-class-scope from outter scope, as son; the new-class-scope's body will point to node.
 
         if (node.id) {
-            this.currentScope().__define(node.id,
+            this.currentScope().__define(node.id,	// define class.id in the new-class-scope.
                 new Definition(
                     Variable.ClassName,
                     node.id,
                     node
                 ));
         }
+		
+		if(need_fix_) this.visit(node.superClass);// move visit(node.superClass) here to fix bug: in superClass code, identifier whose name equals to `class.id.name`, will be resolved to class.id
         this.visit(node.body);
 
         this.close(node);
     }
-
+	
     visitProperty(node) {
         let previous;
 
@@ -46406,7 +42325,7 @@ class Referencer extends esrecurse__default["default"].Visitor {
 
 /* vim: set sw=4 ts=4 et tw=80 : */
 
-const version = "7.2.2";
+const version = "7.2.3";
 
 /*
   Copyright (C) 2012-2014 Yusuke Suzuki <utatane.tea@gmail.com>
@@ -46534,27 +42453,11 @@ exports.version = version;
 
 /***/ }),
 
-/***/ 5667:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_from":"escope@^4.0.0","_id":"escope@4.0.0","_inBundle":false,"_integrity":"sha512-E36qlD/r6RJHVpPKArgMoMlNJzoRJFH8z/cAZlI9lbc45zB3+S7i9k6e/MNb+7bZQzNEa6r8WKN3BovpeIBwgA==","_location":"/escope","_phantomChildren":{},"_requested":{"type":"range","registry":true,"raw":"escope@^4.0.0","name":"escope","escapedName":"escope","rawSpec":"^4.0.0","saveSpec":null,"fetchSpec":"^4.0.0"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/escope/-/escope-4.0.0.tgz","_shasum":"1c6f65a37a15396326195615b5124f673c86bd1a","_spec":"escope@^4.0.0","_where":"/home/runner/work/escope-demo/escope-demo","bugs":{"url":"https://github.com/estools/escope/issues"},"bundleDependencies":false,"dependencies":{"esrecurse":"^4.1.0","estraverse":"^4.1.1"},"deprecated":false,"description":"ECMAScript scope analyzer","devDependencies":{"babel":"^6.3.26","babel-preset-es2015":"^6.3.13","babel-register":"^6.3.13","browserify":"^14.4.0","chai":"^4.0.2","espree":"^3.1.1","esprima":"^3.0.0","gulp":"^3.9.0","gulp-babel":"^6.1.1","gulp-bump":"^2.7.0","gulp-eslint":"^4.0.0","gulp-espower":"^1.0.2","gulp-filter":"^5.0.0","gulp-git":"^2.4.1","gulp-mocha":"^3.0.0","gulp-plumber":"^1.0.1","gulp-sourcemaps":"^2.6.0","gulp-tag-version":"^1.3.0","jsdoc":"^3.4.0","lazypipe":"^1.0.1","vinyl-source-stream":"^1.1.0"},"engines":{"node":">=4.0"},"files":["lib"],"homepage":"http://github.com/estools/escope","license":"BSD-2-Clause","main":"lib/index.js","maintainers":[{"name":"Yusuke Suzuki","email":"utatane.tea@gmail.com","url":"http://github.com/Constellation"}],"name":"escope","repository":{"type":"git","url":"git+https://github.com/estools/escope.git"},"scripts":{"jsdoc":"jsdoc src/*.js README.md","lint":"gulp lint","test":"gulp travis","unit-test":"gulp test"},"version":"4.0.0"}');
-
-/***/ }),
-
 /***/ 9389:
 /***/ ((module) => {
 
 "use strict";
 module.exports = {"version":"4.3.0"};
-
-/***/ }),
-
-/***/ 2600:
-/***/ ((module) => {
-
-"use strict";
-module.exports = {"i8":"4.3.0"};
 
 /***/ })
 
@@ -46624,12 +42527,11 @@ __webpack_require__(7694);
 var CodeMirror = __webpack_require__(4631);
 __webpack_require__(6876);
 var $ = __webpack_require__(9755);
-var escope = __webpack_require__(9420);
 var esprima = __webpack_require__(1072);
 let acorn = __webpack_require__(1234)
 // 扩展, 支持 class-fields.
 // let acorn = require('acorn').Parser.extend(require('acorn-class-fields'));
-let eslint_scope = __webpack_require__(4900);
+let eslint_scope = __webpack_require__(7325);
 
 var run = function() {
     'use strict';
@@ -46894,9 +42796,7 @@ var run = function() {
 			$('#parser-version').text(acorn.version);
 		}
 		
-		if('escope' == scopeLib){
-			$('#scope-version').text(escope.version);
-		}else if('eslint-scope' == scopeLib){
+		if('eslint-scope' == scopeLib){
 			$('#scope-version').text(eslint_scope.version);
 		}
 	}
@@ -46958,10 +42858,10 @@ var run = function() {
 	// 2023.06.15 发现 eval 函数导致作用域解析出错: 自 eval 往上到顶层作用域上定义的变量均解析不出 references.
 	let getScopeList = function(ast, scopeLib, ecmaVersion, sourceType, ignoreEval){
 		var scopes = null;
-		if('escope' == scopeLib){
-			scopes = escope.analyze(ast, {sourceType, ignoreEval, ecmaVersion: parseInt(ecmaVersion)}).scopes;
-		}else if('eslint-scope' == scopeLib){
+		if('eslint-scope' == scopeLib){
 			scopes = eslint_scope.analyze(ast, {sourceType, ignoreEval, ecmaVersion: parseInt(ecmaVersion)}).scopes;
+		}else{
+			throw new Error('now will only support lizhihao-eslint-scope')
 		}
 		
 		return scopes
