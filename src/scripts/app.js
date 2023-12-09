@@ -10,12 +10,11 @@ require('@fortawesome/fontawesome-free/css/all.css');
 var CodeMirror = require('codemirror');
 require('codemirror/mode/javascript/javascript');
 var $ = require('jquery');
-var escope = require('escope');
 var esprima = require('esprima');
 let acorn = require('acorn')
 // 扩展, 支持 class-fields.
 // let acorn = require('acorn').Parser.extend(require('acorn-class-fields'));
-let eslint_scope = require('eslint-scope');
+let eslint_scope = require('lizhihao-eslint-scope');
 
 var run = function() {
     'use strict';
@@ -280,9 +279,7 @@ var run = function() {
 			$('#parser-version').text(acorn.version);
 		}
 		
-		if('escope' == scopeLib){
-			$('#scope-version').text(escope.version);
-		}else if('eslint-scope' == scopeLib){
+		if('eslint-scope' == scopeLib){
 			$('#scope-version').text(eslint_scope.version);
 		}
 	}
@@ -344,10 +341,10 @@ var run = function() {
 	// 2023.06.15 发现 eval 函数导致作用域解析出错: 自 eval 往上到顶层作用域上定义的变量均解析不出 references.
 	let getScopeList = function(ast, scopeLib, ecmaVersion, sourceType, ignoreEval){
 		var scopes = null;
-		if('escope' == scopeLib){
-			scopes = escope.analyze(ast, {sourceType, ignoreEval, ecmaVersion: parseInt(ecmaVersion)}).scopes;
-		}else if('eslint-scope' == scopeLib){
+		if('eslint-scope' == scopeLib){
 			scopes = eslint_scope.analyze(ast, {sourceType, ignoreEval, ecmaVersion: parseInt(ecmaVersion)}).scopes;
+		}else{
+			throw new Error('now will only support lizhihao-eslint-scope')
 		}
 		
 		return scopes

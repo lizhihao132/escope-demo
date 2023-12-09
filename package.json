@@ -33,10 +33,9 @@
     "assert": "^2.0.0",
     "bootstrap": "^5.2.3",
     "codemirror": "^5.65.13",
-    "escope": "^4.0.0",
-    "eslint-scope": "^7.2.0",
     "esprima": "^4.0.1",
     "jquery": "^3.7.0",
+    "lizhihao-eslint-scope": "^7.2.3",
     "process": "^0.11.10"
   }
 }
