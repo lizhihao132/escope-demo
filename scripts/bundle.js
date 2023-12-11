@@ -40202,7 +40202,7 @@ module.exports = function availableTypedArrays() {
 
 /***/ }),
 
-/***/ 7325:
+/***/ 2130:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -41929,9 +41929,9 @@ class Referencer extends esrecurse__default["default"].Visitor {
 
         this.close(node);
     }
-	
-	visitClass(node) {
-        if (node.type === Syntax.ClassDeclaration) {	// define class.id in outter scope
+
+    visitClass(node) {
+        if (node.type === Syntax.ClassDeclaration) {
             this.currentScope().__define(node.id,
                 new Definition(
                     Variable.ClassName,
@@ -41942,14 +41942,14 @@ class Referencer extends esrecurse__default["default"].Visitor {
                     null
                 ));
         }
-		
-		let need_fix_ = node.superClass && node.superClass.type!=='Identifier';
-		if(!need_fix_) this.visit(node.superClass);
-		
-		this.scopeManager.__nestClassScope(node);	// generate a new-class-scope from outter scope, as son; the new-class-scope's body will point to node.
+
+		let may_ref_classid = node.superClass && node.superClass.type!=='Identifier';
+		if(!may_ref_classid) this.visit(node.superClass);
+
+        this.scopeManager.__nestClassScope(node);
 
         if (node.id) {
-            this.currentScope().__define(node.id,	// define class.id in the new-class-scope.
+            this.currentScope().__define(node.id,
                 new Definition(
                     Variable.ClassName,
                     node.id,
@@ -41957,12 +41957,12 @@ class Referencer extends esrecurse__default["default"].Visitor {
                 ));
         }
 		
-		if(need_fix_) this.visit(node.superClass);// move visit(node.superClass) here to fix bug: in superClass code, identifier whose name equals to `class.id.name`, will be resolved to class.id
+		if(may_ref_classid) this.visit(node.superClass);	// visit superClass here with class-id defined for current scope
         this.visit(node.body);
 
         this.close(node);
     }
-	
+
     visitProperty(node) {
         let previous;
 
@@ -42325,7 +42325,7 @@ class Referencer extends esrecurse__default["default"].Visitor {
 
 /* vim: set sw=4 ts=4 et tw=80 : */
 
-const version = "7.2.3";
+const version = "0.1.0";
 
 /*
   Copyright (C) 2012-2014 Yusuke Suzuki <utatane.tea@gmail.com>
@@ -42531,7 +42531,7 @@ var esprima = __webpack_require__(1072);
 let acorn = __webpack_require__(1234)
 // 扩展, 支持 class-fields.
 // let acorn = require('acorn').Parser.extend(require('acorn-class-fields'));
-let eslint_scope = __webpack_require__(7325);
+let eslint_scope = __webpack_require__(2130);
 
 var run = function() {
     'use strict';
@@ -42861,7 +42861,7 @@ var run = function() {
 		if('eslint-scope' == scopeLib){
 			scopes = eslint_scope.analyze(ast, {sourceType, ignoreEval, ecmaVersion: parseInt(ecmaVersion)}).scopes;
 		}else{
-			throw new Error('now will only support lizhihao-eslint-scope')
+			throw new Error('now will only support lzh-eslint-scope')
 		}
 		
 		return scopes
