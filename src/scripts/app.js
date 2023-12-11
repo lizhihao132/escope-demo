@@ -14,7 +14,7 @@ var esprima = require('esprima');
 let acorn = require('acorn')
 // 扩展, 支持 class-fields.
 // let acorn = require('acorn').Parser.extend(require('acorn-class-fields'));
-let eslint_scope = require('lizhihao-eslint-scope');
+let eslint_scope = require('lzh-eslint-scope');
 
 var run = function() {
     'use strict';
@@ -344,7 +344,7 @@ var run = function() {
 		if('eslint-scope' == scopeLib){
 			scopes = eslint_scope.analyze(ast, {sourceType, ignoreEval, ecmaVersion: parseInt(ecmaVersion)}).scopes;
 		}else{
-			throw new Error('now will only support lizhihao-eslint-scope')
+			throw new Error('now will only support lzh-eslint-scope')
 		}
 		
 		return scopes
