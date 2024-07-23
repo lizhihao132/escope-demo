@@ -14,7 +14,7 @@ var esprima = require('esprima');
 let acorn = require('acorn')
 // 扩展, 支持 class-fields.
 // let acorn = require('acorn').Parser.extend(require('acorn-class-fields'));
-let eslint_scope = require('lzh-eslint-scope');
+let eslint_scope = require('./eslint-scope.cjs')//require('lzh-eslint-scope');
 
 var run = function() {
     'use strict';
